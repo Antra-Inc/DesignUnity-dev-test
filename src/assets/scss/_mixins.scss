@@ -1,0 +1,16 @@
+
+
+@mixin heading{
+    color: #b84b4b;
+    font-family: Rollgates Luxury;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+@mixin dflex($dflex:flex, $grid-template-columns:auto, $align-items: center, $justify-content:center, $flex-direction:column) {
+    display: $dflex;
+    grid-template-columns: $grid-template-columns;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    flex-direction: $flex-direction;
+}
