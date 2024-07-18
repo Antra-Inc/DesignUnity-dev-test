@@ -49,3 +49,82 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+
+  /* Mobile phones */
+@media (max-width: 767px) {
+  .facts_section{
+    .facts_details_right{
+      display: none;
+    }
+    .facts_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .facts_details_left{
+      .ff_content{
+        padding-left: 2rem;
+      }
+    }
+  }
+  
+  .about_section {
+    .about_description{
+      padding: 2.5rem;
+      text-align: justify;
+    }
+  }
+  .flooring_section{
+    .flooring_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .flooring_details_left{
+      padding: 2.5rem;
+    }
+  }
+  
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .facts_section{
+   
+    .facts_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .facts_details_left{
+      .ff_content{
+        padding-left: 2rem;
+      }
+    }
+  }
+  
+  .about_section {
+    .about_description{
+      padding: 2.5rem;
+      text-align: justify;
+    }
+  }
+  .flooring_section{
+    .flooring_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .flooring_details_left{
+      padding: 2.5rem;
+    }
+  }
+}
+
+/* Laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+  
+}
