@@ -1,8 +1,11 @@
-$blurValue: 3px;
 .header {
   height: 140px;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   padding: 0 80px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
