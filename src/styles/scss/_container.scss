@@ -91,7 +91,7 @@
     @include dflex(grid, auto, center);
     &_left{
       margin-top: 0px;
-      div{
+      .border_animate{
         //height: 220px;
         h3 {
           @include dflex();
@@ -101,7 +101,7 @@
 
     &_right{
         margin-top: 0px;
-        div{
+        .border_animate{
           //height: 220px;
           font-size: 1.5rem;
           h3 {
@@ -152,7 +152,7 @@
       @include dflex(grid, auto, center);
       &_left{
         margin-top: 0px;
-        div{
+        .border_animate{
           //height: 220px;
           h3 {
             @include dflex();
@@ -162,7 +162,7 @@
   
       &_right{
           margin-top: 0px;
-          div{
+          .border_animate{
             //height: 220px;
             font-size: 1.5rem;
             h3 {
