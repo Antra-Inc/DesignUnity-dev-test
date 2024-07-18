@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { FactsComponent } from './components/facts/facts.component';
 import { FlooringComponent } from './components/flooring/flooring.component';
 import { HomeComponent } from './components/home/home.component';
+import { FeaturesComponent } from './components/features/features.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeComponent } from './components/home/home.component';
     AboutComponent,
     FactsComponent,
     FlooringComponent,
+    FeaturesComponent,
     HomeComponent
   ],
   imports: [

@@ -1,12 +1,12 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
-@import '../../assets/scss/container';
+@import '../../../styles/scss/variables';
+@import '../../../styles/scss/mixins';
+@import '../../../styles/scss/container';
 
 
 .about {
     &_section{
         min-height: 40vh;
-        background: #f6f1eb url(../../assets/img/bg.png) no-repeat center center;
+        background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
         background-size: cover;
         padding-top: 2em;
         p{
