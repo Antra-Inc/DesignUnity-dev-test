@@ -1,0 +1,37 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/container';
+
+.features {
+    &_section{
+        min-height: 80vh;
+        background: #f6f1eb;
+        padding: 4rem;
+        .heading{
+            @include heading;
+            padding: 2rem 1.5rem 3rem 1rem;;
+        }
+    }
+    
+    &_details{
+        @include dflex(grid, 50% 50%, center);
+        padding: 25px;
+        gap: 50px;
+
+        &_left{
+            font-size: 1.2rem;
+            letter-spacing: 0.9px;
+            color: #000000;
+            @include features_grid;
+            margin-top: -100px;
+        }
+
+        &_right{
+            @include features_grid;
+            margin-top: 100px;
+        }
+    }
+    
+}
+
+
