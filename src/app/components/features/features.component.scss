@@ -44,4 +44,6 @@
 }
 .hover02 .figure:hover > img {
 	scale: 1.03;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
