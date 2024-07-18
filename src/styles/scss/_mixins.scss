@@ -18,12 +18,12 @@
 
 
 @mixin features_grid {
-    div{
+    .border_animate{
         padding: 3%;
         border-radius: 30px;
         width: 100%;
         //height: 370px;
-        border: 1px solid #000;
+        border: 1px solid #a6a6a6;
         position: relative;
         margin-top: 50px;
          img{

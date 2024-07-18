@@ -35,3 +35,13 @@
 }
 
 
+
+/* Zoom In #2 */
+.hover02 .figure > img {
+	
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 .figure:hover > img {
+	scale: 1.03;
+}
