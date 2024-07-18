@@ -1,0 +1,39 @@
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
+
+.flooring {
+  &_section {
+    min-height: 50vh;
+    background: #f6f1eb;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2rem;
+
+    .heading {
+      @include heading;
+      padding: 2rem 1.5rem 3rem 1rem;
+    }
+  }
+  &_details {
+    @include dflex(grid, 50% 50%, center);
+    background: #4f453c;
+    margin: 25px;
+    border-radius: 18px;
+    &_left {
+      padding: 3.5rem;
+      line-height: 1.8;
+      font-size: 1.2rem;
+      letter-spacing: 0.9px;
+      color: #fff;
+    }
+    &_right {
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

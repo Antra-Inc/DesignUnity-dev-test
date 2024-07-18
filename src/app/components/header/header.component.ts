@@ -6,9 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  
-  navbarMenu = document.getElementById("menu");
-  burgerMenu = document.getElementById("burger");
-  headerMenu = document.getElementById("header");
-  
 }
