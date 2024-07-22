@@ -1,0 +1,40 @@
+<div class="portfolio">
+  <div class="portfolio__sec-1">
+    <h2>Portfolio</h2>
+  </div>
+  <div class="portfolio__sec-2">
+    <div class="portfolio__sec-2--title">
+      <h3>Exquisite Services Tailored to Perfection</h3>
+    </div>
+    <p>
+      Design Unity is a dream for builders, architects, interior designers,
+      developers, and consultants. We enhance their efforts in breathing life
+      into structures that are imagined, designed, and built with commitment and
+      a vision to deliver excellence. Our superior quality products ensure that
+      the environment and client requirements are prioritized.
+    </p>
+    <p>
+      We offer high-quality, sustainable products that turn walls, floors, and
+      ceilings into unforgettable beauties. Emulsions, textures, enamels,
+      primers & putty, paints, woodcare, and construction chemicals - you name
+      it, and we’ll show you what excellence looks like on walls.
+    </p>
+  </div>
+  <du-tabs (changeLayout)="changeLayout($event)">
+    <my-tab [tabTitle]="'ALL'">
+      <div
+        class="portfolio__grid"
+        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
+      >
+        <div class="portfolio__grid--item" *ngFor="let i of [].constructor(9)">
+          <img src="../../../assets/img/portfolio-1.svg" alt="" />
+        </div>
+      </div>
+    </my-tab>
+    <my-tab tabTitle="Luxury"> Luxury </my-tab>
+    <my-tab [tabTitle]="'Institutional'"> Institutional </my-tab>
+    <my-tab tabTitle="Commercial"> Commercial </my-tab>
+    <my-tab [tabTitle]="'Real Estate'"> Real Estate </my-tab>
+    <my-tab tabTitle="Small Residential"> Small Residential </my-tab>
+  </du-tabs>
+</div>

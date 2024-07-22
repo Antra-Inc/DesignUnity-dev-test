@@ -10,6 +10,9 @@ import { FactsComponent } from './components/facts/facts.component';
 import { FlooringComponent } from './components/flooring/flooring.component';
 import { HomeComponent } from './components/home/home.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
+import { TabComponent } from './shared/tab.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FeaturesComponent } from './components/features/features.component';
     FactsComponent,
     FlooringComponent,
     FeaturesComponent,
-    HomeComponent
+    HomeComponent,
+    PortfolioComponent,
+    DuTabsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,
