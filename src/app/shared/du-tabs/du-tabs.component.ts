@@ -9,6 +9,7 @@ import {
 import { TabComponent } from '../tab.component';
 interface Tab {
   active: boolean;
+  title: string | 'Luxury';
 }
 @Component({
   selector: 'du-tabs',
@@ -18,6 +19,7 @@ interface Tab {
 export class DuTabsComponent {
   @ContentChildren(TabComponent) tabs!: QueryList<TabComponent>;
   @Output() changeLayout = new EventEmitter<any>();
+  @Output() changeTab = new EventEmitter<any>();
   // contentChildren are set
   ngAfterContentInit() {
     // get all active tabs
@@ -31,6 +33,8 @@ export class DuTabsComponent {
 
   selectTab(tab: Tab) {
     // deactivate all tabs
+    console.log('tab', tab.title);
+    this.changeTab.emit(tab.title);
     this.tabs.toArray().forEach((tab) => (tab.active = false));
 
     // activate the tab the user has clicked on.

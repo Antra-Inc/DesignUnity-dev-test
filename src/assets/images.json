@@ -1,0 +1,287 @@
+
+    {
+      "Luxury": [
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/blueberry_farms_4.jpeg",
+          "data": {
+            "heading": "Card 1 Heading",
+            "description": "Description for Card 1"
+          },
+          "id": 1,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_1",
+              "data": {
+                "heading": "Sub Card 1 Heading",
+                "description": "Description for Sub Card 1"
+              },
+              "id": 101
+            },
+            {
+              "imagePath": "path_to_sub_image_2",
+              "data": {
+                "heading": "Sub Card 2 Heading",
+                "description": "Description for Sub Card 2"
+              },
+              "id": 102
+            }
+          ]
+        },
+        {
+            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_2.jpeg",
+            "data": {
+              "heading": "Card 1 Heading",
+              "description": "Description for Card 1"
+            },
+            "id": 1,
+            "SubData": [
+              {
+                "imagePath": "path_to_sub_image_1",
+                "data": {
+                  "heading": "Sub Card 1 Heading",
+                  "description": "Description for Sub Card 1"
+                },
+                "id": 101
+              },
+              {
+                "imagePath": "path_to_sub_image_2",
+                "data": {
+                  "heading": "Sub Card 2 Heading",
+                  "description": "Description for Sub Card 2"
+                },
+                "id": 102
+              }
+            ]
+          },
+          {
+            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_3.jpeg",
+            "data": {
+              "heading": "Card 1 Heading",
+              "description": "Description for Card 1"
+            },
+            "id": 1,
+            "SubData": [
+              {
+                "imagePath": "path_to_sub_image_1",
+                "data": {
+                  "heading": "Sub Card 1 Heading",
+                  "description": "Description for Sub Card 1"
+                },
+                "id": 101
+              },
+              {
+                "imagePath": "path_to_sub_image_2",
+                "data": {
+                  "heading": "Sub Card 2 Heading",
+                  "description": "Description for Sub Card 2"
+                },
+                "id": 102
+              }
+            ]
+          },
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/blueberry_farms_4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 2"
+          },
+          "id": 2,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_3",
+              "data": {
+                "heading": "Sub Card 3 Heading",
+                "description": "Description for Sub Card 3"
+              },
+              "id": 201
+            }
+          ]
+        }
+      ],
+      "Institutional": [
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/Concrete_Amavi-4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 1"
+          },
+          "id": 1,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_1",
+              "data": {
+                "heading": "Sub Card 1 Heading",
+                "description": "Description for Sub Card 1"
+              },
+              "id": 101
+            },
+            {
+              "imagePath": "path_to_sub_image_2",
+              "data": {
+                "heading": "Sub Card 2 Heading",
+                "description": "Description for Sub Card 2"
+              },
+              "id": 102
+            }
+          ]
+        },
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuildd/assets/projects/normal_res/anushree_reddy4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 2"
+          },
+          "id": 2,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_3",
+              "data": {
+                "heading": "Sub Card 3 Heading",
+                "description": "Description for Sub Card 3"
+              },
+              "id": 201
+            }
+          ]
+        }
+      ],
+      "Commercial": [
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/Concrete_Amavi-4.jpeg",
+          "data": {
+            "heading": "Card 1 Heading",
+            "description": "Description for Card 1"
+          },
+          "id": 1,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_1",
+              "data": {
+                "heading": "Sub Card 1 Heading",
+                "description": "Description for Sub Card 1"
+              },
+              "id": 101
+            },
+            {
+              "imagePath": "path_to_sub_image_2",
+              "data": {
+                "heading": "Sub Card 2 Heading",
+                "description": "Description for Sub Card 2"
+              },
+              "id": 102
+            }
+          ]
+        },
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuildd/assets/projects/normal_res/anushree_reddy4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 2"
+          },
+          "id": 2,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_3",
+              "data": {
+                "heading": "Sub Card 3 Heading",
+                "description": "Description for Sub Card 3"
+              },
+              "id": 201
+            }
+          ]
+        }
+      ],
+      "RealEstate": [
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/Concrete_Amavi-4.jpeg",
+          "data": {
+            "heading": "Card 1 Heading",
+            "description": "Description for Card 1"
+          },
+          "id": 1,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_1",
+              "data": {
+                "heading": "Sub Card 1 Heading",
+                "description": "Description for Sub Card 1"
+              },
+              "id": 101
+            },
+            {
+              "imagePath": "path_to_sub_image_2",
+              "data": {
+                "heading": "Sub Card 2 Heading",
+                "description": "Description for Sub Card 2"
+              },
+              "id": 102
+            }
+          ]
+        },
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuildd/assets/projects/normal_res/anushree_reddy4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 2"
+          },
+          "id": 2,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_3",
+              "data": {
+                "heading": "Sub Card 3 Heading",
+                "description": "Description for Sub Card 3"
+              },
+              "id": 201
+            }
+          ]
+        }
+      ],
+      "SmallResidential": [
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/normal_res/Concrete_Amavi-4.jpeg",
+          "data": {
+            "heading": "Card 1 Heading",
+            "description": "Description for Card 1"
+          },
+          "id": 1,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_1",
+              "data": {
+                "heading": "Sub Card 1 Heading",
+                "description": "Description for Sub Card 1"
+              },
+              "id": 101
+            },
+            {
+              "imagePath": "path_to_sub_image_2",
+              "data": {
+                "heading": "Sub Card 2 Heading",
+                "description": "Description for Sub Card 2"
+              },
+              "id": 102
+            }
+          ]
+        },
+        {
+          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuildd/assets/projects/normal_res/anushree_reddy4.jpeg",
+          "data": {
+            "heading": "Card 2 Heading",
+            "description": "Description for Card 2"
+          },
+          "id": 2,
+          "SubData": [
+            {
+              "imagePath": "path_to_sub_image_3",
+              "data": {
+                "heading": "Sub Card 3 Heading",
+                "description": "Description for Sub Card 3"
+              },
+              "id": 201
+            }
+          ]
+        }
+      ]
+    }
+
+  
