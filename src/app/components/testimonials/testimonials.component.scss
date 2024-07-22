@@ -144,16 +144,16 @@
             cursor: pointer;
             position: absolute;
             font-size: 1.25rem;
-            top: 40%;
+            top: 45%;
             transform: translateY(-50%);
             border: none;
             box-shadow: none;
             border: 1px solid #000;
             &.prev{
-                left: -70px;
+                left: -25px;
             }
             &.next {
-                right: -50px;
+                right: -25px;
             }
         }
     }
