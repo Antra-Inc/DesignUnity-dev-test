@@ -60,6 +60,10 @@
             
                 .starts {
                     margin-top:25px;
+                    span{
+                        color: #ffc400;
+                        font-size: 1.31rem;
+                    }
                 }
                 &::before{
                     background-image: url('../../../assets/img/testimonials/quote-left.svg');
@@ -84,14 +88,8 @@
                     height: 75px;
                     content:"";
                     position: absolute;
-                    right:-33px;
+                    right:-4px;
                     bottom: -50px;
-                }
-                .stars{
-                    span{
-                        color: #ffc400;
-                        font-size: 1.31rem;
-                    }
                 }
             
             }
@@ -112,6 +110,7 @@
                     position: relative;
                     bottom: 50px;
                     z-index: 2;
+                    @include dflex($dflex: flex);
                     .img{
                         height: 80px;
                         width: 80px;
