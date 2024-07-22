@@ -53,64 +53,70 @@
 
 /* Mobile phones */
 @media (max-width: 767px) {
-.facts_section{
-  .facts_details_right{
-    display: none;
-  }
-  .facts_details{
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .facts_details_left{
-    .ff_content{
-      padding-left: 2rem;
+  .facts_section{
+    .facts_details_right{
+      display: none;
+    }
+    .facts_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .facts_details_left{
+      .ff_content{
+        padding-left: 2rem;
+      }
     }
   }
-}
 
-.about_section {
-  .about_description{
-    padding: 2.5rem;
-    text-align: justify;
+  .about_section {
+    .about_description{
+      padding: 2.5rem;
+      text-align: justify;
+    }
   }
-}
-.flooring_section{
-  .flooring_details{
-    display: grid;
-    grid-template-columns: auto;
+  .flooring_section{
+    .flooring_details{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .flooring_details_left{
+      padding: 2.5rem;
+    }
   }
-  .flooring_details_left{
-    padding: 2.5rem;
-  }
-}
 
 .features_section {
   padding: 0.2rem !important;
 
   .features_details{
-    @include dflex(grid, auto, center);
-    &_left{
-      margin-top: 0px;
-      .border_animate{
-        //height: 220px;
-        h3 {
-          @include dflex();
-        }
-      }
-    }
-
-    &_right{
+      @include dflex(grid, auto, center);
+      &_left{
         margin-top: 0px;
         .border_animate{
-          //height: 220px;
-          font-size: 1.5rem;
           h3 {
             @include dflex();
           }
         }
+      }
+
+      &_right{
+          margin-top: 0px;
+          .border_animate{
+            font-size: 1.5rem;
+            h3 {
+              @include dflex();
+            }
+          }
+      }
     }
   }
-}
+
+
+  .testimonials_section{
+    .wrapper{
+      max-width: 750px;
+      width: 80% !important;
+    }
+  }
 
 }
 
@@ -173,15 +179,57 @@
     }
   }
 
+  .testimonials_section{
+    .wrapper{
+      max-width: 900px;
+      width: 80%  !important;
+    }
+  }
+
 
 }
 
 /* Laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .testimonials_section{
+    .wrapper{
+      max-width: 1024px;
+      width: 94%;
+    }
+  }
 }
 
 /* Desktops */
 @media (min-width: 1200px) {
+
+  .testimonials_section{
+    .wrapper{
+      max-width: 1150px;
+      width: 94%;
+    }
+  }
+
+}
+
+/* Desktops */
+@media (min-width: 1400px) {
+
+  .testimonials_section{
+    .wrapper{
+      max-width: 1300px;
+      width: 94%;
+    }
+  }
+
+}
+/* Desktops */
+@media (min-width: 1600px) {
+
+  .testimonials_section{
+    .wrapper{
+      max-width: 1440px;
+      width: 95%;
+    }
+  }
 
 }
