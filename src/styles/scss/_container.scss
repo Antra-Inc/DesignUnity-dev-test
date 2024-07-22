@@ -111,8 +111,8 @@
   }
 
 
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 750px;
       width: 80% !important;
     }
@@ -179,8 +179,8 @@
     }
   }
 
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 900px;
       width: 80%  !important;
     }
@@ -191,8 +191,8 @@
 
 /* Laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 1024px;
       width: 94%;
     }
@@ -201,9 +201,8 @@
 
 /* Desktops */
 @media (min-width: 1200px) {
-
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 1150px;
       width: 94%;
     }
@@ -213,9 +212,8 @@
 
 /* Desktops */
 @media (min-width: 1400px) {
-
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 1300px;
       width: 94%;
     }
@@ -225,8 +223,8 @@
 /* Desktops */
 @media (min-width: 1600px) {
 
-  .testimonials_section{
-    .wrapper{
+  .testimonials_section, .features_section, .flooring_section, .about_section{
+    .wrapper, .features_details, .flooring_details, .about_description{
       max-width: 1440px;
       width: 95%;
     }

@@ -17,6 +17,7 @@
         @include dflex(grid, 50% 50%, center);
         padding: 25px;
         gap: 50px;
+        margin: 0 auto;
 
         &_left{
             font-size: 1.2rem;
