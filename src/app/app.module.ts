@@ -13,6 +13,9 @@ import { FeaturesComponent } from './components/features/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
 import { TabComponent } from './shared/tab.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { NextDirective } from './components/next.directive';
+import { PrevDirective } from './components/prev.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { TabComponent } from './shared/tab.component';
     HomeComponent,
     PortfolioComponent,
     DuTabsComponent,
-    TabComponent
+    TabComponent,
+    TestimonialsComponent,
+    NextDirective,
+    PrevDirective
   ],
   imports: [
     BrowserModule,
