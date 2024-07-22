@@ -81,50 +81,42 @@
 }
 
 @font-face {
+  font-family: "Helvetica-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Helvetica/helveticaneue_light-webfont.eot") format("eot"),
+    url("Helvetica/helveticaneue_light-webfont.woff2") format("woff2"),
+    url("Helvetica/helveticaneue_light-webfont.woff") format("woff"),
+    url("Helvetica/helveticaneue_light-webfont.ttf") format("truetype"),
+    url("Helvetica/helveticaneue_light-webfont.svg") format("svg");
+}
+@font-face {
   font-family: "Helvetica-regular";
   font-style: normal;
   font-weight: normal;
-  src: url("helvetica/helvetica_neue_medium_extended-webfont.eot") format("eot"),
-    url("helvetica/helvetica_neue_medium_extended-webfont.woff2")
-      format("woff2"),
-    url("helvetica/helvetica_neue_medium_extended-webfont.woff") format("woff"),
-    url("helvetica/helvetica_neue_medium_extended-webfont.ttf")
-      format("truetype"),
-    url("helvetica/helvetica_neue_medium_extended-webfont.svg") format("svg");
+  src: url("Helvetica/helvetica-webfont.eot") format("eot"),
+    url("Helvetica/helvetica-webfont.woff2") format("woff2"),
+    url("Helvetica/helvetica-webfont.woff") format("woff"),
+    url("Helvetica/helvetica-webfont.ttf") format("truetype"),
+    url("Helvetica/helvetica-webfont.svg") format("svg");
 }
 @font-face {
-  font-family: "Helvetica-medium";
+  font-family: "rollgates_luxuryregular";
   font-style: normal;
   font-weight: normal;
-  src: url("helvetica/helvetica_neue_w01_66_medium_it-webfont.eot")
-      format("eot"),
-    url("helvetica/helvetica_neue_w01_66_medium_it-webfont.woff2")
-      format("woff2"),
-    url("helvetica/helvetica_neue_w01_66_medium_it-webfont.woff") format("woff"),
-    url("helvetica/helvetica_neue_w01_66_medium_it-webfont.ttf")
-      format("truetype"),
-    url("helvetica/helvetica_neue_w01_66_medium_it-webfont.svg") format("svg");
-}
-
-@font-face {
-  font-family: "Helvetica-ultralight";
-  font-style: normal;
-  font-weight: normal;
-  src: url("helvetica/helvetica_neue_ultralight-webfont.eot") format("eot"),
-    url("helvetica/helvetica_neue_ultralight-webfont.woff2") format("woff2"),
-    url("helvetica/helvetica_neue_ultralight-webfont.woff") format("woff"),
-    url("helvetica/helvetica_neue_ultralight-webfont.ttf") format("truetype"),
-    url("helvetica/helvetica_neue_ultralight-webfont.svg") format("svg");
+  src: url("RollgatesLuxury/rollgatesluxury-webfont.eot") format("eot"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.woff2") format("woff2"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.woff") format("woff"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.ttf") format("truetype"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.svg") format("svg");
 }
 @font-face {
-  font-family: "Helvetica-bold-italic";
+  font-family: "Tenor_Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("helvetica/helvetica_neueltw0693blkextobl-webfont.eot") format("eot"),
-    url("helvetica/helvetica_neueltw0693blkextobl-webfont.woff2")
-      format("woff2"),
-    url("helvetica/helvetica_neueltw0693blkextobl-webfont.woff") format("woff"),
-    url("helvetica/helvetica_neueltw0693blkextobl-webfont.ttf")
-      format("truetype"),
-    url("helvetica/helvetica_neueltw0693blkextobl-webfont.svg") format("svg");
+  src: url("Tenor_Sans/tenorsans-regular-webfont.eot") format("eot"),
+    url("Tenor_Sans/tenorsans-regular-webfont.woff2") format("woff2"),
+    url("Tenor_Sans/tenorsans-regular-webfont.woff") format("woff"),
+    url("Tenor_Sans/tenorsans-regular-webfont.ttf") format("truetype"),
+    url("Tenor_Sans/tenorsans-regular-webfont.svg") format("svg");
 }

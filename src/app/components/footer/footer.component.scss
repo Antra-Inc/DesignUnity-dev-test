@@ -1,0 +1,15 @@
+.footer {
+  border: 1px solid red;
+  background-image: url("../../../assets/img/footer-bg.png");
+  background-repeat: no-repeat;
+  padding: 60px;
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  &__address {
+    border: 1px solid red;
+    h3{
+        
+    }
+  }
+}
