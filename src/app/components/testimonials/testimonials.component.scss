@@ -17,9 +17,9 @@
         grid-auto-columns: calc((100% / 3) - 12px);
         gap: 16px;
         overflow: hidden;
-        // & :where(.card, .img){
-        //     @include dflex($flex-direction:false);
-        // }
+        & :where(.card, .img){
+            @include dflex($flex-direction:false);
+        }
         .card{
             @include dflex();
             min-height: 250px;
@@ -191,5 +191,7 @@
         }
     }
   }
+
+
 
 }
