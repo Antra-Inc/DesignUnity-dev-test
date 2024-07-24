@@ -1,6 +1,7 @@
 .app {
   display: grid;
   grid-template-rows: 0 0 1fr;
+  
   app-header {
     // position: fixed;
     width: 100%;
@@ -8,6 +9,7 @@
     z-index: 1;
   
   }
+  
   &__container {
     height: 100vh;
     overflow: auto;
@@ -15,3 +17,4 @@
     // padding-top: 140px;
   }
 }
+

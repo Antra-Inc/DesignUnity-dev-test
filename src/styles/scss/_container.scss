@@ -53,6 +53,9 @@
 
 /* Mobile phones */
 @media (max-width: 767px) {
+  .footer {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 .facts_section{
   .facts_details_right{
     display: none;
@@ -116,6 +119,9 @@
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .facts_section{
     .facts_details{
       display: grid;
