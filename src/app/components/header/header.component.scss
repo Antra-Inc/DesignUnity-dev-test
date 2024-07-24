@@ -50,11 +50,43 @@
       display: flex;
       gap: 25px;
       li {
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+        span {
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+          border: 1px solid red;
+          display: grid;
+          align-items: flex-end;
+          -webkit-transition: 0.3s ease-in-out;
+          img {
+            -webkit-transition: 0.3s ease-in-out;
+            width: 0;
+            height: 0;
+          }
+        }
         a {
           text-decoration: none;
           font-family: "Helvetica-regular";
           color: #4d4747;
           font-size: 20px;
+        }
+        &:hover {
+          .menu-item__pointer {
+            span {
+              height: 24px;
+              width: 24px;
+              img {
+                // animation: mover 0.5s ease-in;
+                width: 60%;
+                height: 60%;
+              }
+            }
+          }
         }
       }
     }
@@ -98,6 +130,40 @@
       }
     }
   }
+}
+// @-webkit-keyframes mover {
+//   0% {
+//     transform: translateY(0);
+//   }
+//   100% {
+//     transform: translateX(20px);
+//   }
+// }
+
+@keyframes mover {
+  0% {
+    transform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(1px, 3px);
+  }
+  100% {
+    transform: translate(2px, 2px);
+  }
+  // 75% {
+  //   transform: translate(3px, 1px);
+  // }
+  // 100% {
+  //   transform: translate(4px, 0);
+  // }
+}
+
+.menu-item__pointer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: flex-end;
 }
 .dropmenu {
   position: absolute;

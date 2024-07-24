@@ -17,31 +17,51 @@
     <div class="dropmenu" *ngIf="open" [@dropDownMenu]>
       <ul class="menu-inner">
         <li class="menu-item">
+          <div class="menu-item__pointer"><span></span></div>
           <a href="#aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item"><a href="#" class="menu-link">Solutions</a></li>
         <li class="menu-item">
+          <span> </span><a href="#" class="menu-link">Solutions</a>
+        </li>
+        <li class="menu-item">
+          <span> </span>
           <a routerLink="/portfolio" class="menu-link">Portfolio</a>
         </li>
         <li class="menu-item">
+          <span> </span>
           <a href="#" class="menu-link">Sufrace Studio</a>
         </li>
-        <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+        <li class="menu-item">
+          <span> </span><a href="#" class="menu-link">Contact</a>
+        </li>
       </ul>
     </div>
     <div class="navbar__menu">
       <ul class="menu-inner">
         <li class="menu-item">
+          <div class="menu-item__pointer">
+            <span
+              ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
+            /></span>
+          </div>
           <a href="#aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item"><a href="#" class="menu-link">Solutions</a></li>
         <li class="menu-item">
+          <div class="menu-item__pointer"><span></span></div>
+          <a href="#" class="menu-link">Solutions</a>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item__pointer"><span></span></div>
           <a routerLink="/portfolio" class="menu-link">Portfolio</a>
         </li>
         <li class="menu-item">
+          <div class="menu-item__pointer"><span></span></div>
           <a href="#" class="menu-link">Sufrace Studio</a>
         </li>
-        <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+        <li class="menu-item">
+          <div class="menu-item__pointer"><span></span></div>
+          <a href="#" class="menu-link">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
