@@ -16,6 +16,7 @@ import { TabComponent } from './shared/tab.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NextDirective } from './components/next.directive';
 import { PrevDirective } from './components/prev.directive';
+import { TestimonialSliderComponent } from './components/testimonial-slider/testimonial-slider.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PrevDirective } from './components/prev.directive';
     TabComponent,
     TestimonialsComponent,
     NextDirective,
-    PrevDirective
+    PrevDirective,
+    TestimonialSliderComponent
   ],
   imports: [
     BrowserModule,

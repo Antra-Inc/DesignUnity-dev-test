@@ -1,0 +1,37 @@
+<section class="testimonials_section">
+
+    <div class="wrapper">
+        <ul class="carousel">
+            
+            <li class="card" *ngFor="let box of boxes; let i = index" [ngClass]="getBoxClass(i)">
+                <div class="testimonial">
+                    <p>{{ box.text }}</p>
+                    <div class="stars">
+                        <span *ngFor="let star of getStars(box.stars)">&#9733;</span>
+                        <span *ngFor="let star of getEmptyStars(box.stars)">&#9734;</span>
+                    </div>
+                </div>
+                <div class="header">
+                    <div class="profile">
+                      <div class="img">
+                        <img src="../../assets/img/testimonials/user.png" alt="" width="100px">
+                      </div>
+                      <div class="details">
+                        <h4>{{ box.name }}</h4>
+                      </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="button-area">
+            <button type="button" class="prev" (click)="prev()"> <img src="../../assets/img/testimonials/left-arrow.svg" alt=""> </button>
+            <button type="button" class="next" (click)="next()"> <img src="../../assets/img/testimonials/right-arrow.svg" alt=""> </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+
