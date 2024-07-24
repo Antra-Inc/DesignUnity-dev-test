@@ -56,17 +56,32 @@
         align-items: center;
         cursor: pointer;
         span {
-          width: 10px;
-          height: 10px;
+          height: 6px;
+          width: 6px;
           border-radius: 100%;
-          border: 1px solid red;
           display: grid;
-          align-items: flex-end;
+          align-items: center;
+          justify-content: center;
           -webkit-transition: 0.3s ease-in-out;
           img {
             -webkit-transition: 0.3s ease-in-out;
             width: 0;
             height: 0;
+          }
+          &.aboutUs {
+            background-color: #d8976e;
+          }
+          &.solutions {
+            background-color: #7d8d7c;
+          }
+          &.portFolio {
+            background-color: #b093a0;
+          }
+          &.studio {
+            background-color: #c1ccd7;
+          }
+          &.contactUs {
+            background-color: #c1a1d1;
           }
         }
         a {
@@ -81,9 +96,18 @@
               height: 24px;
               width: 24px;
               img {
-                // animation: mover 0.5s ease-in;
-                width: 60%;
-                height: 60%;
+                animation: mover 0.5s ease-in-out forwards;
+                width: 10px;
+                height: 13px;
+              }
+            }
+          }
+        }
+        &:not(:hover) {
+          .menu-item__pointer {
+            span {
+              img {
+                animation: moverOut 0.7s ease-in-out forwards;
               }
             }
           }
@@ -142,20 +166,22 @@
 
 @keyframes mover {
   0% {
-    transform: translate(0, 4px);
+    transform: translate(-11px, 11px);
   }
-  50% {
-    transform: translate(1px, 3px);
-  }
+
   100% {
-    transform: translate(2px, 2px);
+    transform: translate(0px, 0px);
   }
-  // 75% {
-  //   transform: translate(3px, 1px);
-  // }
-  // 100% {
-  //   transform: translate(4px, 0);
-  // }
+}
+
+@keyframes moverOut {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(-11px, 11px);
+  }
 }
 
 .menu-item__pointer {
