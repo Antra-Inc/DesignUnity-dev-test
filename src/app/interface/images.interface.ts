@@ -9,7 +9,7 @@ export interface ImagesInterface {
 export interface DynamicImages {
   imagePath: string;
   data: CardData;
-  id: number;
+  id: string;
   SubData?: DynamicImages[];
 }
 export interface CardData {
