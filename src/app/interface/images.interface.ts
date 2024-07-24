@@ -1,15 +1,15 @@
 export interface ImagesInterface {
-    Luxury: DynamicImages[],
-    Institutional: DynamicImages[],
-    Commercial: DynamicImages[],
-    RealEstate: DynamicImages[];
-    SmallResidential: DynamicImages[];
-    ALL: DynamicImages[];
+  Luxury: DynamicImages[];
+  Institutional: DynamicImages[];
+  Commercial: DynamicImages[];
+  RealEstate: DynamicImages[];
+  SmallResidential: DynamicImages[];
+  ALL: DynamicImages[];
 }
 export interface DynamicImages {
   imagePath: string;
   data: CardData;
-  id: number;
+  id: string;
   SubData?: DynamicImages[];
 }
 export interface CardData {
