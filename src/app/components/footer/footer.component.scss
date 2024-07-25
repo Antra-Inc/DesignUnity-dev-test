@@ -1,8 +1,11 @@
-.overlay_bgs img {
+.overlay_bgs .leaves {
   position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0.3;
+  top: -157px;
+  right: -97px;
+  opacity: 0.2;
+  path {
+    fill: #af8e71;
+  }
 }
 
 .d-grid {
