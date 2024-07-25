@@ -1,0 +1,14 @@
+<div class="dialog-overlay" *ngIf="isVisible">
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2>{{ title }}</h2>
+        <button (click)="onClose()">x</button>
+      </div>
+      <div class="dialog-content">
+        <ng-content></ng-content>
+      </div>
+      <div class="dialog-actions">
+        <button (click)="onClose()">Close</button>
+      </div>
+    </div>
+  </div>
