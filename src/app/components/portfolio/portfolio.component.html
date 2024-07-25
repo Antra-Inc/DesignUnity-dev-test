@@ -27,7 +27,7 @@
     <my-tab *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
         class="portfolio__grid"
-        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
+        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'" (click)="openDialog()"
       >
         <div class="portfolio__grid--item" *ngFor="let item of contentData" >
           <h2>{{ tab.tabTitle }}</h2>
@@ -37,3 +37,9 @@
     </my-tab>
   </du-tabs>
 </div>
+<app-dialog
+  [title]="dialogTitle"
+  [isVisible]="dialogData !== null"
+  (close)="closeDialog()">
+  <p *ngIf="dialogData">{{ dialogData.message }}</p>
+</app-dialog>

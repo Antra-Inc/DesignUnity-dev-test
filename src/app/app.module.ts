@@ -13,6 +13,7 @@ import { FeaturesComponent } from './components/features/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
 import { TabComponent } from './shared/tab.component';
+import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +28,16 @@ import { TabComponent } from './shared/tab.component';
     PortfolioComponent,
     DuTabsComponent,
     TabComponent,
-
+    DuDialogComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    DuDialogComponent,
   ],
+  exports: [DuDialogComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -5,6 +5,7 @@ import {
   DynamicImages,
   ImagesInterface,
 } from 'src/app/interface/images.interface';
+import { DialogService } from 'src/app/service/dialog.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -25,8 +26,13 @@ export class PortfolioComponent implements OnInit {
     'ALL',
   ];
   tabs: { tabTitle: string; tabContent: any[] }[] = [];
-
-  constructor(private http: HttpClient) {}
+  dialogTitle = 'Dialog Title';
+  dialogData: any;
+  constructor(private http: HttpClient, private dialogService: DialogService) {
+    dialogService.dialogState$.subscribe((state: any) => {
+      this.dialogData = state.data;
+    });
+  }
   public getJSON(): Observable<any> {
     return this.http.get('./assets/images.json');
   }
@@ -115,5 +121,15 @@ export class PortfolioComponent implements OnInit {
 
       console.log('images', this.images);
     });
+  }
+
+  openDialog(): void {
+    this.dialogService.openDialog({
+      message: 'This is a custom reusable dialog box.',
+    });
+  }
+
+  closeDialog(): void {
+    this.dialogService.closeDialog();
   }
 }
