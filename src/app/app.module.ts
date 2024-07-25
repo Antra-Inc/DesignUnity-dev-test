@@ -34,7 +34,7 @@ import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    DuDialogComponent,
+    // DuDialogComponent,
   ],
   exports: [DuDialogComponent],
   providers: [],

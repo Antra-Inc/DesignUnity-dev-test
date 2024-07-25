@@ -37,9 +37,9 @@
     </my-tab>
   </du-tabs>
 </div>
-<app-dialog
+<app-du-dialog
   [title]="dialogTitle"
   [isVisible]="dialogData !== null"
   (close)="closeDialog()">
   <p *ngIf="dialogData">{{ dialogData.message }}</p>
-</app-dialog>
+</app-du-dialog>
