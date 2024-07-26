@@ -1,37 +1,37 @@
-<section class="testimonials_section">
+<div class="testimonials_section">
 
     <div class="wrapper">
-        <ul class="carousel">
-            
-            <li class="card" *ngFor="let box of boxes; let i = index" [ngClass]="getBoxClass(i)">
-                <div class="testimonial">
-                    <p>{{ box.text }}</p>
-                    <div class="stars">
-                        <span *ngFor="let star of getStars(box.stars)">&#9733;</span>
-                        <span *ngFor="let star of getEmptyStars(box.stars)">&#9734;</span>
-                    </div>
+        <!-- <i id="left" class="fa-solid fa-angle-left" (click)="scroll('left')"></i> -->
+        <ul class="carousel" #carousel>
+          <li class="card" *ngFor="let card of cards">
+              <div class="testimonial" [style.backgroundColor]="card.bgColor">
+                  <p>{{ card.text }}</p>
+                  <div class="starts">
+                    <span> &#9733; </span>
+                    <span> &#9733; </span>
+                    <span> &#9733; </span>
+                    <span> &#9733; </span>
+                    <span> &#9733; </span>
+                  </div>
+              </div>
+              <div class="header">
+                <div class="profile">
+                  <div class="img">
+                    <img [src]="card.img" alt="" draggable="false">
+                  </div>
+                  <div class="details">
+                    <h4> {{ card.name }} </h4>
+                  </div>
                 </div>
-                <div class="header">
-                    <div class="profile">
-                      <div class="img">
-                        <img src="../../assets/img/testimonials/user.png" alt="" width="100px">
-                      </div>
-                      <div class="details">
-                        <h4>{{ box.name }}</h4>
-                      </div>
-                    </div>
-                </div>
-            </li>
+              </div>
+          </li>
         </ul>
-
+        <!-- <i id="right" class="fa-solid fa-angle-right" (click)="scroll('right')"></i> -->
         <div class="button-area">
-            <button type="button" class="prev" (click)="prev()"> <img src="../../assets/img/testimonials/left-arrow.svg" alt=""> </button>
-            <button type="button" class="next" (click)="next()"> <img src="../../assets/img/testimonials/right-arrow.svg" alt=""> </button>
+            <button type="button" class="prev" (click)="scroll('left')"> <img src="../../../assets/img/testimonials/left-arrow.svg" alt=""> </button>
+            <button type="button" class="next" (click)="scroll('right')"> <img src="../../../assets/img/testimonials/right-arrow.svg" alt="" > </button>
         </div>
-
     </div>
-
-</section>
-
-
-
+      
+    
+    </div>

@@ -16,6 +16,8 @@ import { TabComponent } from './shared/tab.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NextDirective } from './components/next.directive';
 import { PrevDirective } from './components/prev.directive';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { TestimonialSliderComponent } from './components/testimonial-slider/testimonial-slider.component';
 
 @NgModule({
@@ -38,7 +40,9 @@ import { TestimonialSliderComponent } from './components/testimonial-slider/test
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
