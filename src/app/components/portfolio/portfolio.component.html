@@ -20,21 +20,26 @@
       it, and we’ll show you what excellence looks like on walls.
     </p>
   </div>
-  <du-tabs (changeLayout)="changeLayout($event)">
-    <my-tab [tabTitle]="'ALL'">
+  <du-tabs
+    (changeLayout)="changeLayout($event)"
+    (changeTab)="changeTabs($event)"
+  >
+    <my-tab *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
         class="portfolio__grid"
-        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
+        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'" (click)="openDialog()"
       >
-        <div class="portfolio__grid--item" *ngFor="let i of [].constructor(9)">
-          <img src="../../../assets/img/portfolio-1.svg" alt="" />
+        <div class="portfolio__grid--item" *ngFor="let item of contentData" >
+          <h2>{{ tab.tabTitle }}</h2>
+          <img src="{{ item.imagePath }}" alt="" />
         </div>
       </div>
     </my-tab>
-    <my-tab tabTitle="Luxury"> Luxury </my-tab>
-    <my-tab [tabTitle]="'Institutional'"> Institutional </my-tab>
-    <my-tab tabTitle="Commercial"> Commercial </my-tab>
-    <my-tab [tabTitle]="'Real Estate'"> Real Estate </my-tab>
-    <my-tab tabTitle="Small Residential"> Small Residential </my-tab>
   </du-tabs>
 </div>
+<app-du-dialog
+  [title]="dialogTitle"
+  [isVisible]="dialogData !== null"
+  (close)="closeDialog()">
+  <p *ngIf="dialogData">{{ dialogData.message }}</p>
+</app-du-dialog>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,6 +13,7 @@ import { FeaturesComponent } from './components/features/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
 import { TabComponent } from './shared/tab.component';
+import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,17 @@ import { TabComponent } from './shared/tab.component';
     HomeComponent,
     PortfolioComponent,
     DuTabsComponent,
-    TabComponent
+    TabComponent,
+    DuDialogComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    // DuDialogComponent,
   ],
+  exports: [DuDialogComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
