@@ -4,15 +4,16 @@
         <!-- <i id="left" class="fa-solid fa-angle-left" (click)="scroll('left')"></i> -->
         <ul class="carousel" #carousel>
           <li class="card" *ngFor="let card of cards">
+            <div class="card_text">
               <div class="testimonial" [style.backgroundColor]="card.bgColor">
-                  <p>{{ card.text }}</p>
-                  <div class="starts">
-                    <span> &#9733; </span>
-                    <span> &#9733; </span>
-                    <span> &#9733; </span>
-                    <span> &#9733; </span>
-                    <span> &#9733; </span>
-                  </div>
+                <p>{{ card.text }}</p>
+                <div class="starts">
+                  <span> &#9733; </span>
+                  <span> &#9733; </span>
+                  <span> &#9733; </span>
+                  <span> &#9733; </span>
+                  <span> &#9733; </span>
+                </div>
               </div>
               <div class="header">
                 <div class="profile">
@@ -24,6 +25,7 @@
                   </div>
                 </div>
               </div>
+            </div>
           </li>
         </ul>
         <!-- <i id="right" class="fa-solid fa-angle-right" (click)="scroll('right')"></i> -->
