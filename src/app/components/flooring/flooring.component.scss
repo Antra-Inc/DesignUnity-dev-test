@@ -1,7 +1,18 @@
 @import "../../../styles/scss/variables";
 @import "../../../styles/scss/mixins";
 @import "../../../styles/scss/container";
-
+.bg-green {
+  background-color: #f6f1eb;;
+}
+.section {
+  width: 100%;
+  padding: 0 20px;
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .flooring {
   &_section {
     min-height: 50vh;
@@ -18,7 +29,7 @@
   &_details {
     @include dflex(grid, 50% 50%, center);
     background: #4f453c;
-    margin: 25px;
+    // margin: 25px;
     border-radius: 18px;
     margin: 0 auto;
     &_left {

@@ -1,20 +1,30 @@
 @import "../../../styles/scss/variables";
 @import "../../../styles/scss/mixins";
 @import "../../../styles/scss/container";
-
+.bg-img {
+  background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
+  background-size: cover;
+}
+.section {
+  width: 100%;
+  padding: 0 20px;
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .facts {
   &_section {
-    min-height: 80vh;
-    background: #f6f1eb;
+  
+    
     background-size: cover;
-    padding-top: 2em;
-    padding-bottom: 2rem;
+  
   }
   &_details {
     @include dflex(grid, 50% 50%, center);
-    background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
-    background-size: cover;
-    margin: 25px;
+ 
+    // margin: 25px;
     border-radius: 18px;
     &_left {
       padding: 2rem;

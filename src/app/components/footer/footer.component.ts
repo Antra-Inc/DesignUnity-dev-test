@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss']
+  styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent {
-
+  @Output() scrollView = new EventEmitter<string>();
+  scrollTo(data: any) {
+    this.scrollView.emit(data);
+  }
 }

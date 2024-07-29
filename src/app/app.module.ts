@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -19,6 +19,7 @@ import { PrevDirective } from './components/prev.directive';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TestimonialSliderComponent } from './components/testimonial-slider/testimonial-slider.component';
+import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
 
 @NgModule({
   declarations: [
@@ -36,15 +37,19 @@ import { TestimonialSliderComponent } from './components/testimonial-slider/test
     TestimonialsComponent,
     NextDirective,
     PrevDirective,
-    TestimonialSliderComponent
+    TestimonialSliderComponent,
+    DuDialogComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
     FormsModule,
+    HttpClientModule,
+    // DuDialogComponent,
   ],
+  exports: [DuDialogComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
