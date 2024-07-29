@@ -49,6 +49,20 @@
         max-width: 100%;
         min-width: 100%;
       }
+      .item__img {
+      }
+      .item__details {
+        p {
+          font-size: 16px;
+          font-family: "Helvetica-light";
+          color: #363333;
+        }
+        h2 {
+          font-size: 20px;
+          font-family: "Helvetica-regular";
+          color: #363333;
+        }
+      }
     }
   }
 }

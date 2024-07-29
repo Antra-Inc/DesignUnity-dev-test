@@ -27,11 +27,17 @@
     <my-tab *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
         class="portfolio__grid"
-        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'" (click)="openDialog()"
+        [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
+        (click)="openDialog()"
       >
-        <div class="portfolio__grid--item" *ngFor="let item of contentData" >
-          <h2>{{ tab.tabTitle }}</h2>
-          <img src="{{ item.imagePath }}" alt="" />
+        <div class="portfolio__grid--item" *ngFor="let item of contentData">
+          <div class="item__img">
+            <img src="{{ item.imagePath }}" alt="" />
+          </div>
+          <div class="item__details">
+            <p>{{ item?.data?.heading }}</p>
+            <h2>{{ item?.data?.description }}</h2>
+          </div>
         </div>
       </div>
     </my-tab>
@@ -40,6 +46,7 @@
 <app-du-dialog
   [title]="dialogTitle"
   [isVisible]="dialogData !== null"
-  (close)="closeDialog()">
+  (close)="closeDialog()"
+>
   <p *ngIf="dialogData">{{ dialogData.message }}</p>
 </app-du-dialog>
