@@ -13,17 +13,18 @@ import { DialogService } from 'src/app/service/dialog.service';
   styleUrls: ['./portfolio.component.scss'],
 })
 export class PortfolioComponent implements OnInit {
-  layout = 2;
+  layout = 3;
   Tab = '';
-  images!: ImagesInterface;
+  images!: any;
   contentData: any;
+  firstImages: any = {};
   tabTitles = [
+    'ALL',
     'Luxury',
     'Institutional',
     'Commercial',
     'Real Estate',
     'Small Residential',
-    'ALL',
   ];
   tabs: { tabTitle: string; tabContent: any[] }[] = [];
   dialogTitle = 'Dialog Title';
@@ -81,6 +82,25 @@ export class PortfolioComponent implements OnInit {
     console.log('imagesType', imagesType);
 
     switch (imagesType) {
+      case 'ALL':
+        // const result: any = {};
+        // Object.keys(this.images).forEach((key): any => {
+        //   if (Array.isArray(this.images[key]) && this.images[key].length > 0) {
+        //     const imahesObject = this.images[key][0];
+
+        //     result[key] = {
+        //       imagePath: imahesObject.imagePath,
+        //       data: imahesObject.data,
+        //     };
+        //   } else {
+        //     result[key] = this.images[key];
+        //   }
+        // });
+        // this.contentData = result;
+        this.contentData = this.images.All;
+        console.log('Luxury contentData', this.contentData);
+
+        break;
       case 'Luxury':
         this.contentData = this.images.Luxury;
         console.log('Luxury contentData', this.contentData);
@@ -101,10 +121,7 @@ export class PortfolioComponent implements OnInit {
         this.contentData = this.images.SmallResidential;
         console.log('Small Residential contentData', this.contentData);
         break;
-      case 'ALL':
-        this.contentData = { ...this.images };
-        console.log('ALL contentData', this.contentData);
-        break;
+
       default:
         this.contentData = this.images.Luxury; // Default to 'Luxury' if imagesType doesn't match
         break;
