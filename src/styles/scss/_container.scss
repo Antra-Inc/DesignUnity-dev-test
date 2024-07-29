@@ -24,7 +24,7 @@
 
   .about_section {
     .about_description {
-      padding: 2.5rem;
+      padding: 1.5rem;
       text-align: justify;
     }
   }
@@ -38,31 +38,6 @@
     }
   }
 
-  .features_section {
-    padding: 0.2rem !important;
-
-    .features_details {
-      @include dflex(grid, auto, center);
-      &_left {
-        margin-top: 0px;
-        .border_animate {
-          h3 {
-            @include dflex();
-          }
-        }
-      }
-
-      &_right {
-        margin-top: 0px;
-        .border_animate {
-          font-size: 1.5rem;
-          h3 {
-            @include dflex();
-          }
-        }
-      }
-    }
-  }
 
   .testimonials_section,
   .features_section,
@@ -97,7 +72,7 @@
 
   .about_section {
     .about_description {
-      padding: 2.5rem;
+      padding: 1.5rem;
       text-align: justify;
     }
   }
@@ -111,33 +86,7 @@
     }
   }
 
-  .features_section {
-    padding: 0.2rem !important;
 
-    .features_details {
-      @include dflex(grid, auto, center);
-      &_left {
-        margin-top: 0px;
-        .border_animate {
-          //height: 220px;
-          h3 {
-            @include dflex();
-          }
-        }
-      }
-
-      &_right {
-        margin-top: 0px;
-        .border_animate {
-          //height: 220px;
-          font-size: 1.5rem;
-          h3 {
-            @include dflex();
-          }
-        }
-      }
-    }
-  }
 
   .testimonials_section,
   .features_section,
