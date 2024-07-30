@@ -90,6 +90,20 @@
           color: #4d4747;
           font-size: 20px;
         }
+        &.solutions {
+          border: 1px solid red;
+          position: relative;
+          .menu-item__sub-menu {
+            display: block;
+            border: 1px solid red;
+            position: absolute;
+          }
+          &:hover {
+            .menu-item__sub-menu {
+              display: block;
+            }
+          }
+        }
         &:hover {
           .menu-item__pointer {
             span {

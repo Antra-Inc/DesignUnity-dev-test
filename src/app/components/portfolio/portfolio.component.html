@@ -24,7 +24,7 @@
     (changeLayout)="changeLayout($event)"
     (changeTab)="changeTabs($event)"
   >
-    <my-tab *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
+    <my-tab class="tabs" *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
         class="portfolio__grid"
         [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"

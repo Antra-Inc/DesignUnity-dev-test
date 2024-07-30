@@ -1,3 +1,4 @@
+@import "../../../styles/scss/variables";
 .portfolio {
   min-height: 100vh;
   &__sec-1 {
@@ -36,15 +37,19 @@
       font-family: "Helvetica-light";
     }
   }
+  // ::ng-deep .tabs {
+  //   max-width: $screen-max-size;
+  // }
   &__grid {
     display: grid;
     // grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
     gap: 35px;
     &--item {
       width: 100%;
-      border: 1px solid red;
       min-height: 200px;
-      border-radius: 10px;
+      cursor: pointer;
       img {
         max-width: 100%;
         min-width: 100%;
@@ -52,6 +57,9 @@
       .item__img {
       }
       .item__details {
+        display: grid;
+        padding: 10px 0;
+        gap: 10px;
         p {
           font-size: 16px;
           font-family: "Helvetica-light";
