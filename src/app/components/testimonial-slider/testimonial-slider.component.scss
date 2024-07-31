@@ -22,6 +22,7 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
+        transition: transform 0.5s ease-in-out;
 
         &::-webkit-scrollbar {
             display: none;
@@ -169,15 +170,28 @@
 
 .card .card_text{
     transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s;
   }
 .card.prev .card_text{
     transform: scale(1);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s;
+}
+.card.active .card_text{
+    transform: scale(0.8);
+    transition: all 0.3s;
+  }
+
+@media (max-width: 899px) {
+    .testimonials_section {
+        .wrapper {
+            transform: scale(0.8);
+        }
+    }
 }
 
 @media screen and (max-width: 900px) {
     .wrapper {
+
         .carousel {
             grid-auto-columns: calc(100% - 12px) !important;
         }
