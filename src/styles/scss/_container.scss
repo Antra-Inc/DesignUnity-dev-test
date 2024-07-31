@@ -112,8 +112,13 @@
     .features_details,
     .flooring_details,
     .about_description {
-      max-width: 1024px;
+      //max-width: 1024px;
       width: 94%;
+    }
+  }
+  .about_section {
+    .about_description{
+      padding: 1rem 5rem;
     }
   }
 }

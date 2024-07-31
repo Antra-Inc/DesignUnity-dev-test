@@ -89,23 +89,6 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
     this.carousel.nativeElement.scrollLeft += direction === 'left' ? -this.firstCardWidth : this.firstCardWidth;
   }
 
-  dragStart(e: MouseEvent) {
-    this.isDragging = true;
-    this.carousel.nativeElement.classList.add('dragging');
-    this.startX = e.pageX;
-    this.startScrollLeft = this.carousel.nativeElement.scrollLeft;
-  }
-
-  dragging(e: MouseEvent) {
-    if (!this.isDragging) return;
-    this.carousel.nativeElement.scrollLeft = this.startScrollLeft - (e.pageX - this.startX);
-  }
-
-  dragStop() {
-    this.isDragging = false;
-    this.carousel.nativeElement.classList.remove('dragging');
-  }
-
   infiniteScroll() {
     const maxScrollLeft = this.carousel.nativeElement.scrollWidth - this.carousel.nativeElement.offsetWidth;
     if (this.carousel.nativeElement.scrollLeft === 0) {
@@ -119,6 +102,9 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
     }
   }
 
+
+
+  
   setVisibleClasses() {
     const cards = Array.from(this.carousel.nativeElement.querySelectorAll('.card')) as HTMLElement[];
     const carouselRect = this.carousel.nativeElement.getBoundingClientRect();
