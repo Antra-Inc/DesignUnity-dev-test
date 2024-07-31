@@ -1,0 +1,80 @@
+
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
+.section {
+    width: 100%;
+    padding: 0 20px;
+    .container {
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+  .heading {
+    @include heading;
+    padding: 2rem 1.5rem 3rem 1rem;
+  }
+
+.holder {
+    position: sticky;
+   padding: 0 0 5em;
+} 
+.holder__head {
+    padding: 1em 2em;
+    position: sticky;
+    font-size: 30px;
+    z-index: 1;
+    bottom: calc(var(--b) * 2em);
+    top: calc(var(--t) * 2em);
+    
+  }
+
+  
+  .holder__item {
+    padding: 5rem 5.5rem;
+    position: sticky;
+    height: 80vh;
+    bottom: 10vh;
+    top: calc(var(--t) * 2em);
+    padding-bottom: 8em;
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    .title {
+        font-size: 2.5em;
+        color:#fff;
+        text-shadow: 1px 3px 0px #0000002e;
+      }
+      div {
+        grid-column: 2;
+        display: grid;
+        align-items: end;
+        button {
+            background: #F2DA77;
+            color: #000;
+            font-size: 18px;
+            padding:16px  20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: grid;
+            align-items: center;
+            img {
+                margin-left: 10px;
+                grid-column: 2;
+                width: 0;
+                transition: width .4s;
+            }
+            &:hover {
+                img {
+                    width: 40px;
+                   
+                }
+            }
+          }
+      }
+     
+  }

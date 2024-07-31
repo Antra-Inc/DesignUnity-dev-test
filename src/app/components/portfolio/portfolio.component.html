@@ -24,13 +24,16 @@
     (changeLayout)="changeLayout($event)"
     (changeTab)="changeTabs($event)"
   >
-    <my-tab *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
+    <my-tab class="tabs" *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
         class="portfolio__grid"
         [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
-        (click)="openDialog()"
       >
-        <div class="portfolio__grid--item" *ngFor="let item of contentData">
+        <div
+          class="portfolio__grid--item"
+          *ngFor="let item of contentData"
+          (click)="openDialog(item)"
+        >
           <div class="item__img">
             <img src="{{ item.imagePath }}" alt="" />
           </div>
@@ -43,10 +46,11 @@
     </my-tab>
   </du-tabs>
 </div>
-<app-du-dialog
+<!-- <app-du-dialog
   [title]="dialogTitle"
   [isVisible]="dialogData !== null"
   (close)="closeDialog()"
 >
   <p *ngIf="dialogData">{{ dialogData.message }}</p>
-</app-du-dialog>
+</app-du-dialog> -->
+<app-footer></app-footer>

@@ -6,6 +6,8 @@ import {
   ImagesInterface,
 } from 'src/app/interface/images.interface';
 import { DialogService } from 'src/app/service/dialog.service';
+import { DuTabsComponent } from 'src/app/shared/du-tabs/du-tabs.component';
+import { PortfolioDialogComponent } from './portfolio-dialog/portfolio-dialog.component';
 
 @Component({
   selector: 'app-portfolio',
@@ -29,11 +31,12 @@ export class PortfolioComponent implements OnInit {
   tabs: { tabTitle: string; tabContent: any[] }[] = [];
   dialogTitle = 'Dialog Title';
   dialogData: any;
-  constructor(private http: HttpClient, private dialogService: DialogService) {
-    dialogService.dialogState$.subscribe((state: any) => {
-      this.dialogData = state.data;
-    });
-  }
+  // constructor(private http: HttpClient, private dialogService: DialogService) {
+  //   dialogService.dialogState$.subscribe((state: any) => {
+  //     this.dialogData = state.data;
+  //   });
+  // }
+  constructor(private dialogService: DialogService, private http: HttpClient) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/images.json');
   }
@@ -140,13 +143,43 @@ export class PortfolioComponent implements OnInit {
     });
   }
 
-  openDialog(): void {
-    this.dialogService.openDialog({
-      message: 'This is a custom reusable dialog box.',
-    });
-  }
+  // openDialog(): void {
+  //   this.dialogService.openDialog({
+  //     message: 'This is a custom reusable dialog box.',
+  //   });
+  // }
 
-  closeDialog(): void {
-    this.dialogService.closeDialog();
+  // closeDialog(): void {
+  //   this.dialogService.closeDialog();
+  // }
+  openDialog(item: any) {
+    this.dialogService.openDialog(
+      PortfolioDialogComponent,
+      { message: 'Hello from OtherComponent', itemId: item }
+      // 'Dialog Title'
+      // [
+      //   {
+      //     text: 'OK',
+      //     action: () => {
+      //       this.onOk();
+      //     },
+      //   },
+      //   {
+      //     text: 'Cancel',
+      //     action: () => {
+      //       this.onCancel();
+      //     },
+      //   },
+      // ]
+    );
   }
+  // onOk() {
+  //   console.log('OK clicked');
+  //   this.dialogService.closeDialog();
+  // }
+
+  // onCancel() {
+  //   console.log('Cancel clicked');
+  //   this.dialogService.closeDialog();
+  // }
 }

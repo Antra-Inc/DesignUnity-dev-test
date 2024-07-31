@@ -20,6 +20,9 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TestimonialSliderComponent } from './components/testimonial-slider/testimonial-slider.component';
 import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
+import { PortfolioDialogComponent } from './components/portfolio/portfolio-dialog/portfolio-dialog.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import this module
+import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,8 @@ import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
     PrevDirective,
     TestimonialSliderComponent,
     DuDialogComponent,
+    PortfolioDialogComponent,
+    WallsCeilingsComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,9 +51,10 @@ import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
     CommonModule,
     FormsModule,
     HttpClientModule,
+    BrowserAnimationsModule
     // DuDialogComponent,
   ],
-  exports: [DuDialogComponent],
+  // exports: [DuDialogComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
