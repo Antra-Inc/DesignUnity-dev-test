@@ -78,3 +78,19 @@
       }
      
   }
+
+  @media screen and (max-width: 600px){
+    .holder__item {
+      padding: 50px;
+      .title {
+          font-size: 22px;
+          color:#fff;
+          text-shadow: 1px 3px 0px #0000002e;
+        }
+        div {
+          grid-column: 1;
+         
+        }
+       
+    }
+  }
