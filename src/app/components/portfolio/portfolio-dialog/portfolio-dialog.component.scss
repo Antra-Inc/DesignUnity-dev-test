@@ -13,6 +13,10 @@
     grid-template-rows: 50% 1fr;
     grid-template-columns: auto;
   }
+  @media (max-width: 500px) {
+    grid-template-rows: 40% 1fr;
+    grid-template-columns: auto;
+  }
 }
 .slide {
   position: absolute;
@@ -38,6 +42,7 @@
     @media (max-width: 1100px) {
       padding: 15px;
     }
+
     h5 {
       font-size: 20px;
       font-family: "Helvetica-light";
@@ -59,6 +64,30 @@
       font-family: "Helvetica-regular";
       margin: 0;
     }
+    @media (max-width: 500px) {
+      padding: 15px 0;
+      h5 {
+        font-size: 14px;
+        font-family: "Helvetica-light";
+        color: #fff;
+        margin: 0;
+      }
+      h2 {
+        font-size: 18px;
+        font-family: "Tenor_Sans";
+        margin: 0;
+      }
+      p {
+        font-size: 12px;
+        font-family: "Helvetica-light";
+        margin: 0;
+      }
+      h3 {
+        font-size: 16px;
+        font-family: "Helvetica-regular";
+        margin: 0;
+      }
+    }
   }
 }
 .arrow {
@@ -73,6 +102,7 @@
   cursor: pointer;
   //   background: url(../assets/blank.gif) no-repeat;
   border: none;
+  visibility: hidden;
 }
 
 .arrow.prev {

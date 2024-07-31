@@ -16,9 +16,8 @@
 }
 .about {
   &_section {
-   
     min-height: 40vh;
- 
+
     padding: 150px 0;
     p {
       padding: 2rem 10em;
@@ -31,6 +30,17 @@
     h1 {
       @include heading;
       padding: 2rem 1.5rem 1rem;
+    }
+    @media (max-width: 500px) {
+      padding: 15px 0;
+      h1 {
+        padding: 15px 0;
+        font-size: 22px;
+      }
+      p {
+        padding: 0 !important;
+        font-size: 14px;
+      }
     }
   }
 }

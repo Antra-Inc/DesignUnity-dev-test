@@ -16,14 +16,11 @@
 }
 .facts {
   &_section {
-  
-    
     background-size: cover;
-  
   }
   &_details {
     @include dflex(grid, 50% 50%, center);
- 
+
     // margin: 25px;
     border-radius: 18px;
     &_left {
@@ -45,6 +42,11 @@
         p {
           font-size: 0.8rem;
           font-size: 0.8em;
+        }
+        @media (max-width: 500px) {
+          h1 {
+            font-size: 30px;
+          }
         }
       }
     }

@@ -44,5 +44,9 @@
         height: 100%;
       }
     }
+    @media (max-width: 1200px) {
+      top: -15px;
+      right: -15px;
+    }
   }
 }
