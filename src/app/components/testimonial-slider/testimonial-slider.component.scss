@@ -22,6 +22,7 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
+        transition: transform 0.5s ease-in-out;
 
         &::-webkit-scrollbar {
             display: none;
