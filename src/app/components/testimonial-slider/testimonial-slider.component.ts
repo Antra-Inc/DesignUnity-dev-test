@@ -86,7 +86,7 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
   }
 
   scroll(direction: 'left' | 'right') {
-    this.carousel.nativeElement.scrollLeft += direction === 'right' ? -this.firstCardWidth : this.firstCardWidth;
+    this.carousel.nativeElement.scrollLeft += direction === 'left' ? -this.firstCardWidth : this.firstCardWidth;
   }
 
   infiniteScroll() {
@@ -123,7 +123,7 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       );
 
       if (isVisible) {
-        activeIndex = index;
+        activeIndex = index-1;
       }
     });
 
