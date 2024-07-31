@@ -22,6 +22,7 @@ import { TestimonialSliderComponent } from './components/testimonial-slider/test
 import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
 import { PortfolioDialogComponent } from './components/portfolio/portfolio-dialog/portfolio-dialog.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import this module
+import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
     TestimonialSliderComponent,
     DuDialogComponent,
     PortfolioDialogComponent,
+    WallsCeilingsComponent,
   ],
   imports: [
     BrowserModule,
