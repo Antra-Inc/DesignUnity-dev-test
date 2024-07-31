@@ -39,7 +39,7 @@
     span::after {
       position: absolute;
       bottom: -10px;
-      content: '';
+      content: "";
       left: 0;
       width: 150%;
       border-bottom: 2px solid red;
@@ -54,7 +54,7 @@
         text-decoration: none;
         color: #000;
         &:hover {
-          color: #723C0D;
+          color: #723c0d;
         }
       }
     }
@@ -64,7 +64,7 @@
     grid-template-columns: repeat(3, auto);
     gap: 20px;
     justify-content: flex-end;
-    list-style-type:none ;
+    list-style-type: none;
     li a {
       width: 44px;
       height: 44px;
@@ -80,7 +80,7 @@
 .foot-copyright {
   z-index: 6;
   padding: 20px;
-  
+
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: left;
@@ -96,7 +96,7 @@
     text-decoration: none;
     color: #000;
     &:hover {
-      color: #723C0D;
+      color: #723c0d;
     }
   }
 }
