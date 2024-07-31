@@ -16,6 +16,20 @@
   display: block;
   width: 100%;
   position: relative;
+  background: linear-gradient(339deg, rgb(165, 129, 99) 0%, rgb(222, 204, 186) 100%);
+  display: grid;
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: "";
+    background-color: rgba(228, 211, 193, 0.9);
+    width: 80%;
+    height: 1200px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0 466.6666666667px 0 0;
+    top: 40px;
+  }
 }
 .footer {
   background-repeat: no-repeat;

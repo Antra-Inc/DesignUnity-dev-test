@@ -2,20 +2,3 @@
   height: 100vh;
   background-color: green;
 }
-app-footer {
-  background:linear-gradient(339deg, rgba(165,129,99,1) 0%, rgba(222,204,186,1) 100%);
-  
-  display: grid;
-  position: relative;
-  overflow: hidden;
-  &::after {
-    content:'';
-    background-color: rgba(228, 211, 193, .9);
-    width:80%;
-    height: 1200px;
-    position: absolute;
-    z-index: 1;
-    border-radius: 0 calc(700px / 1.5) 0 0;
-    top: 40px
-  }
-}
