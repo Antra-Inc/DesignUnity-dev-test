@@ -14,6 +14,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
 import { TabComponent } from './shared/tab.component';
 import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
+import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
     DuTabsComponent,
     TabComponent,
     DuDialogComponent,
+    WallsCeilingsComponent,
   ],
   imports: [
     BrowserModule,
