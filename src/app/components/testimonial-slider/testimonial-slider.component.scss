@@ -4,12 +4,12 @@
    
 .testimonials_section{
     @include dflex();
-    min-height: 100vh;
+    //min-height: 100vh;
     background: linear-gradient(to left top, #f5f1eb, #f5f1eb);
     padding: 0 35px;
 
   .wrapper {
-    max-width: 1440px;
+    max-width: $screen-max-size;
     width: 95%;
     position: relative;
 
@@ -152,10 +152,10 @@
             box-shadow: none;
             border: 1px solid #000;
             &.prev{
-                left: -70px;
+                left: -30px;
             }
             &.next {
-                right: -50px;
+                right: -30px;
             }
         }
     }
@@ -169,11 +169,11 @@
 
 .card .card_text{
     transform: scale(0.8);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 .card.prev .card_text{
     transform: scale(1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 900px) {

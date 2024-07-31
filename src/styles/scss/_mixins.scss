@@ -27,37 +27,6 @@
   }
 }
 
-@mixin features_grid {
-  .border_animate {
-    padding: 3%;
-    border-radius: 30px;
-    width: 100%;
-    //height: 370px;
-    border: 1px solid #a6a6a6;
-    position: relative;
-    margin-top: 50px;
-    img {
-      position: relative;
-      width: 100%;
-      height: auto;
-    }
-    h3 {
-      gap: 15px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      @include dflex($flex-direction: row);
-      font-size: 2rem;
-
-      img {
-        width: 50px;
-        height: auto;
-      }
-    }
-  }
-}
 @mixin font-style(
   $font-size: 16px,
   $font-face: "Helvetica-light",
