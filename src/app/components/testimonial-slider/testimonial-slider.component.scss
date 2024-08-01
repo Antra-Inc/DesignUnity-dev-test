@@ -3,8 +3,8 @@
 @import '../../../styles/scss/container';
    
 .testimonials_section{
-    @include dflex();
-    //min-height: 100vh;
+    @include dflex;
+   
     background: linear-gradient(to left top, #f5f1eb, #f5f1eb);
     padding: 0 35px;
 
@@ -28,9 +28,7 @@
             display: none;
         }
         .card, .img {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @include dflex;
         }
         &.no-transition {
             scroll-behavior: auto;
@@ -52,10 +50,8 @@
             //background: #fff;
             border-radius: 0px 40px;
             cursor: pointer;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            text-align: $text-align;
+            @include dflex;
             flex-direction: column;
             .testimonial {
                 background: #e8b3b3;
@@ -63,7 +59,7 @@
                 border-radius: 0px 40px;
                 padding-bottom: 4rem;
                 position: relative;
-                font: normal normal normal 16px/22px Helvetica Neue;
+                //font: normal normal normal 16px/22px Helvetica Neue;
                 margin-top: 50px;
                 color: #fff;
             
@@ -109,7 +105,10 @@
                     position: relative;
                     bottom: 50px;
                     z-index: 2;
-                    @include dflex();
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-self: center;
                     .img{
                         height: 80px;
                         width: 80px;
