@@ -1,0 +1,30 @@
+@mixin heading {
+  color: $heading_color;
+  font-family: $heading-font;
+  text-align: $text-align;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
+@mixin grid-template(
+  $grid-direction: column,
+  $grid-template-values: auto,
+  $gap: 10px
+) {
+  display: grid;
+  gap: $gap;
+  @if $grid-direction== 'row' {
+    grid-template-rows: $grid-template-values;
+  } @else {
+    grid-template-columns: $grid-template-values;
+  }
+}
+
+@mixin dflex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

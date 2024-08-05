@@ -1,0 +1,122 @@
+// @font-face {
+//     font-family: "Rollgates Luxury";
+//     src: url(../fonts/RollgatesLuxury/RollgatesLuxury.otf) format("opentype");
+// }
+
+// @font-face {
+//     font-family: "Helvetica Neue";
+//     src: url(../fonts/helvetica-neue-5/HelveticaNeueRoman.otf) format("opentype");
+// }
+// @font-face {
+//     font-family: "Helvetica Neue";
+//     src: url(../fonts/helvetica-neue-5/HelveticaNeueLight.otf) format("opentype");
+// }
+// @font-face {
+//     font-family: "Helvetica Neue";
+//     src: url(../fonts/helvetica-neue-5/HelveticaNeueThin.otf) format("opentype");
+// }
+
+// =============================================================================
+// String Replace
+// =============================================================================
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+
+  @return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face(
+  $name,
+  $path,
+  $weight: null,
+  $style: null,
+  $exts: eot woff2 woff ttf svg
+) {
+  $src: null;
+
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_"),
+  );
+
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype",
+  );
+
+  @each $ext in $exts {
+    $extmod: if(
+      map-has-key($extmods, $ext),
+      $ext + map-get($extmods, $ext),
+      $ext
+    );
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append(
+      $src,
+      url(quote($path + "." + $extmod)) format(quote($format)),
+      comma
+    );
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+@font-face {
+  font-family: "Helvetica-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Helvetica/helveticaneue_light-webfont.eot") format("eot"),
+    url("Helvetica/helveticaneue_light-webfont.woff2") format("woff2"),
+    url("Helvetica/helveticaneue_light-webfont.woff") format("woff"),
+    url("Helvetica/helveticaneue_light-webfont.ttf") format("truetype"),
+    url("Helvetica/helveticaneue_light-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "Helvetica-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Helvetica/helvetica-webfont.eot") format("eot"),
+    url("Helvetica/helvetica-webfont.woff2") format("woff2"),
+    url("Helvetica/helvetica-webfont.woff") format("woff"),
+    url("Helvetica/helvetica-webfont.ttf") format("truetype"),
+    url("Helvetica/helvetica-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "rollgates_luxuryregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RollgatesLuxury/rollgatesluxury-webfont.eot") format("eot"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.woff2") format("woff2"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.woff") format("woff"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.ttf") format("truetype"),
+    url("RollgatesLuxury/rollgatesluxury-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "Tenor_Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Tenor_Sans/tenorsans-regular-webfont.eot") format("eot"),
+    url("Tenor_Sans/tenorsans-regular-webfont.woff2") format("woff2"),
+    url("Tenor_Sans/tenorsans-regular-webfont.woff") format("woff"),
+    url("Tenor_Sans/tenorsans-regular-webfont.ttf") format("truetype"),
+    url("Tenor_Sans/tenorsans-regular-webfont.svg") format("svg");
+}

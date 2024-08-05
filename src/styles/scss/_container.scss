@@ -1,0 +1,17 @@
+
+@import "./variables";
+@import "./mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Mobile phones */
+@media (max-width: 991px) {
+  .footer {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+

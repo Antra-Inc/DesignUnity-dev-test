@@ -1,0 +1,60 @@
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
+.bg-green {
+  background-color: #f6f1eb;
+}
+.section {
+  width: 100%;
+  padding: 0 20px;
+  .container {
+    max-width: $screen-max-size;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.flooring {
+  &_section {
+    background: #f6f1eb;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2rem;
+
+    .heading {
+      @include heading;
+      padding: 2rem 1.5rem 3rem 1rem;
+    }
+  }
+  &_details {
+    //@include dflex(grid, 50% 50%, center);
+    @include grid-template($grid-template-values: repeat(2, 1fr));
+    background: #4f453c;
+    border-radius: 18px;
+    margin: 0 auto;
+    &_left {
+      padding: 3.5rem;
+      line-height: 1.8;
+      font-size: 1.2rem;
+      letter-spacing: 0.9px;
+      color: #fff;
+      @media (max-width: 500px) {
+        font-size: 14px;
+        padding: 20px 15px !important;
+        text-align: center !important;
+      }
+    }
+    &_right {
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media (max-width: 991px) {
+      @include grid-template;
+    }
+
+  }
+}
