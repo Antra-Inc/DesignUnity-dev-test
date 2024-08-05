@@ -23,6 +23,8 @@ import { DuDialogComponent } from './shared/du-dialog/du-dialog.component';
 import { PortfolioDialogComponent } from './components/portfolio/portfolio-dialog/portfolio-dialog.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import this module
 import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
+import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component';
+import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilin
     DuDialogComponent,
     PortfolioDialogComponent,
     WallsCeilingsComponent,
+    DuCarouselComponent,
+    HomeSliderComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +58,8 @@ import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilin
     BrowserAnimationsModule
     // DuDialogComponent,
   ],
-  // exports: [DuDialogComponent],
+  exports: [ DuCarouselComponent,
+    HomeSliderComponent,],
   providers: [],
   bootstrap: [AppComponent],
 })
