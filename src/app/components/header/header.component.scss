@@ -94,15 +94,17 @@
           // border: 1px solid red;
           position: relative;
           .menu-item__sub-menu {
-            display: block;
+            // display: none;
             border: 1px solid red;
             position: absolute;
+            top: 50px;
           }
-          &:hover {
-            .menu-item__sub-menu {
-              display: block;
-            }
-          }
+          // &:hover {
+          //   .menu-item__sub-menu {
+          //     display: block;
+          //     top: 50px;
+          //   }
+          // }
         }
         &:hover {
           .menu-item__pointer {

@@ -22,7 +22,6 @@
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span><a href="#" class="menu-link">Solutions</a>
-         
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span>
@@ -47,14 +46,19 @@
           </div>
           <a href="#aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item solutions">
+        <li
+          class="menu-item solutions"
+          (click)="solutionsMenu = !solutionsMenu"
+        >
           <div class="menu-item__pointer">
             <span class="solutions"
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
           <a href="#" class="menu-link">Solutions</a>
-          <!-- <div class="menu-item__sub-menu">Hello</div> -->
+          <div class="menu-item__sub-menu" *ngIf="solutionsMenu">
+            <a routerLink="/flooring"> flooring</a>
+          </div>
         </li>
         <li class="menu-item">
           <div class="menu-item__pointer">

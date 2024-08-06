@@ -56,6 +56,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   open = false;
   isHamburguer = true;
   menuState: string = 'out';
+  solutionsMenu = false;
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
   }

@@ -25,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component';
 import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
+import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
     WallsCeilingsComponent,
     DuCarouselComponent,
     HomeSliderComponent,
+    FlooringPageComponent,
   ],
   imports: [
     BrowserModule,
