@@ -1,0 +1,46 @@
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
+.bg-img {
+  background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
+  background-size: cover;
+}
+.section {
+  width: 100%;
+  padding: 0 20px;
+  .container {
+    max-width: $screen-max-size;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.about {
+  &_section {
+    min-height: 40vh;
+
+    padding: 150px 0;
+    p {
+      padding: 2rem 10em;
+      line-height: 1.8;
+      font-size: 1.4rem;
+      text-align: center;
+      letter-spacing: 0.9px;
+      margin: 0 auto;
+    }
+    h1 {
+      @include heading;
+      padding: 2rem 1.5rem 1rem;
+    }
+    @media (max-width: 500px) {
+      padding: 15px 0;
+      h1 {
+        padding: 15px 0;
+        font-size: 22px;
+      }
+      p {
+        padding: 0 !important;
+        font-size: 14px;
+      }
+    }
+  }
+}

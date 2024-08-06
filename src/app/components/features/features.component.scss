@@ -1,0 +1,106 @@
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
+
+/* Zoom In #2 */
+
+.bg-green {
+  background-color: #f6f1eb;
+}
+.section {
+  width: 100%;
+  padding: 0 20px;
+  .container {
+    max-width: $screen-max-size;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.featuresSec {
+  display: grid;
+  padding: 4rem 0;
+
+  .heading {
+    @include heading;
+    padding: 2rem 1.5rem 3rem 1rem;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    column-gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    .featItem {
+      display: grid;
+      // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      align-items: center;
+      position: relative;
+      &:nth-child(even) {
+        padding-top: 50px;
+      }
+      .feature-figure {
+        border: 1px solid #a6a6a6;
+        padding: 20px;
+        border-radius: 34px;
+        width: 100%;
+        @media (max-width: 500px) {
+          padding: 10px !important;
+          border-radius: 15px !important;
+        }
+      }
+      .figure-details {
+        position: absolute;
+        display: grid;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        width: 100%;
+        font-size: clamp(1rem, 6px + 4.333vw, 2rem);
+        font-weight: bold;
+        gap: 20px;
+        img {
+          width: 50px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 990px) {
+  .featuresSec {
+    &__items {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      justify-content: center;
+      .featItem {
+        max-width: 600px;
+        margin: 0 auto;
+        &:nth-child(even) {
+          padding-top: 0px;
+        }
+
+        .figure-details {
+          grid-template-columns: auto;
+          text-align: center;
+
+          img {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.feature-figure > img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.feature-figure:hover > img {
+  scale: 1.03;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
