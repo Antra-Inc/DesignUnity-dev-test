@@ -22,7 +22,6 @@
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span><a href="#" class="menu-link">Solutions</a>
-         
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span>
@@ -47,14 +46,26 @@
           </div>
           <a href="#aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item solutions">
+        <li class="menu-item solutions" (mouseenter)="mouseEnter('in')">
           <div class="menu-item__pointer">
             <span class="solutions"
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
           <a href="#" class="menu-link">Solutions</a>
-          <!-- <div class="menu-item__sub-menu">Hello</div> -->
+          <div class="popup">
+            <div class="popup-content">
+              <ul>
+                <!-- <li [routerLink]="['finishes']"><span (mouseover)="onMouseOver(1)">Venetian Plasters</span></li>
+                <li [routerLink]="['solutions/portfolio']" style="visibility:hidden"><span (mouseover)="onMouseOver(2)">Institutional
+                    Portfolio</span></li>
+
+                <li [routerLink]="['solutions/flooring']"><span (mouseover)="onMouseOver(3)">Seamless Floorings</span></li> -->
+              </ul>
+              hello
+              <!-- <img [src]="imgSrc" alt="image1"> -->
+            </div>
+          </div>
         </li>
         <li class="menu-item">
           <div class="menu-item__pointer">
