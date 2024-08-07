@@ -20,6 +20,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   isHamburguer = true;
   menuState: string = 'out';
   openSolutions = false;
+  imgSrc = '';
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
   }
@@ -33,7 +34,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   toggleMenu() {
     this.menuState = this.menuState === 'out' ? 'in' : 'out';
   }
-  mouseEnter(data:any) {
+  mouseEnter(data: any) {
     this.openSolutions = true;
   }
 }
