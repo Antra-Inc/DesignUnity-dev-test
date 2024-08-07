@@ -70,4 +70,11 @@ export class HeaderComponent implements OnInit, OnChanges {
   toggleMenu() {
     this.menuState = this.menuState === 'out' ? 'in' : 'out';
   }
+
+
+
+
+
+
+  
 }

@@ -4,7 +4,7 @@
   min-height: 100vh;
   background: #fffdf7;
   &__sec-1 {
-    background-image: url("../../../../assets/img/portfolio-landing.svg");
+    background-image: url("../../../../assets/img/flooring/banner.png");
     min-height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@
     background-position: center;
     h2 {
       font-size: 80px;
-      font-family: "rollgates_luxuryregular";
+      font-family: "Tenor_Sans";
     }
     @media (max-width: 899px) {
       min-height: 35vh;
@@ -69,6 +69,8 @@
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
+    gap: 70px;
+
     &__sub{
       min-height: 200px;
       //border: 1px solid red;
