@@ -56,11 +56,33 @@
           <div class="popup">
             <div class="popup__content">
               <ul>
-                <li>Venetian Plasters</li>
-                <li>Seamless Flooring</li>
+                <li
+                  [ngClass]="{ active: activeItem == '1' }"
+                  (mouseenter)="selectMenu(1)"
+                >
+                  Venetian Plasters
+                </li>
+                <li
+                  [ngClass]="{ active: activeItem == '2' }"
+                  (mouseenter)="selectMenu(2)"
+                >
+                  Seamless Flooring
+                </li>
               </ul>
-
-              <img [src]="imgSrc" alt="image1" />
+              <div class="popup__content--imgs">
+                <img
+                  src="../../../assets/img/solutions/solution-menu-1.png"
+                  alt="image1"
+                  [ngClass]="{ active: activeItem == '1' }"
+                  (mouseenter)="selectMenu(1)"
+                />
+                <img
+                  src="../../../assets/img/solutions/solution-menu-2.png"
+                  alt="image1"
+                  [ngClass]="{ active: activeItem == '2' }"
+                  (mouseenter)="selectMenu(2)"
+                />
+              </div>
             </div>
           </div>
         </li>

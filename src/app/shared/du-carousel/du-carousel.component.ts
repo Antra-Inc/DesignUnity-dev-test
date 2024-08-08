@@ -15,19 +15,19 @@ const animationCarouseltranslateX = [
 
   transition('*=>inright', [
     style({ transform: `translateX(-100%)` }),
-    animate('700ms ease-in-out', style({ transform: `translateX(0)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(0)` })),
   ]),
   transition('*=>inleft', [
     style({ transform: `translateX(100%)` }),
-    animate('700ms ease-in-out', style({ transform: `translateX(0)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(0)` })),
   ]),
   transition('*=>outleft', [
     style({ opacity: 1 }),
-    animate('700ms ease-in-out', style({ transform: `translateX(-100%)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(-100%)` })),
   ]),
   transition('*=>outright', [
     animate(
-      '700ms ease-in-out',
+      '1000ms ease-in-out',
       style({ transform: `translateX(100%)`, opacity: 0 })
     ),
   ]),
@@ -115,7 +115,7 @@ export class DuCarouselComponent {
   startAutoSlide(): void {
     this.intervalId = window.setInterval(() => {
       this.change('left');
-    }, 2000);
+    }, 3000);
   }
   setIndex(index: number) {
     if (index != this.counter) {

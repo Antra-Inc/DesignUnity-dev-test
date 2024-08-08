@@ -21,6 +21,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   menuState: string = 'out';
   openSolutions = false;
   imgSrc = '';
+  activeItem = '';
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
   }
@@ -36,5 +37,8 @@ export class HeaderComponent implements OnInit, OnChanges {
   }
   mouseEnter(data: any) {
     this.openSolutions = true;
+  }
+  selectMenu(data: any) {
+    this.activeItem = data;
   }
 }
