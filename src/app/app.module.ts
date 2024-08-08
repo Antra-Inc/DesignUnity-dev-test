@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FlooringComponent } from './components/flooring/flooring.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { FactsComponent } from './components/facts/facts.component';
-import { FlooringComponent } from './components/flooring/flooring.component';
 import { HomeComponent } from './components/home/home.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
@@ -25,10 +25,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component';
 import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
+import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FlooringComponent,
     HeaderComponent,
     FooterComponent,
     AboutComponent,
@@ -48,6 +50,7 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
     WallsCeilingsComponent,
     DuCarouselComponent,
     HomeSliderComponent,
+    FlooringPageComponent,
   ],
   imports: [
     BrowserModule,
