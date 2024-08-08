@@ -103,7 +103,6 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
   }
 
 
-  
   setVisibleClasses() {
     const cards = Array.from(this.carousel.nativeElement.querySelectorAll('.card')) as HTMLElement[];
     const carouselRect = this.carousel.nativeElement.getBoundingClientRect();
