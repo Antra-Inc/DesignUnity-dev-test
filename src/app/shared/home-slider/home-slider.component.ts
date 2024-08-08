@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'home-slider',
   templateUrl: './home-slider.component.html',
   styleUrls: ['./home-slider.component.scss'],
 })
-export class HomeSliderComponent {
+export class HomeSliderComponent implements OnInit {
+ 
+  child = false;
+  main = true;
+  ngOnInit(): void {
+    console.log('thumbnile',this.main,this.child);
+    
+   }
   images: { imagepath: string; bc: string; name?: string }[] = [
     {
       imagepath: '../../../assets/img/home-page/slide-1.png',
