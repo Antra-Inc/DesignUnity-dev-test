@@ -1,0 +1,50 @@
+<div class="venetian">
+  <div class="venetian__header">
+    <h2>Venetian Plasters</h2>
+  </div>
+  <div class="venetian__about">
+    <div class="venetian__about--content">
+      <h3 class="semi-header">Spoilt for Choice</h3>
+      <p class="paragraph">
+        Venetian plaster, which dominated home decor in the 90s, continues to
+        make its presence felt even today. The secret to its never-ending
+        popularity lies in its unique characteristics - natural materials,
+        ancient Greek and Egyptian art, unchanged beauty, and durability. Our
+        exceptional services and this glorious product will give you
+        unimaginably spectacular outcomes.
+      </p>
+    </div>
+  </div>
+  <div class="venetian__tabs">
+    <du-tabs
+      (changeLayout)="changeLayout($event)"
+      (changeTab)="changeTabs($event)"
+    >
+      <my-tab
+        class="tabs"
+        *ngFor="let tab of [].constructor(4)"
+        [tabTitle]="tab.tabTitle"
+      >
+        <div
+          class="portfolio__grid"
+          [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
+        >
+          hello
+          <!-- <div
+            class="portfolio__grid--item"
+            *ngFor="let item of contentData"
+            (click)="openDialog(item)"
+          >
+            <div class="item__img">
+              <img src="{{ item.imagePath }}" alt="" />
+            </div>
+            <div class="item__details">
+              <p>{{ item?.data?.heading }}</p>
+              <h2>{{ item?.data?.description }}</h2>
+            </div>
+          </div> -->
+        </div>
+      </my-tab>
+    </du-tabs>
+  </div>
+</div>

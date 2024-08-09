@@ -19,3 +19,16 @@ ul {
 .text-center {
   text-align: center;
 }
+.semi-header {
+  font-size: clamp(14px, 2.5vw, 40px);
+  font-family: "Tenor_Sans";
+  color: #723c0d;
+  letter-spacing: 2px;
+}
+.paragraph {
+  font-size: clamp(14px, 2.5vw, 20px);
+  font-family: "Helvetica-light";
+  color: #000;
+  text-align: center;
+  line-height:  clamp(20px, 3.5vw, 35px);
+}

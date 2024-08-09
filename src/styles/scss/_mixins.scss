@@ -1,9 +1,9 @@
-.img-responsive{
+.img-responsive {
   width: 100%;
   height: auto;
 }
 
-
+@import "variables";
 @mixin heading {
   color: #b84b4b;
   font-family: "Tenor_Sans";
@@ -40,5 +40,15 @@
 ) {
   font-size: $font-size;
   font-family: "Helvetica-light";
+  color: $color;
+}
+
+@mixin page-header(
+  $font-size: $page-header,
+  $font-family: "Tenor_Sans",
+  $color: #000
+) {
+  font-size: $font-size;
+  font-family: $font-family;
   color: $color;
 }
