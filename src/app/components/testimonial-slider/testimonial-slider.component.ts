@@ -16,7 +16,6 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       stars: 5,
       text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
       bgColor: '#756b86'
-      
     },
     {
       img: '../../../assets/img/testimonials/user.png',
@@ -129,7 +128,8 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
     if (activeIndex !== -1) {
       // Apply active class to the visible card
       cards[activeIndex].classList.add('active');
-
+      
+      
       // Apply prev class to the card before the active one
       if (activeIndex > 0) {
         cards[activeIndex - 1].classList.add('prev');
