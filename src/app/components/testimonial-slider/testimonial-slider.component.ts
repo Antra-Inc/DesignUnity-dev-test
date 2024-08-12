@@ -85,8 +85,11 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
   }
 
   scroll(direction: 'left' | 'right') {
-    this.carousel.nativeElement.scrollLeft += direction === 'left' ? -this.firstCardWidth : this.firstCardWidth;
+    const scrollAmount = this.firstCardWidth;
+    const newScrollPosition = this.carousel.nativeElement.scrollLeft + (direction === 'left' ? -scrollAmount : scrollAmount);
+    this.carousel.nativeElement.scrollTo({ left: newScrollPosition, behavior: 'smooth' });
   }
+  
 
   infiniteScroll() {
     const maxScrollLeft = this.carousel.nativeElement.scrollWidth - this.carousel.nativeElement.offsetWidth;
@@ -99,44 +102,47 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       this.carousel.nativeElement.scrollLeft = this.firstCardWidth;
       this.carousel.nativeElement.classList.remove('no-transition');
     }
+    this.setVisibleClasses();
   }
 
 
+  
   setVisibleClasses() {
     const cards = Array.from(this.carousel.nativeElement.querySelectorAll('.card')) as HTMLElement[];
     const carouselRect = this.carousel.nativeElement.getBoundingClientRect();
-
+    const carouselCenter = carouselRect.left + carouselRect.width / 2;
+  
+    let minDistance = Infinity;
+    let activeIndex = -1;
+  
+    // Identify the card closest to the center of the carousel
+    cards.forEach((card, index) => {
+      const cardRect = card.getBoundingClientRect();
+      const cardCenter = cardRect.left + cardRect.width / 2;
+      const distance = Math.abs(carouselCenter - cardCenter);
+  
+      if (distance < minDistance) {
+        minDistance = distance;
+        activeIndex = index;
+      }
+    });
+  
     // Clear all classes first
     cards.forEach(card => {
       card.classList.remove('prev', 'active', 'next');
     });
-
-    // Identify and apply classes
-    let activeIndex = -1;
-    cards.forEach((card, index) => {
-      const cardRect = card.getBoundingClientRect();
-      const isVisible = (
-        cardRect.left >= carouselRect.left &&
-        cardRect.right <= carouselRect.right
-      );
-
-      if (isVisible) {
-        activeIndex = index;
-      }
-    });
-
+  
     if (activeIndex !== -1) {
-      // Apply active class to the visible card
+      // Apply active class to the closest card
       cards[activeIndex].classList.add('active');
-      
-      
+  
       // Apply prev class to the card before the active one
       if (activeIndex > 0) {
         cards[activeIndex - 1].classList.add('prev');
       } else {
         cards[cards.length - 1].classList.add('prev');
       }
-
+  
       // Apply next class to the card after the active one
       if (activeIndex < cards.length - 1) {
         cards[activeIndex + 1].classList.add('next');
@@ -145,4 +151,11 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       }
     }
   }
+  
+  
+
+
+
+
+
 }
