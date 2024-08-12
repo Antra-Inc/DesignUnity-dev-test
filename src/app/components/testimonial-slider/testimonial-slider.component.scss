@@ -68,7 +68,7 @@
                 margin-top: 50px;
                 color: #fff;
             
-                .starts {
+                .stars {
                     margin-top:25px;
                     span{
                         color: #ffc400;
@@ -201,4 +201,8 @@
 }
 
 
-
+button:disabled, button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  

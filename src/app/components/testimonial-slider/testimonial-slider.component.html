@@ -7,12 +7,16 @@
             <div class="card_text">
               <div class="testimonial" [style.backgroundColor]="card.bgColor">
                 <p>{{ card.text }}</p>
-                <div class="starts">
+                <!-- <div class="starts">
                   <span> &#9733; </span>
                   <span> &#9733; </span>
                   <span> &#9733; </span>
                   <span> &#9733; </span>
                   <span> &#9733; </span>
+                </div> -->
+                <div class="stars">
+                  <span *ngFor="let star of [].constructor(card.stars)"> &#9733; </span>
+                  <span *ngFor="let star of [].constructor(5 - card.stars)"> &#9734; </span>
                 </div>
               </div>
               <div class="header">

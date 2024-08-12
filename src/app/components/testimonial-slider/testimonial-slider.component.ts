@@ -37,7 +37,7 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       img: '../../../assets/img/testimonials/user.png',
       name: 'Balance 4',
       title: 'Sales Manager',
-      stars:4,
+      stars:5,
       text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
       bgColor: '#a5a6aa'
     },
@@ -45,7 +45,7 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
       img: '../../../assets/img/testimonials/user.png',
       name: 'Balance Person 5',
       title: 'Sales Manager',
-      stars: 5,
+      stars: 4,
       text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
       bgColor: '#67a47b'
     }
@@ -60,14 +60,25 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {}
 
+  // ngAfterViewInit() {
+  //   this.initializeCarousel();
+  //   this.carousel.nativeElement.addEventListener('scroll', () => {
+  //     this.setVisibleClasses();
+  //     this.infiniteScroll();
+  //   });
+  //   this.setVisibleClasses();
+  // }
+
   ngAfterViewInit() {
     this.initializeCarousel();
     this.carousel.nativeElement.addEventListener('scroll', () => {
       this.setVisibleClasses();
-      this.infiniteScroll();
+      this.updateButtonState();
     });
     this.setVisibleClasses();
+    this.updateButtonState(); // Ensure correct button state on init
   }
+  
 
   initializeCarousel() {
     const cardElement = this.carousel.nativeElement.querySelector('.card') as HTMLElement;
@@ -84,11 +95,45 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
     });
   }
 
+  // scroll(direction: 'left' | 'right') {
+  //   const scrollAmount = this.firstCardWidth;
+  //   const newScrollPosition = this.carousel.nativeElement.scrollLeft + (direction === 'left' ? -scrollAmount : scrollAmount);
+  //   this.carousel.nativeElement.scrollTo({ left: newScrollPosition, behavior: 'smooth' });
+  // }
+
   scroll(direction: 'left' | 'right') {
-    const scrollAmount = this.firstCardWidth;
-    const newScrollPosition = this.carousel.nativeElement.scrollLeft + (direction === 'left' ? -scrollAmount : scrollAmount);
-    this.carousel.nativeElement.scrollTo({ left: newScrollPosition, behavior: 'smooth' });
+    const maxScrollLeft = this.carousel.nativeElement.scrollWidth - this.carousel.nativeElement.offsetWidth;
+    
+    if (direction === 'left') {
+      this.carousel.nativeElement.scrollLeft -= this.firstCardWidth;
+    } else {
+      this.carousel.nativeElement.scrollLeft += this.firstCardWidth;
+    }
+  
+    // Check if we are at the start or end and disable buttons accordingly
+    this.updateButtonState();
   }
+  
+  updateButtonState() {
+    const maxScrollLeft = this.carousel.nativeElement.scrollWidth - this.carousel.nativeElement.offsetWidth;
+    const scrollLeft = this.carousel.nativeElement.scrollLeft;
+  
+    const wrapper = this.carousel.nativeElement.closest('.wrapper');
+    if (!wrapper) return;
+  
+    const prevButton = wrapper.querySelector('.prev') as HTMLButtonElement | null;
+    const nextButton = wrapper.querySelector('.next') as HTMLButtonElement | null;
+  
+    if (prevButton) {
+      prevButton.disabled = scrollLeft <= 0;
+    }
+  
+    if (nextButton) {
+      nextButton.disabled = Math.ceil(scrollLeft) >= maxScrollLeft;
+    }
+  }
+  
+  
   
 
   infiniteScroll() {
