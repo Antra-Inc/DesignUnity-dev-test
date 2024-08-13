@@ -14,14 +14,15 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      font-size: 80px;
+      //font-size: 80px;
+      font-size: calc($font_heading * 1.4);
       font-family: "Tenor_Sans";
     }
     @media (max-width: 899px) {
       min-height: 35vh;
       padding: 0 20px;
       h2 {
-        font-size: 40px;
+        font-size: calc($font_heading - 15px);
       }
     }
   }
@@ -34,14 +35,14 @@
     background-color: rgba(#fffdf8, 0.9);
     background-image: url("../../../../assets/img/portfolio-mask.svg");
     h3 {
-      font-size: 40px;
+      font-size: calc($font_heading - 15px);
       display: flex;
       justify-content: center;
       font-family: "Tenor_Sans";
       color: #723c0d;
     }
     p {
-      font-size: 25px;
+      font-size: calc($font_heading / 2.25);
       text-align: center;
       line-height: 39px;
       font-family: "Helvetica-light";
@@ -51,12 +52,12 @@
       padding: 30px 20px;
       gap: 15px;
       h3 {
-        font-size: 25px;
+        font-size: calc($font_heading / 2.25);
         // padding:0 40px;
         text-align: center;
       }
       p {
-        font-size: 18px;
+        font-size: calc($font_heading / 1.85);
         line-height: 25px;
       }
     }
@@ -84,12 +85,12 @@
       .sec__content{
         padding: 5%;
         h3{
-          font-size: 40px;
+          font-size: $font_heading;
           line-height: 2;
           font-family: "Tenor_Sans";
         }
         p {
-          font-size: 18px;
+          font-size: calc($font_heading / 2.5);
           line-height: 30px;
           font-family: "Helvetica-light";
         }

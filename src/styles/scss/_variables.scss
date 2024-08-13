@@ -2,3 +2,8 @@ $heading_color: #723c0d;
 $text: #111010;
 
 $screen-max-size: 1440px;
+
+
+$font_heading: clamp(1rem, 4vw, 3.5rem);
+
+$font_text: clamp(1rem, 3vw, 1.3rem);
