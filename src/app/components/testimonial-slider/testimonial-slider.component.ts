@@ -56,6 +56,9 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
   startScrollLeft = 0;
   firstCardWidth = 0;
 
+  isPrevDisabled = false;
+  isNextDisabled = false;
+
   constructor(private renderer: Renderer2) {}
 
   ngOnInit() {}
@@ -131,6 +134,10 @@ export class TestimonialSliderComponent implements OnInit, AfterViewInit {
     if (nextButton) {
       nextButton.disabled = Math.ceil(scrollLeft) >= maxScrollLeft;
     }
+
+    this.isPrevDisabled = scrollLeft <= 0;
+    this.isNextDisabled = Math.ceil(scrollLeft) >= maxScrollLeft;
+
   }
   
   

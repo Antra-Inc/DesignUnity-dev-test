@@ -156,10 +156,7 @@
             &.next {
                 right: -30px;
             }
-            &:disabled{
-                opacity: 0.5  !important;
-                cursor: not-allowed !important;
-            }
+            
         }
     }
 
@@ -204,6 +201,9 @@
     }
 }
 
-
+button[disabled], button:disabled{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
 
   

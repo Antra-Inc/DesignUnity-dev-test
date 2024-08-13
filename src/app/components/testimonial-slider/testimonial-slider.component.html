@@ -27,8 +27,8 @@
         </ul>
         <!-- <i id="right" class="fa-solid fa-angle-right" (click)="scroll('right')"></i> -->
         <div class="button-area">
-            <button type="button" class="prev" (click)="scroll('left')"> <img src="../../../assets/img/testimonials/left-arrow.svg" alt=""> </button>
-            <button type="button" class="next" (click)="scroll('right')"> <img src="../../../assets/img/testimonials/right-arrow.svg" alt="" > </button>
+            <button type="button" class="prev" [disabled]="isPrevDisabled" (click)="scroll('left')"> <img src="../../../assets/img/testimonials/left-arrow.svg" alt=""> </button>
+            <button type="button" class="next" [disabled]="isNextDisabled" (click)="scroll('right')"> <img src="../../../assets/img/testimonials/right-arrow.svg" alt="" > </button>
         </div>
     </div>
       
