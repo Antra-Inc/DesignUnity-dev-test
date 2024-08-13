@@ -1,0 +1,50 @@
+<!-- <div *ngIf="newInputData">
+  <p>portfolio-dialog works!</p>
+  <p>{{ newInputData?.data?.message }}</p>
+</div> -->
+<div class="port-dtls">
+  <div class="du-slide">
+    <div class="container slider">
+      <div [@slideAnimation]="currentIndex">
+        <ng-template ngFor [ngForOf]="slides" let-slide let-i="index">
+          <img
+            class="slide slide-animation nonDraggableImage"
+            *ngIf="isCurrentSlideIndex(i)"
+            (swiperight)="nextSlide()"
+            (swipeleft)="prevSlide()"
+            [src]="slide.imagePath"
+          />
+        </ng-template>
+      </div>
+
+      <button class="arrow prev" (click)="nextSlide()"></button>
+      <button class="arrow next" (click)="prevSlide()"></button>
+    </div>
+    <nav class="nav">
+      <div class="wrapper">
+        <ul class="dots" #listContainer>
+          <li class="dot" *ngFor="let slide of slides; let i = index">
+            <span
+              [ngClass]="{ active: isCurrentSlideIndex(i) }"
+              (click)="setCurrentSlideIndex(i)"
+              ><img [src]="slide.imagePath"
+            /></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="du-slide__details">
+    <h5>Luxury</h5>
+    <h2>Travertine French Adobe</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Lorem
+      ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.Lorem ipsum dolor
+      sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+      invidunt ut labore et dolore magna aliquyam erat.
+    </p>
+    <h3>Interior</h3>
+  </div>
+</div>
