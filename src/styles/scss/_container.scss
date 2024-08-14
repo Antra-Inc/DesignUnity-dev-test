@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./mixins";
+
 * {
   box-sizing: border-box;
 }
@@ -54,7 +57,7 @@
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px)  {
   .footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }

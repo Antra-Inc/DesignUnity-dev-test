@@ -27,7 +27,8 @@
     }
   }
   &_details {
-    @include dflex(grid, 50% 50%, center);
+   // @include dflex(grid, 50% 50%, center);
+   @include grid-template($grid-template-values: repeat(2, 1fr));
     background: #4f453c;
     // margin: 25px;
     border-radius: 18px;
@@ -52,5 +53,10 @@
         height: auto;
       }
     }
+
+    @media (max-width: 991px) {
+      @include grid-template;
+    }
+
   }
 }
