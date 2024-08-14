@@ -14,16 +14,13 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      //font-size: 80px;
-      font-size: calc($font_heading * 1.4);
+      font-size: $font_banner_text;
       font-family: "Tenor_Sans";
     }
     @media (max-width: 899px) {
       min-height: 55vh;
       padding: 0 20px;
-      h2 {
-        font-size: calc($font_heading - 15px);
-      }
+      
     }
   }
   &__sec-2 {
@@ -34,31 +31,29 @@
     background-color: rgba(#fffdf8, 0.9);
     background-image: url("../../../../assets/img/portfolio-mask.svg");
     h3 {
-      font-size: calc($font_heading - 15px);
+      font-size: $font_heading;
       display: flex;
       justify-content: center;
       font-family: "Tenor_Sans";
       color: #723c0d;
+      text-align: center;
     }
     p {
-      font-size: calc($font_heading / 2.25);
+      font-size: $font_sub_heading;
       text-align: center;
       line-height: 1.7;
       font-family: "Helvetica-light";
     }
+
     @media (max-width: 899px) {
       //min-height: 35vh;
       padding: 30px 20px;
       gap: 15px;
-      h3 {
-        font-size: calc($font_heading / 1.3); 
-        // padding:0 40px;
-        text-align: center;
+      p{
+        text-align: justify;
+        padding: inherit;
       }
-      p {
-        font-size: calc($font_heading / 2);
-        //line-height: 25px;
-      }
+      
     }
   }
 
@@ -82,20 +77,16 @@
       .sec__content{
         padding: 5%;
         h3{
-          font-size: calc($font_heading - 5px);
+          font-size: $font_heading;
           line-height: 2;
           font-family: "Tenor_Sans";
         }
         p {
-          font-size: calc($font_heading / 3);
+          font-size: $font_text;
           line-height: 30px;
           font-family: "Helvetica-light";
         }
-        @media (max-width: 899px) {
-          p{
-            font-size: calc($font_heading / 2);
-          }
-        }
+        
       }
       .sec__image{
         display: flex;
