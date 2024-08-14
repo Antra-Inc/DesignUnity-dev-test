@@ -110,6 +110,7 @@
                     bottom: 50px;
                     z-index: 2;
                     @include dflex();
+                    flex-direction: column;
                     .img{
                         height: 80px;
                         width: 80px;
