@@ -1,4 +1,5 @@
 @import "../../../../styles/scss/variables";
+@import "../../../../styles/scss/mixins";
 
 .flooring {
   min-height: 100vh;
@@ -31,12 +32,9 @@
     background-color: rgba(#fffdf8, 0.9);
     background-image: url("../../../../assets/img/portfolio-mask.svg");
     h3 {
-      font-size: $font_heading;
       display: flex;
       justify-content: center;
-      font-family: "Tenor_Sans";
-      color: #723c0d;
-      text-align: center;
+      @include heading;
     }
     p {
       font-size: $font_sub_heading;
@@ -51,7 +49,7 @@
       gap: 15px;
       p{
         text-align: justify;
-        padding: inherit;
+        padding: 0;
       }
       
     }
@@ -70,14 +68,14 @@
       min-height: 200px;
       display: grid;
       grid-template-columns: 40% 1fr;
-      min-height: 450px;
+      //min-height: 450px;
       align-items: center;
       justify-content: center;
       
       .sec__content{
         padding: 5%;
         h3{
-          font-size: $font_heading;
+          font-size: $font_heading2;
           line-height: 2;
           font-family: "Tenor_Sans";
         }
