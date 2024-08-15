@@ -37,7 +37,6 @@
       </ul>
     </div>
 
-
     <div class="navbar__menu">
       <ul class="menu-inner">
         <li class="menu-item">
@@ -60,13 +59,15 @@
               <ul>
                 <li
                   [ngClass]="{ active: activeItem == '1' }"
-                  (mouseenter)="selectMenu(1)" routerLink="/venetian_plasters"
+                  (mouseenter)="selectMenu(1)"
+                  routerLink="/venetian_plasters"
                 >
                   Venetian Plasters
                 </li>
                 <li
                   [ngClass]="{ active: activeItem == '2' }"
                   (mouseenter)="selectMenu(2)"
+                  routerLink="/flooring"
                 >
                   Seamless Flooring
                 </li>
