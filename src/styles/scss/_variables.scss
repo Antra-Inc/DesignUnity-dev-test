@@ -3,6 +3,7 @@ $text: #111010;
 $text-align: center;
 $screen-max-size: 1440px;
 $heading-font: "Tenor_Sans";
+$text_font: "Helvetica-light";
 
 // $font_heading: clamp(1rem, 6vw, 3.5rem);
 
@@ -11,22 +12,13 @@ $heading-font: "Tenor_Sans";
 //$font-size: clamp(1rem, -0.875rem + 8.333333vw, 3.5rem);
 
 
-// $font_banner_text: clamp(2rem, -0.875rem + 10vw, 6rem);
-
-// $font_heading: clamp(1rem, -0.875rem + 10vw, 2rem);
-
-// $font_sub_heading: clamp(1rem, -0.875rem + 8.333333vw, 1.3rem);
-
-// $font_text: clamp(0.8rem, -0.875rem + 8.333333vw, 1.2rem);
-
-
 $font_banner_text: clamp(2rem, -0.875rem + 10vw, 6rem);
 
-$font_heading: calc($font_banner_text / 2 );
+$font_heading: clamp(1rem, -0.875rem + 10vw, 2rem);
 
-$font_heading2: calc($font_banner_text / 3 );
+$font_sub_heading: clamp(1rem, -0.875rem + 8.333333vw, 1.3rem);
 
-$font_sub_heading: calc($font_banner_text / 4.2 );
+$font_text: clamp(0.8rem, -0.875rem + 8.333333vw, 1.2rem);
 
-$font_text: calc($font_banner_text / 4 );
+
 

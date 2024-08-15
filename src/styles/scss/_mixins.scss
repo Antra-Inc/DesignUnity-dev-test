@@ -9,8 +9,39 @@
   text-align: $text-align;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: $font_heading2;
+  font-size: $font_heading;
 }
+
+@mixin banner_heading{
+  font-size: $font_banner_text;
+  font-family: "Tenor_Sans";
+}
+
+@mixin sub_text{ 
+  letter-spacing: 0.9px;
+  margin: 0 auto;
+  font-size: $font_sub_heading;
+  text-align: center;
+  line-height: 1.8;
+  font-family: $text_font;
+  @media (max-width: 991px){
+    padding: 8px;
+    text-align: justify;
+  }
+}
+
+@mixin button {
+    background: #F2DA77;
+    color: #000;
+    font-size: 18px;
+    padding:16px  20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+}
+
 // @mixin dflex(
 //   $dflex: flex,
 //   $grid-template-columns: auto,

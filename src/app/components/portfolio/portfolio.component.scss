@@ -1,4 +1,6 @@
 @import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+
 .portfolio {
   min-height: 100vh;
   &__sec-1 {
@@ -12,8 +14,7 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      font-size: 80px;
-      font-family: "rollgates_luxuryregular";
+      @include banner_heading;
     }
     @media (max-width: 500px) {
       min-height: 35vh;

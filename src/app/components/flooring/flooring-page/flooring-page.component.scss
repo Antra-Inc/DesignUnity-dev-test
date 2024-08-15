@@ -15,8 +15,7 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      font-size: $font_banner_text;
-      font-family: "Tenor_Sans";
+      @include banner_heading;
     }
     @media (max-width: 899px) {
       min-height: 55vh;
@@ -25,7 +24,6 @@
     }
   }
   &__sec-2 {
-    padding: 10px;
     padding: 100px 15%;
     display: grid;
     gap: 30px;
@@ -37,21 +35,12 @@
       @include heading;
     }
     p {
-      font-size: $font_sub_heading;
-      text-align: center;
-      line-height: 1.7;
-      font-family: "Helvetica-light";
+      @include sub_text;
     }
 
-    @media (max-width: 899px) {
-      //min-height: 35vh;
+    @media (max-width: 991px){
       padding: 30px 20px;
       gap: 15px;
-      p{
-        text-align: justify;
-        padding: 0;
-      }
-      
     }
   }
 
@@ -75,7 +64,7 @@
       .sec__content{
         padding: 5%;
         h3{
-          font-size: $font_heading2;
+          font-size: $font_heading;
           line-height: 2;
           font-family: "Tenor_Sans";
         }

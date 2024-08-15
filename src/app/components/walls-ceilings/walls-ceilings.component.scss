@@ -53,15 +53,7 @@
         display: grid;
         align-items: end;
         button {
-            background: #F2DA77;
-            color: #000;
-            font-size: 18px;
-            padding:16px  20px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            display: grid;
-            align-items: center;
+            @include button;
             img {
                 margin-left: 10px;
                 grid-column: 2;
