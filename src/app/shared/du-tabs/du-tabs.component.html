@@ -10,7 +10,7 @@
           <a href="javascript:;">{{ tab.title }}</a>
         </li>
       </ul>
-      <div class="du-tabs__header--filter">
+      <div class="du-tabs__header--filter" *ngIf="options">
         <div class="du-tabs__header--f-list" (click)="selectLayout(2)">
           <span></span><span></span><span></span><span></span>
         </div>

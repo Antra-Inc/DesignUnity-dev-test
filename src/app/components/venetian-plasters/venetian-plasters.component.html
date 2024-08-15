@@ -19,30 +19,25 @@
     <du-tabs
       (changeLayout)="changeLayout($event)"
       (changeTab)="changeTabs($event)"
+      [options]="false"
     >
       <my-tab
         class="tabs"
-        *ngFor="let tab of [].constructor(4)"
+        *ngFor="let tab of tabs; let i = index"
         [tabTitle]="tab.tabTitle"
       >
-        <div
-          class="portfolio__grid"
-          [style.gridTemplateColumns]="'repeat(' + layout + ', 1fr)'"
-        >
-          hello
-          <!-- <div
-            class="portfolio__grid--item"
-            *ngFor="let item of contentData"
-            (click)="openDialog(item)"
-          >
+        <!-- {{ tab.tabTitle }} -->
+        <div class="venetian__grid">
+          <div *ngFor="let item of itemsToShow" class="venetian__grid--item">
             <div class="item__img">
-              <img src="{{ item.imagePath }}" alt="" />
+              <img [src]="item?.imagePath" alt="" />
             </div>
-            <div class="item__details">
-              <p>{{ item?.data?.heading }}</p>
-              <h2>{{ item?.data?.description }}</h2>
+            <div class="venetian__grid--item--data">
+              hello
+              <p>hello all</p>
             </div>
-          </div> -->
+          </div>
+          <button (click)="loadMoreItems()">Load More</button>
         </div>
       </my-tab>
     </du-tabs>

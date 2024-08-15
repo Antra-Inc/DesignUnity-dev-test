@@ -33,6 +33,58 @@
       }
     }
   }
+
+  &__grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    &--item {
+      text-align: center;
+      position: relative;
+      .item__img {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &--data {
+        border: 1px solid red;
+        position: absolute;
+
+        bottom: 0;
+        width: 100%;
+        visibility: hidden;
+        background-color: rgba(#fff, 0.8);
+        opacity: 0;
+        -webkit-transition: all 0.6s ease-in-out 0s;
+        -moz-transition: all 0.6s ease-in-out 0s;
+        transition: all 0.6s ease-in-out 0s;
+        overflow: hidden;
+      }
+      &:nth-child(2n - 1),
+      &:nth-child(1n) {
+        width: calc(70% - 10px);
+      }
+      &:hover {
+        .venetian__grid--item--data {
+          opacity: 1;
+          visibility: visible;
+          padding: 10px 15px;
+        }
+      }
+      &:nth-child(4n - 2),
+      &:nth-child(4n - 1) {
+        width: calc(30% - 10px);
+      }
+    }
+    // grid-template-columns: 30% 70%;
+  }
+  // Mixin to reverse columns
+
   &__about {
     background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
     background-size: cover;
@@ -45,10 +97,57 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: clamp(10px, 3.5vh, 60px)
+      gap: clamp(10px, 3.5vh, 60px);
     }
   }
   &__tabs {
     border: 1px solid red;
   }
 }
+// .venetian__grid {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   grid-auto-rows: 1fr;
+//   gap: 10px; /* adjust the gap as needed */
+// }
+
+// .venetian__grid--item {
+//   background-color: #eee;
+//   padding: 20px;
+// }
+
+// .venetian__grid--item:nth-child(even) {
+//   grid-column: 2;
+// }
+
+// .venetian__grid--item:nth-child(odd) {
+//   grid-column: 1;
+// }
+// .venetian__grid {
+//   display: grid;
+//   grid-template-columns: 30% 70%;
+//   grid-auto-rows: 1fr;
+//   gap: 10px;
+//   /* adjust the gap as needed */
+// }
+// .venetian__grid--item {
+//   background-color: #eee;
+//   padding: 20px;
+// }
+// .venetian__grid--item:nth-child(even) {
+//   grid-column: 1;
+// }
+// .venetian__grid--item:nth-child(odd) {
+//   grid-column: 2;
+// }
+// .venetian__grid {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+// .venetian__grid--item {
+//   width: calc(30% - 10px);
+//   margin: 5px;
+// }
+// .venetian__grid--item:nth-child(even) {
+//   width: calc(70% - 10px);
+// }
