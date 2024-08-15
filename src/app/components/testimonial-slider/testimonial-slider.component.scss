@@ -19,10 +19,10 @@
         grid-auto-columns: calc((100% / 3) - 12px);
         gap: 16px;
         overflow-x: auto;
-         scroll-snap-type: x mandatory;
-         scroll-behavior: smooth;
-         scrollbar-width: none;
-        transition: transform 0.3s ease-in-out;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        transition: transform 0.3s ease-in-out;   
 
         &::-webkit-scrollbar {
             display: none;
@@ -46,10 +46,8 @@
         user-select: none;
         }
         .card {
-            scroll-snap-align: start;
-            //height: 342px;
+            scroll-snap-align: center;
             list-style: none;
-            //background: #fff;
             border-radius: 0px 40px;
             cursor: pointer;
             text-align: center;
@@ -58,6 +56,7 @@
             justify-content: center;
             flex-direction: column;
             transition: transform 0.3s ease-in-out;
+            
             
             .testimonial {
                 background: #e8b3b3;
@@ -69,7 +68,7 @@
                 margin-top: 50px;
                 color: #fff;
             
-                .starts {
+                .stars {
                     margin-top:25px;
                     span{
                         color: #ffc400;
@@ -131,13 +130,10 @@
                     }
                 }
             }
-        }
-
-        
+        }   
 
     }
 
-    
 
     .button-area {
         button{
@@ -160,6 +156,7 @@
             &.next {
                 right: -30px;
             }
+            
         }
     }
 
@@ -170,15 +167,16 @@
 }
 
 
+
 .card .card_text{
     transform: scale(0.8);
     transition: all 0.3s;
-    
   }
-.card.prev .card_text{
+.card.active .card_text{
     transform: scale(1);
     transition: all 0.3s;
 }
+
 
 @media (max-width: 899px) {
     .testimonials_section {
@@ -195,10 +193,17 @@
             grid-auto-columns: calc(100% - 12px) !important;
         }
     }
-  }
+}
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .wrapper .carousel {
-      grid-auto-columns: 100% !important;
+        grid-auto-columns: 100% !important;
     }
-  }
+}
+
+button[disabled], button:disabled{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+  
