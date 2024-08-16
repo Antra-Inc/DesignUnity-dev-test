@@ -27,6 +27,8 @@ import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component'
 import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { VenetianPlastersComponent } from './components/venetian-plasters/veneti
     HomeSliderComponent,
     FlooringPageComponent,
     VenetianPlastersComponent,
+    AboutUsComponent,
+    SurfaceStudioComponent,
   ],
   imports: [
     BrowserModule,
