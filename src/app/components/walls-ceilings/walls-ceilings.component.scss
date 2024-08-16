@@ -54,10 +54,8 @@
         align-items: end;
         button {
             @include button;
-            
-          }
+        }
       }
-     
   }
 
   @media screen and (max-width: 600px){
@@ -72,6 +70,5 @@
           grid-column: 1;
          
         }
-       
     }
   }
