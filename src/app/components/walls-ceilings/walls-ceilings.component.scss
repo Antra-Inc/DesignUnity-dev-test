@@ -54,18 +54,7 @@
         align-items: end;
         button {
             @include button;
-            img {
-                margin-left: 10px;
-                grid-column: 2;
-                width: 0;
-                transition: width .4s;
-            }
-            &:hover {
-                img {
-                    width: 40px;
-                   
-                }
-            }
+            
           }
       }
      

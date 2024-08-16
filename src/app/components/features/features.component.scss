@@ -3,7 +3,6 @@
 @import "../../../styles/scss/container";
 
 /* Zoom In #2 */
-
 .bg-green {
   background-color: #f6f1eb;
 }
@@ -32,11 +31,6 @@
     justify-content: center;
     align-items: flex-start;
     .featItem {
-      // display: grid;
-      // // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      // align-items: center;
-      // position: relative;
-      
       border: 1px solid #707070;
       padding: 15px;
       border-radius: 30px;
@@ -68,12 +62,6 @@
         -moz-transition: all .4s ease-in-out;
         -o-transition: all .4s ease-in-out;
         -ms-transition: all .4s ease-in-out;
-
-        // border: 1px solid #a6a6a6;
-        // padding: 20px;
-        // border-radius: 34px;
-        // width: 100%;
-        
         
       }
       .figure-details {
