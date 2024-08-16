@@ -1,0 +1,64 @@
+<div
+  class="wrapper"
+  [style.height.px]="height ? height : null"
+  [style.margin-bottom]="height ? '.25rem' : null"
+  (touchstart)="posIni = $event.changedTouches[0].pageX"
+  (touchend)="move($event.changedTouches[0].pageX)"
+>
+  <div
+    class="inner"
+    [ngClass]="height ? 'fixed-height' : null"
+    *ngFor="let img of images; let i = index; let first = first"
+    [@animImageSlider]="slideControl[i]"
+    [ngStyle]="{ 'background-color': img.bc }"
+  >
+    <div [class.active]="i === counter" class="inner__img">
+      <h2>{{ img.name }}</h2>
+      <img #slide (load)="first && onLoad(slide)" [src]="img.imagepath" />
+    </div>
+  </div>
+
+  <!-- <button type="button" class="btn-prev" (click)="change('right')">
+    <span class="prev-icon"></span>
+  </button>
+  <button type="button" class="btn-next" (click)="change('left')">
+    <span class="next-icon"></span>
+  </button> -->
+</div>
+<div *ngIf="thumbnile" #thumbail class="wrapper-thumbail">
+  <div
+    class="thumbail"
+    [@animationThumbail]="{
+      value: thumbailAnimation,
+      params: { margin: thumbailMargin + 'px' }
+    }"
+  >
+    <!-- <img
+      *ngFor="let img of images; let i = index"
+      [style.width.px]="thumbailWidth"
+      [style.margin-right.px]="thumbailMarginRigth"
+      [style.opacity]="i == counter ? 1 : 0.7"
+      (load)="onLoadThumbail()"
+      (click)="setIndex(i)"
+      [src]="img.imagepath"
+    /> -->
+    <div
+      class="thumbail__list desktop"
+      *ngFor="let img of images; let i = index"
+    >
+      <h2 [class.active]="i <= counter">
+        <span>{{ i + 1 }}</span>
+        {{ img.name }}
+      </h2>
+    </div>
+    <!-- <div
+      class="thumbail__list mobile"
+      *ngFor="let img of images; let i = index"
+    >
+      <h2 [class.active]="i <= counter" *ngIf="i === counter">
+        <span>{{ i + 1 }}</span>
+        {{ img.name }}
+      </h2>
+    </div> -->
+  </div>
+</div>
