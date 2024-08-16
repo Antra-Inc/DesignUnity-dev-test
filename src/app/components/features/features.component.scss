@@ -30,6 +30,7 @@
     column-gap: 50px;
     justify-content: center;
     align-items: flex-start;
+
     .featItem {
       border: 1px solid #707070;
       padding: 15px;
@@ -72,7 +73,8 @@
         justify-content: center;
         grid-template-columns: repeat(2, auto);
         width: 100%;
-        font-size: clamp(1rem, 6px + 4.333vw, 2rem);
+        //font-size: clamp(1rem, 6px + 4.333vw, 2rem);
+        font-size: $font_heading;
         font-weight: bold;
         gap: 20px;
 
