@@ -68,7 +68,9 @@
                 border-radius: 0px 40px;
                 padding-bottom: 4rem;
                 position: relative;
-                font: normal normal normal 16px/22px Helvetica Neue;
+                //font: normal normal normal 16px/22px Helvetica Neue;
+                font-size: calc(($font_text) - 4px );
+                line-height: 1.4;
                 margin-top: 50px;
                 color: #fff;
             

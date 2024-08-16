@@ -24,14 +24,13 @@
 .holder__head {
     padding: 1em 2em;
     position: sticky;
-    font-size: 30px;
+    //font-size: 30px;
+    font-size: $font_heading;
     z-index: 1;
     bottom: calc(var(--b) * 2em);
     top: calc(var(--t) * 2em);
-    
   }
 
-  
   .holder__item {
     padding: 5rem 5.5rem;
     position: sticky;
@@ -58,11 +57,12 @@
       }
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 768px){
     .holder__item {
       padding: 50px;
       .title {
-          font-size: 22px;
+          //font-size: 22px;
+          font-size: $font_sub_heading;
           color:#fff;
           text-shadow: 1px 3px 0px #0000002e;
         }
