@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
+import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
     path: 'flooring',
     component: FlooringPageComponent,
   },
+  {
+    path: 'studio',
+    component: StudioAccordionComponent,
+  }
 ];
 
 @NgModule({
