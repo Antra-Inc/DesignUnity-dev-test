@@ -19,7 +19,7 @@ export class StudioAccordionComponent implements OnInit {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.6  // 60% of the section must be visible to consider it active
+      threshold: 0.3  // 60% of the section must be visible to consider it active
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
