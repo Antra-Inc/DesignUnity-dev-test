@@ -9,11 +9,19 @@
     max-width: $screen-max-size;
     margin: 0 auto;
 
+    @media (max-width: 990px) {
+        grid-template-columns: auto;
+    }
+
     #navbar{
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media (max-width: 990px) {
+            background: #ddd;
+            padding-bottom: 10px;
+        }
 
         .nav_list{
             position: sticky;
@@ -23,6 +31,10 @@
             grid-template-columns: 1fr;
             gap: 50px;
             text-align: left;
+            @media (max-width: 990px) {
+                grid-template-columns: auto auto auto;
+                margin-top: 155px;
+            }
             a{
                 font-size: 18px;
                 font-weight: 100;
@@ -45,10 +57,14 @@
     height: auto;
     padding: 100px 20px;
     margin-top: 50px;
+    @media (max-width: 990px) {
+        padding: 10px 20px;
+    }
     h3{
         @include heading;
         text-align: left;
         padding-bottom: 30px;
+        padding-top: 30px;
     }
     p{
         @include sub_text;
