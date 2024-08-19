@@ -21,6 +21,8 @@
         @media (max-width: 990px) {
             background: #ddd;
             padding-bottom: 10px;
+            position: absolute;
+            width: 100%;
         }
 
         .nav_list{
@@ -41,6 +43,7 @@
                 text-transform: uppercase;
                 color: #9a9a9a;
                 text-decoration: none;
+                cursor: pointer;
                 &.active{
                     color: #000;
                     font-weight: 400;
