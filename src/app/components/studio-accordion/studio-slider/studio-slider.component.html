@@ -1,0 +1,26 @@
+<section class="vertical-tabs-section">
+    <div class="container">
+      <div class="how_work_flight">
+        <div class="vert-tab">
+          <div 
+            class="recr-content" 
+            *ngFor="let city of cities; let i = index"
+            [ngClass]="{'active': activeIndex === i}"
+            [style.width]="activeIndex === i ? '100%' : '5%'"
+            (click)="setActiveTab(i)">
+            
+            <div class="title">
+              <h3>{{ city.name }}</h3>
+            </div>
+            <div class="work_items_content" *ngIf="activeIndex === i">
+              <div class="vert_tab_image_wrrapeer">
+                <img [src]="city.image" alt="{{ city.name }}" />
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

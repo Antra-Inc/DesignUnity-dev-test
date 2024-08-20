@@ -27,6 +27,7 @@ import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component'
 import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
+import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { StudioAccordionComponent } from './components/studio-accordion/studio-a
     HomeSliderComponent,
     FlooringPageComponent,
     StudioAccordionComponent,
+    StudioSliderComponent,
   ],
   imports: [
     BrowserModule,
