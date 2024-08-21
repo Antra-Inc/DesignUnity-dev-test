@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class StudioSliderComponent {
   cities = [
-    { name: 'Hyderabad', image: 'assets/img/studio/Hyd-Exp.png', background: '#efb356' },
-    { name: 'Delhi', image: 'assets/img/studio/Ban-Exp.png', background: '#24225d' },
-    { name: 'Bangalore', image: 'assets/img/studio/Delhi-Exp.png', background: '#dc4f40' }
+    { name: 'Hyderabad', image: 'assets/img/studio/Hyd-Exp.png', background: '#efb356', icon:'assets/img/studio/hyd-icon.svg' },
+    { name: 'Delhi', image: 'assets/img/studio/Ban-Exp.png', background: '#24225d', icon:'assets/img/studio/bang-icon.svg' },
+    { name: 'Bangalore', image: 'assets/img/studio/Delhi-Exp.png', background: '#dc4f40', icon:'assets/img/studio/delhi-icon.svg' }
   ];
 
   activeIndex = 0;
