@@ -29,6 +29,7 @@ import { FlooringPageComponent } from './components/flooring/flooring-page/floor
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
