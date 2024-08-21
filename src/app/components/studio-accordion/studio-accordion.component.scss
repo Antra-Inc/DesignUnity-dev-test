@@ -66,7 +66,6 @@
 }
 
 
-
   section {
     //height: 100vh;
     height: auto;
@@ -81,6 +80,7 @@
     }
     h3{
         @include heading;
+        text-transform: capitalize;
         text-align: left;
         padding-bottom: 30px;
         padding-top: 30px;

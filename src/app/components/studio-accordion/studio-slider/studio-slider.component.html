@@ -6,7 +6,7 @@
             class="recr-content" 
             *ngFor="let city of cities; let i = index"
             [ngClass]="{'active': activeIndex === i}"
-            [style.width]="activeIndex === i ? '100%' : '5%'"
+            [style.width]="activeIndex === i ? '100%' : '100px'"
             (click)="setActiveTab(i)">
             
             <div class="title">
