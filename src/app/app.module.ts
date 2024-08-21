@@ -28,6 +28,7 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { StudioSliderComponent } from './components/studio-accordion/studio-slid
     FlooringPageComponent,
     StudioAccordionComponent,
     StudioSliderComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
