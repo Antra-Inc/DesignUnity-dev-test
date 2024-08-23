@@ -5,33 +5,77 @@
 
 @import "variables";
 @mixin heading {
-  color: #b84b4b;
-  font-family: "Tenor_Sans";
-  text-align: center;
+  color: $heading_color;
+  font-family: $heading-font;
+  text-align: $text-align;
   font-weight: 100;
   text-transform: uppercase;
+  font-size: $font_heading;
 }
-@mixin dflex(
-  $dflex: flex,
-  $grid-template-columns: auto,
-  $align-items: center,
-  $justify-content: center,
-  $flex-direction: column
-) {
-  align-items: $align-items;
-  justify-content: $justify-content;
 
-  @if $dflex == "flex" {
-    display: $dflex;
-    @if ($flex-direction) {
-      flex-direction: $flex-direction;
-    }
-  }
-  @if $dflex == "grid" {
-    display: $dflex;
-    grid-template-columns: $grid-template-columns;
+@mixin banner_heading{
+  font-size: $font_banner_text;
+  font-family: "Tenor_Sans";
+}
+
+@mixin sub_text{ 
+  letter-spacing: 0.9px;
+  margin: 0 auto;
+  font-size: $font_sub_heading;
+  text-align: center;
+  line-height: 1.8;
+  font-family: $text_font;
+  @media (max-width: 991px){
+    padding: 8px;
+    text-align: justify;
   }
 }
+
+@mixin button {
+    background: #F2DA77;
+    color: #000;
+    font-size: 18px;
+    padding:16px  20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    img {
+      margin-left: 10px;
+      grid-column: 2;
+      width: 0;
+      transition: width .4s;
+    }
+    &:hover {
+        img {
+            width: 40px;
+          
+        }
+    }
+}
+
+// @mixin dflex(
+//   $dflex: flex,
+//   $grid-template-columns: auto,
+//   $align-items: center,
+//   $justify-content: center,
+//   $flex-direction: column
+// ) {
+//   align-items: $align-items;
+//   justify-content: $justify-content;
+
+//   @if $dflex == "flex" {
+//     display: $dflex;
+//     @if ($flex-direction) {
+//       flex-direction: $flex-direction;
+//     }
+//   }
+//   @if $dflex == "grid" {
+//     display: $dflex;
+//     grid-template-columns: $grid-template-columns;
+//   }
+// }
 
 @mixin font-style(
   $font-size: 16px,
@@ -51,4 +95,23 @@
   font-size: $font-size;
   font-family: $font-family;
   color: $color;
+}
+@mixin grid-template(
+  $grid-direction: column,
+  $grid-template-values: auto,
+  $gap: 10px
+) {
+  display: grid;
+  gap: $gap;
+  @if $grid-direction== 'row' {
+    grid-template-rows: $grid-template-values;
+  } @else {
+    grid-template-columns: $grid-template-values;
+  }
+}
+
+@mixin dflex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

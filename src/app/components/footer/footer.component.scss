@@ -1,3 +1,5 @@
+@import '../../../styles/scss/variables';
+
 .overlay_bgs .leaves {
   position: absolute;
   top: -157px;
@@ -39,7 +41,8 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
   z-index: 2;
-  font-size: 18px;
+  //font-size: 18px;
+  font-size: $font_text;
   color: #291702;
   line-height: 36px;
   margin: 0 auto;

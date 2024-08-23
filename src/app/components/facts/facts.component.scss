@@ -21,9 +21,13 @@
     background-size: cover;
   }
   &_details {
-    @include dflex(grid, 50% 50%, center);
-
+    //@include dflex(grid, 50% 50%, center);
     // margin: 25px;
+    @include grid-template($grid-template-values:repeat(2, 1fr));
+    @media (max-width: 991px) {
+      padding-left: 2rem;
+      @include grid-template;
+    }
     border-radius: 18px;
     &_left {
       padding: 2rem;
@@ -32,7 +36,8 @@
       letter-spacing: 0.9px;
       color: #000000;
       .ff_content {
-        @include dflex($align-items: flex-start);
+        //@include dflex($align-items: flex-start);
+        @include grid-template;
         padding-left: 20%;
         padding-bottom: 40px;
         text-transform: capitalize;
