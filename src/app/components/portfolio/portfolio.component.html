@@ -23,7 +23,6 @@
   <du-tabs
     (changeLayout)="changeLayout($event)"
     (changeTab)="changeTabs($event)"
-    [options]="true"
   >
     <my-tab class="tabs" *ngFor="let tab of tabs" [tabTitle]="tab.tabTitle">
       <div
