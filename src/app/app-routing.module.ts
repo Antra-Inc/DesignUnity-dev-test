@@ -36,7 +36,7 @@ const routes: Routes = [
   },
   {
     path: 'surface',
-    component: SurfaceStudioComponent,
+    component: StudioAccordionComponent,
   },
   {
     path: 'studio',
