@@ -1,6 +1,25 @@
-$heading_color: #723c0d;
+$heading_color: #b84b4b;
 $text: #111010;
-
+$text-align: center;
 $screen-max-size: 1440px;
 
 $page-header: clamp(12px, 5.5vw, 70px);
+$heading-font: "Tenor_Sans";
+$text_font: "Helvetica-light";
+
+// $font_heading: clamp(1rem, 6vw, 3.5rem);
+
+// $font_text: clamp(1rem, 4vw, 1.3rem);
+
+//$font-size: clamp(1rem, -0.875rem + 8.333333vw, 3.5rem);
+
+
+$font_banner_text: clamp(2rem, -0.875rem + 10vw, 6rem);
+
+$font_heading: clamp(1rem, -0.875rem + 10vw, 2rem);
+
+$font_sub_heading: clamp(1rem, -0.875rem + 8.333333vw, 1.3rem);
+
+$font_text: clamp(0.8rem, -0.875rem + 8.333333vw, 1.2rem);
+
+

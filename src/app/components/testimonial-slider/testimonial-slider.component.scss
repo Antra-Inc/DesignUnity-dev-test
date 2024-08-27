@@ -13,6 +13,10 @@
     width: 95%;
     position: relative;
 
+    @media (max-width: 900px){
+        width: 80%;
+    }
+
     .carousel {
         display: grid;
         grid-auto-flow: column;
@@ -56,15 +60,16 @@
             justify-content: center;
             flex-direction: column;
             transition: transform 0.3s ease-in-out;
-            
-            
+
             .testimonial {
                 background: #e8b3b3;
                 padding: 2rem;
                 border-radius: 0px 40px;
                 padding-bottom: 4rem;
                 position: relative;
-                font: normal normal normal 16px/22px Helvetica Neue;
+                //font: normal normal normal 16px/22px Helvetica Neue;
+                font-size: calc(($font_text) - 4px );
+                line-height: 1.4;
                 margin-top: 50px;
                 color: #fff;
             
@@ -101,16 +106,15 @@
                     right:0px;
                     bottom: -50px;
                 }
-                
-            
+
             }
             .header{
-                
                 .profile{
                     position: relative;
                     bottom: 50px;
                     z-index: 2;
                     @include dflex();
+                    flex-direction: column;
                     .img{
                         height: 80px;
                         width: 80px;
@@ -156,7 +160,14 @@
             &.next {
                 right: -30px;
             }
-            
+            @media (max-width: 900px){
+                &.prev{
+                    left: -60px;
+                }
+                &.next {
+                    right: -60px;
+                }
+            }
         }
     }
 

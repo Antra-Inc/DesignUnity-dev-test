@@ -15,15 +15,20 @@ export class VenetianPlastersComponent implements OnInit {
   images!: any;
   contentData: any;
   itemsToShow: any[] = []; // Array to hold the items to be displayed
-  currentIndex = 0; // Track the current index of loaded items
-  itemsIncrement = 4; // Number of items to add each time "Load More" is clicked
+  currentIndex: any = 0; // Track the current index of loaded items
+  moreBtn = false;
+  itemsIncrement: any = 4; // Number of items to add each time "Load More" is clicked
   constructor(private http: HttpClient) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/solutions.json');
   }
   ngOnInit(): void {
+    localStorage.setItem('currentIndex', '0');
+    localStorage.setItem('itemsIncrement', '4');
+    // this.currentIndex = localStorage.getItem('currentIndex');
+    // this.itemsIncrement = localStorage.getItem('itemsIncrement');
+    console.log('count', this.currentIndex, this.itemsIncrement);
     this.tabs = this.tabTitles.map((title) => {
-      // console.log('this.contentData', this.contentData);
       return {
         tabTitle: title,
         // tabContent: this.getDynamicTabsData(title),
@@ -73,37 +78,37 @@ export class VenetianPlastersComponent implements OnInit {
       this.loadItems();
       console.log('images', this.images);
     });
+    this.currentIndex = 0;
+    this.itemsIncrement = 4;
   }
 
   loadItems() {
-    console.log(
-      'this.itemsToShow',
-      this.currentIndex,
-      '   ',
-      this.itemsIncrement
-    );
-
-    if (this.itemsToShow > this.contentData) {
-      this.currentIndex = this.itemsToShow.length;
-      this.itemsIncrement = this.itemsIncrement + 4;
+    this.itemsToShow = this.contentData.slice(0, 4);
+    if (this.itemsToShow.length < this.contentData.length) {
+      this.moreBtn = true;
     }
-    this.itemsToShow = this.contentData.slice(
-      this.currentIndex,
-      this.itemsIncrement
-    );
-    // const nextBatch = this.contentData.slice(
-    //   this.currentIndex,
-    //   this.currentIndex + this.itemsIncrement
-    // );
-    // this.itemsToShow = this.itemsToShow.concat(nextBatch);
-    // this.currentIndex += this.itemsIncrement;
-    console.log('this.itemsToShow', this.itemsToShow);
+    console.log('this.contentData', this.itemsToShow, this.contentData.length);
   }
 
   loadMoreItems() {
-    if (this.currentIndex < this.contentData.length) {
-      this.loadItems();
+    if (this.currentIndex === 0) {
+      this.currentIndex = 4;
+      this.itemsIncrement = 4;
     }
-    console.log('this.contentData', this.itemsToShow);
+    if (this.itemsToShow.length < this.contentData.length) {
+      this.moreBtn = true;
+    }
+    const nextIndex = this.currentIndex + this.itemsIncrement;
+    this.itemsToShow = this.contentData.slice(0, nextIndex);
+    this.currentIndex = nextIndex;
+
+    console.log(
+      'this.contentData',
+      nextIndex,
+      this.currentIndex,
+      this.itemsIncrement,
+      this.itemsToShow.length,
+      this.contentData.length
+    );
   }
 }

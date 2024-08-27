@@ -37,7 +37,9 @@
               <p>hello all</p>
             </div>
           </div>
-          <button (click)="loadMoreItems()">Load More</button>
+          <div *ngIf="moreBtn">
+            <button (click)="loadMoreItems()">Load More</button>
+          </div>
         </div>
       </my-tab>
     </du-tabs>

@@ -1,3 +1,4 @@
+@import '../../../styles/scss/variables';
 .custom-slider {
   grid-template-columns: 1fr 200px;
   height: 100vh;
@@ -63,7 +64,8 @@
           &.active {
             h2 {
               opacity: 1;
-              font-size: 80px;
+              //font-size: 80px;
+              font-size: $font_banner_text;
               letter-spacing: 10px;
               //   font-family: "Tenor_Sans";
 

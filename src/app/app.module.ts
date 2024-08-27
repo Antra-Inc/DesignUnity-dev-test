@@ -29,6 +29,11 @@ import { FlooringPageComponent } from './components/flooring/flooring-page/floor
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
+import { SurfaceSlideComponent } from './components/surface-studio/surface-slide/surface-slide.component';
+import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
+import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+
 
 @NgModule({
   declarations: [
@@ -57,6 +62,10 @@ import { SurfaceStudioComponent } from './components/surface-studio/surface-stud
     VenetianPlastersComponent,
     AboutUsComponent,
     SurfaceStudioComponent,
+    SurfaceSlideComponent,
+    StudioAccordionComponent,
+    StudioSliderComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
