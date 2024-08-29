@@ -2,6 +2,11 @@
 @import '../../../styles/scss/mixins';
 @import '../../../styles/scss/container';
 
+.container{
+    max-width: $screen-max-size;
+    margin: 0 auto;
+}
+
 .blog{
     &__section{
         background: #f5f1eb;
@@ -13,8 +18,14 @@
             text-transform: capitalize;
             letter-spacing: 4px;
             font-family: "Tenor_Sans";
-            padding-top: 120px;
+            font-size: 50px;
         }
+    }
+    &__banner{
+        height: 500px;
+        width: 100%;
+        background: url('../../../assets/img/about-bg.png') no-repeat center;
+        background-size: cover;
     }
 
 }
