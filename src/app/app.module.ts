@@ -33,6 +33,8 @@ import { SurfaceSlideComponent } from './components/surface-studio/surface-slide
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { BlogListComponent } from './components/blog-list/blog-list.component';
 
 
 @NgModule({
@@ -66,6 +68,8 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     StudioAccordionComponent,
     StudioSliderComponent,
     AboutusComponent,
+    ContactusComponent,
+    BlogListComponent,
   ],
   imports: [
     BrowserModule,

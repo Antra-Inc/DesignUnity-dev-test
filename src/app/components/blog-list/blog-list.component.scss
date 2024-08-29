@@ -1,0 +1,20 @@
+@import '../../../styles/scss/variables';
+@import '../../../styles/scss/mixins';
+@import '../../../styles/scss/container';
+
+.blog{
+    &__section{
+        background: #f5f1eb;
+        margin-top:150px;
+    }
+    &__heading{
+        h2{
+            @include heading($color:#000);
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            font-family: "Tenor_Sans";
+            padding-top: 120px;
+        }
+    }
+
+}
