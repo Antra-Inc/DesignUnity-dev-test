@@ -4,8 +4,8 @@
 }
 
 @import "variables";
-@mixin heading {
-  color: $heading_color;
+@mixin heading($color:$heading_color) {
+  color: $color;
   font-family: $heading-font;
   text-align: $text-align;
   font-weight: 100;

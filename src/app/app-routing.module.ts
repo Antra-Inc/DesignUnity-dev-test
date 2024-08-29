@@ -8,8 +8,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
-import { ContactusComponent } from './components/contactus/contactus.component'
-
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { BlogListComponent } from './components/blog-list/blog-list.component';
 const routes: Routes = [
   {
     path: '',
@@ -48,9 +48,10 @@ const routes: Routes = [
     component: AboutusComponent,
   },
   {
-    path: 'contactus',
-    component: ContactusComponent,
-  }
+    path: 'blog',
+    component: BlogListComponent,
+  },
+
 ];
 
 @NgModule({
