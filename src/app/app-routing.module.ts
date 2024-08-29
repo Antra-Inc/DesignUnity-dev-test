@@ -8,6 +8,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ContactusComponent } from './components/contactus/contactus.component'
 
 const routes: Routes = [
   {
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path: 'aboutus',
     component: AboutusComponent,
+  },
+  {
+    path: 'contactus',
+    component: ContactusComponent,
   }
 ];
 

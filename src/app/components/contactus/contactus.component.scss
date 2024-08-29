@@ -1,0 +1,30 @@
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+
+.contact {
+  min-height: 100vh;
+  background: #fffdf7;
+  &__sec-1 {
+    background-image: url("../../../assets/img/about/DSC01147.png");
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10%;
+    background-position: center;
+    h2 {
+      @include banner_heading;
+    }
+    @media (max-width: 899px) {
+      min-height: 55vh;
+      padding: 0 20px;
+      
+    }
+  }
+  
+
+}
+
+

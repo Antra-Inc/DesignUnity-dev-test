@@ -18,7 +18,7 @@
       <ul class="menu-inner">
         <li class="menu-item" (click)="open = false">
           <div class="menu-item__pointer"><span></span></div>
-          <a routerLink="/aboutus" class="menu-link">About Us</a>
+          <a routerLink="/aboutUs" class="menu-link">About Us</a>
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span><a href="#" class="menu-link">Solutions</a>
@@ -32,7 +32,7 @@
           <a routerLink="/studio" class="menu-link">Sufrace Studio</a>
         </li>
         <li class="menu-item" (click)="open = false">
-          <span> </span><a href="#" class="menu-link">Contact</a>
+          <span> </span><a routerLink="/contactus" class="menu-link">Contact</a>
         </li>
       </ul>
     </div>
@@ -45,7 +45,7 @@
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a routerLink="/aboutus" class="menu-link">About Us</a>
+          <a routerLink="/aboutUs" class="menu-link">About Us</a>
         </li>
         <li class="menu-item solutions" (mouseenter)="mouseEnter('in')">
           <div class="menu-item__pointer">
@@ -111,7 +111,7 @@
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a href="#" class="menu-link">Contact</a>
+          <a routerLink="/contactus" class="menu-link">Contact</a>
         </li>
       </ul>
     </div>
