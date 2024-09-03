@@ -1,15 +1,63 @@
-<div class="blog__section">
+<div class="blog">
     <div class="container">
         <div class="blog__heading">
             <h2> Blogs </h2>
         </div>
         <div class="blog__banner">
             <div class="blog__banner__text">
-                <p> Featured Blog </p>
+                <p class="p1"> Featured Blog </p>
                 <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit, </h2>
-                <p> Novermber 2, 2021 </p>
-                <button class="button" > Know More <span> icon </span> </button>
+                <p class="p2"> Novermber 2, 2021 </p>
+                <button class="button" > Know More 
+                    <img src="../../../assets/svg/arrow.svg" alt=""> 
+                </button>
             </div>
         </div>
+
+        <!-- Blog List with filter start -->
+        <div class="filter__buttons">
+            <!-- <button class="active"> All </button>
+            <button> Venetian Plasters </button>
+            <button> Flooring </button> -->
+
+            <!-- <button *ngFor="let category of categories" 
+                    (click)="onCategorySelect(category)">
+            {{ category }}
+            </button> -->
+
+            <div>
+                <button (click)="filterByCategory('all')">All</button>
+                <button (click)="filterByCategory('Venetian Plasters')">Venetian Plasters</button>
+                <button (click)="filterByCategory('Flooring')"> Flooring </button>
+              </div>
+        </div>
+
+        <div class="blog__list">
+            <div class="blog__list__card" *ngFor="let blog of filteredCards.slice(0, visibleCardsCount)">
+                <div class="card__image">
+                    <img [src]=[blog.img] alt="">
+                </div>
+                <div class="card__header">
+                    <h2> {{ blog.heading }} </h2>
+                </div>
+                <div class="card__details">
+                    <p> {{ blog.text }} </p>
+                    <button class="button" > Know More 
+                        <img src="../../../assets/svg/arrow.svg" alt=""> 
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button_div_main">
+            <button class="button_div" *ngIf="visibleCardsCount < filteredCards.length" (click)="loadMore()">
+                <a class="menu-link"> Load More </a>
+                <span class="pointer">
+                    <img src="./assets/svg/nav-arrow.svg" width="60%" alt="" />
+                </span>
+            </button>
+            <!-- <button *ngIf="visibleCardsCount < filteredCards.length" (click)="loadMore()">Load More</button> -->
+        </div>
+
     </div>
 </div>

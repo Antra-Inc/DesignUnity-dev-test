@@ -35,6 +35,7 @@ import { StudioSliderComponent } from './components/studio-accordion/studio-slid
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
+import { BlogTestComponent } from './components/blog-test/blog-test.component';
 
 
 @NgModule({
@@ -70,6 +71,7 @@ import { BlogListComponent } from './components/blog-list/blog-list.component';
     AboutusComponent,
     ContactusComponent,
     BlogListComponent,
+    BlogTestComponent,
   ],
   imports: [
     BrowserModule,
