@@ -7,23 +7,6 @@ import { Observable } from 'rxjs';
 })
 export class WordpressService {
 
-  /*
-  private apiUrl = 'http://localhost/du_blog_post/wp-json/wp/v2/posts';
-
-  constructor(private http: HttpClient) { }
-
-  getPosts(): Observable<any> {
-    return this.http.get(`${this.apiUrl}?_embed`);
-  }
-
-  // Fetch a single post by ID
-  getPostById(id: string): Observable<any> {
-    return this.http.get(`${this.apiUrl}/${id}?_embed`);
-  }
-*/
-
-
-
     private apiUrl = 'http://localhost/du_blog_post/wp-json/wp/v2';
     private postsUrl = `${this.apiUrl}/posts`;
     private categoriesUrl = `${this.apiUrl}/categories`;
@@ -43,7 +26,7 @@ export class WordpressService {
       return this.http.get(`${this.postsUrl}/${id}?_embed`);
     }
 
-    
+
 }
 
 

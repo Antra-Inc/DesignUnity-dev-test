@@ -27,6 +27,9 @@
         &__banner{
             width: 100%;
             height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
         }
         &__content{
             padding: 5% 12%;
