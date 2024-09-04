@@ -27,7 +27,9 @@
         <div>
             <div *ngIf="isLoading">Loading...</div>
             <div *ngIf="error">
-              <p>Error loading posts or categories. Please try again later.</p>
+                <div *ngFor="let post of posts">
+                    <p [routerLink]="['/blog', post.id]"> Error loading posts or categories. Please try again later. </p>
+                </div>
             </div>
       
             <div *ngIf="posts.length > 0; else noPosts" class="blog__list">
