@@ -64,25 +64,6 @@
 
         </div>
 
-        <div class="blog__list">
-            <div class="blog__list__card" *ngFor="let blog of filteredCards.slice(0, visibleCardsCount)">
-                <div class="card__image">
-                    <img [src]=[blog.img] alt="">
-                </div>
-                <div class="card__header">
-                    <h2> {{ blog.heading }} </h2>
-                </div>
-                <div class="card__details">
-                    <p> {{ blog.text }} </p>
-                    <button class="button" > Know More 
-                        <img src="../../../assets/svg/arrow.svg" alt=""> 
-                    </button>
-                </div>
-            </div>
-
-
-
-        </div>
         
         <div class="button_div_main">
             <button class="button_div" *ngIf="visibleCardsCount < filteredCards.length" (click)="loadMore()">
