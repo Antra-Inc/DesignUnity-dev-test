@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WordpressService } from '../wordpress.service';
 
 @Component({
   selector: 'app-blog-list',
@@ -6,10 +7,35 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-list.component.scss']
 })
 export class BlogListComponent implements OnInit {
-  constructor(){}
-  ngOnInit() {
-      
+ 
+
+  posts: any[] = [];
+  isLoading = true;
+  error: any;
+
+  constructor(private postService: WordpressService) { }
+
+  ngOnInit(): void {
+    this.loadPosts();
   }
+
+  loadPosts(): void {
+    this.postService.getPosts().subscribe({
+      next: (data) => {
+        this.posts = data;
+        this.isLoading = false;
+      },
+      error: (err) => {
+        this.error = err;
+        this.isLoading = false;
+      },
+      complete: () => {
+        console.log('Posts fetch complete');
+      }
+    });
+  }
+
+
 
   items = [
     {
@@ -86,6 +112,8 @@ export class BlogListComponent implements OnInit {
     }
   ]
 
+
+  
   filteredCards = this.items; // Initially show all cards
   visibleCardsCount: number = 6; // Show 3 items initially
 

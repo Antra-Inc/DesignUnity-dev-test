@@ -36,6 +36,7 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
+import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import { BlogTestComponent } from './components/blog-test/blog-test.component';
     ContactusComponent,
     BlogListComponent,
     BlogTestComponent,
+    BlogDetailsComponent,
   ],
   imports: [
     BrowserModule,
