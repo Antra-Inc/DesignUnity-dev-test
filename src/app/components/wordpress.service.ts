@@ -7,6 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class WordpressService {
 
+
+
     private apiUrl = 'http://localhost/du_blog_post/wp-json/wp/v2';
     private postsUrl = `${this.apiUrl}/posts`;
     private categoriesUrl = `${this.apiUrl}/categories`;
@@ -26,7 +28,7 @@ export class WordpressService {
       return this.http.get(`${this.postsUrl}/${id}?_embed`);
     }
 
-
+    
 }
 
 

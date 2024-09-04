@@ -12,6 +12,9 @@ export class BlogListComponent implements OnInit {
   posts: any[] = [];
   categories: any[] = [];
   selectedCategory: number | null = null;
+  currentPage: number = 1;
+  postsPerPage: number = 6;
+  loadMoreAmount: number = 3;
   isLoading = true;
   error: any;
 
@@ -59,6 +62,7 @@ export class BlogListComponent implements OnInit {
       }
     }
   }
+  
 
   /*
   loadPosts(): void {
