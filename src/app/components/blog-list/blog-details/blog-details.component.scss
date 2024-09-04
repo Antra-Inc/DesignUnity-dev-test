@@ -1,0 +1,46 @@
+@import '../../../../styles/scss/variables';
+@import '../../../../styles/scss/mixins';
+@import '../../../../styles/scss/container';
+
+.app__container{
+    background: #fff;
+}
+.blog{
+    &__section{
+        padding-top: 100px;
+        margin: 0 auto;
+        max-width: $screen-max-size;
+        background: #fff;
+    }
+    &__details{
+        .banner__section{
+            background-color: #e8e5e1;
+            padding: 5% 12%;
+        }
+        &__heading{
+            font-size: 40px;
+            line-height: 1.5;
+            padding-bottom: 20px;
+            font-family: $heading-font;
+            font-weight: normal;
+        }
+        &__banner{
+            width: 100%;
+            height: auto;
+        }
+        &__content{
+            padding: 5% 12%;
+            ::ng-deep p{
+                padding-top: 30px;
+                padding-top: 20px;
+                font-size: 22px;
+                line-height: 1.6;
+            }
+            ::ng-deep h3{
+                padding-top: 30px;
+                font-size: 30px;
+            }
+        }
+    }
+   
+}

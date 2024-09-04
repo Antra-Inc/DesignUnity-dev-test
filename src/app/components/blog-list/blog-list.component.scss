@@ -8,7 +8,6 @@
 }
 
 .blog{
-   
     background: #f5f1eb;
     width: 90%;
     margin: 0 auto;
@@ -80,6 +79,13 @@
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 50px;
+
+        @media (max-width: 500px){
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        @media (max-width: 991px){
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
         
         &__card{
             border-radius: 20px;
@@ -114,10 +120,16 @@
                     p{
                         padding-bottom: 15px;
                         font-size: 16px;
-                        font-family: $text_font;
+                        font-family: $text_font !important;
                     }
                 }
                 
+            }
+
+            .card__details__text{
+                line-height: 1.5;
+                padding-bottom: 15px;
+                font-size: 16px;
             }
 
         }

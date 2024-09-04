@@ -1,0 +1,22 @@
+<div class="blog__section">
+
+    <div *ngIf="post" class="blog__details">
+        <div class="banner__section">
+            <h1 class="blog__details__heading">{{ post?.title?.rendered }}</h1>
+            <!-- Check if the post has embedded featured media -->
+            <img *ngIf="post?._embedded?.['wp:featuredmedia']?.length > 0"
+            [src]="post?._embedded?.['wp:featuredmedia'][0]?.source_url"
+            alt="{{ post?.title?.rendered }}" class="blog__details__banner">
+        </div>
+
+        <div [innerHTML]="post?.content?.rendered" class="blog__details__content"></div>
+    </div>
+    
+    <div *ngIf="!post">
+        <p>Post not found.</p>
+    </div>
+  
+
+
+
+</div>
