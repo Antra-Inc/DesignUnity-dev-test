@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit, ElementRef, QueryList, ViewChildren } from '@angular/core';
+import { StudioService } from '../studio.service';
 
 @Component({
   selector: 'app-studio-accordion',
@@ -6,10 +7,14 @@ import { Component, OnInit, AfterViewInit, ElementRef, QueryList, ViewChildren }
   styleUrls: ['./studio-accordion.component.scss']
 })
 export class StudioAccordionComponent implements OnInit {
+item: any;
+openDialog(arg0: any) {
+throw new Error('Method not implemented.');
+}
 
   ngOnInit() {
       }
-  constructor(){ }
+  constructor(private modalService: StudioService){ }
 
   activeSection: string = 'section1';  // Set the initial active section to the first section
 
@@ -41,6 +46,11 @@ export class StudioAccordionComponent implements OnInit {
     if (targetSection) {
       targetSection.nativeElement.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  
+  openModal() {
+    this.modalService.openModal();
   }
 
 
