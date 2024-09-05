@@ -43,7 +43,7 @@ const routes: Routes = [
   },
   {
     path: 'studio',
-    component: StudioAccordionComponent,
+    component: SurfaceStudioComponent,
   },
   {
     path: 'aboutus',
