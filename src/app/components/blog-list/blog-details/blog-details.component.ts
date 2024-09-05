@@ -8,7 +8,7 @@ import { WordpressService } from '../../wordpress.service';
   styleUrls: ['./blog-details.component.scss']
 })
 export class BlogDetailsComponent implements OnInit{
-  post: any;
+post: any;
   isLoading = true;  // Optional loading state
 
   constructor(private route: ActivatedRoute, private postService: WordpressService) {}
