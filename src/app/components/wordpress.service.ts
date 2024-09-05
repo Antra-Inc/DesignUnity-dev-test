@@ -9,7 +9,7 @@ export class WordpressService {
 
 
 
-    private apiUrl = 'https://techwish.com/wp-json/wp/v2/posts';
+    private apiUrl = 'https://drramyapechetty.com//wp-json/wp/v2';
     private postsUrl = `${this.apiUrl}/posts`;
     private categoriesUrl = `${this.apiUrl}/categories`;
 
