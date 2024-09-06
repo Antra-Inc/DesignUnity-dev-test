@@ -7,8 +7,6 @@ import { Observable } from 'rxjs';
 })
 export class WordpressService {
 
-
-
     private apiUrl = 'http://stagingsite.antra.com/wp-json/wp/v2';
     private postsUrl = `${this.apiUrl}/posts`;
     private categoriesUrl = `${this.apiUrl}/categories`;
