@@ -1,0 +1,31 @@
+
+<div class="modal_main">
+
+    <!-- app.component.html -->
+    <!-- <button (click)="openModal()">Open Modal</button> -->
+    <div class="button_div"  (click)="openModal()">
+        <a class="menu-link"> View All </a>
+        <span class="pointer">
+          <img src="./assets/svg/nav-arrow.svg" width="60%" />
+        </span>
+    </div>
+
+    <!-- Modal -->
+    
+        <div class="modal" *ngIf="isModalOpen">
+            <div class="modal-content">
+                <div class="modal__content__main">
+                    <div class="left-content">
+                       <app-popup-slider></app-popup-slider>
+                    </div>
+                    <div class="right-content">
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure nostrum similique hic magni culpa at neque repudiandae deleniti ratione temporibus, fugit voluptates et beatae corporis saepe cum. Et, alias amet. </p>
+                    </div>
+                </div>
+                <span class="close" (click)="closeModal()">&times;</span>
+            </div>
+        </div>
+    
+    
+</div>
+

@@ -39,6 +39,8 @@ import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
 import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
 import { StudioService } from './components/studio.service';
+import { ModalComponent } from './components/modal/modal.component';
+import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
 
 
 @NgModule({
@@ -77,6 +79,8 @@ import { StudioService } from './components/studio.service';
     BlogTestComponent,
     BlogDetailsComponent,
     StudioDialogComponent,
+    ModalComponent,
+    PopupSliderComponent,
   ],
   imports: [
     BrowserModule,
