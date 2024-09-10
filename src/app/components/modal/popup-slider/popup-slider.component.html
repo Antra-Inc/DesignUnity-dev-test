@@ -1,32 +1,124 @@
-<div class="container slider_container">
-    <!-- main images -->
-    <div class="holder">
-      <div *ngFor="let slide of slides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
-        <img [src]="slide.url" [alt]="slide.alt" />
-      </div>
+
+<!-- main images -->
+<!-- <div class="images_holder">
+  <div class="holder">
+    <div *ngFor="let slide of slides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
+      <img [src]="slide.url" [alt]="slide.alt" />
     </div>
-  
-    <div class="prevContainer" (click)="plusSlides(-1)">
-      <svg viewBox="0 0 24 24">
-        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
-      </svg>
-    </div>
-  
-    <div class="nextContainer" (click)="plusSlides(1)">
-      <svg viewBox="0 0 24 24">
-        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-      </svg>
-    </div>
-  
-    <div class="caption-container">
-      <p>{{ slides[slideIndex - 1]?.alt }}</p>
-    </div>
-  
+  </div>
+
+  <div class="prevContainer" (click)="plusSlides(-1)">
+    <img src="assets/img/arrow-icon.svg" alt="arrow">
+  </div>
+
+  <div class="nextContainer" (click)="plusSlides(1)">
+    <img src="assets/img/arrow-icon.svg" alt="arrow">
+  </div>
+
+</div> -->
     <!-- Thumbnails -->
-    <div class="row">
-      <div *ngFor="let slide of slides; let i = index" class="column">
-        <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+    <!-- <div class="thumbnail-wrapper">
+      <div class="row thumbnail_images" #thumbnailRow>
+        <div *ngFor="let slide of slides; let i = index" class="column">
+          <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+        </div>
+      </div>
+    </div> -->
+
+
+ 
+  <!-- Thumbnails -->
+  <!-- <div class="thumbnail-wrapper">
+    <div class="row thumbnail_images" #thumbnailRow>
+      <ul *ngFor="let slide of slides; let i = index" class="column">
+        <li>
+          <span>
+            <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div> -->
+  <!-- <div class="modal_slider_container">
+    <div class="modal_slider">
+        <div class="display_image"> 
+            <div class="images_holder">
+
+                <div class="holder">
+                    <div *ngFor="let slide of slides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
+                        <img [src]="slide.url" [alt]="slide.alt" />
+                    </div>
+                </div>
+        
+                <div class="prevContainer" (click)="plusSlides(-1)">
+                    <img src="assets/img/arrow-icon.svg" alt="arrow">
+                </div>
+            
+                <div class="nextContainer" (click)="plusSlides(1)">
+                    <img src="assets/img/arrow-icon.svg" alt="arrow">
+                </div>
+        
+            </div>    
+        </div>
+        <div class="thumbnail_images"> 
+            <div class="thumbnail-wrapper-content">
+            <div class="thumbnail-wrapper">
+              
+                <div class="thumbnail_images" #thumbnailRow>
+                    <div *ngFor="let slide of slides; let i = index" class="column">
+                        <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+                    </div>
+                </div>
+              </div>
+                
+            </div>    
+        </div>
+    </div>
+    <div class="modal_sllider_details">
+        <div class="modal_sllider_details_content">
+            <h1> What will you see </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis, inventore odit, amet harum, laboriosam maiores nemo cumque architecto eaque aliquid odio praesentium esse ipsa? Sint expedita sequi tempora similique?</p>
+        </div>
+    </div>
+  </div> -->
+
+
+  <div class="modal_slider_container">
+    <div class="modal_slider">
+      <div class="display_image"> 
+        <div class="images_holder">
+
+            <div class="holder">
+                <div *ngFor="let slide of slides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
+                    <img [src]="slide.url" [alt]="slide.alt" />
+                </div>
+            </div>
+    
+            <div class="prevContainer" (click)="plusSlides(-1)">
+                <img src="assets/img/arrow-icon.svg" alt="arrow">
+            </div>
+        
+            <div class="nextContainer" (click)="plusSlides(1)">
+                <img src="assets/img/arrow-icon.svg" alt="arrow">
+            </div>
+    
+        </div>    
+    </div>
+      <div class="thumbnail-wrapper">
+        <div class="thumbnail-wrapper-content">
+          <div class="thumbnail_images">
+            <div *ngFor="let slide of slides; let i = index" class="column">
+                <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-</div>
+    <div class="modal_sllider_details">
+      <div class="modal_sllider_details_content">
+          <h1> What will you see </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis, inventore odit, amet harum, laboriosam maiores nemo cumque architecto eaque aliquid odio praesentium esse ipsa? Sint expedita sequi tempora similique?</p>
+      </div>
+  </div>
+  </div>
   

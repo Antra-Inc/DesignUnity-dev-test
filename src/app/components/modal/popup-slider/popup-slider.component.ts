@@ -8,45 +8,81 @@ import { Component } from '@angular/core';
 export class PopupSliderComponent {
   slides = [
     {
-      url: 'https://images.unsplash.com/photo-1505438157249-00e1b44ee34f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=dfc554074f522ec42818a052152dac21g',
+      url: '../../../../assets/img/studio/DSC00153.png',
       alt: 'Caption One'
     },
     {
-      url: 'https://images.unsplash.com/photo-1515870672913-a4c298575776?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=aa80486fd3343134706e785c034b339d',
+      url: '../../../../assets/img/studio/DSC00262.png',
       alt: 'Caption Two'
     },
     {
-      url: 'https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=583c2bf56c8006e507e2a9905fc1e54c',
+      url: '../../../../assets/img/studio/DSC00356.png',
       alt: 'Caption Three'
     },
     {
-      url: 'https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=69093505f999d8170e9a1aab3771c07e',
+      url: '../../../../assets/img/studio/DSC00447.png',
       alt: 'Caption Four'
     },
     {
-      url: 'https://images.unsplash.com/photo-1485199433301-8b7102e86995?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c7783fe3a697b1a2248450120435cbc3',
+      url: '../../../../assets/img/studio/DSC00602.png',
       alt: 'Caption Five'
     },
     {
-      url: 'https://images.unsplash.com/photo-1505438157249-00e1b44ee34f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=dfc554074f522ec42818a052152dac21g',
+      url: '../../../../assets/img/studio/DSC00605.png',
       alt: 'Caption Six'
     },
     {
-      url: 'https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e26ec8c74dc99aff53a60741538cad5f',
+      url: '../../../../assets/img/studio/DSC00618.png',
       alt: 'Caption Seven'
     },
     {
-      url: 'https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=69093505f999d8170e9a1aab3771c07e',
-      alt: 'Caption Eight'
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
     },
     {
-      url: 'https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e26ec8c74dc99aff53a60741538cad5f',
-      alt: 'Caption Nine'
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
     },
     {
-      url: 'https://images.unsplash.com/photo-1485199433301-8b7102e86995?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c7783fe3a697b1a2248450120435cbc3',
-      alt: 'Caption Ten'
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
     },
+    {
+      url: '../../../../assets/img/studio/DSC00602.png',
+      alt: 'Caption Five'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00605.png',
+      alt: 'Caption Six'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00618.png',
+      alt: 'Caption Seven'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00602.png',
+      alt: 'Caption Five'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00605.png',
+      alt: 'Caption Six'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00618.png',
+      alt: 'Caption Seven'
+    }
   ];
 
   slideIndex = 1;
