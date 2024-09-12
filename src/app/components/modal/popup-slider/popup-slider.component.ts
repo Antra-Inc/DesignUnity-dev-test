@@ -61,7 +61,6 @@ export class PopupSliderComponent implements AfterViewInit {
         });
       }
     }
-
   }
 
 

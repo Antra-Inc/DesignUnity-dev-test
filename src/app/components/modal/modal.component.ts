@@ -6,8 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./modal.component.scss']
 })
 export class ModalComponent {
-
-
   
   @Input() currentSlides: any[] = [];
 
@@ -20,11 +18,6 @@ export class ModalComponent {
   closeModal() {
     this.isModalOpen = false;
   }
-
-
-
-
-
 
 
 }

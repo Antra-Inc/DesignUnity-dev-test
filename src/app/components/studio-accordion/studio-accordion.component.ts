@@ -16,7 +16,7 @@ throw new Error('Method not implemented.');
       }
   constructor(private modalService: StudioService){ }
 
-  activeSection: string = 'section1';  // Set the initial active section to the first section
+  activeSection: string = 'section1';  
 
   @ViewChildren('section') sections!: QueryList<ElementRef>;
 
@@ -24,7 +24,7 @@ throw new Error('Method not implemented.');
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.1  // 60% of the section must be visible to consider it active
+      threshold: 0.1 
     };
 
     const observer = new IntersectionObserver((entries, observer) => {

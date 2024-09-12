@@ -1,14 +1,5 @@
 
-  
-  .modal-content {
-    background-color: #4a2b1b;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 75vw;
-    height: 75vh;
-    margin-top: 30px;
-  }
+
   
   .close {
     color: #aaa;
@@ -69,46 +60,6 @@
     }
 }
 
-.modal-content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    justify-content: space-between;
-}
-
-.modal__content__main{
-    display: grid;
-    grid-template-columns: 65% 1fr;
-    width: 100%;
-}
-
-.right-content{
-    align-items: center;
-    justify-content: center;
-    display: grid;
-
-    .right-content__text{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-content: center;
-        padding: 20%;
-        color: #fff;
-
-        h1{
-            font-size: 5rem;
-            padding-bottom: 40px;
-        }
-        p{
-            font-size: 1.2rem;
-            font-weight: normal;
-        }
-    }
-}
 
 
 .modal_container{
@@ -153,43 +104,6 @@
     }
   }
 
-  .modal_slider_container{
-    height: 100%;
-    display: grid;
-    grid-template-columns: 65% 1fr;
-    .modal_slider{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-rows: 1fr auto;
-        gap: 25px;
-        overflow: hidden;
-    }
-  }
-  .modal_sllider_details{
-    padding: 40px;
-    color: #fff;
-    display: grid;
-    gap: 17px;
-    height: -moz-fit-content;
-    height: fit-content;
-    letter-spacing: 1px;
-    word-spacing: 0px;
-    height: 100%;
-    align-items: center;
-    &_content{
-        h1{
-            font-size: 40px;
-            font-family: "Tenor_Sans";
-            margin: 0;
-            padding-bottom: 20px;
-        }
-        p{
-            font-size: 18px;
-            font-family: "Helvetica-light";
-            margin: 0;
-        }
-    }
-  }
+
 
 
