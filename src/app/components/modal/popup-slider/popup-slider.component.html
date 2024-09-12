@@ -1,0 +1,41 @@
+
+<div class="modal_slider_container">
+  <div class="modal_slider">
+    <div class="display_image">
+      <div class="images_holder">
+        <div class="holder">
+          <div *ngFor="let slide of currentSlides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
+            <img [src]="slide.url" [alt]="slide.alt" />
+          </div>
+        </div>
+
+        <div class="prevContainer" (click)="plusSlides(-1)">
+          <img src="assets/img/arrow-icon.svg" alt="arrow">
+        </div>
+
+        <div class="nextContainer" (click)="plusSlides(1)">
+          <img src="assets/img/arrow-icon.svg" alt="arrow">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Thumbnails Wrapper -->
+    <div class="thumbnail-wrapper">
+      <div class="thumbnail-wrapper-content">
+        <div class="thumbnail_images" #thumbnailRow>
+          <div *ngFor="let slide of currentSlides; let i = index" class="column">
+            <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="modal_sllider_details">
+    <div class="modal_sllider_details_content">
+      <h1> What will you see </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </div>
+  </div>
+</div>

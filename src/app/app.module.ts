@@ -37,6 +37,10 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
+import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
+import { StudioService } from './components/studio.service';
+import { ModalComponent } from './components/modal/modal.component';
+import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
 
 
 @NgModule({
@@ -74,6 +78,9 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
     BlogListComponent,
     BlogTestComponent,
     BlogDetailsComponent,
+    StudioDialogComponent,
+    ModalComponent,
+    PopupSliderComponent,
   ],
   imports: [
     BrowserModule,
@@ -86,7 +93,7 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
   ],
   exports: [ DuCarouselComponent,
     HomeSliderComponent,],
-  providers: [],
+  providers: [StudioService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

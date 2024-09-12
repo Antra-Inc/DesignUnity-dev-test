@@ -1,0 +1,109 @@
+
+
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .button_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 45px;
+    background: #2F1A05 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .pointer{
+        background: #d8976e;
+        color: #fff;
+        width: 9px;
+        height: 9px;
+        border-radius: 9px;
+        margin-left: 10px;
+        background: #D8976E 0% 0% no-repeat padding-box;
+        transition: all .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            opacity: 0;
+        }
+    }
+    &:hover{
+        .pointer{
+            width: 26px;
+            height: 25px;
+            border-radius: 23px 22px;
+            img{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+.modal_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+  }
+  .modal_content{
+    background: #361402;
+    padding: 25px;
+    border-radius: 20px;
+    width: 75vw;
+    height: 75vh;
+    //position: inherit;
+    position: relative;
+    top:50px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    &_close{
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      span{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+
+
+

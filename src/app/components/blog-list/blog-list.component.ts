@@ -64,43 +64,4 @@ export class BlogListComponent implements OnInit {
   }
   
 
-  /*
-  loadPosts(): void {
-    this.postService.getPosts().subscribe({
-      next: (data) => {
-        this.posts = data;
-        this.isLoading = false;
-      },
-      error: (err) => {
-        this.error = err;
-        this.isLoading = false;
-      },
-      complete: () => {
-        console.log('Posts fetch complete');
-      }
-    });
-  }
-
-
-  filteredCards = this.posts; // Initially show all cards
-  visibleCardsCount: number = 3; // Show 3 items initially
-
-  // Method to filter cards by category
-  filterByCategory(category: string) {
-    if (category === 'all') {
-      this.filteredCards = this.posts;
-    } else {
-      this.filteredCards = this.posts.filter(item => item.category === category);
-    }
-    this.visibleCardsCount = 3; // Reset visible cards to 3 when a category is clicked
-  }
-
-  // Method to load more cards
-  loadMore() {
-    this.visibleCardsCount += 3; // Show 3 more cards when load more is clicked
-  }
-*/
-
-
-
 }
