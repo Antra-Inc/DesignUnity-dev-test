@@ -48,10 +48,6 @@ throw new Error('Method not implemented.');
     }
   }
 
-  
-  openModal() {
-    this.modalService.openModal();
-  }
 
 
 

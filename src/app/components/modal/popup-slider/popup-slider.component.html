@@ -1,9 +1,10 @@
+
 <div class="modal_slider_container">
   <div class="modal_slider">
     <div class="display_image">
       <div class="images_holder">
         <div class="holder">
-          <div *ngFor="let slide of slides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
+          <div *ngFor="let slide of currentSlides; let i = index" class="slides" [ngClass]="{ 'active': slideIndex === i + 1 }">
             <img [src]="slide.url" [alt]="slide.alt" />
           </div>
         </div>
@@ -23,7 +24,7 @@
     <div class="thumbnail-wrapper">
       <div class="thumbnail-wrapper-content">
         <div class="thumbnail_images" #thumbnailRow>
-          <div *ngFor="let slide of slides; let i = index" class="column">
+          <div *ngFor="let slide of currentSlides; let i = index" class="column">
             <img [src]="slide.url" class="slide-thumbnail" [ngClass]="{ 'active': slideIndex === i + 1 }" (click)="currentSlide(i + 1)" [alt]="slide.alt" />
           </div>
         </div>
