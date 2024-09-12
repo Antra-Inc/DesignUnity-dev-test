@@ -49,6 +49,104 @@ throw new Error('Method not implemented.');
   }
 
 
+  slides = [
+    {
+      url: '../../../../assets/img/studio/DSC00153.png',
+      alt: 'Caption One'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00602.png',
+      alt: 'Caption Five'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00605.png',
+      alt: 'Caption Six'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00618.png',
+      alt: 'Caption Seven'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    }
+  ];
+
+
+  delhi = [
+    
+    {
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00602.png',
+      alt: 'Caption Five'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00605.png',
+      alt: 'Caption Six'
+    }
+  ];
+
+  bangalore = [
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00602.png',
+      alt: 'Caption Five'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00605.png',
+      alt: 'Caption Six'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00618.png',
+      alt: 'Caption Seven'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00262.png',
+      alt: 'Caption Two'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00356.png',
+      alt: 'Caption Three'
+    },
+    {
+      url: '../../../../assets/img/studio/DSC00447.png',
+      alt: 'Caption Four'
+    }
+  ];
 
 
 }
