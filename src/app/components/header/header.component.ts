@@ -41,4 +41,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   selectMenu(data: any) {
     this.activeItem = data;
   }
+
+
+  
 }
