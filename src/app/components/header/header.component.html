@@ -5,9 +5,9 @@
       ><img src="./assets/svg/DU-logo.svg" alt="Design Unity"
     /></a>
     <div
-      class="burger"
+      class="burger" 
       id="burger"
-      (click)="open = !open"
+      (click)="open = !open;"
       [ngClass]="open ? 'active' : ''"
     >
       <span class="burger-line"></span>
@@ -20,9 +20,9 @@
           <div class="menu-item__pointer"><span></span></div>
           <a routerLink="/aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item" (click)="open = false">
-          <span> </span><a href="#" class="menu-link">Solutions</a>
-          <ul>
+        <li class="menu-item">
+          <span> </span><a (click)="toggleSubMenu()" class="menu-link">Solutions</a>
+          <ul *ngIf="submenuOpen">
             <li class="menu-item" (click)="open = false">
               <span> </span>
               <a routerLink="/venetian_plasters" class="menu-link">Venetian Plasters</a>

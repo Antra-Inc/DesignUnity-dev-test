@@ -29,13 +29,13 @@
     gap: 30px;
     background-color: rgba(#fffdf8, 0.9);
     background-image: url("../../../../assets/img/portfolio-mask.svg");
-    h3 {
-      display: flex;
-      justify-content: center;
+
+    .header {
       @include heading;
+      padding: 2rem 1.5rem 1rem;
     }
     p {
-      @include sub_text;
+      @include page_content;
     }
 
     @media (max-width: 991px){

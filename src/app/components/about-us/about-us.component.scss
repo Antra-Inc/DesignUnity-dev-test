@@ -46,23 +46,47 @@
       flex-direction: column;
       align-items: center;
       gap: clamp(10px, 3.5vh, 60px);
+      padding: 100px 12%;
+      // .semi-header{
+      //   font-size: 40px;
+      //   display: flex;
+      //   justify-content: center;
+      //   font-family: "Tenor_Sans";
+      //   color: #723c0d;
+      // }
+      .header{
+        @include heading;
+        padding: 2rem 1.5rem 1rem;
+      }
+      .paragraph{
+        @include page_content;
+      }
+     
     }
+
+     @media (max-width: 991px) {
+        padding: 10px;
+        &--content{
+          min-height: 35vh;
+          padding: 30px 20px;
+          gap: 15px;
+          
+        } 
+      }
   }
+
   &__clients {
     padding: 50px 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    .header{
+      @include heading;
+      padding: 2rem 1.5rem 1rem;
+    }
     @media (max-width: 550px){
       padding: 50px;
-    }
-    &--header {
-      //   h2 {
-      //     padding-top: 100px;
-      //     @include page-header();
-      //     font-weight: 300;
-      //   }
     }
     &--content {
       max-width: 1440px;

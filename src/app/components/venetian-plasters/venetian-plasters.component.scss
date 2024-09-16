@@ -98,56 +98,23 @@
       flex-direction: column;
       align-items: center;
       gap: clamp(10px, 3.5vh, 60px);
+      padding: 100px 15%;
+      .header{
+        @include heading;
+        padding: 2rem 1.5rem 1rem;
+      }
+      .paragraph{
+        @include page_content;
+      }
+    }
+    @media (max-width: 991px) {
+      padding: 10px;
+      &--content{
+        padding: 30px 20px;
+      }
     }
   }
   &__tabs {
    // border: 1px solid red;
   }
 }
-// .venetian__grid {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   grid-auto-rows: 1fr;
-//   gap: 10px; /* adjust the gap as needed */
-// }
-
-// .venetian__grid--item {
-//   background-color: #eee;
-//   padding: 20px;
-// }
-
-// .venetian__grid--item:nth-child(even) {
-//   grid-column: 2;
-// }
-
-// .venetian__grid--item:nth-child(odd) {
-//   grid-column: 1;
-// }
-// .venetian__grid {
-//   display: grid;
-//   grid-template-columns: 30% 70%;
-//   grid-auto-rows: 1fr;
-//   gap: 10px;
-//   /* adjust the gap as needed */
-// }
-// .venetian__grid--item {
-//   background-color: #eee;
-//   padding: 20px;
-// }
-// .venetian__grid--item:nth-child(even) {
-//   grid-column: 1;
-// }
-// .venetian__grid--item:nth-child(odd) {
-//   grid-column: 2;
-// }
-// .venetian__grid {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-// .venetian__grid--item {
-//   width: calc(30% - 10px);
-//   margin: 5px;
-// }
-// .venetian__grid--item:nth-child(even) {
-//   width: calc(70% - 10px);
-// }
