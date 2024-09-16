@@ -2,7 +2,9 @@
     <div class="modal_content">
         
         <div class="modal_content_close">
-            <span class="close" (click)="closeModal()">&times;</span>
+            <span class="close" (click)="closeModal()">
+                <img src="./assets/svg/plus-circle.svg" alt="">
+            </span>
         </div>
 
         <app-popup-slider [currentSlides]="currentSlides"></app-popup-slider>
