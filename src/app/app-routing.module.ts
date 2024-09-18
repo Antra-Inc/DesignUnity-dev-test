@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
+import { FlooringPageComponent } from './components/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us-page/about-us.component';
 import { StudioAccordionComponent } from './components/studio/studio-accordion.component';

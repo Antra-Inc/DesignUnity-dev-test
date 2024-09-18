@@ -1,11 +1,11 @@
-@import "../../../../styles/scss/variables";
-@import "../../../../styles/scss/mixins";
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
 
 .flooring {
   min-height: 100vh;
   background: #fffdf7;
   &__sec-1 {
-    background-image: url("../../../../assets/img/flooring/banner.png");
+    background-image: url("../../../assets/img/flooring/banner.png");
     min-height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
     display: grid;
     gap: 30px;
     background-color: rgba(#fffdf8, 0.9);
-    background-image: url("../../../../assets/img/portfolio-mask.svg");
+    background-image: url("../../../assets/img/portfolio-mask.svg");
 
     .header {
       @include heading;
