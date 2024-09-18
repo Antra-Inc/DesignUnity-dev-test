@@ -87,13 +87,13 @@
                   src="../../../assets/img/solutions/solution-menu-1.png"
                   alt="image1"
                   [ngClass]="{ active: activeItem == '1' }"
-                  (mouseenter)="selectMenu(1)"
+                  (mouseenter)="selectMenu(1)" routerLink="/venetian_plasters"
                 />
                 <img
                   src="../../../assets/img/solutions/solution-menu-2.png"
                   alt="image1"
                   [ngClass]="{ active: activeItem == '2' }"
-                  (mouseenter)="selectMenu(2)"
+                  (mouseenter)="selectMenu(2)" routerLink="/flooring"
                 />
               </div>
             </div>
@@ -117,12 +117,12 @@
         </li>
         <li class="menu-item solutions" (mouseenter)="mouseEnter('in')">
           <div class="menu-item__pointer">
-            <span class="solutions"
+            <span class="solutions" 
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
           <a class="menu-link">Resources</a>
-          <div class="popup">
+          <div class="popup end_popup">
             <div class="popup__content">
               <ul>
                 <li
@@ -145,13 +145,13 @@
                   src="../../../assets/img/solutions/solution-menu-1.png"
                   alt="image1"
                   [ngClass]="{ active: activeItem == '1' }"
-                  (mouseenter)="selectMenu(1)"
+                  (mouseenter)="selectMenu(1)" routerLink="/catalogue"
                 />
                 <img
                   src="../../../assets/img/solutions/solution-menu-2.png"
                   alt="image1"
                   [ngClass]="{ active: activeItem == '2' }"
-                  (mouseenter)="selectMenu(2)"
+                  (mouseenter)="selectMenu(2)" routerLink="/blog"
                 />
               </div>
             </div>
