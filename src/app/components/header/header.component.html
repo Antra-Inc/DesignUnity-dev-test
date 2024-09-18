@@ -21,13 +21,13 @@
           <a routerLink="/aboutUs" class="menu-link">About Us</a>
         </li>
         <li class="menu-item">
-          <span> </span><a (click)="toggleSubMenu()" class="menu-link">Solutions</a>
-          <ul *ngIf="submenuOpen">
-            <li class="menu-item" (click)="open = false">
+          <span> </span><a (click)="toggleSubMenu('solutions')" class="menu-link">Solutions</a>
+          <ul *ngIf="activeSubMenu === 'solutions'">
+            <li class="menu-item" (click)="navigateAndClose()">
               <span> </span>
               <a routerLink="/venetian_plasters" class="menu-link">Venetian Plasters</a>
             </li>
-            <li class="menu-item" (click)="open = false">
+            <li class="menu-item" (click)="navigateAndClose()">
               <span> </span>
               <a routerLink="/flooring" class="menu-link">Seamless Flooring</a>
             </li>
@@ -40,6 +40,19 @@
         <li class="menu-item" (click)="open = false">
           <span> </span>
           <a routerLink="/surface" class="menu-link">Sufrace Studio</a>
+        </li>
+        <li class="menu-item">
+          <span> </span><a (click)="toggleSubMenu('resources')" class="menu-link">Resources</a>
+          <ul *ngIf="activeSubMenu === 'resources'">
+            <li class="menu-item" (click)="navigateAndClose()">
+              <span> </span>
+              <a routerLink="/catalogue" class="menu-link">Catalogue</a>
+            </li>
+            <li class="menu-item" (click)="navigateAndClose()">
+              <span> </span>
+              <a routerLink="/blog" class="menu-link">Blog</a>
+            </li>
+          </ul>
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span><a routerLink="/contactus" class="menu-link">Contact</a>

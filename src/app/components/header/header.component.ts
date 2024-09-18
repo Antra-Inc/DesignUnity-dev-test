@@ -24,6 +24,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   imgSrc = '';
   activeItem = '';
   submenuOpen = false; 
+  activeSubMenu: string = '';
 
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
@@ -35,9 +36,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   onClick() {
     this.isHamburguer = !this.isHamburguer;
   }
-  // toggleMenu() {
-  //   this.menuState = this.menuState === 'out' ? 'in' : 'out';
-  // }
+
   mouseEnter(data: any) {
     this.openSolutions = true;
   }
@@ -45,22 +44,26 @@ export class HeaderComponent implements OnInit, OnChanges {
     this.activeItem = data;
   }
 
-toggleSubMenu() {
-  this.submenuOpen = !this.submenuOpen;
-}
+
 
 // Toggle the main mobile menu
 toggleMenu() {
   this.open = !this.open;
   // When closing the menu, also close any open submenus
   if (!this.open) {
-    this.submenuOpen = false;
+    this.activeSubMenu = '';
   }
+}
+
+toggleSubMenu(menu: string) {
+  //this.submenuOpen = !this.submenuOpen;
+  this.activeSubMenu = this.activeSubMenu === menu ? '' : menu;
 }
 
 navigateAndClose() {
   this.open = false;
-  this.submenuOpen = false;
+  this.activeSubMenu = '';
+
 }
 
 }
