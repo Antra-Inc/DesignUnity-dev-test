@@ -9,7 +9,6 @@ import { SurfaceStudioComponent } from './components/surface-studio/surface-stud
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
-import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component'
 import { ModalComponent } from './components/modal/modal.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component'
@@ -49,10 +48,6 @@ const routes: Routes = [
   {
     path: 'blog',
     component: BlogListComponent,
-  },
-  {
-    path: 'blog_test',
-    component: BlogTestComponent,
   },
   { 
     path: 'blog/:id', 

@@ -34,7 +34,6 @@ import { StudioAccordionComponent } from './components/studio-accordion/studio-a
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
-import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
 import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
 import { StudioService } from './components/studio.service';
@@ -75,7 +74,6 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     StudioSliderComponent,
     ContactusComponent,
     BlogListComponent,
-    BlogTestComponent,
     BlogDetailsComponent,
     StudioDialogComponent,
     ModalComponent,
