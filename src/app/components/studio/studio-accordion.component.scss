@@ -20,9 +20,6 @@
 
     #navbar{
         position: relative;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
         @include grid-template;
        
         .nav_list{
@@ -31,8 +28,6 @@
             padding-left: 50px;
             z-index: 0;
             top: 30vh;
-            // display: grid;
-            // grid-template-columns: 1fr;
             @include grid-template;
             gap: 50px;
             text-align: left;

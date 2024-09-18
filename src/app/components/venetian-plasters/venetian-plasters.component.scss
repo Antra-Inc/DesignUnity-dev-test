@@ -1,8 +1,6 @@
 @import "../../../styles/scss/variables";
 @import "../../../styles/scss/mixins";
 .venetian {
-  // height: 100%;
-  // overflow: auto;
   &__header {
     height: 75vh;
     background-image: url("../../../assets/img/solutions/venetian-plasters-bg.svg");
@@ -81,9 +79,8 @@
         width: calc(30% - 10px);
       }
     }
-    // grid-template-columns: 30% 70%;
   }
-  // Mixin to reverse columns
+ 
 
   &__about {
     background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
@@ -113,8 +110,5 @@
         padding: 30px 20px;
       }
     }
-  }
-  &__tabs {
-   // border: 1px solid red;
   }
 }

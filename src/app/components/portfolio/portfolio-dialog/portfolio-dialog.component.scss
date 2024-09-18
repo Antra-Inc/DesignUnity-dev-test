@@ -45,46 +45,46 @@
 
     h5 {
       font-size: 20px;
-      font-family: "Helvetica-light";
+      font-family: $heading-font;
       color: #fff;
       margin: 0;
     }
     h2 {
       font-size: 40px;
-      font-family: "Tenor_Sans";
+      font-family: $text_font;
       margin: 0;
     }
     p {
       font-size: 18px;
-      font-family: "Helvetica-light";
+      font-family: $heading-font;
       margin: 0;
     }
     h3 {
       font-size: 25px;
-      font-family: "Helvetica-regular";
+      font-family: $heading-font;
       margin: 0;
     }
     @media (max-width: 500px) {
       padding: 15px 0;
       h5 {
         font-size: 14px;
-        font-family: "Helvetica-light";
+        font-family: $heading-font;
         color: #fff;
         margin: 0;
       }
       h2 {
         font-size: 18px;
-        font-family: "Tenor_Sans";
+        font-family: $text_font;
         margin: 0;
       }
       p {
         font-size: 12px;
-        font-family: "Helvetica-light";
+        font-family: $heading-font;
         margin: 0;
       }
       h3 {
         font-size: 16px;
-        font-family: "Helvetica-regular";
+        font-family: $heading-font;
         margin: 0;
       }
     }
@@ -100,7 +100,6 @@
   height: 71px;
   outline: none !important;
   cursor: pointer;
-  //   background: url(../assets/blank.gif) no-repeat;
   border: none;
   visibility: hidden;
 }
@@ -108,25 +107,21 @@
 .arrow.prev {
   opacity: 0.2;
   left: 20px;
-  //   background-image: url(../assets/paddle_prev_999.png);
   transition: 0.2s linear all;
 }
 
 .arrow.next {
   opacity: 0.2;
   right: 20px;
-  //   background-image: url(../assets/paddle_next_999.png);
   transition: 0.2s linear all;
 }
 
 .arrow.prev:hover {
   opacity: 1;
-  //   background-image: url(../assets/paddle_prev_fff.png);
 }
 
 .arrow.next:hover {
   opacity: 1;
-  //   background-image: url(../assets/paddle_next_fff.png);
 }
 
 /*---------------------------------------------------------
@@ -135,13 +130,6 @@
 
 .nav {
   text-align: center;
-  //   display: block;
-  //   position: absolute;
-  //   z-index: 1002;
-  //   left: 0;
-  //   bottom: -4px;
-  //   right: 0;
-  //   height: 48px;
 }
 
 .nonDraggableImage {
@@ -151,7 +139,6 @@
 .nav .wrapper {
   margin: 0 auto;
   width: 100%;
-  //   padding: 1em 0 0.8em;
 }
 
 .nav {
@@ -192,7 +179,6 @@
       text-indent: inherit;
       white-space: nowrap;
       overflow: hidden;
-      /* background: #FFF; */
       border: 1px solid transparent;
       outline: none;
       -webkit-box-shadow: none;

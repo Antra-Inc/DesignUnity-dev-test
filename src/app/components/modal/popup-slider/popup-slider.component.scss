@@ -1,4 +1,5 @@
-  
+  @import '../../../../styles/scss/variables';
+
   .modal_slider_container {
     height: 100%;
     display: grid;
@@ -108,13 +109,13 @@
     &_content{
         h1{
             font-size: 40px;
-            font-family: "Tenor_Sans";
+            font-family: $heading-font;
             margin: 0;
             padding-bottom: 20px;
         }
         p{
             font-size: 18px;
-            font-family: "Helvetica-light";
+            font-family: $text_font;
             margin: 0;
         }
     }

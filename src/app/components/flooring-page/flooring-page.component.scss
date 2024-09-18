@@ -66,12 +66,12 @@
         h3{
           font-size: $font_heading;
           line-height: 2;
-          font-family: "Tenor_Sans";
+          font-family: $heading-font;
         }
         p {
           font-size: $font_text;
           line-height: 30px;
-          font-family: "Helvetica-light";
+          font-family: $text_font;
         }
         
       }

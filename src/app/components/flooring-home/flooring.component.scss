@@ -15,7 +15,6 @@
 }
 .flooring {
   &_section {
-    //min-height: 50vh;
     background: #f6f1eb;
     background-size: cover;
     padding-top: 2em;
@@ -27,10 +26,8 @@
     }
   }
   &_details {
-   // @include dflex(grid, 50% 50%, center);
    @include grid-template($grid-template-values: repeat(2, 1fr));
     background: #4f453c;
-    // margin: 25px;
     border-radius: 18px;
     margin: 0 auto;
     &_left {
@@ -40,7 +37,6 @@
       letter-spacing: 0.9px;
       color: #fff;
       @media (max-width: 500px) {
-        //font-size: $font_text;
         padding: 20px 15px !important;
         text-align: center !important;
       }

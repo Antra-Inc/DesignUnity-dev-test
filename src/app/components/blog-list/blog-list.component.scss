@@ -18,7 +18,7 @@
             @include heading($color:#000);
             text-transform: capitalize;
             letter-spacing: 4px;
-            font-family: "Tenor_Sans";
+            font-family: $heading-font;
             font-size: 50px;
            padding-bottom: 50px;
         }

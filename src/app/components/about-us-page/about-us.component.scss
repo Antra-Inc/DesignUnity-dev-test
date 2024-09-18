@@ -47,13 +47,6 @@
       align-items: center;
       gap: clamp(10px, 3.5vh, 60px);
       padding: 100px 12%;
-      // .semi-header{
-      //   font-size: 40px;
-      //   display: flex;
-      //   justify-content: center;
-      //   font-family: "Tenor_Sans";
-      //   color: #723c0d;
-      // }
       .header{
         @include heading;
         padding: 2rem 1.5rem 1rem;

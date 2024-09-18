@@ -1,3 +1,7 @@
+
+@import '../../../styles/scss/variables';
+
+
 .header {
   height: 140px;
   display: flex;
@@ -153,7 +157,7 @@
         }
         a {
           text-decoration: none;
-          font-family: "Helvetica-regular";
+          font-family: $text_font_regular;
           color: #4d4747;
           font-size: 20px;
         }
@@ -161,7 +165,6 @@
           position: relative;
           z-index: 111;
           .menu-item__sub-menu {
-            // display: none;
             border: 1px solid red;
             position: absolute;
             top: 60px;
@@ -170,11 +173,6 @@
             border-radius: 10px;
             z-index: 111;
           }
-          // &:hover {
-          //   & > .menu-item__sub-menu {
-          //     display: block;
-          //   }
-          // }
           &:hover {
             .popup {
               opacity: 1;
@@ -188,12 +186,6 @@
             }
           }
         }
-        // .solutions:hover .popup,
-        // .popup:hover {
-        //   opacity: 1;
-        //   visibility: visible;
-        //   pointer-events: auto;
-        // }
         &:hover {
           .menu-item__pointer {
             span {
@@ -259,14 +251,7 @@
     }
   }
 }
-// @-webkit-keyframes mover {
-//   0% {
-//     transform: translateY(0);
-//   }
-//   100% {
-//     transform: translateX(20px);
-//   }
-// }
+
 
 @keyframes mover {
   0% {
