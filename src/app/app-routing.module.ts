@@ -6,11 +6,9 @@ import { FlooringPageComponent } from './components/flooring/flooring-page/floor
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
-import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
-import { AboutusComponent } from './components/aboutus/aboutus.component';
+
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
-import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component'
 import { ModalComponent } from './components/modal/modal.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component'
@@ -41,23 +39,11 @@ const routes: Routes = [
   },
   {
     path: 'surface',
-    component: StudioAccordionComponent,
-  },
-  {
-    path: 'studio',
     component: SurfaceStudioComponent,
-  },
-  {
-    path: 'aboutus',
-    component: AboutusComponent,
   },
   {
     path: 'blog',
     component: BlogListComponent,
-  },
-  {
-    path: 'blog_test',
-    component: BlogTestComponent,
   },
   { 
     path: 'blog/:id', 

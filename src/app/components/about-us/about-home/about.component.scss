@@ -1,8 +1,8 @@
-@import "../../../styles/scss/variables";
-@import "../../../styles/scss/mixins";
-@import "../../../styles/scss/container";
+@import "../../../../styles/scss/variables";
+@import "../../../../styles/scss/mixins";
+@import "../../../../styles/scss/container";
 .bg-img {
-  background: #f6f1eb url(../../../assets/img/bg.png) no-repeat center center;
+  background: #f6f1eb url(../../../../assets/img/bg.png) no-repeat center center;
   background-size: cover;
 }
 .section {

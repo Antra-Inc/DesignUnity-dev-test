@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SurfaceStudioComponent } from './surface-studio.component';
 
-describe('SurfaceStudioComponent', () => {
+describe('StudioAccordionComponent', () => {
   let component: SurfaceStudioComponent;
   let fixture: ComponentFixture<SurfaceStudioComponent>;
 

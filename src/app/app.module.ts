@@ -6,14 +6,13 @@ import { AppComponent } from './app.component';
 import { FlooringComponent } from './components/flooring/flooring.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { AboutComponent } from './components/about/about.component';
-import { FactsComponent } from './components/facts/facts.component';
+import { AboutComponent } from './components/about-us/about-home/about.component';
+import { FactsComponent } from './components/facts-home/facts.component';
 import { HomeComponent } from './components/home/home.component';
-import { FeaturesComponent } from './components/features/features.component';
+import { FeaturesComponent } from './components/features-home/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { DuTabsComponent } from './shared/du-tabs/du-tabs.component';
 import { TabComponent } from './shared/tab.component';
-import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NextDirective } from './components/next.directive';
 import { PrevDirective } from './components/prev.directive';
 import { CommonModule } from '@angular/common';
@@ -29,15 +28,12 @@ import { FlooringPageComponent } from './components/flooring/flooring-page/floor
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
-import { SurfaceSlideComponent } from './components/surface-studio/surface-slide/surface-slide.component';
-import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
-import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
-import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { StudioSliderComponent } from './components/surface-studio/studio-slider/studio-slider.component';
+
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
-import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
-import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
+import { StudioDialogComponent } from './components/surface-studio/studio-dialog/studio-dialog.component';
 import { StudioService } from './components/studio.service';
 import { ModalComponent } from './components/modal/modal.component';
 import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
@@ -58,7 +54,6 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     PortfolioComponent,
     DuTabsComponent,
     TabComponent,
-    TestimonialsComponent,
     NextDirective,
     PrevDirective,
     TestimonialSliderComponent,
@@ -71,13 +66,9 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     VenetianPlastersComponent,
     AboutUsComponent,
     SurfaceStudioComponent,
-    SurfaceSlideComponent,
-    StudioAccordionComponent,
     StudioSliderComponent,
-    AboutusComponent,
     ContactusComponent,
     BlogListComponent,
-    BlogTestComponent,
     BlogDetailsComponent,
     StudioDialogComponent,
     ModalComponent,
