@@ -32,7 +32,6 @@ import { SurfaceStudioComponent } from './components/surface-studio/surface-stud
 import { SurfaceSlideComponent } from './components/surface-studio/surface-slide/surface-slide.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
-import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
@@ -74,7 +73,6 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     SurfaceSlideComponent,
     StudioAccordionComponent,
     StudioSliderComponent,
-    AboutusComponent,
     ContactusComponent,
     BlogListComponent,
     BlogTestComponent,
