@@ -28,12 +28,12 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us-page/about-us.component';
-import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
-import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
+import { StudioAccordionComponent } from './components/studio/studio-accordion.component';
+import { StudioSliderComponent } from './components/studio/studio-slider/studio-slider.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
-import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
+import { StudioDialogComponent } from './components/studio/studio-dialog/studio-dialog.component';
 import { StudioService } from './components/studio.service';
 import { ModalComponent } from './components/modal/modal.component';
 import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';

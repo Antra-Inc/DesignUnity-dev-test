@@ -5,7 +5,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us-page/about-us.component';
-import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
+import { StudioAccordionComponent } from './components/studio/studio-accordion.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component'
