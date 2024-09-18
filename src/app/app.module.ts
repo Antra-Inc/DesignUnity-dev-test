@@ -41,6 +41,7 @@ import { StudioDialogComponent } from './components/studio-accordion/studio-dial
 import { StudioService } from './components/studio.service';
 import { ModalComponent } from './components/modal/modal.component';
 import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
 
 
 @NgModule({
@@ -81,6 +82,7 @@ import { PopupSliderComponent } from './components/modal/popup-slider/popup-slid
     StudioDialogComponent,
     ModalComponent,
     PopupSliderComponent,
+    CatalogueComponent,
   ],
   imports: [
     BrowserModule,

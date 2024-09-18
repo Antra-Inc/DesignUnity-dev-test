@@ -13,6 +13,7 @@ import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component'
 import { ModalComponent } from './components/modal/modal.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component'
 const routes: Routes = [
   {
     path: '',
@@ -65,6 +66,10 @@ const routes: Routes = [
   { 
     path: 'modal', 
     component: ModalComponent 
+  },
+  { 
+    path: 'catalogue', 
+    component: CatalogueComponent 
   },
 
 ];
