@@ -5,7 +5,6 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us-page/about-us.component';
-import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
@@ -40,10 +39,6 @@ const routes: Routes = [
   {
     path: 'surface',
     component: StudioAccordionComponent,
-  },
-  {
-    path: 'studio',
-    component: SurfaceStudioComponent,
   },
   {
     path: 'blog',

@@ -28,8 +28,6 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
 import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
 import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
 import { AboutUsComponent } from './components/about-us-page/about-us.component';
-import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
-import { SurfaceSlideComponent } from './components/surface-studio/surface-slide/surface-slide.component';
 import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
 import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
@@ -68,8 +66,6 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     FlooringPageComponent,
     VenetianPlastersComponent,
     AboutUsComponent,
-    SurfaceStudioComponent,
-    SurfaceSlideComponent,
     StudioAccordionComponent,
     StudioSliderComponent,
     ContactusComponent,
