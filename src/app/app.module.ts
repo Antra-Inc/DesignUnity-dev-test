@@ -37,6 +37,7 @@ import { StudioService } from './components/studio.service';
 import { ModalComponent } from './components/modal/modal.component';
 import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component';
+import { ThumbnailPreviewComponent } from './components/thumbnail-preview/thumbnail-preview.component';
 
 
 @NgModule({
@@ -73,6 +74,7 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
     ModalComponent,
     PopupSliderComponent,
     CatalogueComponent,
+    ThumbnailPreviewComponent,
   ],
   imports: [
     BrowserModule,

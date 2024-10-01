@@ -1,0 +1,15 @@
+<div class="section">
+
+    <div class="thumbnail-grid">
+        <img *ngFor="let image of images" 
+             [src]="getThumbnailUrl(image.src)" 
+             (click)="showPreview(image.src)" 
+             alt="thumbnail" />
+      </div>
+      
+      <div class="image-preview" *ngIf="selectedImage">
+        <img [src]="getPreviewUrl(selectedImage)" alt="full image" />
+      </div>
+      
+</div>
+

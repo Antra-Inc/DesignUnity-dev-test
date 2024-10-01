@@ -1,0 +1,26 @@
+
+.section{
+    height: 100vh;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .thumbnail-grid img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: auto;
+  }
+  
