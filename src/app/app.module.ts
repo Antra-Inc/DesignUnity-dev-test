@@ -38,6 +38,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { PopupSliderComponent } from './components/modal/popup-slider/popup-slider.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component';
 import { ThumbnailPreviewComponent } from './components/thumbnail-preview/thumbnail-preview.component';
+import { PortfolioJsonComponent } from './components/portfolio-json/portfolio-json.component';
 
 
 @NgModule({
@@ -75,6 +76,7 @@ import { ThumbnailPreviewComponent } from './components/thumbnail-preview/thumbn
     PopupSliderComponent,
     CatalogueComponent,
     ThumbnailPreviewComponent,
+    PortfolioJsonComponent,
   ],
   imports: [
     BrowserModule,

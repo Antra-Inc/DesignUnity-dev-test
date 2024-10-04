@@ -12,6 +12,8 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
 import { ModalComponent } from './components/modal/modal.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component'
 import { ThumbnailPreviewComponent } from './components/thumbnail-preview/thumbnail-preview.component';
+import { PortfolioJsonComponent } from './components/portfolio-json/portfolio-json.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -60,6 +62,10 @@ const routes: Routes = [
   {
     path: 'thumbnails',
     component: ThumbnailPreviewComponent
+  },
+  {
+    path: 'portfolio_json',
+    component: PortfolioJsonComponent
   }
 
 ];

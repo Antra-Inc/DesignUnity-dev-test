@@ -1,0 +1,104 @@
+
+{
+    "categories": [
+      {
+        "name": "Commercial",
+        "projects": [
+          {
+            "title": "Amavi",
+            "description": "Description for Product 1",
+            "type": "Interior",
+            "thumbnail": "-------------",
+            "images": [
+              {
+                "thumbnail": "thumb1.jpg",
+                "largeImage": "large1.jpg"
+              },
+              {
+                "thumbnail": "thumb2.jpg",
+                "largeImage": "large2.jpg"
+              },
+              {
+                "thumbnail": "thumb3.jpg",
+                "largeImage": "large3.jpg"
+              },
+              {
+                "thumbnail": "thumb4.jpg",
+                "largeImage": "large4.jpg"
+              }
+            ]
+          },
+          {
+            "title": "Anushree Reddy",
+            "description": "Description for Product 2",
+            "type": "Interior",
+            "thumbnail": "-------------",
+            "images": [
+                {
+                    "thumbnail": "thumb1.jpg",
+                    "largeImage": "large1.jpg"
+                },
+                {
+                    "thumbnail": "thumb2.jpg",
+                    "largeImage": "large2.jpg"
+                },
+                {
+                    "thumbnail": "thumb3.jpg",
+                    "largeImage": "large3.jpg"
+                },
+                {
+                    "thumbnail": "thumb4.jpg",
+                    "largeImage": "large4.jpg"
+                }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Luxury",
+        "projects": [
+          {
+            "title": "A Contemporary Look",
+            "description": "Description for Product A",
+            "type": "Interior",
+            "thumbnail": "-------------",
+            "images": [
+              {
+                "thumbnail": "thumbA1.jpg",
+                "largeImage": "largeA1.jpg"
+              },
+              {
+                "thumbnail": "thumbA2.jpg",
+                "largeImage": "largeA2.jpg"
+              },
+              {
+                "thumbnail": "thumbA3.jpg",
+                "largeImage": "largeA3.jpg"
+              }
+            ]
+          },
+          {
+            "title": "A World of Finishes",
+            "description": "Description for Product A",
+            "type": "Exterior",
+            "thumbnail": "-------------",
+            "images": [
+              {
+                "thumbnail": "thumb1.jpg",
+                "largeImage": "large1.jpg"
+              },
+              {
+                "thumbnail": "thumb2.jpg",
+                "largeImage": "large2.jpg"
+              },
+              {
+                "thumbnail": "thumb3.jpg",
+                "largeImage": "large3.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
