@@ -5,7 +5,7 @@
   min-height: 100vh;
   background: #fffdf7;
   &__sec-1 {
-    background-image: url("../../../assets/img/about/DSC01147.png");
+    background-image: url("../../../assets/img/contactUs/contactUs-bg.png");
     min-height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,11 +20,27 @@
     @media (max-width: 899px) {
       min-height: 55vh;
       padding: 0 20px;
-      
     }
   }
-  
-
+  &__form {
+    border: 1px solid red;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
-
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 500px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 500px;
+}
+.gmap_iframe {
+  height: 500px !important;
+}

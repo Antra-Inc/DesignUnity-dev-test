@@ -1,152 +1,201 @@
 {
-    "All":[
-       
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        }
-    ],
-    "Viero":[
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },  {
-          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+  "All": [
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
       "data": {
         "heading": "Ceramics",
-        "Type": "Interior"
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
-      },
-      {
-          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
       "data": {
         "heading": "Ceramics",
-        "Type": "Interior"
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
-      },
-      {
-          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
       "data": {
         "heading": "Ceramics",
-        "Type": "Interior"
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
-      },
-      {
-          "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
       "data": {
         "heading": "Ceramics",
-        "Type": "Interior"
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
-    ],
-    "Bericalce":[
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        }
-       
-    ],
-    "GGF":[
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        },
-        {
-            "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-        "data": {
-          "heading": "Ceramics",
-          "Type": "Interior"
-        }
-        }
-       
-    ]
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    }
+  ],
+  "Viero": [
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storagexxx.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior"
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    }
+  ],
+  "Bericalce": [
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    }
+  ],
+  "GGF": [
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    }
+  ]
 }
