@@ -5,7 +5,7 @@
   min-height: 100vh;
   &__sec-1 {
     background-image: url("../../../assets/img/portfolio-landing.svg");
-    min-height: 85vh;
+    min-height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -15,6 +15,7 @@
     background-position: center;
     h2 {
       @include banner_heading;
+      padding-top: 100px;
     }
     @media (max-width: 500px) {
       min-height: 35vh;
@@ -28,21 +29,24 @@
     padding: 10px;
     padding: 100px 15%;
     display: grid;
-    gap: 30px;
+    gap: 20px;
+    justify-content: center;
     background-color: rgba(#fffdf8, 0.9);
     background-image: url("../../../assets/img/portfolio-mask.svg");
     h3 {
-      font-size: 40px;
+      font-size: 2.2rem;
       display: flex;
       justify-content: center;
       font-family: "Tenor_Sans";
       color: #723c0d;
+      font-weight: 100;
     }
     p {
-      font-size: 25px;
+      font-size: 1.3rem;
       text-align: center;
-      line-height: 39px;
+      line-height: 2.2rem;
       font-family: "Helvetica-light";
+      max-width: 1000px;
     }
     @media (max-width: 500px) {
       min-height: 35vh;

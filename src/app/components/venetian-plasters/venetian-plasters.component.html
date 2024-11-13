@@ -20,6 +20,7 @@
       (changeLayout)="changeLayout($event)"
       (changeTab)="changeTabs($event)"
       [options]="false"
+      x
     >
       <my-tab
         class="tabs"
@@ -33,8 +34,14 @@
               <img [src]="item?.imagePath" alt="" />
             </div>
             <div class="venetian__grid--item--data">
-              hello
-              <p>hello all</p>
+              <div class="venetian__grid--header">
+                <h2>{{ item?.data?.heading }}</h2>
+                <div class="venetian__grid--header--chip">
+                  {{ item?.data?.type }}
+                </div>
+              </div>
+              <hr />
+              <p>{{ item?.data?.description! }}</p>
             </div>
           </div>
           <div *ngIf="moreBtn">

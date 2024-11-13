@@ -1,74 +1,208 @@
-
 @import "../../../styles/scss/variables";
 @import "../../../styles/scss/mixins";
 @import "../../../styles/scss/container";
 .section {
-    width: 100%;
-    padding: 0 20px;
-    .container {
-      max-width: 1440px;
-      width: 100%;
-      margin: 0 auto;
-      position: relative;
-    }
-  }
-  .heading {
-    @include heading;
-    padding: 2rem 1.5rem 3rem 1rem;
-  }
+  width: 100%;
+  padding: 0 20px;
+  // .container {
+  //   max-width: 1440px;
+  //   width: 100%;
+  //   margin: 0 auto;
+  //   position: relative;
+  // }
+}
+.heading {
+  @include heading;
+  padding: 2rem 1.5rem 3rem 1rem;
+}
 
-.holder {
-    position: sticky;
-   padding: 0 0 5em;
-} 
-.holder__head {
-    padding: 1em 2em;
-    position: sticky;
-    //font-size: 30px;
-    font-size: $font_heading;
-    z-index: 1;
-    bottom: calc(var(--b) * 2em);
-    top: calc(var(--t) * 2em);
-  }
+// .holder {
+//   position: sticky;
+//   padding: 0 0 5em;
+// }
+// .holder__head {
+//   padding: 1em 2em;
+//   position: sticky;
+//   //font-size: 30px;
+//   font-size: $font_heading;
+//   z-index: 1;
+//   bottom: calc(var(--b) * 2em);
+//   top: calc(var(--t) * 2em);
+// }
 
+// .holder__item {
+//   padding: 5rem 5.5rem;
+//   position: sticky;
+//   height: 80vh;
+//   bottom: 10vh;
+//   top: calc(var(--t) * 2em);
+//   padding-bottom: 8em;
+//   border-radius: 3rem;
+//   display: grid;
+//   grid-template-columns: 1fr;
+
+//   .title {
+//     font-size: 2.5em;
+//     color: #fff;
+//     text-shadow: 1px 3px 0px #0000002e;
+//   }
+//   div {
+//     grid-column: 2;
+//     display: grid;
+//     align-items: end;
+//     button {
+//       @include button;
+//     }
+//   }
+// }
+
+@media screen and (max-width: 768px) {
   .holder__item {
-    padding: 5rem 5.5rem;
-    position: sticky;
-    height: 80vh;
-    bottom: 10vh;
-    top: calc(var(--t) * 2em);
-    padding-bottom: 8em;
-    border-radius: 3rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    
+    padding: 50px;
     .title {
-        font-size: 2.5em;
-        color:#fff;
-        text-shadow: 1px 3px 0px #0000002e;
-      }
-      div {
-        grid-column: 2;
-        display: grid;
-        align-items: end;
-        button {
-            @include button;
-        }
-      }
-  }
-
-  @media screen and (max-width: 768px){
-    .holder__item {
-      padding: 50px;
-      .title {
-          //font-size: 22px;
-          font-size: $font_sub_heading;
-          color:#fff;
-          text-shadow: 1px 3px 0px #0000002e;
-        }
-        div {
-          grid-column: 1;
-         
-        }
+      //font-size: 22px;
+      font-size: $font_sub_heading;
+      color: #fff;
+      text-shadow: 1px 3px 0px #0000002e;
+    }
+    div {
+      grid-column: 1;
     }
   }
+}
+
+.container {
+  border: 1px solid red;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  /*   gap: 24px; */
+  margin: 50px auto;
+  height: 3110px; /* Make sure to adjust the height */
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  /*   margin: 0 20px; */
+  box-sizing: border-box;
+  background: #dedede;
+  min-height: 600px;
+  border-radius: 32px;
+  position: sticky;
+  top: 200px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  /*   align-items: center; */
+  /*   justify-content: center; */
+
+  padding: 10px;
+  font-weight: medium;
+  color: #fff;
+  transition: transform 0.3s ease, background-color 0.5s ease,
+    box-shadow 0.3s ease;
+  opacity: 0.9;
+  &__header {
+    font-size: 40px;
+    padding: 25px 20px;
+  }
+  &__body {
+    padding: 25px 20px;
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+.card
+/* Adding hover effect */
+.card:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual card styles */
+.one {
+  top: 250px;
+  background: #6b04fd;
+  background: url("../../../assets/img/wallCeilings/designerSignature.jpg");
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: cover;
+}
+
+.two {
+  top: 350px;
+  background: #5a03d5;
+  background: url("../../../assets/img/wallCeilings/limeLuxurySeries.jpg");
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: cover;
+  margin-top: -25px;
+}
+
+.three {
+  top: 450px;
+  background: #4b05ad;
+  background: url("../../../assets/img/wallCeilings/metallicSeries.jpg");
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: cover;
+  margin-top: -25px;
+}
+
+.four {
+  top: 550px;
+  background: #2c0076;
+  background: url("../../../assets/img/wallCeilings/Viero-Marmorino.png");
+  background-position-y: top;
+  background-position-x: left;
+  background-size: cover;
+  margin-top: -25px;
+}
+.five {
+  top: 650px;
+  background: #2c0076;
+  background: url("../../../assets/img/wallCeilings/cementSeries.jpg");
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: cover;
+  margin-top: -25px;
+}
+
+/* Add animation for card transitions */
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card {
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.card:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.card:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.card:nth-child(5) {
+  animation-delay: 0.12s;
+}

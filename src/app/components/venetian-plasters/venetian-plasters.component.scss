@@ -39,6 +39,17 @@
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
+    &--header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      &--chip {
+        padding: 10px 15px;
+        background-color: #000;
+        color: #fff;
+      }
+    }
     &--item {
       text-align: center;
       position: relative;
@@ -53,7 +64,7 @@
       }
       &--data {
         position: absolute;
-
+        padding: 10px 16px;
         bottom: 0;
         width: 100%;
         visibility: hidden;
@@ -63,6 +74,14 @@
         -moz-transition: all 0.6s ease-in-out 0s;
         transition: all 0.6s ease-in-out 0s;
         overflow: hidden;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.22);
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.22);
+        p {
+          padding-top: 10px;
+          font-size: 14px;
+          text-align: left;
+        }
       }
       &:nth-child(2n - 1),
       &:nth-child(1n) {
@@ -72,7 +91,6 @@
         .venetian__grid--item--data {
           opacity: 1;
           visibility: visible;
-          padding: 10px 15px;
         }
       }
       &:nth-child(4n - 2),

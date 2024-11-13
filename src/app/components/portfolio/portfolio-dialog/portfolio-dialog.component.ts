@@ -57,13 +57,19 @@ export class PortfolioDialogComponent
   implements AfterViewInit, OnInit, OnDestroy
 {
   @Input() newInputData!: any;
+  @Input() message!: any;
   currentIndex = 0;
   slides!: any;
   counter = 0;
   intervalId: any;
   constructor(private cdr: ChangeDetectorRef) {}
   @ViewChild('listContainer') listContainer!: ElementRef;
+  doalogTitle!:string
+  imageFrom!:string
+  dialogDescription!:string
   ngOnInit(): void {
+    console.log('message', this.message, this.newInputData);
+
     this.startAutoClick();
   }
   ngOnDestroy() {
