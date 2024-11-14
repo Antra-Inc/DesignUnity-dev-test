@@ -1,4 +1,4 @@
-@import '../../../styles/scss/variables';
+@import "../../../styles/scss/variables";
 .custom-slider {
   grid-template-columns: 1fr 200px;
   height: 100vh;
@@ -20,6 +20,10 @@
     grid-template-columns: 1fr;
     height: 90vh;
   }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    height: 50vh;
+  }
   &__main {
     width: 100%;
     overflow: auto;
@@ -35,6 +39,9 @@
           bottom: 11%;
           z-index: 11;
           opacity: 0;
+          @media (max-width: 900px) {
+            font-size: 30px !important;
+          }
         }
         &__img {
           // border: 1px solid yellow;
@@ -71,6 +78,7 @@
 
               font-family: "rollgates_luxuryregular";
             }
+         
             img {
               animation: moverOut 0.7s ease-in;
               -webkit-transition: 0.5s ease-in;

@@ -1,220 +1,211 @@
-@import '../../../styles/scss/variables';
-@import '../../../styles/scss/mixins';
-@import '../../../styles/scss/container';
-   
-.testimonials_section{
-    @include dflex();
-    //min-height: 100vh;
-    background: linear-gradient(to left top, #f5f1eb, #f5f1eb);
-    padding: 0 35px;
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/mixins";
+@import "../../../styles/scss/container";
 
+.testimonials_section {
+  @include dflex();
+  //min-height: 100vh;
+  background: linear-gradient(to left top, #f5f1eb, #f5f1eb);
+  padding: 0 35px;
+  @media (max-width: 900px) {
+    padding: 0 0px;
+  }
   .wrapper {
     max-width: $screen-max-size;
     width: 95%;
     position: relative;
 
-    @media (max-width: 900px){
-        width: 80%;
+    @media (max-width: 900px) {
+      width: 80%;
     }
 
     .carousel {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 3) - 12px);
-        gap: 16px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-        transition: transform 0.3s ease-in-out;   
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: calc((100% / 3) - 12px);
+      gap: 16px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      transition: transform 0.3s ease-in-out;
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
-        .card, .img {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        &.no-transition {
-            scroll-behavior: auto;
-        }
-        
-        &.dragging {
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .card,
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &.no-transition {
+        scroll-behavior: auto;
+      }
+
+      &.dragging {
         scroll-snap-type: none;
         scroll-behavior: auto;
-        }
-        
-        &.dragging .card {
+      }
+
+      &.dragging .card {
         cursor: grab;
         user-select: none;
+      }
+      .card {
+        scroll-snap-align: center;
+        list-style: none;
+        border-radius: 0px 40px;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: transform 0.3s ease-in-out;
+
+        .testimonial {
+          background: #e8b3b3;
+          padding: 2rem;
+          border-radius: 0px 40px;
+          padding-bottom: 4rem;
+          position: relative;
+          //font: normal normal normal 16px/22px Helvetica Neue;
+          @include font-style($p-font);
+          line-height: 1.4;
+          margin-top: 50px;
+          color: #fff;
+
+          .stars {
+            margin-top: 25px;
+            span {
+              color: #ffc400;
+              font-size: 1.31rem;
+            }
+          }
+          &::before {
+            background-image: url("../../../assets/img/testimonials/quote-left.svg");
+            background-size: 10px 20px;
+            background-size: auto;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 70px;
+            height: 75px;
+            content: "";
+            position: absolute;
+            left: -7px;
+            top: -30px;
+          }
+          &::after {
+            background-image: url("../../../assets/img/testimonials/quote-right.svg");
+            background-size: 10px 20px;
+            background-size: auto;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 70px;
+            height: 75px;
+            content: "";
+            position: absolute;
+            right: 0px;
+            bottom: -50px;
+          }
         }
-        .card {
-            scroll-snap-align: center;
-            list-style: none;
-            border-radius: 0px 40px;
-            cursor: pointer;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .header {
+          .profile {
+            position: relative;
+            bottom: 50px;
+            z-index: 2;
+            @include dflex();
             flex-direction: column;
-            transition: transform 0.3s ease-in-out;
-
-            .testimonial {
-                background: #e8b3b3;
-                padding: 2rem;
-                border-radius: 0px 40px;
-                padding-bottom: 4rem;
-                position: relative;
-                //font: normal normal normal 16px/22px Helvetica Neue;
-                font-size: calc(($font_text) - 4px );
-                line-height: 1.4;
-                margin-top: 50px;
-                color: #fff;
-            
-                .stars {
-                    margin-top:25px;
-                    span{
-                        color: #ffc400;
-                        font-size: 1.31rem;
-                    }
-                }
-                &::before{
-                    background-image: url('../../../assets/img/testimonials/quote-left.svg');
-                    background-size: 10px 20px;
-                    background-size: auto;
-                    background-repeat: no-repeat;
-                    display: inline-block;
-                    width: 70px; 
-                    height: 75px;
-                    content:"";
-                    position: absolute;
-                    left:-7px;
-                    top: -30px;
-                }
-                &::after{
-                    background-image: url('../../../assets/img/testimonials/quote-right.svg');
-                    background-size: 10px 20px;
-                    background-size: auto;
-                    background-repeat: no-repeat;
-                    display: inline-block;
-                    width: 70px; 
-                    height: 75px;
-                    content:"";
-                    position: absolute;
-                    right:0px;
-                    bottom: -50px;
-                }
-
+            .img {
+              height: 80px;
+              width: 80px;
+              border-radius: 50%;
+              padding: 5px;
+              overflow: hidden;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+              }
             }
-            .header{
-                .profile{
-                    position: relative;
-                    bottom: 50px;
-                    z-index: 2;
-                    @include dflex();
-                    flex-direction: column;
-                    .img{
-                        height: 80px;
-                        width: 80px;
-                        border-radius: 50%;
-                        padding: 5px;
-                        overflow: hidden;
-                        img{
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 50%;
-                        }
-                    }
-                    .details{
-                        margin-left: 10px;
-                        margin-top: 10px;
-                    }
-                }
+            .details {
+              margin-left: 10px;
+              margin-top: 10px;
             }
-        }   
-
+          }
+        }
+      }
     }
-
 
     .button-area {
-        button{
-            height: 50px;
-            width: 50px;
-            text-align: center;
-            line-height: 50px;
-            border-radius: 50%;
-            cursor: pointer;
-            position: absolute;
-            font-size: 1.25rem;
-            top: 45%;
-            transform: translateY(-50%);
-            border: none;
-            box-shadow: none;
-            border: 1px solid #000;
-            &.prev{
-                left: -30px;
-            }
-            &.next {
-                right: -30px;
-            }
-            @media (max-width: 900px){
-                &.prev{
-                    left: -60px;
-                }
-                &.next {
-                    right: -60px;
-                }
-            }
+      button {
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        font-size: 1.25rem;
+        top: 45%;
+        transform: translateY(-50%);
+        border: none;
+        box-shadow: none;
+        border: 1px solid #000;
+        &.prev {
+          left: -30px;
         }
+        &.next {
+          right: -30px;
+        }
+        @media (max-width: 900px) {
+          &.prev {
+            left: -60px;
+          }
+          &.next {
+            right: -60px;
+          }
+        }
+      }
     }
-
-
-
   }
-
 }
 
-
-
-.card .card_text{
-    transform: scale(0.8);
-    transition: all 0.3s;
-  }
-.card.active .card_text{
-    transform: scale(1);
-    transition: all 0.3s;
+.card .card_text {
+  transform: scale(0.8);
+  transition: all 0.3s;
 }
-
+.card.active .card_text {
+  transform: scale(1);
+  transition: all 0.3s;
+}
 
 @media (max-width: 899px) {
-    .testimonials_section {
-        .wrapper {
-            transform: scale(0.8);
-        }
+  .testimonials_section {
+    .wrapper {
+      transform: scale(0.8);
     }
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .wrapper {
-
-        .carousel {
-            grid-auto-columns: calc(100% - 12px) !important;
-        }
+  .wrapper {
+    .carousel {
+      grid-auto-columns: calc(100% - 12px) !important;
     }
+  }
 }
-  
+
 @media screen and (max-width: 600px) {
-    .wrapper .carousel {
-        grid-auto-columns: 100% !important;
-    }
+  .wrapper .carousel {
+    grid-auto-columns: 100% !important;
+  }
 }
 
-button[disabled], button:disabled{
-    cursor: not-allowed;
-    opacity: 0.3;
+button[disabled],
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
 }
-
-  

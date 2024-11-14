@@ -36,8 +36,10 @@
       padding: 15px;
       border-radius: 30px;
       width: 100%;
-
-      .featItem_1{
+      @media (max-width:700px) {
+        border-radius: 20px;
+      }
+      .featItem_1 {
         display: grid;
         align-items: center;
         position: relative;
@@ -45,25 +47,28 @@
         height: 100%;
         overflow: hidden;
         border-radius: 30px;
-        &:hover{
-          .feature-figure, .figure-details {
-            -webkit-transform: scale(1.1); 
+        @media (max-width:700px) {
+          border-radius: 10px;
+        }
+        &:hover {
+          .feature-figure,
+          .figure-details {
+            -webkit-transform: scale(1.1);
             -moz-transform: scale(1.1);
             -o-transform: scale(1.1);
             transform: scale(1.1);
           }
         }
       }
-      
+
       &:nth-child(even) {
         margin-top: 50px;
       }
       .feature-figure {
-        -webkit-transition: all .4s ease-in-out;
-        -moz-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-        
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
       }
       .figure-details {
         position: absolute;
@@ -78,22 +83,20 @@
         font-weight: bold;
         gap: 20px;
 
-        -webkit-transition: all .4s ease-in-out;
-        -moz-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
 
         img {
           width: 75px;
           height: auto;
           @media (max-width: 990px) {
-            width: 100px;
+            width: 50px;
           }
         }
       }
     }
-    
   }
 }
 @media (max-width: 990px) {
@@ -132,5 +135,3 @@
 //   -webkit-transition: 0.3s ease-in-out;
 //   transition: 0.3s ease-in-out;
 // }
-
-
