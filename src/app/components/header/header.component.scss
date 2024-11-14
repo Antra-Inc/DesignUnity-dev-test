@@ -306,10 +306,10 @@
     top: 0;
     bottom: 0;
     right: 0;
-    backdrop-filter: blur(180px) !important;
-    -webkit-backdrop-filter: blur(180px) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
     z-index: -1;
-    background-color: rgba(rgba(255, 255, 255, 0.513), 0.3);
+    background-color: rgba(rgba(255, 255, 255, 0), 0.3);
   }
   ul {
     margin: 0;

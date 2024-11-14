@@ -26,13 +26,22 @@ ul {
   letter-spacing: 2px;
 }
 .paragraph {
-  font-size: clamp(14px, 2.5vw, 20px);
+  font-size: clamp(0.8rem, -0.875rem + 5vw, 1.5rem);
   font-family: "Helvetica-light";
   color: #000;
   text-align: center;
   line-height: clamp(20px, 3.5vw, 35px);
 }
 
+@mixin font-style(
+  $fontSize: 16px,
+  $font-falimy: "Helvetica-light",
+  $color: "#000"
+) {
+  font-size: $fontSize;
+  font-family: $font-falimy;
+  color: $font-color;
+}
 .page_sub-header {
   font-size: min(max(16px, 5vw), 28px);
 }

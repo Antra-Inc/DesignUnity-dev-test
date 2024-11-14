@@ -13,7 +13,7 @@
 }
 .heading {
   @include heading;
-  padding: 2rem 1.5rem 3rem 1rem;
+  padding: 2rem 1.5rem 0 1rem;
   @media (max-width: 1200px) {
     padding: 2rem 1.5rem 0rem 1rem;
   }
@@ -75,7 +75,6 @@
 }
 
 .container {
-  border: 1px solid red;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -122,9 +121,10 @@
     }
   }
   &__body {
-    padding: 25px 20px;
+    padding: 10px 20px;
     p {
-      font-size: 1rem;
+      font-size: clamp(0.8rem, 3vw + 2px, 1.3rem);
+      font-family: "Helvetica-light";
     }
   }
 }
@@ -138,7 +138,7 @@
 
 /* Individual card styles */
 .one {
-  top: 250px;
+  top: 150px;
   background: #6b04fd;
   background: url("../../../assets/img/wallCeilings/designerSignature.jpg");
   background-position-y: bottom;
@@ -150,7 +150,7 @@
 }
 
 .two {
-  top: 350px;
+  top: 250px;
   background: #5a03d5;
   background: url("../../../assets/img/wallCeilings/limeLuxurySeries.jpg");
   background-position-y: bottom;
@@ -163,7 +163,7 @@
 }
 
 .three {
-  top: 450px;
+  top: 350px;
   background: #4b05ad;
   background: url("../../../assets/img/wallCeilings/metallicSeries.jpg");
   background-position-y: bottom;
@@ -176,7 +176,7 @@
 }
 
 .four {
-  top: 550px;
+  top: 450px;
   background: #2c0076;
   background: url("../../../assets/img/wallCeilings/Viero-Marmorino.png");
   background-position-y: top;
@@ -188,7 +188,7 @@
   }
 }
 .five {
-  top: 650px;
+  top: 550px;
   background: #2c0076;
   background: url("../../../assets/img/wallCeilings/cementSeries.jpg");
   background-position-y: bottom;
