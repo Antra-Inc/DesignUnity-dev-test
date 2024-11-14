@@ -149,7 +149,8 @@
           text-decoration: none;
           font-family: "Helvetica-regular";
           color: #333333;
-          font-size: 20px;
+          font-size: clamp(1rem, 1vw + 5px, 1.25rem);
+          // font-size: clamp(14px, 2vw + 5px, 20px);
           font-weight: normal;
         }
         &.solutions {
@@ -321,7 +322,7 @@
       a {
         text-decoration: none;
         color: #4d4747;
-        font-size: 20px;
+        font-size: clamp(1rem, 2vw + 5px, 1.64rem);
       }
     }
   }
