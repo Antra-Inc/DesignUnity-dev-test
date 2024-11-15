@@ -18,6 +18,14 @@
     @media (max-width: 500px) {
       justify-content: flex-start;
       padding: 15px;
+      width: 100%;
+      overflow: auto;
+    }
+    @media (max-width: 1200px) {
+      justify-content: flex-start;
+      padding: 15px;
+      width: 100%;
+      overflow: auto;
     }
     ul {
       display: flex;
@@ -30,6 +38,8 @@
         a {
           text-decoration: none;
           color: #333;
+          font-size: 16px;
+          white-space: nowrap;
         }
         &.active {
           &::after {
@@ -48,10 +58,38 @@
           }
         }
       }
-      @media (max-width: 500px) {
-        flex-direction: column;
+      @media (max-width: 700px) {
+        flex-direction: row;
+        padding: 0 15px;
+        width: 100%;
+        overflow: auto;
         li {
           padding: 10px;
+          a {
+            font-size: 14px;
+          }
+          &.active {
+            &::after {
+              bottom: 0;
+            }
+          }
+        }
+      }
+      @media (max-width: 1200px) {
+        justify-content: flex-start;
+        padding: 0 15px;
+        width: 100%;
+        overflow: auto;
+        li {
+          padding: 10px;
+          a {
+            font-size: 14px;
+          }
+          &.active {
+            &::after {
+              bottom: 0;
+            }
+          }
         }
       }
     }
