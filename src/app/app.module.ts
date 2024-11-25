@@ -37,6 +37,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
+import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
 
 
 @NgModule({
@@ -74,6 +75,7 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
     BlogListComponent,
     BlogTestComponent,
     BlogDetailsComponent,
+    StudioDialogComponent,
   ],
   imports: [
     BrowserModule,

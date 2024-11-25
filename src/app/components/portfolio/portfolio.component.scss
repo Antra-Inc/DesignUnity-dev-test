@@ -42,7 +42,7 @@
     //   font-weight: 100;
     // }
     p {
-      font-size: clamp(0.8rem, -0.875rem + 5vw, 1.2rem);
+      // font-size: clamp(0.8rem, -0.875rem + 5vw, 1.2rem);
       text-align: center;
       line-height: 1.5em;
       font-family: "Helvetica-light";
@@ -90,7 +90,7 @@
         padding: 4px 0 10px 0;
         gap: 5px;
         p {
-          font-size: clamp(0.8rem, -0.875rem + 5vw, 1rem);
+          // font-size: clamp(0.8rem, -0.875rem + 5vw, 1rem);
           font-family: "Helvetica-light";
           color: #363333;
         }
