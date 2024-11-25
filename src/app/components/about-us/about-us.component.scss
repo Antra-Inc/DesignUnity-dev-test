@@ -76,6 +76,7 @@
       flex-direction: column;
       align-items: center;
       gap: clamp(10px, 3.5vh, 60px);
+      width: 100%;
     }
   }
 }
@@ -83,11 +84,12 @@
 .client__list {
   display: grid;
   //padding-top: 100px;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top: 100px;
-  gap: 1px;
+
   padding-top: 1px;
   padding-bottom: 1px;
+  width: 100%;
   //background: #808080;
   @media (max-width: 900px) {
     margin-top: 16px;
@@ -99,8 +101,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f5f1ec;
-    border: 1px solid #808080;
+    // background: #f5f1ec;
+    border: 1px solid #c0c0c0;
     img {
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
