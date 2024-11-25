@@ -77,22 +77,30 @@ section {
   margin-top: 50px;
   @media (max-width: 991px) {
     padding: 10px 20px;
-    margin-top: 160px;
+    margin-top: 100px;
   }
   @media (max-width: 550px) {
     margin-top: 15px;
+    margin-top: 30px;
   }
   h3 {
-    @include heading;
     text-transform: capitalize;
     text-align: left;
     padding-bottom: 30px;
     padding-top: 30px;
+    @media (max-width: 900px) {
+      padding: 15px 0;
+      padding-top: 30px;
+      text-align: center;
+    }
   }
   p {
-    @include sub_text;
     text-align: left;
     padding-bottom: 30px;
+    @media (max-width: 900px) {
+      padding-bottom: 10px;
+      text-align: center;
+    }
   }
 
   .studio_gallery {
@@ -104,17 +112,20 @@ section {
     @media (max-width: 768px) {
       grid-template-columns: auto;
     }
-
-    img {
-      width: 100%;
-      height: auto;
-      padding: 10px;
+    &__item {
+      border-radius: 20px;
+      overflow: hidden;
       &:nth-child(even) {
         margin-top: 50px;
       }
       &:nth-child(odd) {
         margin-top: 10px;
       }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }

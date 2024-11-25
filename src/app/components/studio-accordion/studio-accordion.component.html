@@ -31,7 +31,7 @@
 
   <div id="content">
     <section id="section1" #section>
-      <h3>Experience Center</h3>
+      <h3 class="semi-header">Experience Center</h3>
       <p class="paragraph">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -40,7 +40,7 @@
         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         nonumy
       </p>
-      <h3>Hyderabad Experience Center</h3>
+      <h3 class="semi-header">Hyderabad Experience Center</h3>
       <p class="paragraph">
         Design Unity’s Experience Center is a destination of choice for those
         who appreciate the timeless beauty of Hyderabad. Covering 15000 square
@@ -57,7 +57,7 @@
         Visit us on the 10th floor, Techno 1, Opposite KIMS Hospital, Raidurgam,
         Hyderabad, and start your journey towards creating beautiful spaces.
       </p>
-      <h3>What you’ll See</h3>
+      <h3 class="semi-header">What you’ll See</h3>
       <p class="paragraph">
         Our Experience Center is home to 32 unique finishes representing
         Hyderabad and the largest collection of Venetian Plasters in India.
@@ -66,10 +66,12 @@
       </p>
 
       <div class="studio_gallery">
-        <img src="../../../assets/img/studio/DSC00153.png" />
-        <img src="../../../assets/img/studio/DSC00447.png" />
-        <img src="../../../assets/img/studio/DSC00262.png" />
-        <img src="../../../assets/img/studio/DSC00356.png" />
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of hyderabad | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
       </div>
 
       <div class="button_div" (click)="openDialog('Hyderabad')">
@@ -80,7 +82,7 @@
       </div>
     </section>
     <section id="section2" #section>
-      <h3>Experience Center</h3>
+      <h3 class="semi-header">Experience Center</h3>
       <p class="paragraph">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -89,7 +91,7 @@
         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         nonumy
       </p>
-      <h3>DELHI Experience Center</h3>
+      <h3 class="semi-header">DELHI Experience Center</h3>
       <p class="paragraph">
         Design Unity’s Experience Center is a destination of choice for those
         who appreciate the timeless beauty of Hyderabad. Covering 15000 square
@@ -106,7 +108,7 @@
         Visit us on the 10th floor, Techno 1, Opposite KIMS Hospital, Raidurgam,
         Hyderabad, and start your journey towards creating beautiful spaces.
       </p>
-      <h3>What you’ll See</h3>
+      <h3 class="semi-header">What you’ll See</h3>
       <p class="paragraph">
         Our Experience Center is home to 32 unique finishes representing
         Hyderabad and the largest collection of Venetian Plasters in India.
@@ -115,10 +117,12 @@
       </p>
 
       <div class="studio_gallery">
-        <img src="../../../assets/img/studio/DSC01046.png" />
-        <img src="../../../assets/img/studio/DSC01011.png" />
-        <img src="../../../assets/img/studio/DSC01005.png" />
-        <img src="../../../assets/img/studio/DSC01078.png" />
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of delhi | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
       </div>
 
       <div class="button_div" (click)="openDialog('Delhi')">
@@ -130,7 +134,7 @@
     </section>
 
     <section id="section3" #section>
-      <h3>Experience Center</h3>
+      <h3 class="semi-header">Experience Center</h3>
       <p class="paragraph">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -139,7 +143,7 @@
         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         nonumy
       </p>
-      <h3>BAGALORE Experience Center</h3>
+      <h3 class="semi-header">BAGALORE Experience Center</h3>
       <p class="paragraph">
         Design Unity’s Experience Center is a destination of choice for those
         who appreciate the timeless beauty of Hyderabad. Covering 15000 square
@@ -152,11 +156,11 @@
         floors. Step into the ravishing Mughal culture impeccably depicted in
         our products, by pushing the boundaries of design.
       </p>
-      <p>
+      <p class="paragraph">
         Visit us on the 10th floor, Techno 1, Opposite KIMS Hospital, Raidurgam,
         Hyderabad, and start your journey towards creating beautiful spaces.
       </p>
-      <h3>What you’ll See</h3>
+      <h3 class="semi-header">What you’ll See</h3>
       <p class="paragraph">
         Our Experience Center is home to 32 unique finishes representing
         Hyderabad and the largest collection of Venetian Plasters in India.
@@ -165,10 +169,12 @@
       </p>
 
       <div class="studio_gallery">
-        <img src="../../../assets/img/studio/DSC00628.png" />
-        <img src="../../../assets/img/studio/DSC00605.png" />
-        <img src="../../../assets/img/studio/DSC00602.png" />
-        <img src="../../../assets/img/studio/DSC00618.png" />
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of bangalore | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
       </div>
 
       <div class="button_div" (click)="openDialog('Bangalore')">
