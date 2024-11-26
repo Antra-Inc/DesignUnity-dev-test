@@ -6,7 +6,7 @@
   background: #fffdf7;
   &__sec-1 {
     background-image: url("../../../assets/img/contactUs/contactUs-bg.png");
-    min-height: 85vh;
+    min-height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -43,4 +43,18 @@
 }
 .gmap_iframe {
   height: 500px !important;
+}
+.tabs {
+  border: 1px solid red;
+  &__titles {
+    border: 1px solid red;
+    list-style: none;
+    display: flex;
+    li {
+      padding: 10px 15px;
+      &.active {
+        border: 1px solid red;
+      }
+    }
+  }
 }

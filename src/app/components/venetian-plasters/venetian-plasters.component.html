@@ -44,8 +44,13 @@
               <p>{{ item?.data?.description! }}</p>
             </div>
           </div>
-          <div *ngIf="moreBtn">
-            <button (click)="loadMoreItems()">Load More</button>
+          <div class="more-btn" *ngIf="moreBtn">
+            <button (click)="loadMoreItems()">
+              Load More
+              <span class="studio"
+                ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
+              /></span>
+            </button>
           </div>
         </div>
       </my-tab>

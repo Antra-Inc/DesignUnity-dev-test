@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./contactus.component.scss']
 })
 export class ContactusComponent {
-
+  selectedTab = 0;
+  
+  setActiveTab(index: number): void {
+    this.selectedTab = index;
+  }
 }

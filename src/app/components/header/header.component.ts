@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   openSolutions = false;
   imgSrc = '';
   activeItem = '';
+  isExpanded = false;
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
   }
@@ -40,5 +41,8 @@ export class HeaderComponent implements OnInit, OnChanges {
   }
   selectMenu(data: any) {
     this.activeItem = data;
+  }
+  toggleDropdown() {
+    this.isExpanded = !this.isExpanded; // Toggle the state
   }
 }
