@@ -17,7 +17,10 @@ h1 {
   transition: all 0.5s ease 0s;
   overflow: hidden;
   @media (max-width: 900px) {
-    height: 45vh;
+    height: 40vh;
+  }
+  @media (max-width: 550px) {
+    height: 25vh;
   }
 }
 .recr-content {
