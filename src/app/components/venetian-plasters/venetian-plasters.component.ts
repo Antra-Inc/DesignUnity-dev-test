@@ -45,8 +45,11 @@ export class VenetianPlastersComponent implements OnInit {
     console.log('imagesType', imagesType);
     switch (imagesType) {
       case 'ALL':
-        this.contentData = this.images.All;
-        // this.contentData = 'All';
+        this.contentData = [
+          ...this.images.Viero.slice(0, 4),
+          ...this.images.Bericalce.slice(0, 4),
+          ...this.images.GGF.slice(0, 4),
+        ];
 
         console.log('Luxury contentData', this.contentData);
         break;

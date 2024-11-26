@@ -6,7 +6,7 @@
   background: #fffdf7;
   &__sec-1 {
     background-image: url("../../../../assets/img/flooring/banner.png");
-    min-height: 85vh;
+    min-height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -15,12 +15,23 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      @include banner_heading;
+      padding-top: 100px;
+      font-size: clamp(12px, 5.5vw, 70px);
+      font-family: "Tenor_Sans";
+      color: #000;
+      font-weight: 300;
+      color: #000;
+      @media (max-width: 500px) {
+        padding-top: 20px;
+      }
     }
     @media (max-width: 899px) {
       min-height: 55vh;
       padding: 0 20px;
-      
+    }
+    @media (max-width: 500px) {
+      min-height: 35vh;
+      padding: 0 20px;
     }
   }
   &__sec-2 {
@@ -35,16 +46,21 @@
       @include heading;
     }
     p {
-      @include sub_text;
+      text-align: left;
     }
 
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
       padding: 30px 20px;
       gap: 15px;
     }
+    @media (max-width: 800px) {
+      p {
+        text-align: center;
+      }
+    }
   }
 
-  &__sec-3{
+  &__sec-3 {
     max-width: $screen-max-size;
     margin: 0 auto;
 
@@ -52,30 +68,37 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 70px;
-
-    &__sub{
+    @media (max-width: 800px) {
+      gap: 10px;
+    }
+    &__sub {
       min-height: 200px;
       display: grid;
       grid-template-columns: 40% 1fr;
       //min-height: 450px;
       align-items: center;
       justify-content: center;
-      
-      .sec__content{
+
+      .sec__content {
         padding: 5%;
-        h3{
+        h3 {
           font-size: $font_heading;
           line-height: 2;
           font-family: "Tenor_Sans";
         }
         p {
-          font-size: $p-font;
-          line-height: 30px;
-          font-family: "Helvetica-light";
+          text-align: left;
         }
-        
+        @media (max-width: 800px) {
+          padding: 15px;
+          p,
+          h3 {
+            text-align: center;
+          }
+          text-align: center;
+        }
       }
-      .sec__image{
+      .sec__image {
         display: flex;
         justify-content: center;
         padding: 5%;
@@ -83,18 +106,23 @@
         overflow: hidden;
         width: 100%;
         height: 100%;
-        
-        .image_container{
+        @media (max-width: 800px) {
+          padding: 15px;
+        }
+        .image_container {
           padding: 5%;
           position: relative;
           overflow: hidden;
           width: 100%;
           height: 100%;
           min-height: 40vh;
-          
+          @media (max-width: 800px) {
+            padding: 15px;
+            min-height: 25vh;
+          }
         }
 
-        .default_img{
+        .default_img {
           position: absolute;
           top: 0;
           left: 0;
@@ -104,7 +132,7 @@
           z-index: 9;
         }
 
-        .hover_img{
+        .hover_img {
           position: absolute;
           top: 0;
           left: 0;
@@ -113,42 +141,34 @@
           transition: height 5s ease;
         }
 
-        &:hover{
-          .default_img{
+        &:hover {
+          .default_img {
             height: 0;
           }
-          
-          .hover_img{
+
+          .hover_img {
             height: 100%;
             opacity: 1;
           }
         }
-
       }
 
-      &:nth-child(even){
+      &:nth-child(even) {
         grid-template-columns: 1fr 40%;
-        .sec__content{
-          order:1
+        .sec__content {
+          order: 1;
         }
         @media (max-width: 899px) {
           grid-template-columns: 1fr;
-          .sec__content{
-            order:initial
+          .sec__content {
+            order: initial;
           }
         }
       }
 
       @media (max-width: 899px) {
         grid-template-columns: 1fr;
-       
       }
-      
     }
   }
-
-  
-
 }
-
-

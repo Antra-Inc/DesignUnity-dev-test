@@ -1,73 +1,8 @@
 {
-  "All": [
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
-    }
-  ],
+  "All": [],
   "Viero": [
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Ceramitz-Delhi%201.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -75,7 +10,7 @@
       }
     },
     {
-      "imagePath": "https://storagexxx.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Fossil%20Stone-Bangalore.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -83,14 +18,14 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Marble%20Effect-Bangalore.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior"
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Marmorin-Delhi%201.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -98,7 +33,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Marmorin-Hyderabad.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -106,7 +41,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Marmorino%20Hydro-Hyderabad%201.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -114,7 +49,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Marmorino%20Sand%20Bianco-Hyderabad.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -122,7 +57,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Mithos%20Lux-Bangalore.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -130,7 +65,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Moon%20crater-%20Bangalore.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -138,7 +73,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Moon%20crater-delhi.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -146,7 +81,7 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Ombre-Delhi%202.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -154,7 +89,47 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Opera-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk%20Swirl%20Effect%20-%20Delhi%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk%20Swirl%20Effect%20-%20Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk%20Trowel%20Effect%20-%20Delhi%20-%202.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk-Hyderabad.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -164,7 +139,7 @@
   ],
   "Bericalce": [
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Beach%20Lime%20based%20artifact.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -172,7 +147,167 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Brick-Bangalore%202.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Concrete%20Brick-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Concrete%20High%20Texture-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Brick-Delhi%202.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Brick-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Stone%20-%20Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Dragged-Hyderabad%203.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Evoque-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Evoque-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Glimmerputz-Bangalore%203.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Glimmerputz-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Glimmerputz-Hyderabad%20(1).jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Madreperla-Delhi%20(1).jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Madreperla-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Madreperla-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Marcopolo-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Marmorin%20Smooth-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Marmorin-Bangalore%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Metallo%20Fuso-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Travertine-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Travertine-Delhi.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -182,7 +317,7 @@
   ],
   "GGF": [
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF%20-%20Pietra%20Spaccata%20-%20Delhi.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",
@@ -190,7 +325,175 @@
       }
     },
     {
-      "imagePath": "https://storage.googleapis.com/supersurfacesapp_cloudbuild/assets/projects/high_res/blueberry_farms_1.jpg",
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Cemento%20Natural-Hyderabad%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Dragged%2BSpatula%20Banding-Hyderabad%203.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Muro-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Muro-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Oro-Hyderabad%203.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Bamboo-Hyderabad%206.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Fabric-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Fabric-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Fabric-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Spacatta-Bangalore%205.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Spacatta-Hyderabad%209.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Vissuta-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Vissuta-Hyderabad%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Zen-Delhi.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Pietra%20Zen-Hyderabad%209.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Rusten%203.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Sogni-Delhi%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Sogni-Hyderabad%206.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spatula%20Stuhhi-Bangalore%201.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spatula%20Stuhhi-Hyderabad.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spirito%20Libero-Bangalore.jpg",
+      "data": {
+        "heading": "Ceramics",
+        "type": "Interior",
+        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
+      }
+    },
+    {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spirito%20Libero-Hyderabad.jpg",
       "data": {
         "heading": "Ceramics",
         "type": "Interior",

@@ -20,8 +20,17 @@
           <div class="menu-item__pointer"><span></span></div>
           <a routerLink="/aboutUs" class="menu-link">About Us</a>
         </li>
-        <li class="menu-item" (click)="open = false">
-          <span> </span><a href="#" class="menu-link">Solutions</a>
+        <li class="menu-item">
+          <span> </span
+          ><a (click)="toggleDropdown()" class="menu-link">Solutions</a>
+          <div class="menu-item__sub" *ngIf="isExpanded">
+            <p (click)="open = false" routerLink="/venetian_plasters">
+              Venetian Plasters
+            </p>
+            <p (click)="open = false" routerLink="/flooring">
+              Seamless Flooring
+            </p>
+          </div>
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span>
