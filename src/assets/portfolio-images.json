@@ -1,163 +1,2564 @@
 {
   "All": [{}],
-  "Luxury": [
-    {
-      "section": "Luxury",
-      "Concrete Interior": [
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4940.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4940.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4949.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4949.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4973.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4973.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4987.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4987.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5024.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5024.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5036.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5036.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5042.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5042.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/DSC4959.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/DSC4959.jpg",
-          "Catatiry": "Concrete Interior"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/DSC5001.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/DSC5001.jpg",
-          "Catatiry": "Concrete Interior"
-        }
-      ],
-      "Finishes": [
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Concrete-5908.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Concrete-5908.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Concrete-5908.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Concrete-5908.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Istinto1hk5874.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Istinto1hk5874.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Istinto1hk5880.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Istinto1hk5880.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/pearl-5974.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/pearl-5974.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/pearl-5975.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/pearl-5975.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/sogni-6006.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/sogni-6006.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/sogni-6014.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/sogni-6014.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/spatula-5941.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/spatula-5941.jpg",
-          "Catatiry": "Finishes"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/spatula-5957.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/spatula-5957.jpg",
-          "Catatiry": "Finishes"
-        }
-      ],
-      "BlueBerry Farms":[
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-11.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-11.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-29.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-29.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-37-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-37-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-46-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-46-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-51-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-51-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-54-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-54-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-56-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-56-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-62-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-62-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-64-.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-64-.jpg",
-          "Catatiry": "Farms"
-        },
-        {
-          "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-9.jpg",
-          "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-9.jpg",
-          "Catatiry": "Farms"
-        }
-      ]
-    }
-  ],
-  "Institutional": [],
-  "commercial": [],
-  "Real Estate": [],
-  "Small Residential": []
+  "Luxury": {
+    "UrbanLuxe": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4940.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4940.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4949.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4949.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4973.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-4973.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4987.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-4987.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5024.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5024.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5036.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5036.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/Concrete-Interior-5042.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/Concrete-Interior-5042.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/DSC4959.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/DSC4959.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/High/DSC5001.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20Contemporary%20Look%20To%20Concrete%20/Low/DSC5001.jpg",
+        "Catatiry": "Urban Luxe ",
+        "desctiption": "A Contemporary Look To Concrete",
+        "section": "Luxury",
+        "subSection": "UrbanLuxe"
+      }
+    ],
+    "MarmarinoExtra": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Concrete-5908.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Concrete-5908.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Concrete-5908.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Concrete-5908.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Istinto1hk5874.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Istinto1hk5874.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/Istinto1hk5880.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/Istinto1hk5880.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/pearl-5974.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/pearl-5974.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/pearl-5975.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/pearl-5975.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/sogni-6006.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/sogni-6006.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/sogni-6014.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/sogni-6014.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/spatula-5941.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/spatula-5941.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/High/spatula-5957.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/A%20World%20Of%20Finishes%20For%20All%20Moods/Low/spatula-5957.jpg",
+        "Catatiry": "Marmarino Extra",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "MarmarinoExtra"
+      }
+    ],
+    "BlueBerryFarms": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-11.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-11.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-29.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-29.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-37.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-37.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-46.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-46.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-51-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-51-.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-54-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-54-.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-56-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-56-.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-62-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-62-.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-64-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-64-.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/High/Blueberry-Farms-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/BlueBerry%20Farms/Low/Blueberry-Farms-9.jpg",
+        "Catatiry": "Blueberry Farms",
+        "desctiption": "A World of Finishes for All Moods",
+        "section": "Luxury",
+        "subSection": "BlueBerryFarms"
+      }
+    ],
+    "ChandrikaReddy": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-1.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-15.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-17.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-17.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-23.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-23.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-3.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-30.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-30.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-36.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-36.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-43.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-43.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-45.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-45.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/High/Polished-Concrete-46.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Chandrika%20Reddy%20/Low/Polished-Concrete-46.jpg",
+        "Catatiry": "Chandrika Reddy",
+        "desctiption": "Polished Concrete Couture",
+        "section": "Luxury",
+        "subSection": "ChandrikaReddy"
+      }
+    ],
+    "TexturedAesthetics": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/Concrete-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/Concrete-1.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/Concrete-19.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/Concrete-19.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/Concrete-24.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/Concrete-24.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/Concrete-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/Concrete-3.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/pearl-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/pearl-10.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/pearl-11.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/pearl-11.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/pearl-14.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/pearl-14.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-Red-5.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-Red-5.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-Red-8.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-Red-8.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-Red-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-Red-9.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-blue-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-blue-1.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-blue-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-blue-10.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/High/spatula-blue-8.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Concrete%20In%20The%20Lap%20Of%20Nature/Low/spatula-blue-8.jpg",
+        "Catatiry": "Textured Aesthetics",
+        "desctiption": "Rustic Blends, Handcrafted Perfection",
+        "section": "Luxury",
+        "subSection": "TexturedAesthetics"
+      }
+    ],
+    "DasariKiran": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-1.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-20.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-20.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-26.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-26.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-28.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-28.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-29.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-29.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-31.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-31.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Concrete-Finish-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/Concrete-Finish-9.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Moon-Carter--3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/MOON-CRATER-3.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Moon-Carter-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/MOON-CRATER-7.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/High/Moon-Carter-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Grandeur%20Redefined%20by%20Concrete%20(Dasari%20Kiran)/Low/MOON-CRATER-9.jpg",
+        "Catatiry": "Dasari Kiran",
+        "desctiption": "Grandeur Redefined by Concrete",
+        "section": "Luxury",
+        "subSection": "DasariKiran"
+      }
+    ],
+    "EarthyAlchemy": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-Natural-8045.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-natural-8045.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-Natural-8062.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-natural-8062.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-Natural-8063.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-natural-8063.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-smooth-7974.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-smooth-7974.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-smooth-7982.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-smooth-7982.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/Concrete-smooth-8002.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/Concrete-smooth-8002.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/spatula-8006.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/spatula-8006.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/spatula-8012.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/spatula-8012.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/High/spatula-8023.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Luxury%20Recreated%20With%20Concrete%20And%20Spirito%20Libreo/Low/spatula-8023.jpg",
+        "Catatiry": "Earthy Alchemy",
+        "desctiption": "The Free Spirit of Nature in Earthy Tones",
+        "section": "Luxury",
+        "subSection": "EarthyAlchemy"
+      }
+    ],
+    "TexturalPoetry": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3142.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3142.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3144.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3144.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3150.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3150.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3158.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3158.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3190.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3190.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3191.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3191.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Concrete-smooth---3208.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Concrete-smooth---3208.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Fabric-Finish-3179.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Fabric-finish-3179.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Fabric-Finish-3186.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Fabric-finish-3186.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Instinto-3214.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Muro-3222.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Instinto-3216.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/Muro-3239.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Muro-3222.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/istinto-3214.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/High/Muro-3239.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Ideal%20Modren-Day%20Home/Low/istinto-3216.jpg",
+        "Catatiry": "Textural Poetry",
+        "desctiption": "The Ideal Modern-Day Home",
+        "section": "Luxury",
+        "subSection": "TexturalPoetry"
+      }
+    ],
+    "MoodSunset": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office--1.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-2.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-2.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-3.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-4.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-5.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-5.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-6.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-6.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-7.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/High/Styled-Concrete-for-Home-Office-8.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/Styled%20Concrete%20for%20Home%20Office%20/Low/Styled-Concrete-for-Home-Office-8.jpg",
+        "Catatiry": "Mood Sunset",
+        "desctiption": "Styled for Home Workspaces",
+        "section": "Luxury",
+        "subSection": "MoodSunset"
+      }
+    ],
+    "PietraOro": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-1757.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/Pearl-1757.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-1790.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-1790.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4381.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4381.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4415.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4415.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4418.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4418.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4436.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4436.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4439.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4439.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4482.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4482.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/High/Pearl-4485.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Luxury%20Residentials/The%20Undiminishable%20Pearl%20Shine/Low/pearl-4485.jpg",
+        "Catatiry": "Pietra Oro",
+        "desctiption": "The Undiminishable Pearl Shine",
+        "section": "Luxury",
+        "subSection": "PietraOro"
+      }
+    ]
+  },
+  "Institutional": {
+    "THub": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/Concrete-Natural-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/Concrete-Natural--1.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/Concrete-Natural-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/Concrete-Natural-3.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8824-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8824-.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8842-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8842.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8877.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8877.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8894.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8894.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8954.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8954.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8956.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8956.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8958.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8958.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK8964.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK8964.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9074.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9074.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9089.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9089.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9090.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9090.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9097.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9097.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9100.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9100.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9118.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9118.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9129.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9129.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/High/_1HK9131.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Institutional/T-Hub/Low/_1HK9131.jpg",
+        "Catatiry": "T-Hub",
+        "desctiption": "Redefining the Mood of Workspaces",
+        "section": "Institutional",
+        "subSection": "THub"
+      }
+    ]
+  },
+  "Commercial": {
+    "Amavi": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-1.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-10.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-11.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-11.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-12.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-12.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-15.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-17.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-17.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-2.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-2.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-23.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-23.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-4.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-5.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-5.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/High/Concrete_Amavi-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Amavi/Low/Concrete_Amavi-7.jpg",
+        "Catatiry": "Amavi",
+        "desctiption": "Glimmer and Grace In Concrete Canvas",
+        "section": "Commercial",
+        "subSection": "Amavi"
+      }
+    ],
+    "AnushreeReddy": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-1.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-11.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-11.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-12.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-12.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-14.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-14.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-27.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-27.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-29.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-29.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-3.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-4.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-6.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-6.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-7.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-AR-14.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-AR-14.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/High/concrete-smooth-AR-28.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Anushree%20Reddy/Low/concrete-smooth-AR-28.jpg",
+        "Catatiry": "Anushree Reddy",
+        "desctiption": "Concrete Silk, Inspiring Fabric Dreams",
+        "section": "Commercial",
+        "subSection": "AnushreeReddy"
+      }
+    ],
+    "CentroGrande": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/1HK1180.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/1HK1180.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/1HK1182.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/1HK1182.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/1HK1183.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/1HK1183.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/1HK1185.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/1HK1185.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/Concrete-Natural-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/Concrete-Natural-1.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/Concrete-Natural-11.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/Concrete-Natural-11.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/Concrete-Natural-12.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/Concrete-Natural-12.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/Concrete-Natural-13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/Concrete-Natural-13.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/High/Concrete-Natural-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Centro%20Grande/Low/Concrete-Natural-15.jpg",
+        "Catatiry": "Centro Grandey",
+        "desctiption": "Minimalism Carved in Concrete",
+        "section": "Commercial",
+        "subSection": "CentroGrande"
+      }
+    ],
+    "Hunsply": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-1.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-12.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-12.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-13.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-14.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-14.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-18.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-18.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-2.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-2.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/High/Concrete-finish-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Hunsply/Low/Concrete-finish-3.jpg",
+        "Catatiry": "Hunsply",
+        "desctiption": "Marmorino Textures Echoing Timber's Warmth",
+        "section": "Commercial",
+        "subSection": "Hunsply"
+      }
+    ],
+    "LahariExteriors": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1652.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1652.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1654.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1654.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1655.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1655.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1659.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1659.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1668.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1668.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1672.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1672.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/High/Concrete_Exterior_1681.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lahari%20Exteriror/Low/Concrete_Exterior_1681.jpg",
+        "Catatiry": "Lahari Exteriors",
+        "desctiption": "Smooth, bold, and bespoke",
+        "section": "Commercial",
+        "subSection": "LahariExteriors"
+      }
+    ],
+    "LavramOffice": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6171.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6171.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6176.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6176.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6183.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6183.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6186.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6186.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6197.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6197.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6205.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6205.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6225.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6225.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/High/Concrete-natural--6226.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Lavram%20Office/Low/Concrete-natural--6226.jpg",
+        "Catatiry": "Lavram Office",
+        "desctiption": "Layered Textures for Grandeur",
+        "section": "Commercial",
+        "subSection": "LavramOffice"
+      }
+    ],
+    "LoomKraft": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_5896-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_5896.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_5959-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_5959.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_5962-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_5962.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_5965-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_5965.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_6026-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_6026.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_6038-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_6038.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_6044-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_6044.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/High/Glimmerputz_Loomkraft_6045-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Loom%20Kraft/Low/Glimmerputz_Loomkraft_6045.jpg",
+        "Catatiry": "Loom Kraft",
+        "desctiption": "The Glow-Up with Glimmerputz",
+        "section": "Commercial",
+        "subSection": "LoomKraft"
+      }
+    ],
+    "RapportShoeCompany": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish--1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish--1.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-28.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-28.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-30.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-30.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-35.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-35.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-37.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-37.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-41.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-41.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-45.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-45.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-46.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-46.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-49.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-49.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/High/Concrete-Finish-54.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Rapport%20Shoe%20Company/Low/Concrete-Finish-54.jpg",
+        "Catatiry": "Rapport Shoe Company",
+        "desctiption": "Polished Concrete, Grounded Perfection",
+        "section": "Commercial",
+        "subSection": "RapportShoeCompany"
+      }
+    ],
+    "StellaJaipurRugs": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-15.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-17.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-17.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-19.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-19.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-20.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-20.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-21.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-21.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-22.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-22.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-24.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-24.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-4.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/High/Distressed-finish-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Stella%20Jaipur%20Rugs/Low/Distressed-finish-7.jpg",
+        "Catatiry": "Stella Jaipur Rugs",
+        "desctiption": "Distressed  Brick, Finish in Earthy Hues",
+        "section": "Commercial",
+        "subSection": "StellaJaipurRugs"
+      }
+    ],
+    "Tusca": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-1.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-10.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-15.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-18.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-18.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-2.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-2.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-20.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-20.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Cemento-Natural-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Cemento-Natural-3.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-12.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Moon-Crater-12.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Moon-Crater-13.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-16.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Moon-Crater-16.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Moon-Crater-3.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-5.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/Low/Moon-Crater-5.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/High/Moon-Crater-6.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Commercial/Tasca/HiLowgh/Moon-Crater-6.jpg",
+        "Catatiry": "Tusca",
+        "desctiption": "Concrete Naturale & Moon Crator-A Celestial Symphony",
+        "section": "Commercial",
+        "subSection": "Tusca"
+      }
+    ]
+  },
+  "RealEstate": {
+    "ApilaClubhouse": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-1259.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-1259.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-1267.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-1267.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-1292.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-1292.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-3996.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-3996.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4013.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4013.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4027.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4027.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4056.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4056.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4109.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4109.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4136.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4136.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/High/Concrete-4144.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Apila%20Club%20House/Low/Concrete-4144.jpg",
+        "Catatiry": "Apila Clubhouse",
+        "desctiption": "Bold Surfaces, Subtle Statements",
+        "section": "RealEstateBuilders",
+        "subSection": "ApilaClubhouse"
+      }
+    ],
+    "ASBLLakesideClubhouse": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-1.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-10.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-17.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-17.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-20.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-20.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-21.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-21.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-22.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-22.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-25.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-25.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-28.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-28.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-43.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-43.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-49.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-49.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-53.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-53.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-54.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-54.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/High/ASBL-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/ASBL%20Lakeside%20Clubhouse%20/Low/ASBL-9.jpg",
+        "Catatiry": "ASBL Lakeside Clubhouse",
+        "desctiption": "Summer Vibes with Mithos Luxe",
+        "section": "RealEstateBuilders",
+        "subSection": "ASBLLakesideClubhouse"
+      }
+    ],
+    "Poetree": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1748.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1748.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1756.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1756.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1757.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1757.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1765.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1765.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1784.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1784.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/High/Concrete-Natural-exterior-1785.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/Poetree/Low/Concrete-Natural-exterior-1785.jpg",
+        "Catatiry": "Poetree",
+        "desctiption": "Magnifique Facades with Concrete Naturale",
+        "section": "RealEstateBuilders",
+        "subSection": "Poetree"
+      }
+    ],
+    "RealEstate": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--18.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete-18.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--20.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete-20.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--29.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete-29.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--33.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete-33.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--9089-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete-9089.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/High/Concrete--9096.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Real%20Estate%20%26%20Builders/When%20The%20Concrete%20Meets%20The%20Brick/Low/Concrete9096.jpg",
+        "Catatiry": "Real Estate",
+        "desctiption": "When the Concrete Meets The Brick",
+        "section": "RealEstateBuilders",
+        "subSection": "RealEstate"
+      }
+    ]
+  },
+
+  "SmallResidential": {
+    "IstintoSpatulaInteriors": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/High/istinto--1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/Low/istinto--1.jpg",
+        "Catatiry": "Istinto-Spatula Interiors",
+        "desctiption": "A Plush Home",
+        "section": "SmallResidential",
+        "subSection": "IstintoSpatulaInteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/High/istinto--4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/Low/istinto--4.jpg",
+        "Catatiry": "Istinto-Spatula Interiors",
+        "desctiption": "A Plush Home",
+        "section": "SmallResidential",
+        "subSection": "IstintoSpatulaInteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/High/spatula-5.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/Low/spatula-5.jpg",
+        "Catatiry": "Istinto-Spatula Interiors",
+        "desctiption": "A Plush Home",
+        "section": "SmallResidential",
+        "subSection": "IstintoSpatulaInteriors"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/High/spatula-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/A%20plush%20Home/Low/spatula-7.jpg",
+        "Catatiry": "Istinto-Spatula Interiors",
+        "desctiption": "A Plush Home",
+        "section": "SmallResidential",
+        "subSection": "IstintoSpatulaInteriors"
+      }
+    ],
+    "Sogni": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/High/sogni-3413.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/Low/sogni-3413.jpg",
+        "Catatiry": "Sogni",
+        "desctiption": "A Dream in Every Stroke",
+        "section": "SmallResidential",
+        "subSection": "Sogni"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/High/sogni-3424.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/Low/sogni-3424.jpg",
+        "Catatiry": "Sogni",
+        "desctiption": "A Dream in Every Stroke",
+        "section": "SmallResidential",
+        "subSection": "Sogni"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/High/sogni-3425.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/Low/sogni-3425.jpg",
+        "Catatiry": "Sogni",
+        "desctiption": "A Dream in Every Stroke",
+        "section": "SmallResidential",
+        "subSection": "Sogni"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/High/sogni-3429.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/Low/sogni-3429.jpg",
+        "Catatiry": "Sogni",
+        "desctiption": "A Dream in Every Stroke",
+        "section": "SmallResidential",
+        "subSection": "Sogni"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/High/sogni-3432.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/An%20Expensive%20Decore/Low/sogni-3432.jpg",
+        "Catatiry": "Sogni",
+        "desctiption": "A Dream in Every Stroke",
+        "section": "SmallResidential",
+        "subSection": "Sogni"
+      }
+    ],
+    "FabricPearlFinishes": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/Fabric-Finish--2.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/Fabric-Finish--2.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/Fabric-Finish-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/Fabric-Finish-10.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/Fabric-Finish-13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/Fabric-Finish-13.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/Fabric-Finish-15.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/Fabric-Finish-15.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/pearl-finish-14.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/pearl-finish-14.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/pearl-finish-7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/pearl-finish-7.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/High/pearl-finish-9.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Antique%20luxury%20redefined/Low/pearl-finish-9.jpg",
+        "Catatiry": "FabricPearlFinishes",
+        "desctiption": "Antique Luxury Redefined",
+        "section": "SmallResidential",
+        "subSection": "FabricPearlFinishes"
+      }
+    ],
+    "ConcreteNatural": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-7313.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-7313.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-7322.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-7322.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-7323.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-7323.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-7329.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-7329.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-8153.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-8153.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/High/Concrete-Natural-8156.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Celebrating%20the%20grandeur%20of%20concrete/Low/Concrete-Natural-8156.jpg",
+        "Catatiry": "Fabric Pearl Finishes",
+        "desctiption": "Celebrating The Grandeur of Concrete",
+        "section": "SmallResidential",
+        "subSection": "ConcreteNatural"
+      }
+    ],
+    "ConcreteGrooves": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/1HK2567.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/1HK2567.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2556.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2556.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2577.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2577.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2598.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2598.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2607.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2607.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2611.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2611.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2654.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2654.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/High/IHK2655.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20For%20Todays%20Minimalist%20/Low/IHK2655.jpg",
+        "Catatiry": "Concrete Grooves",
+        "desctiption": "Concrete for Today's Minimalist",
+        "section": "SmallResidential",
+        "subSection": "ConcreteGrooves"
+      }
+    ],
+    "TravertineBanding": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/High/Travertine-Banding-5785.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/Low/Travertine-Banding-5785.jpg",
+        "Catatiry": "Travertine Banding",
+        "desctiption": "Concrete Speaks Like No Other",
+        "section": "SmallResidential",
+        "subSection": "TravertineBanding"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/High/Travertine-Banding-5792.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/Low/Travertine-Banding-5792.jpg",
+        "Catatiry": "Travertine Banding",
+        "desctiption": "Concrete Speaks Like No Other",
+        "section": "SmallResidential",
+        "subSection": "TravertineBanding"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/High/Travertine-Banding-5804.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/Low/Travertine-Banding-5804.jpg",
+        "Catatiry": "Travertine Banding",
+        "desctiption": "Concrete Speaks Like No Other",
+        "section": "SmallResidential",
+        "subSection": "TravertineBanding"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/High/Travertine-Banding-5824.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/Low/Travertine-Banding-5824.jpg",
+        "Catatiry": "Travertine Banding",
+        "desctiption": "Concrete Speaks Like No Other",
+        "section": "SmallResidential",
+        "subSection": "TravertineBanding"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/High/Travertine-Banding-5832.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Concrete%20Speaks%20Like%20No%20Other/Low/Travertine-Banding-5832.jpg",
+        "Catatiry": "Travertine Banding",
+        "desctiption": "Concrete Speaks Like No Other",
+        "section": "SmallResidential",
+        "subSection": "TravertineBanding"
+      }
+    ],
+    "SmoothConcrete": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-01.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-01.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-1.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-1.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-17.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-17.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-18.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-18.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-19.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-19.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-21.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-21.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-29.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-29.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/High/Concrete-smooth-31.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/Minimalist%20concrete%20-%20Simplest%20stunner/Low/Concrete-smooth-31.jpg",
+        "Catatiry": "Smooth Concrete",
+        "desctiption": "Minimalist Concrete- Simplest Stunner",
+        "section": "SmallResidential",
+        "subSection": "SmoothConcrete"
+      }
+    ],
+    "IstintoZen": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Istinto-Zen-Dual-Tone-5363.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Istinto-Zen-Dual-Tone-5363.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Istinto-Zen-Dual-Tone-5368.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Istinto-Zen-Dual-Tone-5368.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Istinto-Zen-Dual-Tone-5374.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Istinto-Zen-Dual-Tone-5374.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Pearl-Finish-5383.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Pearl-Finish-5383.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Pearl-Finish-5401.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Pearl-Finish-5401.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/High/Pearl-Finish-5409.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Perfect%20Blend%20Of%20Rustic%20And%20Pearl%20Finishes%20/Low/Pearl-Finish-5409.jpg",
+        "Catatiry": "Istinto Zen (Dual Tone) & Pearl Finish",
+        "desctiption": "The Perfect Blend Of Rustic and Pearl Finishes",
+        "section": "SmallResidential",
+        "subSection": "IstintoZen"
+      }
+    ],
+    "Silk": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural--3.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural--3.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural--4.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural--4.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural--7.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural--7.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural-10.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural-10.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural-13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural-13.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/High/Concrete-Natural-8.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/The%20Silky%20Smooth%20Concrete/Low/Concrete-Natural-8.jpg",
+        "Catatiry": "Silk",
+        "desctiption": "The Silky Smooth Concrete",
+        "section": "SmallResidential",
+        "subSection": "Silk"
+      }
+    ],
+    "GroovesButtons": [
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete--1-.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete--1-.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete--13.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete--13.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete-2501.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete-2501.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete-2521.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete-2521.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete-2529.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete-2529.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete-2550.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete-2550.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      },
+      {
+        "imagePathHigh": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/High/Concrete-2552.jpg",
+        "imagePathLow": "https://storage.googleapis.com/designunity/assets/portfolio/Small%20Residentials/When%20The%20Concrete%20Meets%20The%20Brick%20/Low/Concrete-2552.jpg",
+        "Catatiry": "Grooves, Buttons and Distressed Brick",
+        "desctiption": "When Concrete Meets The Brick",
+        "section": "SmallResidential",
+        "subSection": "GroovesButtons"
+      }
+    ]
+  }
 }
