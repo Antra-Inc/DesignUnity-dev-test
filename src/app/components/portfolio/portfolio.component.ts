@@ -386,6 +386,9 @@ export class PortfolioComponent implements OnInit {
               this.images.SmallResidential.IstintoSpatulaInteriors
             );
             break;
+            case 'Sogni':
+              inputData.push(this.images.SmallResidential.Sogni);
+              break;
           case 'IstintoSpatulaInteriors':
             inputData.push(
               this.images.SmallResidential.IstintoSpatulaInteriors
