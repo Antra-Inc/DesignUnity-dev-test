@@ -6,13 +6,13 @@
   <div class="du-slide">
     <div class="container slider">
       <div [@slideAnimation]="currentIndex">
-        <ng-template ngFor [ngForOf]="slides" let-slide let-i="index" >
+        <ng-template ngFor [ngForOf]="slides" let-slide let-i="index">
           <img
             class="slide slide-animation nonDraggableImage"
             *ngIf="isCurrentSlideIndex(i)"
             (swiperight)="nextSlide()"
             (swipeleft)="prevSlide()"
-            [src]="slide.imagePath"
+            [src]="slide.imagePathLow"
           />
         </ng-template>
       </div>
@@ -45,7 +45,6 @@
           ></path>
         </svg>
       </button>
-
     </div>
     <nav class="nav">
       <div class="wrapper">
@@ -54,7 +53,7 @@
             <span
               [ngClass]="{ active: isCurrentSlideIndex(i) }"
               (click)="setCurrentSlideIndex(i)"
-              ><img [src]="slide.imagePath"
+              ><img [src]="slide.imagePathLow"
             /></span>
           </li>
         </ul>

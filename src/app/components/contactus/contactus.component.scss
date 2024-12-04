@@ -22,11 +22,39 @@
       padding: 0 20px;
     }
   }
-  &__form {
-    border: 1px solid red;
+  &__body {
     padding: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    .semi-header {
+      padding: 25px 0;
+    }
+  }
+  &__fields {
+    // border: 1px solid red;
+    &--names {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  }
+  &__fields {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+    padding: 0 30px;
+    input,
+    select {
+      border: none;
+      border-bottom: 1px solid #000;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: transparent;
+    }
+  }
+  &__form {
+    // border: 1px solid red;
   }
 }
 .mapouter {
@@ -45,15 +73,143 @@
   height: 500px !important;
 }
 .tabs {
-  border: 1px solid red;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
   &__titles {
-    border: 1px solid red;
     list-style: none;
     display: flex;
+    gap: 10px;
     li {
-      padding: 10px 15px;
-      &.active {
+      padding: 10px 35px;
+      font-size: 18px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+      border: 2px solid #000;
+      border-bottom: 0;
+      .img {
+        width: 60px;
+        height: 60px;
         border: 1px solid red;
+      }
+      &.active {
+        background-color: #543109;
+        color: #fff;
+        position: relative;
+        &::after {
+          position: absolute;
+          content: "";
+          width: 0;
+          bottom: -20px;
+          z-index: 1;
+          height: 0;
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          border-top: 20px solid #543109;
+        }
+      }
+    }
+  }
+  &__content {
+    border: 1px solid #000;
+    height: 100%;
+    .maps {
+      height: 100%;
+      position: relative;
+      &__info {
+        border: 1px solid red;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #fff;
+      }
+    }
+    .mapouter {
+      width: 100%;
+      height: 100%;
+      .gmap_canvas {
+        width: 100%;
+        height: 100%;
+        :host .review-box {
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+}
+.form-options {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #000;
+  .radio-btns {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    &__item {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      input {
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
+.submit-btn {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  button {
+    padding: 0 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2f1a05;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+    gap: 10px;
+    cursor: pointer;
+    span {
+      height: 6px;
+      width: 6px;
+      border-radius: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: 0.3s ease-in-out;
+      background-color: #d8976e;
+    }
+    &:hover {
+      span {
+        height: 24px;
+        width: 24px;
+        img {
+          animation: mover 0.5s ease-in-out forwards;
+          width: 10px;
+          height: 13px;
+        }
+      }
+    }
+    &:not(:hover) {
+      .menu-item__pointer {
+        span {
+          img {
+            animation: moverOut 0.7s ease-in-out forwards;
+          }
+        }
       }
     }
   }

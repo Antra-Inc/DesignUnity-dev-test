@@ -64,9 +64,9 @@ export class PortfolioDialogComponent
   intervalId: any;
   constructor(private cdr: ChangeDetectorRef) {}
   @ViewChild('listContainer') listContainer!: ElementRef;
-  doalogTitle!:string
-  imageFrom!:string
-  dialogDescription!:string
+  doalogTitle!: string;
+  imageFrom!: string;
+  dialogDescription!: string;
   ngOnInit(): void {
     console.log('message', this.message, this.newInputData);
 
@@ -84,9 +84,9 @@ export class PortfolioDialogComponent
       this.newInputData,
       this.newInputData?.data?.itemId?.SubData
     );
-    this.slides = this.newInputData?.data?.itemId?.SubData;
+    this.slides = this.newInputData?.data?.itemId[0];
     this.cdr.detectChanges();
-    console.log('slides', this.slides);
+    console.log('slides', this.slides.length);
   }
   // ngOnChanges(changes: SimpleChanges): void {
   //   this.slides = this.newInputData?.data?.itemId?.SubData;

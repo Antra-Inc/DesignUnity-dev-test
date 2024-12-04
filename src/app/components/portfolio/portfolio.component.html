@@ -38,11 +38,11 @@
           (click)="openDialog(item)"
         >
           <div class="item__img">
-            <img src="{{ item.imagePath }}" alt="" />
+            <img src="{{ item?.imagePathLow }}" alt="" />
           </div>
           <div class="item__details">
-            <p>{{ item?.data?.heading }}</p>
-            <h2>{{ item?.data?.description }}</h2>
+            <p>{{ item?.Catatiry }}</p>
+            <h2>{{ item?.desctiption }}</h2>
           </div>
         </div>
       </div>
