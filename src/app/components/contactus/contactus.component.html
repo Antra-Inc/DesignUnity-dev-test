@@ -8,20 +8,28 @@
       <!-- Tab titles (navigation) -->
       <ul class="tabs__titles">
         <li (click)="setActiveTab(0)" [class.active]="0 === selectedTab">
-          <div class="img"></div>
+          <div class="img">
+            <img src="../../../assets/img/contactUs/Hyderabad-1.svg" alt="" />
+          </div>
 
           Hyderabad
         </li>
         <li (click)="setActiveTab(1)" [class.active]="1 === selectedTab">
-          <div class="img"></div>
+          <div class="img">
+            <img src="../../../assets/img/contactUs/Bengaluru.svg" alt="" />
+          </div>
           Bangalore
         </li>
         <li (click)="setActiveTab(2)" [class.active]="2 === selectedTab">
-          <div class="img"></div>
+          <div class="img">
+            <img src="../../../assets/img/contactUs/Chennai.svg" alt="" />
+          </div>
           Chennai
         </li>
         <li (click)="setActiveTab(3)" [class.active]="3 === selectedTab">
-          <div class="img"></div>
+          <div class="img">
+            <img src="../../../assets/img/contactUs/Delhi.svg" alt="" />
+          </div>
           Delhi
         </li>
       </ul>
@@ -112,13 +120,8 @@
     <div class="contact__form">
       <h3 class="semi-header">Get In Touch</h3>
 
-
-
-
-
-      
       <form
-        *ngIf="false"
+        *ngIf="true"
         action="https://forms.zohopublic.in/techwish/form/ContactUs/formperma/j7K5rPV3EvnRbXIAr2aIx5-nM9QMyrvskyzPJTzY9Us/htmlRecords/submit"
         name="form"
         id="form"
