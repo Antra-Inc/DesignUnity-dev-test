@@ -38,6 +38,7 @@ import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
 import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
+import { ContactUsFormComponent } from './components/contactus/contact-us-form/contact-us-form.component';
 
 
 @NgModule({
@@ -76,6 +77,7 @@ import { StudioDialogComponent } from './components/studio-accordion/studio-dial
     BlogTestComponent,
     BlogDetailsComponent,
     StudioDialogComponent,
+    ContactUsFormComponent,
   ],
   imports: [
     BrowserModule,
