@@ -111,7 +111,203 @@
 
     <div class="contact__form">
       <h3 class="semi-header">Get In Touch</h3>
-      <div class="contact__fields">
+
+
+
+
+
+      
+      <form
+        *ngIf="false"
+        action="https://forms.zohopublic.in/techwish/form/ContactUs/formperma/j7K5rPV3EvnRbXIAr2aIx5-nM9QMyrvskyzPJTzY9Us/htmlRecords/submit"
+        name="form"
+        id="form"
+        method="POST"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+      >
+        <input
+          type="hidden"
+          name="zf_referrer_name"
+          value=""
+        /><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+        <input
+          type="hidden"
+          name="zf_redirect_url"
+          value=""
+        /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+        <input
+          type="hidden"
+          name="zc_gad"
+          value=""
+        /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+        <p></p>
+        <!--Name-->
+        <div class="form">
+          <div class="form__field">
+            <input
+              type="text"
+              maxlength="255"
+              name="Name_First"
+              fieldType="7"
+              placeholder="Enter Your First Name *"
+            />
+          </div>
+          <div class="form__field">
+            <input
+              type="text"
+              maxlength="255"
+              name="Name_Last"
+              fieldType="7"
+              placeholder="Enter Your Last Name *"
+            />
+          </div>
+          <div class="form__field">
+            <input
+              type="number"
+              compname="PhoneNumber"
+              name="PhoneNumber_countrycode"
+              phoneFormat="1"
+              isCountryCodeEnabled="false"
+              maxlength="10"
+              value=""
+              fieldType="11"
+              id="international_PhoneNumber_countrycode"
+              placeholder="Enter Your Mobile Number"
+            />
+          </div>
+          <div class="form__field">
+            <input
+              type="email"
+              maxlength="255"
+              name="Email"
+              value=""
+              fieldType="9"
+              placeholder="Enter Your Email Address"
+            />
+          </div>
+          <div class="form__field">
+            <select name="Dropdown">
+              <option selected="true" selected disabled value="-Select-">
+                Which of the following categories do you relate to?
+              </option>
+              <option value="Architect">Architect</option>
+              <option value="Interior&#x20;Designer">Interior Designer</option>
+              <option value="PMC">PMC</option>
+              <option value="Business&#x20;Owner">Business Owner</option>
+              <option value="Home&#x20;Owner">Home Owner</option>
+              <option value="Builder&#x2f;Developer">
+                Builder / Developer
+              </option>
+            </select>
+          </div>
+          <div class="form__field radio-btn">
+            <p>
+              Do you have any paint/flooring/designer finishes application
+              planned in the immediate future? *
+            </p>
+            <div class="radio-btn__group">
+              <div class="radio-btn__form">
+                <input type="radio" name="finishes" id="" />
+                <label for="">Yes</label>
+              </div>
+              <div class="radio-btn__form">
+                <input type="radio" name="finishes" id="" />
+                <label for="">No</label>
+              </div>
+            </div>
+            <div class="form__field">
+              <select name="Dropdown1">
+                <option selected="true" value="-Select-">-Select-</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__field">
+            <select name="Dropdown2">
+              <option selected="true" disabled value="">
+                How much is the paint/flooring/designer finish application area
+                in sq.ft?
+              </option>
+              <option value="&lt;500">&lt;500</option>
+              <option value="500-1000">500-1000</option>
+              <option value="1001-5000">1001-5000</option>
+              <option value="5001-10000">5001-10000</option>
+              <option value="&gt;10000">&gt;10000</option>
+              <option
+                value="I&#x20;am&#x20;not&#x20;sure.&#x20;Please&#x20;arrange&#x20;a&#x20;visit"
+              >
+                I am not sure. Please arrange a visit
+              </option>
+            </select>
+          </div>
+          <div class="form__field">
+            <select name="Dropdown3">
+              <option selected="true" disabled value="">
+                The site to be painted is
+              </option>
+              <option value="Residential">Residential</option>
+              <option value="Office&#x20;&amp;&#x20;Commercial">
+                Office &amp; Commercial
+              </option>
+              <option value="Office">Office</option>
+              <option value="Commercial">Commercial</option>
+              <option value="Hospitality">Hospitality</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="Industry">Industry</option>
+              <option value="Infrastructure">Infrastructure</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <select name="Dropdown4">
+              <option selected="true" disabled value="-Select-">
+                By when do you require the application to begin?
+              </option>
+              <option value="Within&#x20;1&#x20;month">Within 1 month</option>
+              <option value="1-3&#x20;months">1-3 months</option>
+              <option value="4-6&#x20;months">4-6 months</option>
+              <option value="&gt;6&#x20;months">&gt;6 months</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <select name="Dropdown5">
+              <option selected="true" disabled value="-Select-">
+                Are you working with any Interior Designer/Architect?
+              </option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <input
+              type="text"
+              name="SingleLine"
+              value=""
+              fieldType="1"
+              maxlength="255"
+              placeholder="Which city is the site to be painted located in?"
+            />
+          </div>
+          <div class="form__field">
+            <textarea
+              placeholder="Leave us a few words"
+              name="MultiLine"
+              maxlength="65535"
+              placeholder=""
+            ></textarea>
+          </div>
+        </div>
+        <div class="form__field btn">
+          <button type="submit">Submit</button>
+        </div>
+        <!--Phone-->
+
+        <!--Dropdown-->
+
+        <!--Dropdown-->
+      </form>
+      <div class="contact__fields" *ngIf="false">
         <div class="contact__fields--names">
           <input
             type="text"
