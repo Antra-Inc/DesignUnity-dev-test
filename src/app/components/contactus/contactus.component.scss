@@ -15,10 +15,10 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      @include banner_heading;
+      @include heading;
     }
     @media (max-width: 899px) {
-      min-height: 55vh;
+      min-height: 35vh;
       padding: 0 20px;
     }
   }
@@ -30,6 +30,13 @@
     min-height: 950px;
     .semi-header {
       padding: 25px 0;
+    }
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 600px 950px;
+    }
+    @media (max-width: 900px) {
+      padding: 16px;
     }
   }
   &__fields {
@@ -92,6 +99,7 @@
       cursor: pointer;
       border: 2px solid #000;
       border-bottom: 0;
+
       .img {
         height: 60px;
         width: 100px;
@@ -100,6 +108,22 @@
         svg {
           path {
             fill: #000;
+          }
+        }
+      }
+      @media (max-width: 900px) {
+        width: 50px;
+        font-size: 12px;
+        .img {
+          width: 32px;
+          height: 32px;
+        }
+        &:first-child {
+          .img {
+            img {
+              height: 20px;
+              width: 32px;
+            }
           }
         }
       }
