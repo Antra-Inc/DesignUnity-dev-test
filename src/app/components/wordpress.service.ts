@@ -5,7 +5,6 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
-
 export class WordpressService {
   private apiUrl = 'http://stagingsite.designunity.com/wp-json/wp/v2';
   private postsUrl = `${this.apiUrl}/posts`;

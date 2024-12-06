@@ -39,6 +39,7 @@
           bottom: 11%;
           z-index: 11;
           opacity: 0;
+          text-transform: uppercase;
           @media (max-width: 900px) {
             font-size: 30px !important;
           }
@@ -78,7 +79,7 @@
 
               font-family: "rollgates_luxuryregular";
             }
-         
+
             img {
               animation: moverOut 0.7s ease-in;
               -webkit-transition: 0.5s ease-in;
