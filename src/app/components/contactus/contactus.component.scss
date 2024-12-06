@@ -94,7 +94,13 @@
       .img {
         height: 60px;
         width: 100px;
-        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        svg {
+          path {
+            fill: #000;
+          }
+        }
       }
       &:first-child {
         .img {
@@ -102,13 +108,22 @@
             height: 60px;
             width: 60px;
           }
-          border: 1px solid red;
         }
       }
       &.active {
         background-color: #543109;
         color: #fff;
         position: relative;
+        .img {
+          // img {
+          //   filter: saturate(400);
+          // }
+          svg {
+            path {
+              fill: #fff;
+            }
+          }
+        }
         &::after {
           position: absolute;
           content: "";
@@ -273,4 +288,10 @@
 }
 .hide {
   visibility: hidden;
+}
+::ng-deep #gmap_canvas {
+  border: 1px solid red;
+  body {
+    background-color: green;
+  }
 }

@@ -1,0 +1,106 @@
+.form {
+  display: grid;
+  gap: 15px;
+  &__field {
+    input,
+    select,
+    textarea {
+      border: none;
+      border-bottom: 1px solid #000;
+      width: 100%;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: transparent;
+    }
+    &.radio-btn {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      padding: 10px 15px;
+      border-bottom: 1px solid #000;
+    }
+    .radio-btn {
+      &__group {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+      }
+      &__form {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+      }
+      &.btn {
+        button {
+          padding: 0 15px;
+          border-radius: 50px;
+          border: none;
+          background-color: #2f1a05;
+          display: flex;
+          align-items: center;
+          height: 40px;
+          color: #fff;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.submit-btn {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    padding: 0 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2f1a05;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+    gap: 10px;
+    &:disabled {
+      opacity: 0.6;
+      &:hover {
+        span {
+          height: 6px;
+          width: 6px;
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+    cursor: pointer;
+    span {
+      height: 6px;
+      width: 6px;
+      border-radius: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: 0.3s ease-in-out;
+      background-color: #d8976e;
+    }
+    &:hover {
+      span {
+        height: 24px;
+        width: 24px;
+        img {
+          animation: mover 0.5s ease-in-out forwards;
+          width: 10px;
+          height: 13px;
+        }
+      }
+    }
+    &:not(:hover) {
+      .menu-item__pointer {
+        span {
+          img {
+            animation: moverOut 0.7s ease-in-out forwards;
+          }
+        }
+      }
+    }
+  }
+}
