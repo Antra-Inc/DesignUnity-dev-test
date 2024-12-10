@@ -1,6 +1,6 @@
 <div class="du-slide">
   <div class="container slider">
-    <div [@slideAnimation]="currentIndex">
+    <div [@slideAnimation]="currentIndex" class="slider__card">
       <ng-template ngFor [ngForOf]="slides" let-slide let-i="index">
         <img
           class="slide slide-animation nonDraggableImage"

@@ -9,13 +9,36 @@
   &__section {
     padding-top: 100px;
     margin: 0 auto;
-    max-width: $screen-max-size;
+    display: flex;
+    justify-content: center;
     background: #fff;
   }
   &__details {
     .banner__section {
       background-color: #e8e5e1;
-      padding: 5% 12%;
+      padding: 32px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      &--title {
+        max-width: $screen-max-size;
+        position: relative;
+        flex: 1;
+        h1 {
+          position: absolute;
+          bottom: 0;
+          padding: 32px;
+          text-align: center;
+          color: #fff;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.8855917366946778) 0%,
+            rgba(241, 245, 249, 0) 150%
+          );
+          border-radius: 20px;
+        }
+      }
     }
     &__heading {
       font-size: 40px;
@@ -27,26 +50,41 @@
     &__banner {
       width: 100%;
       height: auto;
-      max-height: 400px;
+      max-height: 50vh;
       object-fit: cover;
       border-radius: 20px;
     }
     &__content {
       padding: 5% 12%;
       ::ng-deep p {
-        padding-top: 30px;
-        padding-top: 20px;
-        font-size: 18px;
-        line-height: 1.6;
+        padding-top: 16px;
+        span {
+          font-size: clamp(1rem, 2.1vw, 1.3rem);
+          font-family: "Helvetica-light";
+          color: #000;
+          text-align: left;
+          line-height: 1.5em;
+        }
       }
       ::ng-deep h3 {
         padding-top: 30px;
-        font-size: 30px;
+        font-size: 26px;
       }
       ::ng-deep ul {
         li {
+          margin: 10px 24px;
           font-size: 18px;
-          
+          line-height: 1.5em;
+          font-family: "Helvetica-light";
+          color: #000;
+          text-align: left;
+          span {
+            font-size: clamp(1rem, 2.1vw, 1.3rem);
+            font-family: "Helvetica-light";
+            color: #000;
+            text-align: left;
+            line-height: 1.5em;
+          }
           strong,
           b {
             font-weight: 600;
