@@ -4,6 +4,12 @@
   overflow: hidden;
   position: relative;
   border-radius: 15px;
+  &__card {
+    min-height: 100%;
+    img {
+      height: 100%;
+    }
+  }
 }
 
 .port-dtls {

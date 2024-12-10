@@ -39,6 +39,9 @@
       @media (max-width: 700px) {
         border-radius: 20px;
       }
+      p {
+        max-width: 80%;
+      }
       .featItem_1 {
         display: grid;
         align-items: center;
