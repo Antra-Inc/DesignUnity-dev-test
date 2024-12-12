@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { WordpressService } from '../wordpress.service';
 
 @Component({
   selector: 'app-venetian-plasters',
@@ -17,12 +18,20 @@ export class VenetianPlastersComponent implements OnInit {
   itemsToShow: any[] = []; // Array to hold the items to be displayed
   currentIndex: any = 0; // Track the current index of loaded items
   moreBtn = false;
+  categories: any[] = [];
+  error: any;
+  isLoading = false;
+  posts: any[] = [];
   itemsIncrement: any = 4; // Number of items to add each time "Load More" is clicked
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private postService: WordpressService
+  ) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/solutions.json');
   }
   ngOnInit(): void {
+    this.loadCategories();
     localStorage.setItem('currentIndex', '0');
     localStorage.setItem('itemsIncrement', '4');
     // this.currentIndex = localStorage.getItem('currentIndex');
@@ -113,5 +122,38 @@ export class VenetianPlastersComponent implements OnInit {
       this.itemsToShow.length,
       this.contentData.length
     );
+  }
+
+  loadCategories(): void {
+    const categoryName = 'Venetian Plasters';
+    this.postService.getCategories().subscribe({
+      next: (data) => {
+        this.categories = data;
+        const category = this.categories.find((c) => c.name === categoryName);
+        if (category) {
+          this.loadPosts(category.id);
+        }
+      },
+      error: (err) => {
+        this.error = err;
+        this.isLoading = false;
+      },
+    });
+  }
+
+  loadPosts(categoryId?: number): void {
+    this.isLoading = true;
+    this.postService.getPosts(categoryId).subscribe({
+      next: (data) => {
+        this.posts = data;
+        console.log('blogs', this.posts);
+
+        this.isLoading = false;
+      },
+      error: (err) => {
+        this.error = err;
+        this.isLoading = false;
+      },
+    });
   }
 }
