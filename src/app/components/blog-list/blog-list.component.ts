@@ -4,11 +4,9 @@ import { WordpressService } from '../wordpress.service';
 @Component({
   selector: 'app-blog-list',
   templateUrl: './blog-list.component.html',
-  styleUrls: ['./blog-list.component.scss']
+  styleUrls: ['./blog-list.component.scss'],
 })
 export class BlogListComponent implements OnInit {
- 
-
   posts: any[] = [];
   categories: any[] = [];
   selectedCategory: number | null = null;
@@ -18,23 +16,23 @@ export class BlogListComponent implements OnInit {
   isLoading = true;
   error: any;
 
-  constructor(private postService: WordpressService) { }
+  constructor(private postService: WordpressService) {}
 
   ngOnInit(): void {
     this.loadCategories();
     this.loadPosts();
   }
 
-
   loadCategories(): void {
     this.postService.getCategories().subscribe({
       next: (data) => {
         this.categories = data;
+        console.log('blogs-1', this.categories);
       },
       error: (err) => {
         this.error = err;
         this.isLoading = false;
-      }
+      },
     });
   }
 
@@ -43,28 +41,28 @@ export class BlogListComponent implements OnInit {
     this.postService.getPosts(categoryId).subscribe({
       next: (data) => {
         this.posts = data;
-        console.log('blogs',this.posts);
-        
+        console.log('blogs', this.posts);
+
         this.isLoading = false;
       },
       error: (err) => {
         this.error = err;
         this.isLoading = false;
-      }
+      },
     });
   }
 
   filterByCategory(categoryName: string): void {
     if (categoryName === 'all') {
       this.loadPosts();
+      console.log('blogs', this.loadPosts());
     } else {
-      const category = this.categories.find(c => c.name === categoryName);
+      const category = this.categories.find((c) => c.name === categoryName);
       if (category) {
         this.loadPosts(category.id);
       }
     }
   }
-  
 
   /*
   loadPosts(): void {
@@ -102,7 +100,4 @@ export class BlogListComponent implements OnInit {
     this.visibleCardsCount += 3; // Show 3 more cards when load more is clicked
   }
 */
-
-
-
 }

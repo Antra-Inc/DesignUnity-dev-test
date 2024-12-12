@@ -1,5 +1,5 @@
 <div class="section">
-  <h1 class="heading">Walls & Seilings</h1>
+  <h1 class="heading">Walls & Ceiling</h1>
   <div>
     <div class="container">
       <div class="card one">
@@ -50,13 +50,19 @@
             polished to highly textured.
           </p>
         </div>
+        <div class="card__footer">
+          <button class="button" routerLink="/flooring">
+            Know More
+            <img src="./assets/svg/arrow.svg" alt="" />
+          </button>
+        </div>
       </div>
     </div>
   </div>
-  <div>
+  <div *ngIf="false">
     <h1 class="heading">Walls & Seilings</h1>
 
-    <section class="holder" *ngIf="false">
+    <section class="holder">
       <article
         class="holder__item bg-3"
         id="parallax"

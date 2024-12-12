@@ -127,6 +127,11 @@
       font-family: "Helvetica-light";
     }
   }
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+  }
 }
 .card
 /* Adding hover effect */
@@ -234,4 +239,26 @@
 
 .card:nth-child(5) {
   animation-delay: 0.12s;
+}
+.button {
+  border-radius: 7px;
+  background: #f2da77;
+  border: none;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  cursor: pointer;
+  img {
+    width: 0px;
+    padding-left: 5px;
+    transition: all 0.5s;
+  }
+  &:hover {
+    img {
+      width: 40px;
+      padding-left: 10px;
+      transition: all 0.5s;
+    }
+  }
 }

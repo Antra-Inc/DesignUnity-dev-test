@@ -12,6 +12,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
+import { ThankYouComponent } from './components/thank-you/thank-you.component';
 const routes: Routes = [
   {
     path: '',
@@ -64,6 +65,10 @@ const routes: Routes = [
   {
     path: 'contactus',
     component: ContactusComponent,
+  },
+  {
+    path: 'Thank_You',
+    component: ThankYouComponent,
   },
 ];
 

@@ -1,0 +1,30 @@
+.thanks {
+  border: 1px solid red;
+  height: 100vh;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 45%;
+  &__img {
+    width: 100%;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+  &__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    h1 {
+      font-size: 80px;
+      color: #4e8e88;
+      font-family: "Tenor_Sans";
+    }
+    p {
+      font-size: 14px;
+      font-family: "Helvetica-light";
+    }
+  }
+}
