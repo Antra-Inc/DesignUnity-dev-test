@@ -20,7 +20,8 @@
     background-size: cover;
     padding-top: 2em;
     padding-bottom: 2rem;
-
+    display: grid;
+    grid-template-rows: auto 1fr;
     .heading {
       text-align: center;
       padding: 2rem 1.5rem 3rem 1rem;
@@ -39,6 +40,11 @@
       font-size: $p-font;
       letter-spacing: 0.9px;
       color: #fff;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      p {
+        color: #fff;
+      }
       @media (max-width: 500px) {
         //font-size: $font_text;
         padding: 20px 15px !important;
@@ -46,14 +52,25 @@
       }
 
       .button {
-        display: grid;
+        border-radius: 7px;
+        background: #f2da77;
+        border: none;
+        padding: 10px 16px;
+        display: flex;
         align-items: center;
-        justify-content: flex-start;
-        padding-top: 50px;
-        button {
-          @include button;
-          @media (max-width: 700px) {
-            padding: 8px 10px;
+        margin-top: 16px;
+        cursor: pointer;
+        width: fit-content;
+        img {
+          width: 0px;
+          padding-left: 5px;
+          transition: all 0.5s;
+        }
+        &:hover {
+          img {
+            width: 40px;
+            padding-left: 10px;
+            transition: all 0.5s;
           }
         }
       }

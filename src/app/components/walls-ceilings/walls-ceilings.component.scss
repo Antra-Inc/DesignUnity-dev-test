@@ -98,7 +98,7 @@
   /*   margin: 0 20px; */
   box-sizing: border-box;
   background: #dedede;
-  min-height: 600px;
+  min-height: 500px;
   border-radius: 32px;
   position: sticky;
   top: 200px;
@@ -130,13 +130,14 @@
   &__body {
     padding: 10px 20px;
     p {
-      font-size: clamp(1rem, 3vw + 2px, 1.3rem);
+      font-size: clamp(1rem, 3vw + 2px, 1.6rem);
       font-family: "Helvetica-light";
+      max-width: 700px;
     }
   }
   &__footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 16px;
   }
 }
@@ -194,6 +195,7 @@
   background-position-y: top;
   background-position-x: left;
   background-size: cover;
+  // background-position: 80%;
   margin-top: -25px;
   @media (max-width: 1200px) {
     top: 270px;
