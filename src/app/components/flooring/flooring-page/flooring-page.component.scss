@@ -184,12 +184,13 @@
     }
   }
 }
-.blogs {
+::ng-deep .blogs {
   display: flex;
   justify-content: center;
   border-top: 1px solid #291702;
   padding: 30px 0;
-  background-color: #fffdf7;
+  margin-top: 40px;
+
   &__parent {
     max-width: 1440px;
     padding: 16px;
@@ -197,6 +198,7 @@
     &--header {
       display: flex;
       justify-content: center;
+      padding-bottom: 25px;
     }
   }
   &__header {
@@ -205,7 +207,7 @@
   }
   &__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 16px;
   }
   &__item {
@@ -215,6 +217,19 @@
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+    @media (max-width: 1000px) {
+      margin-bottom: 0px;
+      margin-top: 0;
+    }
+    &--text {
+      p {
+        padding-bottom: 15px;
+        font-size: clamp(0.9rem, 2.1vw, 1.3rem);
+        font-family: "Helvetica-light";
+        color: #000;
+        line-height: 1.5em;
+      }
+    }
     cursor: pointer;
     transition: all 0.3s;
     &:hover {
@@ -236,14 +251,19 @@
       h2 {
         font-size: 22px;
         font-family: $heading-font;
+        @media (max-width: 500px) {
+          font-size: 16px;
+        }
       }
     }
     &--details {
       padding-bottom: 16px;
       p {
         padding-bottom: 15px;
-        font-size: 16px;
-        font-family: $text_font !important;
+        font-size: clamp(0.9rem, 2.1vw, 1.3rem);
+        font-family: "Helvetica-light";
+        color: #000;
+        line-height: 1.5em;
       }
     }
   }

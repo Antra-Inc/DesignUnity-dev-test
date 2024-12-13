@@ -6,13 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-slider.component.scss'],
 })
 export class HomeSliderComponent implements OnInit {
- 
   child = false;
   main = true;
   ngOnInit(): void {
-    console.log('thumbnile',this.main,this.child);
-    
-   }
+    console.log('thumbnile', this.main, this.child);
+  }
   images: { imagepath: string; bc: string; name?: string }[] = [
     {
       imagepath: '../../../assets/img/home-page/slide-1.png',
@@ -35,8 +33,8 @@ export class HomeSliderComponent implements OnInit {
       name: 'Wall & Ceiling',
     },
     {
-      imagepath: '../../../assets/img/home-page/slide-5.png',
-      bc: '#D69780',
+      imagepath: '../../../assets/img/flooring/banner.png',
+      bc: '#97ABD8',
       name: 'Flooring',
     },
   ];
@@ -44,7 +42,7 @@ export class HomeSliderComponent implements OnInit {
     { imagepath: '../../../assets/img/home-page/slide-2.png', bc: '#678355' },
     { imagepath: '../../../assets/img/home-page/slide-3.png', bc: '#D3CDDE' },
     { imagepath: '../../../assets/img/home-page/slide-4.png', bc: '#D3C4C0' },
-    { imagepath: '../../../assets/img/home-page/slide-5.png', bc: '#D69780' },
+    { imagepath: '../../../assets/img/flooring/banner.png', bc: '#97ABD8' },
     { imagepath: '../../../assets/img/home-page/slide-1.png', bc: '#A8A9AA' },
   ];
   height = 0;
