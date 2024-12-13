@@ -54,7 +54,7 @@ export class StudioAccordionComponent implements OnInit {
   getImages() {
     this.getJSON().subscribe(
       (data: any) => {
-        console.log('Fetched data:', data);
+        
         this.bangalore = data.Bangalore;
         this.hyderabad = data.Hyderabad;
         this.delhi = data.Delhi;

@@ -153,11 +153,10 @@
   border-top: 1px solid #333;
   display: grid;
   font-size: 12px;
-  grid-template-columns: auto auto;
-  // grid-template-rows: auto auto;
-  // grid-template-columns: 1fr;
-
+  grid-template-columns: min-content min-content;
   row-gap: 10px;
+  white-space: nowrap;
+  gap: 90px;
   .terms {
     display: grid;
     grid-template-columns: auto auto;
