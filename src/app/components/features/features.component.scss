@@ -21,7 +21,7 @@
   padding: 4rem 0;
 
   .heading {
-    @include heading;
+    text-align: center;
     padding: 2rem 1.5rem 3rem 1rem;
   }
   &__items {

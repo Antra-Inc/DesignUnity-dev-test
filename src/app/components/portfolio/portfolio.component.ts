@@ -188,7 +188,6 @@ export class PortfolioComponent implements OnInit {
           ...this.images.Commercial.Amavi.slice(0, 1),
           ...this.images.Commercial.AnushreeReddy.slice(0, 1),
           ...this.images.Commercial.CentroGrande.slice(0, 1),
-          ...this.images.Commercial.CentroGrande.slice(0, 1),
           ...this.images.Commercial.Hunsply.slice(0, 1),
           ...this.images.Commercial.LahariExteriors.slice(0, 1),
           ...this.images.Commercial.LavramOffice.slice(0, 1),
@@ -270,6 +269,9 @@ export class PortfolioComponent implements OnInit {
             break;
           case 'ChandrikaReddy':
             inputData.push(this.images.Luxury.ChandrikaReddy);
+            break;
+          case 'TexturedAesthetics':
+            inputData.push(this.images.Luxury.TexturedAesthetics);
             break;
           case 'DasariKiran':
             inputData.push(this.images.Luxury.DasariKiran);
@@ -386,9 +388,9 @@ export class PortfolioComponent implements OnInit {
               this.images.SmallResidential.IstintoSpatulaInteriors
             );
             break;
-            case 'Sogni':
-              inputData.push(this.images.SmallResidential.Sogni);
-              break;
+          case 'Sogni':
+            inputData.push(this.images.SmallResidential.Sogni);
+            break;
           case 'IstintoSpatulaInteriors':
             inputData.push(
               this.images.SmallResidential.IstintoSpatulaInteriors

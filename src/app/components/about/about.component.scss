@@ -23,8 +23,8 @@
 
     padding: 100px 15%;
     h1 {
-      @include heading;
       padding: 15px 0;
+      text-align: center;
     }
     p {
       padding-bottom: 20px;
@@ -34,7 +34,6 @@
       // h1 {
       //   font-size: 18px;
       // }
-     
     }
   }
 }

@@ -12,7 +12,7 @@
   // }
 }
 .heading {
-  @include heading;
+  text-align: center;
   padding: 2rem 1.5rem 0 1rem;
   @media (max-width: 1200px) {
     padding: 2rem 1.5rem 0rem 1rem;

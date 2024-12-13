@@ -62,6 +62,15 @@
       // }
     }
   }
+  ::ng-deep .du-tabs__container {
+    ul {
+      li {
+        a {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
   // ::ng-deep .tabs {
   //   max-width: $screen-max-size;
   // }
