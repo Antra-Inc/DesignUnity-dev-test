@@ -59,7 +59,7 @@ const routes: Routes = [
     component: BlogTestComponent,
   },
   {
-    path: 'blog/:id',
+    path: 'blog/:header/:id',
     component: BlogDetailsComponent,
   },
   {
