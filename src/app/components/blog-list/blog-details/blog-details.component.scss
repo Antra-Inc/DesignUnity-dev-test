@@ -12,6 +12,9 @@
     display: flex;
     justify-content: center;
     background: #fff;
+    @media (max-width: 1000px) {
+      padding-top: 50px;
+    }
   }
   &__details {
     .banner__section {
@@ -20,6 +23,9 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      @media (max-width: 500px) {
+        padding: 16px;
+      }
       &--title {
         max-width: $screen-max-size;
         position: relative;
@@ -38,15 +44,25 @@
             rgba(241, 245, 249, 0) 150%
           );
           border-radius: 20px;
+          @media (max-width: 500px) {
+            padding: 10px;
+            border-radius: 10px;
+          }
         }
       }
     }
     &__heading {
-      font-size: 40px;
+      font-size: 30px;
       line-height: 1.5;
       padding-bottom: 20px;
       font-family: $heading-font;
       font-weight: normal;
+      @media (max-width: 1000px) {
+        font-size: 18px;
+      }
+      @media (max-width: 500px) {
+        font-size: 12px;
+      }
     }
     &__banner {
       width: 100%;
@@ -54,9 +70,13 @@
       max-height: 50vh;
       object-fit: cover;
       border-radius: 20px;
+      @media (max-width: 500px) {
+        border-radius: 10px;
+      }
     }
     &__content {
-      padding: 5% 12%;
+      padding: 16px 32px;
+      max-width: 1440px;
       ::ng-deep p {
         padding-top: 16px;
         span {
@@ -70,6 +90,10 @@
       ::ng-deep h3 {
         padding-top: 30px;
         font-size: 26px;
+        @media (max-width: 500px) {
+          font-size: 18px;
+          padding-top: 16px;
+        }
       }
       ::ng-deep ul {
         li {
@@ -90,7 +114,13 @@
           b {
             font-weight: 600;
           }
+          @media (max-width: 500px) {
+            font-size: clamp(1rem, 2.1vw, 1.3rem);
+          }
         }
+      }
+      @media (max-width: 500px) {
+        padding: 16px;
       }
     }
   }

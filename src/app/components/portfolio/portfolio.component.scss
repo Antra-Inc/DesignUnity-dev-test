@@ -14,14 +14,14 @@
     padding: 0 10%;
     background-position: center;
     h2 {
-      @include banner_heading;
+      font-size: clamp(12px, 5.5vw, 70px);
       padding-top: 100px;
     }
     @media (max-width: 500px) {
       min-height: 35vh;
       padding: 0 20px;
       h2 {
-        font-size: 40px;
+        padding-top: 50px;
       }
     }
   }

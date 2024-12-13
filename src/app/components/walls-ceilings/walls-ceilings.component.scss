@@ -87,6 +87,10 @@
     max-width: 100%;
     height: 1990px;
   }
+  @media (max-width: 500px) {
+    max-width: 100%;
+    height: 1250px;
+  }
 }
 
 .card {
@@ -111,6 +115,9 @@
   opacity: 0.9;
   @media (max-width: 1200px) {
     min-height: 400px;
+  }
+  @media (max-width: 500px) {
+    min-height: 250px;
   }
   &__header {
     font-size: 40px;

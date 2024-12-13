@@ -1,5 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, Renderer2, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
@@ -8,8 +8,9 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./contact-us-form.component.scss'],
 })
 export class ContactUsFormComponent {
-  constructor(private http: HttpClient) {}
-
+  constructor(private http: HttpClient, private renderer: Renderer2) {}
+  @ViewChild('iframeRef') iframeRef: any;
+ 
   onSubmit(form: NgForm) {
     if (form.valid) {
       // If the form is valid, proceed with HTTP POST to submit data.
