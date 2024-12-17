@@ -12,7 +12,7 @@ export class FlooringPageComponent implements OnInit {
   error: any;
   isLoading = false;
   posts: any[] = [];
-  constructor(private postService: WordpressService,private router: Router) {}
+  constructor(private postService: WordpressService, private router: Router) {}
   ngOnInit(): void {
     this.loadCategories();
   }
@@ -37,7 +37,7 @@ export class FlooringPageComponent implements OnInit {
     this.isLoading = true;
     this.postService.getPosts(categoryId).subscribe({
       next: (data) => {
-        this.posts = data;
+        this.posts = data.slice(0, 3);
         console.log('blogs', this.posts);
 
         this.isLoading = false;

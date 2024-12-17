@@ -147,7 +147,7 @@ export class VenetianPlastersComponent implements OnInit {
     this.isLoading = true;
     this.postService.getPosts(categoryId).subscribe({
       next: (data) => {
-        this.posts = data;
+        this.posts = data.slice(0, 3);
         console.log('blogs', this.posts);
 
         this.isLoading = false;
