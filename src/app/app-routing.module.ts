@@ -13,6 +13,8 @@ import { BlogListComponent } from './components/blog-list/blog-list.component';
 import { BlogTestComponent } from './components/blog-test/blog-test.component';
 import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
 import { ThankYouComponent } from './components/thank-you/thank-you.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { TermsComponent } from './components/terms/terms.component';
 const routes: Routes = [
   {
     path: '',
@@ -35,11 +37,11 @@ const routes: Routes = [
     component: VenetianPlastersComponent,
   },
   {
-    path: 'aboutUs',
+    path: 'about-us',
     component: AboutUsComponent,
   },
   {
-    path: 'surface',
+    path: 'surface-studio',
     component: StudioAccordionComponent,
   },
   {
@@ -59,7 +61,7 @@ const routes: Routes = [
     component: BlogTestComponent,
   },
   {
-    path: 'blog/:header/:id',
+    path: 'blog/:header',
     component: BlogDetailsComponent,
   },
   {
@@ -70,10 +72,23 @@ const routes: Routes = [
     path: 'Thank_You',
     component: ThankYouComponent,
   },
+  {
+    path: 'privacy_policy',
+    component: PrivacyPolicyComponent,
+  },
+  {
+    path: 'terms_conditions',
+    component: TermsComponent,
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled',
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

@@ -6,20 +6,26 @@
     <div class="blog__banner">
       <div class="blog__banner__text">
         <p class="p1">Featured Blog</p>
-        <!-- <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit,</h2> -->
-        <!-- <p class="p2">Novermber 2, 2021</p> -->
-        <!-- <button class="button">
+        <h2>{{ posts[0].title.rendered }}</h2>
+        <p class="p2">{{ posts[0].modified | date : "MMMM d, y," }}</p>
+        <button class="button" (click)="loadBlog(posts[0])">
           Know More
           <img src="../../../assets/svg/arrow.svg" alt="" />
-        </button> -->
+        </button>
       </div>
     </div>
 
     <!-- Blog List with filter start -->
     <div class="filter__buttons">
       <div>
-        <button (click)="filterByCategory('all')">All</button>
         <button
+          [ngClass]="{ active: activeSection === 'All' }"
+          (click)="filterByCategory('all')"
+        >
+          All
+        </button>
+        <button
+          [ngClass]="{ active: activeSection === category.name }"
           *ngFor="let category of categories"
           (click)="filterByCategory(category.name)"
         >
@@ -64,10 +70,7 @@
               "
             ></div>
 
-            <button
-              class="button"
-              [routerLink]="['/blog', post.title.rendered, post.id]"
-            >
+            <button class="button" (click)="loadBlog(post)">
               Know More
               <img src="./assets/svg/arrow.svg" alt="" />
             </button>

@@ -22,7 +22,7 @@
       "data": {
         "heading": "Marmorin",
         "type": "Interior",
-        "description": "Marmorin is a finishing plaster based on genuine slaked lime putty, for interiors and exteriors. With outstanding breathability, color stability and a natural appearanc, Marmorin is suitable for any kind of environment. Thanks to the environmentally friendly formulation and for its natural appearance, Marmorin finish is ideal for the restoration of historical buildings."
+        "description": "Marmorin is a finishing plaster based on genuine slaked lime putty, for interiors and exteriors. With outstanding breathability, color stability and a natural appearance, Marmorin is suitable for any kind of environment. Thanks to the environmentally friendly formulation and for its natural appearance, Marmorin finish is ideal for the restoration of historical buildings."
       }
     },
     {
@@ -30,7 +30,7 @@
       "data": {
         "heading": "Marmorino Hydro",
         "type": "Interior",
-        "description": "Marmorin is a finishing plaster based on genuine slaked lime putty, for interiors and exteriors. With outstanding breathability, color stability and a natural appearanc, Marmorin is suitable for any kind of environment. Thanks to the environmentally friendly formulation and for its natural appearance, Marmorin finish is ideal for the restoration of historical buildings."
+        "description": "Marmorin is a finishing plaster based on genuine slaked lime putty, for interiors and exteriors. With outstanding breathability, color stability and a natural appearance, Marmorin is suitable for any kind of environment. Thanks to the environmentally friendly formulation and for its natural appearance, Marmorin finish is ideal for the restoration of historical buildings."
       }
     },
     {
@@ -62,7 +62,7 @@
       "data": {
         "heading": "Moon Crater",
         "type": "Interior/Exterior",
-        "description": "Moon Crater is a natural lime putty-based mineral plaster finish with a 0.75 mm uniform grain structure. It may be used to achieve different effects depending on the application technique used and the tool utilised"
+        "description": "Moon Crater is a natural lime putty-based mineral plaster finish with a 0.75 mm uniform grain structure. It may be used to achieve different effects depending on the application technique used and the tool utilised."
       }
     },
     {
@@ -73,7 +73,6 @@
         "description": "Moon Crater is a natural lime putty-based mineral plaster finish with a 0.75 mm uniform grain structure. It may be used to achieve different effects depending on the application technique used and the tool utilised."
       }
     },
-
     {
       "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk-Hyderabad.jpg",
       "data": {
@@ -81,25 +80,9 @@
         "type": "Interior/Exterior",
         "description": "Decorative metallic smooth paint - Silk is suitable to be applied tone on tone, Silk enhances the surface thanks to the selected pigments that adjust themselves in a soft chiaroscuro effect. Available in 4 metallic accents: white, silvery, golden, reddish."
       }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Viero/Viero-Silk%20Swirl%20Effect%20-%20Delhi%201.jpg",
-      "data": {
-        "heading": "Silk",
-        "type": "Interior/Exterior",
-        "description": " Decorative metallic smooth paint - Silk is suitable to be applied tone on tone, Silk enhances the surface thanks to the selected pigments that adjust themselves in a soft chiaroscuro effect. Available in 4 metallic accents: white, silvery, golden, reddish"
-      }
     }
   ],
   "Bericalce": [
-    {
-      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Concrete%20Brick-Hyderabad.jpg",
-      "data": {
-        "heading": "Brick",
-        "type": "Interior and Exterior.",
-        "description": "This one is a concrete choice indeed! With the combination of concrete and brick finish, the aes- thetic appearance of your surface is elevated with an added serene, noiseless effect that bring peace to your spaces and life, unlike usual noisy detractors."
-      }
-    },
     {
       "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Concrete%20High%20Texture-Bangalore.jpg",
       "data": {
@@ -110,19 +93,19 @@
     },
 
     {
+      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Stone%20-%20Bangalore.jpg",
+      "data": {
+        "heading": "Distressed Stone",
+        "type": "Interior",
+        "description": "aristocratic finish is suitable for both exterior and interior use and is sought after globally for its endurance."
+      }
+    },
+    {
       "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Brick-Hyderabad.jpg",
       "data": {
         "heading": "Distressed Brick",
         "type": "Interior",
         "description": "This one is a concrete choice indeed! With the combination of concrete and brick finish, the aes- thetic appearance of your surface is elevated with an added serene, noiseless effect that bring peace to your spaces and life, unlike usual noisy detractors."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Distressed%20Stone%20-%20Bangalore.jpg",
-      "data": {
-        "heading": "Distressed Stone",
-        "type": "Interior",
-        "description": "aristocratic finish is suitable for both exterior and interior use and is sought after globally for its endurance"
       }
     },
     {
@@ -172,7 +155,7 @@
       "data": {
         "heading": "Glimmerputz",
         "type": "Interior/Exterior",
-        "description": "Powder compound of selected marble powders, hydraulic lime, binders and special glimmers, with a smooth matt effect"
+        "description": "Powder compound of selected marble powders, hydraulic lime, binders and special glimmers, with a smooth matt effect."
       }
     },
     {
@@ -256,14 +239,6 @@
         "type": "Interior",
         "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
       }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/Bericalce/Bericalce-Travertine-Bangalore.jpg",
-      "data": {
-        "heading": "Ceramics",
-        "type": "Interior",
-        "description": "Powder compound of gypsum, cement, hydrated lime, marble aggregates, hydraulic binders and special additives, with an uneven heavy pitted surface, washed with metallic decorative paints to give a metalled look."
-      }
     }
   ],
   "GGF": [
@@ -272,7 +247,7 @@
       "data": {
         "heading": "Pietra Spaccata",
         "type": "Interior",
-        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat"
+        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat."
       }
     },
     {
@@ -296,7 +271,7 @@
       "data": {
         "heading": "Muro",
         "type": "Interior",
-        "description": "Muro is a lime-based product with marble powders of various sizes, natural minerals, and MICA. A Natural Wall to Smooth, to touch and to Live in all its 169 Colors. Easily applied, perfectly stable over time, it maintains unaltered breathability of the support due to the high permeability to water vapor. Applied in just one coat, it can be left natural for maximum breathability"
+        "description": "Muro is a lime-based product with marble powders of various sizes, natural minerals, and MICA. A Natural Wall to Smooth, to touch and to Live in all its 169 Colors. Easily applied, perfectly stable over time, it maintains unaltered breathability of the support due to the high permeability to water vapor. Applied in just one coat, it can be left natural for maximum breathability."
       }
     },
     {
@@ -304,7 +279,7 @@
       "data": {
         "heading": "Muro",
         "type": "Interior",
-        "description": "Muro is a lime-based product with marble powders of various sizes, natural minerals, and MICA. A Natural Wall to Smooth, to touch and to Live in all its 169 Colors. Easily applied, perfectly stable over time, it maintains unaltered breathability of the support due to the high permeability to water vapor. Applied in just one coat, it can be left natural for maximum breathability"
+        "description": "Muro is a lime-based product with marble powders of various sizes, natural minerals, and MICA. A Natural Wall to Smooth, to touch and to Live in all its 169 Colors. Easily applied, perfectly stable over time, it maintains unaltered breathability of the support due to the high permeability to water vapor. Applied in just one coat, it can be left natural for maximum breathability."
       }
     },
     {
@@ -320,7 +295,7 @@
       "data": {
         "heading": "Pietra Bamboo",
         "type": "Interior",
-        "description": "Istinto Bamboo is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural (Cera Del Vecchio beeswax) to iridescent finish (Gioia, Oro. It creates the look of bamboo while adding texture to the walls to suit the latest Japanese/ Asian architectural influenced trends. Great for feature walls in master bedrooms, alfresco areas and living areas"
+        "description": "Istinto Bamboo is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural (Cera Del Vecchio beeswax) to iridescent finish (Gioia, Oro. It creates the look of bamboo while adding texture to the walls to suit the latest Japanese/ Asian architectural influenced trends. Great for feature walls in master bedrooms, alfresco areas and living areas."
       }
     },
     {
@@ -328,7 +303,7 @@
       "data": {
         "heading": "Pietra Frabic",
         "type": "Interior",
-        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish"
+        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish."
       }
     },
 
@@ -337,7 +312,7 @@
       "data": {
         "heading": "Pietra Spacatta",
         "type": "Interior",
-        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat"
+        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat."
       }
     },
     {
@@ -345,7 +320,7 @@
       "data": {
         "heading": "Pietra vissuta",
         "type": "Interior",
-        "description": "Istinto Pietra Vissuta (aged stone) is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural ‘‘Cera Del Vecchio’’ (beeswax) to a more contemporary finish with Gioia or Oro applied by sponge.This finish is the most subtle from the Istinto range and therefore is suitable for large areas such as living rooms or even whole interiors. It has a dramatic stone look and is velvety to the touch"
+        "description": "Istinto Pietra Vissuta (aged stone) is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural ‘‘Cera Del Vecchio’’ (beeswax) to a more contemporary finish with Gioia or Oro applied by sponge.This finish is the most subtle from the Istinto range and therefore is suitable for large areas such as living rooms or even whole interiors. It has a dramatic stone look and is velvety to the touch."
       }
     },
     {
@@ -353,7 +328,7 @@
       "data": {
         "heading": "Pietra Spacatta",
         "type": "Interior",
-        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat"
+        "description": "Istinto Pietra Spaccata (split stone) is created from Istinto product (lime and selected Carrara Marble grain) in 169 colours and finished with 2 coats of «Cera Del Vecchio» (beeswax). Due to its dense body, Istinto is able to cover minor imperfections on walls such as scratches, dents and also poor stopping work in the plasterboard joints in just a single coat."
       }
     },
     {
@@ -361,7 +336,7 @@
       "data": {
         "heading": "Pietra Frabic",
         "type": "Interior",
-        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish"
+        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish."
       }
     },
 
@@ -370,7 +345,7 @@
       "data": {
         "heading": "Pietra vissuta",
         "type": "Interior",
-        "description": "Istinto Pietra Vissuta (aged stone) is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural ‘‘Cera Del Vecchio’’ (beeswax) to a more contemporary finish with Gioia or Oro applied by sponge.This finish is the most subtle from the Istinto range and therefore is suitable for large areas such as living rooms or even whole interiors. It has a dramatic stone look and is velvety to the touch"
+        "description": "Istinto Pietra Vissuta (aged stone) is created from Istinto product (lime and selected Carrara Marble) tinted in your chosen colour and then finished to your liking from natural ‘‘Cera Del Vecchio’’ (beeswax) to a more contemporary finish with Gioia or Oro applied by sponge.This finish is the most subtle from the Istinto range and therefore is suitable for large areas such as living rooms or even whole interiors. It has a dramatic stone look and is velvety to the touch."
       }
     },
     {
@@ -386,7 +361,7 @@
       "data": {
         "heading": "Pietra Frabic",
         "type": "Interior",
-        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish"
+        "description": "Istinto Pietra Fabric is created from Istinto product (lime and selected Carrara Marble grain) tinted in the chosen colour and finished with 2 coats of «Cera Del Vecchi›› (beeswax) or 2 coats of irridescent paint Gioia, Oro or White paint for a brighter contemporary look. It creates an authentic Jute Fabric/hessain cloth dramatic texture and smooth finish."
       }
     },
 
@@ -395,7 +370,7 @@
       "data": {
         "heading": "Rusten",
         "type": "Interior",
-        "description": "This finish recreates a stunningly vintage and industrial atmosphere with the unique character of oxidation, exclusive in every design. The appearance is that of genuine rusted steel, giving one the feeling of experiencing an old miracle"
+        "description": "This finish recreates a stunningly vintage and industrial atmosphere with the unique character of oxidation, exclusive in every design. The appearance is that of genuine rusted steel, giving one the feeling of experiencing an old miracle."
       }
     },
     {
@@ -440,14 +415,6 @@
     },
     {
       "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spirito%20Libero-Bangalore.jpg",
-      "data": {
-        "heading": "Spirito Libero",
-        "type": "Interior",
-        "description": "Spirito Libero is a design stucco made to give a simple but very Elegant and Aesthetic aspect to the wall. It is made of lime and marble powders, breathes extremely well, is alkaline resistant and is an excellent natural anti-mildew and bactericidal product; its constant carbonation process makes it highly resistant to humidity. It is applied in two steps."
-      }
-    },
-    {
-      "imagePath": "https://storage.googleapis.com/designunity/assets/portfolio/Venetian%20Plasters/GG%26F/GGF-Spirito%20Libero-Hyderabad.jpg",
       "data": {
         "heading": "Spirito Libero",
         "type": "Interior",

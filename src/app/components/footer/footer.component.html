@@ -134,10 +134,11 @@
         <h3><span>Design Unity</span></h3>
 
         <p class="max-400">
-          Design Unity India Pvt. Ltd. <br> 10th floor, Techno 1, Opposite KIMS
-          Hospital, Raidurgam, Hyderabad – 500 081
+          Design Unity India Pvt. Ltd. <br />
+          10th floor, Techno 1, Opposite KIMS Hospital, Raidurgam, Hyderabad –
+          500 081
         </p>
-        <br>
+        <br />
         <p class="pt-5">
           Mail :
           <a href="mailto: info@designunity.com"> info@designunity.com</a>
@@ -150,11 +151,14 @@
         <h3><span>Menu</span></h3>
 
         <ul class="actionList">
-          <li><a href="#aboutUs" (click)="scrollTo('aboutUs')">About Us</a></li>
-          <li><a>Finishes</a></li>
+          <li>
+            <a routerLink="/about-us" (click)="scrollTo('aboutUs')">About Us</a>
+          </li>
+          <li><a routerLink="/venetian_plasters">Venetian Plasters</a></li>
+          <li><a routerLink="/flooring">Seemless Floorings</a></li>
           <li><a routerLink="/portfolio">Portfolio</a></li>
-          <li><a href="#">Surface Studio</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a routerLink="/surface-studio">Surface Studio</a></li>
+          <li><a routerLink="/contactus">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer__address d-grid media">
@@ -196,8 +200,8 @@
 
   <div class="container foot-copyright">
     <div class="terms">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Services</a>
+      <a routerLink="/privacy_policy">Privacy Policy</a>
+      <a routerLink="/terms_conditions">Terms of Services</a>
     </div>
     <div class="">
       <div class="copyright">

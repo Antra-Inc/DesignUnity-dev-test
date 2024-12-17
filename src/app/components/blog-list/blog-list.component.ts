@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WordpressService } from '../wordpress.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-blog-list',
@@ -15,8 +16,9 @@ export class BlogListComponent implements OnInit {
   loadMoreAmount: number = 3;
   isLoading = true;
   error: any;
-
-  constructor(private postService: WordpressService) {}
+  featuredBlog: any[] = [];
+  activeSection = 'All';
+  constructor(private postService: WordpressService, private router: Router) {}
 
   ngOnInit(): void {
     this.loadCategories();
@@ -25,9 +27,15 @@ export class BlogListComponent implements OnInit {
 
   loadCategories(): void {
     this.postService.getCategories().subscribe({
-      next: (data) => {
-        this.categories = data;
-        console.log('blogs-1', this.categories);
+      next: (data: any[]) => {
+        this.featuredBlog = this.categories = data.filter(
+          (item) => item.name === 'featured'
+        );
+        this.categories = this.categories = data.filter(
+          (item) => item.name !== 'featured'
+        );
+        // this.categories = data;
+        console.log('blogs-1', this.categories, this.featuredBlog);
       },
       error: (err) => {
         this.error = err;
@@ -55,13 +63,19 @@ export class BlogListComponent implements OnInit {
   filterByCategory(categoryName: string): void {
     if (categoryName === 'all') {
       this.loadPosts();
+      this.activeSection = 'All';
       console.log('blogs', this.loadPosts());
     } else {
       const category = this.categories.find((c) => c.name === categoryName);
       if (category) {
+        this.activeSection = categoryName;
         this.loadPosts(category.id);
       }
     }
+  }
+  loadBlog(post: any) {
+    this.router.navigate(['/blog', post.title.rendered]);
+    localStorage.setItem('blogId', post.id);
   }
 
   /*

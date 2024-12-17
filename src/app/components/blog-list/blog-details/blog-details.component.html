@@ -13,13 +13,55 @@
       </div>
     </div>
 
-    <div
-      [innerHTML]="post?.content?.rendered"
-      class="blog__details__content"
-    ></div>
+    <div class="blog__details__content">
+      <div class="blog__details__content--dtls" [innerHTML]="post?.content?.rendered"></div>
+    </div>
   </div>
 
   <div *ngIf="!post">
     <p>Post not found.</p>
+  </div>
+</div>
+<div class="recent-blogs">
+  <div class="blogs">
+    <div class="blogs__parent">
+      <h2 class="blogs__parent--header semi-header">Recent Blogs</h2>
+      <div *ngIf="posts.length > 0; else noPosts" class="blogs__list">
+        <div *ngFor="let post of posts" class="blogs__item">
+          <div
+            class="blogs__item--img"
+            *ngIf="post._embedded['wp:featuredmedia']?.length > 0"
+          >
+            <img
+              [src]="post._embedded['wp:featuredmedia'][0].source_url"
+              alt="{{ post.title.rendered }}"
+            />
+          </div>
+          <div class="blogs__item--header">
+            <h2>{{ post.title.rendered }}</h2>
+          </div>
+          <div class="card__details">
+            <!-- <div class="card__details__text" [innerHTML]="post.excerpt.rendered | slice:0:150"></div> -->
+
+            <div
+              class="blogs__item--text"
+              [innerHTML]="
+                post.excerpt.rendered.length > 150
+                  ? (post.excerpt.rendered | slice : 0 : 150) + '...'
+                  : post.excerpt.rendered
+              "
+            ></div>
+
+            <button class="button" (click)="loadBlog(post)">
+              Know More
+              <img src="./assets/svg/arrow.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <ng-template #noPosts>
+        <p>No posts available.</p>
+      </ng-template>
+    </div>
   </div>
 </div>

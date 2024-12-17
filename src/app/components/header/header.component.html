@@ -18,7 +18,7 @@
       <ul class="menu-inner">
         <li class="menu-item" (click)="open = false">
           <div class="menu-item__pointer"><span></span></div>
-          <a routerLink="/aboutUs" class="menu-link">About Us</a>
+          <a routerLink="/about-us" class="menu-link">About Us</a>
         </li>
         <li class="menu-item">
           <span> </span
@@ -38,11 +38,11 @@
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span>
-          <a routerLink="/surface" class="menu-link">Sufrace Studio</a>
+          <a routerLink="/surface-studio" class="menu-link">Sufrace Studio</a>
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span>
-          <a routerLink="/blog" class="menu-link"> Resources </a>
+          <a routerLink="/blog" class="menu-link"> Blog </a>
         </li>
         <li class="menu-item" (click)="open = false">
           <span> </span><a routerLink="/contactus" class="menu-link">Contact</a>
@@ -52,13 +52,13 @@
 
     <div class="navbar__menu">
       <ul class="menu-inner">
-        <li class="menu-item" routerLink="/aboutUs">
+        <li class="menu-item" routerLink="/about-us">
           <div class="menu-item__pointer">
             <span class="aboutUs"
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a routerLink="/aboutUs" class="menu-link">About Us</a>
+          <a routerLink="/about-us" class="menu-link">About Us</a>
         </li>
         <li class="menu-item solutions" (mouseenter)="mouseEnter('in')">
           <div class="menu-item__pointer">
@@ -71,14 +71,14 @@
             <div class="popup__content">
               <ul>
                 <li
-                  [ngClass]="{ active: activeItem == '1' }"
+                  [ngClass]="{ active: activeItem == 1 }"
                   (mouseenter)="selectMenu(1)"
                   routerLink="/venetian_plasters"
                 >
                   Venetian Plasters
                 </li>
                 <li
-                  [ngClass]="{ active: activeItem == '2' }"
+                  [ngClass]="{ active: activeItem == 2 }"
                   (mouseenter)="selectMenu(2)"
                   routerLink="/flooring"
                 >
@@ -87,17 +87,20 @@
               </ul>
               <div class="popup__content--imgs">
                 <img
-                  src="../../../assets/img/solutions/solution-menu-1.png"
+                  [src]="
+                    '../../../assets/img/solutions/' +
+                    (activeItem === 1 ? 'solution-menu-1' : 'solution-menu-2') +
+                    '.png'
+                  "
                   alt="image1"
-                  [ngClass]="{ active: activeItem == '1' }"
-                  (mouseenter)="selectMenu(1)"
+                 
                 />
-                <img
+                <!-- <img
                   src="../../../assets/img/solutions/solution-menu-2.png"
                   alt="image1"
-                  [ngClass]="{ active: activeItem == '2' }"
+                  [ngClass]="{ active: activeItem == 2 }"
                   (mouseenter)="selectMenu(2)"
-                />
+                /> -->
               </div>
             </div>
           </div>
@@ -116,7 +119,7 @@
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a routerLink="/surface" class="menu-link">Surface Studio</a>
+          <a routerLink="/surface-studio" class="menu-link">Surface Studio</a>
         </li>
         <li class="menu-item">
           <div class="menu-item__pointer">
@@ -124,7 +127,7 @@
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a routerLink="/blog" class="menu-link"> Resources </a>
+          <a routerLink="/blog" class="menu-link"> Blog </a>
         </li>
         <li class="menu-item">
           <div class="menu-item__pointer">

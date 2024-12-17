@@ -74,9 +74,10 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #723c0d;
+   
     span {
       position: relative;
-
+      font-family: "Tenor_Sans";
       &::after {
         position: absolute;
         bottom: -10px;

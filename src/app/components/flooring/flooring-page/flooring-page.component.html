@@ -113,10 +113,7 @@
             "
           ></div>
 
-          <button
-            class="button"
-            [routerLink]="['/blog', post.title.rendered, post.id]"
-          >
+          <button class="button" (click)="loadBlog(post)">
             Know More
             <img src="./assets/svg/arrow.svg" alt="" />
           </button>

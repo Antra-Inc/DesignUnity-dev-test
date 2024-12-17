@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { WordpressService } from '../wordpress.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-venetian-plasters',
@@ -25,7 +26,8 @@ export class VenetianPlastersComponent implements OnInit {
   itemsIncrement: any = 4; // Number of items to add each time "Load More" is clicked
   constructor(
     private http: HttpClient,
-    private postService: WordpressService
+    private postService: WordpressService,
+    private router: Router
   ) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/solutions.json');
@@ -107,13 +109,13 @@ export class VenetianPlastersComponent implements OnInit {
       this.currentIndex = 4;
       this.itemsIncrement = 4;
     }
-    if (this.itemsToShow.length < this.contentData.length) {
-      this.moreBtn = true;
-    }
+
     const nextIndex = this.currentIndex + this.itemsIncrement;
     this.itemsToShow = this.contentData.slice(0, nextIndex);
     this.currentIndex = nextIndex;
-
+    if (this.itemsToShow.length >= this.contentData.length) {
+      this.moreBtn = false;
+    }
     console.log(
       'this.contentData',
       nextIndex,
@@ -155,5 +157,9 @@ export class VenetianPlastersComponent implements OnInit {
         this.isLoading = false;
       },
     });
+  }
+  loadBlog(post: any) {
+    this.router.navigate(['/blog', post.title.rendered]);
+    localStorage.setItem('blogId', post.id);
   }
 }

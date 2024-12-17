@@ -149,17 +149,15 @@ export class PortfolioComponent implements OnInit {
       case 'ALL':
         this.contentData = [
           ...this.images.Luxury.UrbanLuxe.slice(0, 1),
+          ...this.images.Institutional.THub.slice(0, 1),
+          ...this.images.Commercial.Amavi.slice(0, 1),
+          ...this.images.RealEstate.ApilaClubhouse.slice(0, 1),
+          ...this.images.SmallResidential.IstintoSpatulaInteriors.slice(0, 1),
           ...this.images.Luxury.MarmarinoExtra.slice(0, 1),
-          ...this.images.Luxury.BlueBerryFarms.slice(0, 1),
-          ...this.images.Luxury.TexturedAesthetics.slice(0, 1),
-          ...this.images.Luxury.ChandrikaReddy.slice(0, 1),
-          ...this.images.Luxury.DasariKiran.slice(0, 1),
-          ...this.images.Luxury.EarthyAlchemy.slice(0, 1),
-          ...this.images.Luxury.TexturalPoetry.slice(0, 1),
-          ...this.images.Luxury.MoodSunset.slice(0, 1),
-          ...this.images.Luxury.PietraOro.slice(0, 1),
+          ...this.images.Commercial.AnushreeReddy.slice(0, 1),
+          ...this.images.RealEstate.ASBLLakesideClubhouse.slice(0, 1),
+          ...this.images.SmallResidential.Sogni.slice(0, 1),
         ];
-        console.log('Luxury contentData', this.contentData, this.images.Luxury);
 
         break;
       case 'Luxury':
@@ -175,12 +173,10 @@ export class PortfolioComponent implements OnInit {
           ...this.images.Luxury.MoodSunset.slice(0, 1),
           ...this.images.Luxury.PietraOro.slice(0, 1),
         ];
-        console.log('Luxury contentData', this.contentData);
         break;
       case 'Institutional':
         this.contentData = [];
         this.contentData = [...this.images.Institutional.THub.slice(0, 6)];
-        console.log('Luxury contentData', this.contentData);
         break;
       case 'Commercial':
         this.contentData = [];
@@ -196,7 +192,6 @@ export class PortfolioComponent implements OnInit {
           ...this.images.Commercial.StellaJaipurRugs.slice(0, 1),
           ...this.images.Commercial.Tusca.slice(0, 1),
         ];
-        console.log('Luxury contentData', this.contentData);
         break;
       case 'Real Estate':
         this.contentData = [];
@@ -206,7 +201,6 @@ export class PortfolioComponent implements OnInit {
           ...this.images.RealEstate.Poetree.slice(0, 1),
           ...this.images.RealEstate.RealEstate.slice(0, 1),
         ];
-        console.log('Luxury contentData', this.contentData);
         break;
       case 'Small Residential':
         this.contentData = [
