@@ -16,10 +16,13 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './studio-accordion.component.html',
   styleUrls: ['./studio-accordion.component.scss'],
 })
-export class StudioAccordionComponent implements OnInit {
+export class StudioAccordionComponent implements OnInit, AfterViewInit {
   bangalore!: any[];
   hyderabad!: any[];
   delhi!: any[];
+
+  
+
   ngOnInit() {
     this.getImages();
   }
@@ -36,7 +39,7 @@ export class StudioAccordionComponent implements OnInit {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.1, // 60% of the section must be visible to consider it active
+      threshold: 0.5, // 10% of the section must be visible to consider it active
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -54,7 +57,6 @@ export class StudioAccordionComponent implements OnInit {
   getImages() {
     this.getJSON().subscribe(
       (data: any) => {
-        
         this.bangalore = data.Bangalore;
         this.hyderabad = data.Hyderabad;
         this.delhi = data.Delhi;
@@ -72,6 +74,10 @@ export class StudioAccordionComponent implements OnInit {
 
     if (targetSection) {
       targetSection.nativeElement.scrollIntoView({ behavior: 'smooth' });
+      console.log(
+        'hello',
+        targetSection.nativeElement.scrollIntoView({ behavior: 'smooth' })
+      );
     }
   }
   openDialog(item: any) {
