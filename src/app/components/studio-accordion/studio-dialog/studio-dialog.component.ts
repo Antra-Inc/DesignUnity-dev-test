@@ -1,3 +1,11 @@
+import {
+  animate,
+  group,
+  query,
+  style,
+  transition,
+  trigger,
+} from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -6,6 +14,32 @@ import { Observable } from 'rxjs';
   selector: 'app-studio-dialog',
   templateUrl: './studio-dialog.component.html',
   styleUrls: ['./studio-dialog.component.scss'],
+  animations: [
+    trigger('slideAnimation', [
+      transition(':increment', [
+        group([
+          query(':enter', [
+            style({ transform: 'translateX(100%)' }),
+            animate('0.5s ease-out', style('*')),
+          ]),
+          query(':leave', [
+            animate('0.5s ease-out', style({ transform: 'translateX(-100%)' })),
+          ]),
+        ]),
+      ]),
+      transition(':decrement', [
+        group([
+          query(':enter', [
+            style({ transform: 'translateX(-100%)' }),
+            animate('0.5s ease-out', style('*')),
+          ]),
+          query(':leave', [
+            animate('0.5s ease-out', style({ transform: 'translateX(100%)' })),
+          ]),
+        ]),
+      ]),
+    ]),
+  ],
 })
 export class StudioDialogComponent implements OnInit {
   currentIndex: number = 0;
@@ -34,9 +68,10 @@ export class StudioDialogComponent implements OnInit {
             case 'Bangalore':
               this.slides = data.Bangalore;
               break;
-            case 'Mumbai':
+            case 'Delhi':
               this.slides = data.Delhi;
               break;
+
             default:
               this.slides = data.Hyderabad;
               break;
@@ -52,7 +87,6 @@ export class StudioDialogComponent implements OnInit {
   isCurrentSlideIndex(index: number) {
     console.log('Clicked on slide', index, this.currentIndex);
     return this.currentIndex === index;
-   
   }
   prevSlide() {
     this.currentIndex =

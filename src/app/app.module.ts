@@ -40,6 +40,8 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
 import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
 import { ContactUsFormComponent } from './components/contactus/contact-us-form/contact-us-form.component';
 import { ThankYouComponent } from './components/thank-you/thank-you.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { TermsComponent } from './components/terms/terms.component';
 
 
 @NgModule({
@@ -80,6 +82,8 @@ import { ThankYouComponent } from './components/thank-you/thank-you.component';
     StudioDialogComponent,
     ContactUsFormComponent,
     ThankYouComponent,
+    PrivacyPolicyComponent,
+    TermsComponent,
   ],
   imports: [
     BrowserModule,

@@ -115,6 +115,7 @@
   //   background: url(../assets/blank.gif) no-repeat;
   border: none;
   visibility: visible;
+  border-radius: 5px;
 }
 
 .arrow.prev {
@@ -125,7 +126,7 @@
 }
 
 .arrow.next {
-  opacity: 0.2;
+  opacity: 0.6;
   right: 20px;
   //   background-image: url(../assets/paddle_next_999.png);
   transition: 0.2s linear all;

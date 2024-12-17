@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WordpressService } from '../../wordpress.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-flooring-page',
@@ -11,7 +12,7 @@ export class FlooringPageComponent implements OnInit {
   error: any;
   isLoading = false;
   posts: any[] = [];
-  constructor(private postService: WordpressService) {}
+  constructor(private postService: WordpressService,private router: Router) {}
   ngOnInit(): void {
     this.loadCategories();
   }
@@ -46,5 +47,9 @@ export class FlooringPageComponent implements OnInit {
         this.isLoading = false;
       },
     });
+  }
+  loadBlog(post: any) {
+    this.router.navigate(['/blog', post.title.rendered]);
+    localStorage.setItem('blogId', post.id);
   }
 }

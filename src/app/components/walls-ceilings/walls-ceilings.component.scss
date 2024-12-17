@@ -200,6 +200,10 @@
   @media (max-width: 1200px) {
     top: 270px;
   }
+  .card__header,
+  p {
+    text-shadow: #000000 0px 0px 24px;
+  }
 }
 .five {
   top: 550px;

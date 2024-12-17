@@ -6,12 +6,18 @@
     <div class="venetian__about--content">
       <h3 class="semi-header">Spoilt for Choice</h3>
       <p class="paragraph">
-        Venetian plaster, which dominated home decor in the 90s, continues to
-        make its presence felt even today. The secret to its never-ending
-        popularity lies in its unique characteristics - natural materials,
-        ancient Greek and Egyptian art, unchanged beauty, and durability. Our
-        exceptional services and this glorious product will give you
-        unimaginably spectacular outcomes.
+        We bring the timeless beauty of Italian Venetian Plaster to your
+        interiors. Inspired by centuries of Italian craftsmanship, our premium
+        finishes add depth, texture, and a polished marble-like elegance to
+        walls, ceilings, and feature spaces. Made from natural, eco-friendly
+        materials, we offer durability, breathability, and unmatched
+        sophistication.
+      </p>
+      <p class="paragraph">
+        Perfect for both classic and contemporary designs, it transforms
+        ordinary surfaces into luxurious works of art, reflecting style and
+        refinement. Elevate your spaces with the charm of authentic Venetian
+        Plaster.
       </p>
     </div>
   </div>
@@ -85,10 +91,7 @@
               "
             ></div>
 
-            <button
-              class="button"
-              [routerLink]="['/blog', post.title.rendered, post.id]"
-            >
+            <button class="button" (click)="loadBlog(post)">
               Know More
               <img src="./assets/svg/arrow.svg" alt="" />
             </button>

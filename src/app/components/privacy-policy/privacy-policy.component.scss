@@ -1,0 +1,52 @@
+.privacy {
+  min-height: 100vh;
+  &__banner {
+    height: 80vh;
+    background-image: url("https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC01082.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-family: "Tenor_Sans";
+      padding-top: 70px;
+      font-size: 60px;
+      width: 100%;
+      font-weight: 100;
+      color: #fff;
+      padding-left: 100px;
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+  &__card {
+    max-width: 1440px;
+    flex: 1;
+    display: flex;
+    gap: 16px;
+    padding: 50px 0;
+    flex-direction: column;
+    h3 {
+      padding-top: 35px;
+      color: #723c0d;
+      font-family: "Tenor_Sans";
+    }
+    p {
+      text-align: left;
+    }
+    ul {
+      margin-left: 25px;
+      padding: 10px 16px;
+      li {
+        padding: 5px 16px;
+        font-size: clamp(0.9rem, 2.1vw, 1.3rem);
+        font-family: "Helvetica-light";
+        color: #000;
+        line-height: 1.5em;
+      }
+    }
+  }
+}

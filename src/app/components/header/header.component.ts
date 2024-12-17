@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit, OnChanges {
   menuState: string = 'out';
   openSolutions = false;
   imgSrc = '';
-  activeItem = '';
+  activeItem!: number;
   isExpanded = false;
   ngOnInit(): void {
     console.log('window.innerWidth', window.innerWidth);
