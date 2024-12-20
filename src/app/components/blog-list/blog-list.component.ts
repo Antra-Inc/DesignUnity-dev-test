@@ -74,7 +74,7 @@ export class BlogListComponent implements OnInit {
     }
   }
   loadBlog(post: any) {
-    this.router.navigate(['/blog', post.title.rendered]);
+    this.router.navigate(['/blogs', post.title.rendered]);
     localStorage.setItem('blogId', post.id);
   }
 

@@ -15,6 +15,7 @@ import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-d
 import { ThankYouComponent } from './components/thank-you/thank-you.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { TermsComponent } from './components/terms/terms.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 const routes: Routes = [
   {
     path: '',
@@ -28,13 +29,24 @@ const routes: Routes = [
     path: 'portfolio',
     component: PortfolioComponent,
   },
+
+  // {
+  //   path: 'solutions/venetian-plaster-finishes',
+  //   component: VenetianPlastersComponent,
+  // },
   {
-    path: 'seamless-flooring',
-    component: FlooringPageComponent,
-  },
-  {
-    path: 'venetian-plaster-finishes',
-    component: VenetianPlastersComponent,
+    path: 'solutions',
+    component: SolutionsComponent,
+    children: [
+      {
+        path: 'venetian-plaster-finishes',
+        component: VenetianPlastersComponent,
+      },
+      {
+        path: 'seamless-flooring',
+        component: FlooringPageComponent,
+      },
+    ],
   },
   {
     path: 'about',
@@ -61,7 +73,7 @@ const routes: Routes = [
     component: BlogTestComponent,
   },
   {
-    path: 'blog/:header',
+    path: 'blogs/:header',
     component: BlogDetailsComponent,
   },
   {
