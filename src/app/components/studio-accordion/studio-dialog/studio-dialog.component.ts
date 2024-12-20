@@ -7,7 +7,7 @@ import {
   trigger,
 } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -84,6 +84,17 @@ export class StudioDialogComponent implements OnInit {
       );
     }
   }
+
+  @HostListener('document:keydown', ['$event'])
+  onKeydown(event: KeyboardEvent): void {
+    if (event.key === 'ArrowRight') {
+      this.prevSlide();
+    } else if (event.key === 'ArrowLeft') {
+      this.nextSlide();
+    }
+    // Add additional conditions for other keys as needed
+  }
+
   isCurrentSlideIndex(index: number) {
     console.log('Clicked on slide', index, this.currentIndex);
     return this.currentIndex === index;

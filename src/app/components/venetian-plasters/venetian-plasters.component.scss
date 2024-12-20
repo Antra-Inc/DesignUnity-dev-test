@@ -11,7 +11,7 @@
     padding-left: 100px;
     background-position: top right;
     background-size: cover;
-    h2 {
+    h1 {
       padding-top: 100px;
       font-size: clamp(12px, 5.5vw, 70px);
       font-family: "Tenor_Sans";
@@ -21,7 +21,7 @@
     @media (max-width: 1200px) {
       height: 65vh;
       padding-left: 70px;
-      h2 {
+      h1 {
         padding-top: 80px;
         font-weight: 400;
       }
@@ -29,7 +29,7 @@
     @media (max-width: 550px) {
       height: 35vh;
       padding-left: 30px;
-      h2 {
+      h1 {
         padding-top: 50px;
         font-weight: 600;
       }
@@ -247,8 +247,8 @@
 //   width: calc(70% - 10px);
 // }
 ::ng-deep .blogs {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   border-top: 1px solid #291702;
   padding: 30px 0;
   margin-top: 40px;

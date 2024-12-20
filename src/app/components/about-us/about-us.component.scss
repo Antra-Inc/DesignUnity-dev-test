@@ -52,6 +52,9 @@
       @media (max-width: 900px) {
         gap: 10px !important;
       }
+      p {
+        max-width: 1000px;
+      }
     }
   }
   &__clients {

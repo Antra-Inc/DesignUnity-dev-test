@@ -1,12 +1,12 @@
 <div class="blog">
   <div class="container">
     <div class="blog__heading">
-      <h2>Blogs</h2>
+      <h1 class="page-header">Blogs</h1>
     </div>
     <div class="blog__banner">
       <div class="blog__banner__text">
         <p class="p1">Featured Blog</p>
-        <h2>{{ posts[0].title.rendered }}</h2>
+        <h2 class="">{{ posts[0].title.rendered }}</h2>
         <p class="p2">{{ posts[0].modified | date : "MMMM d, y," }}</p>
         <button class="button" (click)="loadBlog(posts[0])">
           Know More
@@ -38,7 +38,7 @@
       <div *ngIf="isLoading">Loading...</div>
       <div *ngIf="error">
         <div *ngFor="let post of posts">
-          <p [routerLink]="['/blog', post.id]">
+          <p [routerLink]="['/blogs', post.id]">
             Error loading posts or categories. Please try again later.
           </p>
         </div>
