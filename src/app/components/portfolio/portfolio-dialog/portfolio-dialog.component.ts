@@ -12,6 +12,7 @@ import {
   ChangeDetectorRef,
   Component,
   ElementRef,
+  HostListener,
   Inject,
   Input,
   OnChanges,
@@ -67,6 +68,7 @@ export class PortfolioDialogComponent
   doalogTitle!: string;
   imageFrom!: string;
   dialogDescription!: string;
+  @HostListener('document:keydown', ['$event'])
   ngOnInit(): void {
     console.log('message', this.message, this.newInputData);
 
@@ -109,7 +111,15 @@ export class PortfolioDialogComponent
       this.currentIndex > 0 ? --this.currentIndex : this.slides.length - 1;
     this.scrollToActive();
   }
-
+  @HostListener('document:keydown', ['$event'])
+  onKeydown(event: KeyboardEvent): void {
+    if (event.key === 'ArrowRight') {
+      this.prevSlide();
+    } else if (event.key === 'ArrowLeft') {
+      this.nextSlide();
+    }
+    // Add additional conditions for other keys as needed
+  }
   setCurrentSlideIndex(index: number) {
     this.currentIndex = index;
   }

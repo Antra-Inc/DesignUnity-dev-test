@@ -61,8 +61,8 @@
         }
         p {
           font-size: 0.8rem;
-        line-height: 1.5em;
-          text-align: center ;
+          line-height: 1.5em;
+          text-align: left;
         }
 
         @media (max-width: 900px) {
@@ -82,6 +82,9 @@
     &_right {
       display: flex;
       align-items: center;
+      @media (max-width: 1000px) {
+        justify-content: center;
+      }
       img {
         width: 100%;
         height: auto;
@@ -120,6 +123,10 @@
         width: 700px;
         height: 700px;
         position: relative;
+        @media (max-width: 1000px) {
+          width: 500px;
+          height: 500px;
+        }
       }
 
       .move-right img {

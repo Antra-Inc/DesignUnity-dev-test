@@ -29,15 +29,15 @@ const routes: Routes = [
     component: PortfolioComponent,
   },
   {
-    path: 'flooring',
+    path: 'seamless-flooring',
     component: FlooringPageComponent,
   },
   {
-    path: 'venetian_plasters',
+    path: 'venetian-plaster-finishes',
     component: VenetianPlastersComponent,
   },
   {
-    path: 'about-us',
+    path: 'about',
     component: AboutUsComponent,
   },
   {
@@ -53,7 +53,7 @@ const routes: Routes = [
     component: AboutusComponent,
   },
   {
-    path: 'blog',
+    path: 'blogs',
     component: BlogListComponent,
   },
   {
@@ -65,7 +65,7 @@ const routes: Routes = [
     component: BlogDetailsComponent,
   },
   {
-    path: 'contactus',
+    path: 'contact-us',
     component: ContactusComponent,
   },
   {

@@ -23,6 +23,7 @@
       @include font-style(60px, Tenor_Sans, #723c0d);
       font-family: "Tenor_Sans";
       text-align: center;
+      text-transform: capitalize;
       @media (min-width: 1000px) {
         max-width: 720px;
         text-align: center;

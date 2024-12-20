@@ -45,3 +45,8 @@ ul {
 .page_sub-header {
   font-size: min(max(16px, 5vw), 28px);
 }
+.page-header {
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  text-align: center;
+  padding-bottom: 24px;
+}
