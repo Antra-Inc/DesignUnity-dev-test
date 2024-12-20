@@ -42,6 +42,7 @@ import { ContactUsFormComponent } from './components/contactus/contact-us-form/c
 import { ThankYouComponent } from './components/thank-you/thank-you.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { TermsComponent } from './components/terms/terms.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 
 
 @NgModule({
@@ -84,6 +85,7 @@ import { TermsComponent } from './components/terms/terms.component';
     ThankYouComponent,
     PrivacyPolicyComponent,
     TermsComponent,
+    SolutionsComponent,
   ],
   imports: [
     BrowserModule,

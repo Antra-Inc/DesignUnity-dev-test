@@ -24,10 +24,10 @@
           <span> </span
           ><a (click)="toggleDropdown()" class="menu-link">Solutions</a>
           <div class="menu-item__sub" *ngIf="isExpanded">
-            <p (click)="open = false" routerLink="/venetian_plasters">
+            <p (click)="open = false" routerLink="solutions/venetian-plaster-finishes">
               Venetian Plasters
             </p>
-            <p (click)="open = false" routerLink="/seamless-flooring">
+            <p (click)="open = false" routerLink="solutions/seamless-flooring">
               Seamless Flooring
             </p>
           </div>
@@ -45,14 +45,15 @@
           <a routerLink="/blogs" class="menu-link"> Blog </a>
         </li>
         <li class="menu-item" (click)="open = false">
-          <span> </span><a routerLink="/contact-us" class="menu-link">Contact</a>
+          <span> </span
+          ><a routerLink="/contact-us" class="menu-link">Contact</a>
         </li>
       </ul>
     </div>
 
     <div class="navbar__menu">
       <ul class="menu-inner">
-        <li class="menu-item" routerLink="/about">
+        <li class="menu-item" routerLink="/about-us">
           <div class="menu-item__pointer">
             <span class="aboutUs"
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
@@ -73,14 +74,14 @@
                 <li
                   [ngClass]="{ active: activeItem == 1 }"
                   (mouseenter)="selectMenu(1)"
-                  routerLink="/venetian_plasters"
+                  routerLink="solutions/venetian-plaster-finishes"
                 >
                   Venetian Plasters
                 </li>
                 <li
                   [ngClass]="{ active: activeItem == 2 }"
                   (mouseenter)="selectMenu(2)"
-                  routerLink="/flooring"
+                  routerLink="solutions/seamless-flooring"
                 >
                   Seamless Flooring
                 </li>
@@ -134,7 +135,7 @@
               ><img src="./assets/svg/nav-arrow.svg" width="60%" alt=""
             /></span>
           </div>
-          <a routerLink="/contactus" class="menu-link">Contact</a>
+          <a routerLink="/contact-us" class="menu-link">Contact</a>
         </li>
       </ul>
     </div>
