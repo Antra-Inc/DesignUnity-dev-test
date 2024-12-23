@@ -105,11 +105,13 @@
           // font-size: clamp(0.8rem, -0.875rem + 5vw, 1rem);
           font-family: "Helvetica-light";
           color: #363333;
+          padding-bottom: 5px;
         }
         h2 {
           font-size: clamp(0.8rem, -0.875rem + 5vw, 1rem);
           font-family: "Helvetica-regular";
           color: #363333;
+          text-transform: capitalize;
         }
       }
     }

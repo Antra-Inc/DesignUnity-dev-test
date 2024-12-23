@@ -82,11 +82,11 @@ export class PortfolioComponent implements OnInit {
   firstImages: any = {};
   tabTitles = [
     'ALL',
-    'Luxury',
+    'Residential',
     'Institutional',
     'Commercial',
     'Real Estate',
-    'Small Residential',
+    'Luxury',
   ];
   tabs: { tabTitle: string; tabContent: any[] }[] = [];
   dialogTitle = 'Dialog Title';

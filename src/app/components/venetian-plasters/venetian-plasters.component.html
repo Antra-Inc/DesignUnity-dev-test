@@ -6,12 +6,11 @@
     <div class="venetian__about--content">
       <h3 class="semi-header">Spoilt for Choice</h3>
       <p class="paragraph">
-        We bring the timeless beauty of Italian Venetian Plaster to your
-        interiors. Inspired by centuries of Italian craftsmanship, our premium
-        finishes add depth, texture, and a polished marble-like elegance to
-        walls, ceilings, and feature spaces. Made from natural, eco-friendly
-        materials, we offer durability, breathability, and unmatched
-        sophistication.
+        We bring the timeless beauty of Venetian Plaster to your interiors.
+        Inspired by centuries of craftsmanship, our premium finishes add depth,
+        texture, and a polished marble-like elegance to walls, ceilings, and
+        feature spaces. Made from natural, eco-friendly materials, we offer
+        durability, breathability, and unmatched sophistication.
       </p>
       <p class="paragraph">
         Perfect for both classic and contemporary designs, it transforms
@@ -76,7 +75,7 @@
               alt="{{ post.title.rendered }}"
             />
           </div>
-          <div class="blogs__item--header">
+          <div class="blogs__item--header" (click)="loadBlog(post)">
             <h2>{{ post.title.rendered }}</h2>
           </div>
           <div class="card__details">
