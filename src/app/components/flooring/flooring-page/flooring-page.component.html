@@ -98,7 +98,7 @@
             alt="{{ post.title.rendered }}"
           />
         </div>
-        <div class="blogs__item--header">
+        <div class="blogs__item--header" (click)="loadBlog(post)">
           <h2>{{ post.title.rendered }}</h2>
         </div>
         <div class="card__details">

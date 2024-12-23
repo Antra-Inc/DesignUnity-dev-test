@@ -70,7 +70,7 @@
         bottom: 0;
         width: 100%;
         visibility: hidden;
-        background-color: rgba(#fff, 0.8);
+        background-color: rgba(#fff, 1);
         opacity: 0;
         -webkit-transition: all 0.6s ease-in-out 0s;
         -moz-transition: all 0.6s ease-in-out 0s;
@@ -125,6 +125,9 @@
       flex-direction: column;
       align-items: center;
       gap: clamp(10px, 3.5vh, 60px);
+      p {
+        max-width: 1000px;
+      }
     }
   }
   &__tabs {
@@ -247,8 +250,8 @@
 //   width: calc(70% - 10px);
 // }
 ::ng-deep .blogs {
-  // display: flex;
-  // justify-content: center;
+  display: flex;
+  justify-content: center;
   border-top: 1px solid #291702;
   padding: 30px 0;
   margin-top: 40px;
@@ -313,6 +316,7 @@
       h2 {
         font-size: 22px;
         font-family: $heading-font;
+        text-transform: capitalize;
         @media (max-width: 500px) {
           font-size: 16px;
         }

@@ -7,7 +7,7 @@
       <div class="blog__banner__text">
         <p class="p1">Featured Blog</p>
         <h2 class="">{{ posts[0].title.rendered }}</h2>
-        <p class="p2">{{ posts[0].modified | date : "MMMM d, y," }}</p>
+        <p class="p2">{{ posts[0].modified | date : "MMMM d, y" }}</p>
         <button class="button" (click)="loadBlog(posts[0])">
           Know More
           <img src="../../../assets/svg/arrow.svg" alt="" />
@@ -55,7 +55,7 @@
               alt="{{ post.title.rendered }}"
             />
           </div>
-          <div class="card__header">
+          <div class="card__header" (click)="loadBlog(post)">
             <h2>{{ post.title.rendered }}</h2>
           </div>
           <div class="card__details">

@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class VenetianPlastersComponent implements OnInit {
   layout = 1;
   Tab = '';
-  tabTitles = ['ALL', 'Viero', 'Bericalce', 'GG&F'];
+  tabTitles = ['ALL', 'Bericalce', 'Viero', 'GG&F'];
   tabs: { tabTitle: string; tabContent: any[] }[] = [];
   images!: any;
   contentData: any;
