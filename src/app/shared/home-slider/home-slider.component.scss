@@ -201,3 +201,18 @@
     transform: translate(0, 0);
   }
 }
+.catalog-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  padding: 10px;
+  background: #000;
+  border-radius: 10px;
+  button {
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Tenor_Sans";
+  }
+}

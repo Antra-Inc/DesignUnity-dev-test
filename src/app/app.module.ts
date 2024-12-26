@@ -43,6 +43,7 @@ import { ThankYouComponent } from './components/thank-you/thank-you.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { SolutionsComponent } from './solutions/solutions.component';
+import { CatalogComponent } from './catalog/catalog.component';
 
 
 @NgModule({
@@ -86,6 +87,7 @@ import { SolutionsComponent } from './solutions/solutions.component';
     PrivacyPolicyComponent,
     TermsComponent,
     SolutionsComponent,
+    CatalogComponent,
   ],
   imports: [
     BrowserModule,
