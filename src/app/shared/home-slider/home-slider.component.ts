@@ -13,18 +13,18 @@ export class HomeSliderComponent implements OnInit {
   }
   images: { imagepath: string; bc: string; name?: string }[] = [
     {
-      imagepath: '../../../assets/img/home-page/slide-1.png',
-      bc: '#A8A9AA',
+      imagepath: '../../../assets/img/home-page/slide-1.jpg',
+      bc: '#72bfbf',
       name: 'Solid Colours',
     },
     {
-      imagepath: '../../../assets/img/home-page/slide-2.png',
-      bc: '#678355',
+      imagepath: '../../../assets/img/home-page/slide-3.png',
+      bc: '#d3cdde',
       name: 'Metallic ',
     },
     {
-      imagepath: '../../../assets/img/home-page/slide-3.png',
-      bc: '#D3CDDE',
+      imagepath: '../../../assets/img/home-page/slide-3.jpg',
+      bc: '#a8a9aa',
       name: 'Minimal',
     },
     {
@@ -33,17 +33,17 @@ export class HomeSliderComponent implements OnInit {
       name: 'Wall & Ceiling',
     },
     {
-      imagepath: '../../../assets/img/flooring/banner.png',
-      bc: '#97ABD8',
+      imagepath: '../../../assets/img/home-page/slide-5.jpg',
+      bc: '#be8c63',
       name: 'Flooring',
     },
   ];
   images1: { imagepath: string; bc: string }[] = [
-    { imagepath: '../../../assets/img/home-page/slide-2.png', bc: '#678355' },
-    { imagepath: '../../../assets/img/home-page/slide-3.png', bc: '#D3CDDE' },
+    { imagepath: '../../../assets/img/home-page/slide-2.png', bc: '#d3cdde' },
+    { imagepath: '../../../assets/img/home-page/slide-3.jpg', bc: '#a8a9aa' },
     { imagepath: '../../../assets/img/home-page/slide-4.png', bc: '#D3C4C0' },
-    { imagepath: '../../../assets/img/flooring/banner.png', bc: '#97ABD8' },
-    { imagepath: '../../../assets/img/home-page/slide-1.png', bc: '#A8A9AA' },
+    { imagepath: '../../../assets/img/home-page/slide-5.jpg', bc: '#be8c63' },
+    { imagepath: '../../../assets/img/home-page/slide-1.jpg', bc: '#72bfbf' },
   ];
   height = 0;
 }

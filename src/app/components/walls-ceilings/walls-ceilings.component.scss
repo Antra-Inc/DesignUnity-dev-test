@@ -122,6 +122,7 @@
   &__header {
     font-size: 40px;
     padding: 25px 20px;
+    font-family: "Tenor_Sans";
     @media (max-width: 1200px) {
       padding: 5px 20px;
       font-size: 20px;
@@ -191,7 +192,7 @@
 .four {
   top: 450px;
   background: #2c0076;
-  background: url("../../../assets/img/wallCeilings/Viero-Marmorino.png");
+  background: url("../../../assets/img/wallCeilings/Viero-Marmorino.jpg");
   background-position-y: top;
   background-position-x: left;
   background-size: cover;
@@ -199,10 +200,6 @@
   margin-top: -25px;
   @media (max-width: 1200px) {
     top: 270px;
-  }
-  .card__header,
-  p {
-    text-shadow: #000000 0px 0px 24px;
   }
 }
 .five {

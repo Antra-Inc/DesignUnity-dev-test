@@ -24,7 +24,10 @@
           <span> </span
           ><a (click)="toggleDropdown()" class="menu-link">Solutions</a>
           <div class="menu-item__sub" *ngIf="isExpanded">
-            <p (click)="open = false" routerLink="solutions/venetian-plaster-finishes">
+            <p
+              (click)="open = false"
+              routerLink="solutions/venetian-plaster-finishes"
+            >
               Venetian Plasters
             </p>
             <p (click)="open = false" routerLink="solutions/seamless-flooring">
@@ -90,8 +93,9 @@
                 <img
                   [src]="
                     '../../../assets/img/solutions/' +
-                    (activeItem === 1 ? 'solution-menu-1' : 'solution-menu-2') +
-                    '.png'
+                    (activeItem === 1
+                      ? 'solution-menu-1.png'
+                      : 'solution-menu-2.jpg')
                   "
                   alt="image1"
                 />

@@ -112,14 +112,6 @@
   ],
   "Hyderabad": [
     {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00057.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00057.jpg"
-    },
-    {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00074.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00074.jpg"
-    },
-    {
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00085.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00085.jpg"
     },
@@ -155,10 +147,7 @@
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00248.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00248.jpg"
     },
-    {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00269.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00269.jpg"
-    },
+
     {
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00287.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00287.jpg"
@@ -179,10 +168,7 @@
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00315.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00315.jpg"
     },
-    {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00325.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00325.jpg"
-    },
+
     {
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/High/DSC00325.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/hyderabad/Low/DSC00325.jpg"
@@ -285,10 +271,7 @@
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC00977.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC00977.jpg"
     },
-    {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC00983.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC00983.jpg"
-    },
+
     {
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC00987.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC00987.jpg"
@@ -337,10 +320,7 @@
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC01067.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC01067.jpg"
     },
-    {
-      "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC01069.jpg",
-      "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC01069.jpg"
-    },
+ 
     {
       "imagePathHigh": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/High/DSC01078.jpg",
       "imagePathLow": "https://storage.googleapis.com/designunity/assets/experience-centers/delhi/Low/DSC01078.jpg"
