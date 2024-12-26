@@ -39,7 +39,7 @@ export class HomeSliderComponent implements OnInit {
     },
   ];
   images1: { imagepath: string; bc: string }[] = [
-    { imagepath: '../../../assets/img/home-page/slide-2.png', bc: '#d3cdde' },
+    { imagepath: '../../../assets/img/home-page/slide-3.png', bc: '#d3cdde' },
     { imagepath: '../../../assets/img/home-page/slide-3.jpg', bc: '#a8a9aa' },
     { imagepath: '../../../assets/img/home-page/slide-4.png', bc: '#D3C4C0' },
     { imagepath: '../../../assets/img/home-page/slide-5.jpg', bc: '#be8c63' },
