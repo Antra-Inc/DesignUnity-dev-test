@@ -16,14 +16,27 @@ import { ThankYouComponent } from './components/thank-you/thank-you.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { SolutionsComponent } from './solutions/solutions.component';
+import { CatalogComponent } from './catalog/catalog.component';
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    data: {
+      title: 'Design Unity | Home | Venetian Plaster Luxury Wall Finishes',
+      description:
+        'Thinking of painting walls? Elevate your surfaces with Venetian Lime plasters from Design Unity. Luxury wall & floor finishes | Imported brands | Explore now',
+      keywords: 'home, angular, app',
+    },
   },
   {
     path: 'home',
     component: HomeComponent,
+    data: {
+      title: 'Design Unity | Home | Venetian Plaster Luxury Wall Finishes',
+      description:
+        'Thinking of painting walls? Elevate your surfaces with Venetian Lime plasters from Design Unity. Luxury wall & floor finishes | Imported brands | Explore now',
+      keywords: 'home, angular, app',
+    },
   },
   {
     path: 'portfolio',
@@ -91,6 +104,10 @@ const routes: Routes = [
   {
     path: 'terms_conditions',
     component: TermsComponent,
+  },
+  {
+    path: 'venetian-plaster-catalog',
+    component: CatalogComponent,
   },
 ];
 

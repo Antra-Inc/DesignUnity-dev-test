@@ -81,7 +81,7 @@ export class PortfolioComponent implements OnInit {
   contentData: any;
   firstImages: any = {};
   tabTitles = [
-    'ALL',
+    // 'ALL',
     'Residential',
     'Institutional',
     'Commercial',
@@ -202,7 +202,7 @@ export class PortfolioComponent implements OnInit {
           ...this.images.RealEstate.RealEstate.slice(0, 1),
         ];
         break;
-      case 'Small Residential':
+      case 'Residential':
         this.contentData = [
           ...this.images.SmallResidential.IstintoSpatulaInteriors.slice(0, 1),
           ...this.images.SmallResidential.Sogni.slice(0, 1),

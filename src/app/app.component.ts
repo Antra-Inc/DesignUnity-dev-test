@@ -10,6 +10,8 @@ import { DialogService } from './service/dialog.service';
 import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 import { filter } from 'rxjs';
 import { ScrollToService } from './service/scroll-to.service';
+import { MetaTagsService } from './service/meta-tags.service';
+import { TitleService } from './service/title.service';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +27,9 @@ export class AppComponent implements OnInit, OnChanges {
     private router: Router,
     private scrollToTopService: ScrollToService,
     private el: ElementRef,
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    private metaTagsService: MetaTagsService,
+    private titleService: TitleService
   ) {
     this.dialogService.dialogData$.subscribe((data) => {
       this.dialogData = data;
@@ -54,6 +58,28 @@ export class AppComponent implements OnInit, OnChanges {
       });
   }
   ngOnInit(): void {
+    this.titleService.setPageTitle('Design Unity');
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      'This is an example of an Angular application.'
+    );
+    this.metaTagsService.setKeywords('Angular, SEO, Meta Tags');
+    this.metaTagsService.setMetaTags([
+      { name: 'author', content: 'John Doe' },
+      { name: 'robots', content: 'index, follow' },
+    ]);
+
+    // Set Open Graph (OG) meta tags
+    this.metaTagsService.setOgTags([
+      { property: 'og:title', content: 'My Angular App' },
+      {
+        property: 'og:description',
+        content: 'This is an example of an Angular application.',
+      },
+      { property: 'og:image', content: 'https://example.com/image.jpg' },
+    ]);
+
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {

@@ -74,7 +74,7 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #723c0d;
-   
+
     span {
       position: relative;
       font-family: "Tenor_Sans";
@@ -211,7 +211,15 @@
 .br-top {
   border-top: 1px solid black;
 }
-
+.media {
+  display: grid;
+  grid-template-rows: auto auto;
+  h2 {
+    display: grid;
+    margin: 0;
+    justify-content: flex-end;
+  }
+}
 @media (max-width: 899px) {
   .media {
     grid-column: 1 / -1;
