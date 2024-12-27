@@ -62,7 +62,7 @@ const routes: Routes = [
     ],
   },
   {
-    path: 'about',
+    path: 'about-us',
     component: AboutUsComponent,
   },
   {

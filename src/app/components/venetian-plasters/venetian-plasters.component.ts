@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { WordpressService } from '../wordpress.service';
 import { Router } from '@angular/router';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
+import { TitleService } from 'src/app/service/title.service';
 
 @Component({
   selector: 'app-venetian-plasters',
@@ -27,12 +29,23 @@ export class VenetianPlastersComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private postService: WordpressService,
-    private router: Router
+    private router: Router,
+    private metaTagsService: MetaTagsService,
+    private titleService: TitleService
   ) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/solutions.json');
   }
   ngOnInit(): void {
+    this.titleService.setPageTitle(
+      'Italian Plaster Wall Finishes | Supply & apply partner'
+    );
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      'Thinking of painting walls? Elevate your surfaces with Venetian Lime plasters from Design Unity. Luxury wall & floor finishes | Imported brands | Explore now'
+    );
+    this.metaTagsService.setKeywords('Design Unity');
     this.loadCategories();
     localStorage.setItem('currentIndex', '0');
     localStorage.setItem('itemsIncrement', '4');

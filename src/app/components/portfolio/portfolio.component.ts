@@ -8,6 +8,8 @@ import {
 import { DialogService } from 'src/app/service/dialog.service';
 import { DuTabsComponent } from 'src/app/shared/du-tabs/du-tabs.component';
 import { PortfolioDialogComponent } from './portfolio-dialog/portfolio-dialog.component';
+import { TitleService } from 'src/app/service/title.service';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
 interface Image {
   imagePathHigh: string;
   imagePathLow: string;
@@ -96,7 +98,12 @@ export class PortfolioComponent implements OnInit {
   //     this.dialogData = state.data;
   //   });
   // }
-  constructor(private dialogService: DialogService, private http: HttpClient) {}
+  constructor(
+    private dialogService: DialogService,
+    private http: HttpClient,
+    private titleService: TitleService,
+    private metaTagsService: MetaTagsService
+  ) {}
   public getJSON(): Observable<any> {
     return this.http.get('./assets/portfolio-images.json');
   }
@@ -105,6 +112,15 @@ export class PortfolioComponent implements OnInit {
     //   this.images = data;
     //   console.log('images', this.images);
     // });
+    this.titleService.setPageTitle(
+      'Stylish, sustainable finishes for walls, floors & ceilings.'
+    );
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      'Explore our work for different clients, the bespoke craftsmanship of Design Unity- Take a look at our portfolio for T-Hub, Centro Grande, Amavi, Anushree Reddy & more'
+    );
+    this.metaTagsService.setKeywords('');
     this.changeTabs('All');
     console.log('images', this.images);
 

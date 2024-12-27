@@ -131,6 +131,10 @@
     }
   }
   &__tabs {
+    ::ng-deep .du-tabs__container {
+      display: grid;
+      justify-content: center;
+    }
   }
 }
 .more-btn {

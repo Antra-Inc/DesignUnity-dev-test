@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { WordpressService } from '../wordpress.service';
 import { Router } from '@angular/router';
+import { TitleService } from 'src/app/service/title.service';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
 
 @Component({
   selector: 'app-blog-list',
@@ -18,9 +20,21 @@ export class BlogListComponent implements OnInit {
   error: any;
   featuredBlog: any[] = [];
   activeSection = 'All';
-  constructor(private postService: WordpressService, private router: Router) {}
+  constructor(
+    private postService: WordpressService,
+    private router: Router,
+    private titleService: TitleService,
+    private metaTagsService: MetaTagsService
+  ) {}
 
   ngOnInit(): void {
+    this.titleService.setPageTitle('Design Unity - Blogs');
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      `Check out Design Unity's latest blogs, news updates, product announcements,creator success stories, and more.`
+    );
+    this.metaTagsService.setKeywords('');
     this.loadCategories();
     this.loadPosts();
   }
