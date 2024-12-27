@@ -8,6 +8,7 @@ import { ClientLogosService } from 'src/app/service/client-logos.service';
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.scss'],
 })
+
 export class AboutUsComponent implements OnInit {
   clients!: any;
   constructor(
