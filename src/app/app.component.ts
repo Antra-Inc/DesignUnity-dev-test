@@ -58,28 +58,7 @@ export class AppComponent implements OnInit, OnChanges {
       });
   }
   ngOnInit(): void {
-    this.titleService.setPageTitle('Design Unity');
-
-    // Set meta tags
-    this.metaTagsService.setDescription(
-      'This is an example of an Angular application.'
-    );
-    this.metaTagsService.setKeywords('Angular, SEO, Meta Tags');
-    this.metaTagsService.setMetaTags([
-      { name: 'author', content: 'John Doe' },
-      { name: 'robots', content: 'index, follow' },
-    ]);
-
-    // Set Open Graph (OG) meta tags
-    this.metaTagsService.setOgTags([
-      { property: 'og:title', content: 'My Angular App' },
-      {
-        property: 'og:description',
-        content: 'This is an example of an Angular application.',
-      },
-      { property: 'og:image', content: 'https://example.com/image.jpg' },
-    ]);
-
+   
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {

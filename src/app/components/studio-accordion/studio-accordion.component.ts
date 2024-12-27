@@ -10,6 +10,8 @@ import { DialogService } from 'src/app/service/dialog.service';
 import { StudioDialogComponent } from './studio-dialog/studio-dialog.component';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { TitleService } from 'src/app/service/title.service';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
 
 @Component({
   selector: 'app-studio-accordion',
@@ -21,15 +23,27 @@ export class StudioAccordionComponent implements OnInit, AfterViewInit {
   hyderabad!: any[];
   delhi!: any[];
 
-  
-
   ngOnInit() {
+    this.titleService.setPageTitle(
+      'Design Unity Surface Studio- Hyderabad, Delhi, Bangalore'
+    );
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      'Come explore a world of custom Venetian plaster finishes for walls & ceilings, microcement finishes for floors. Luxury surface solutions for decorative walls'
+    );
+    this.metaTagsService.setKeywords('');
     this.getImages();
   }
   public getJSON(): Observable<any> {
     return this.http.get('./assets/surface-studio.json');
   }
-  constructor(private dialogService: DialogService, private http: HttpClient) {}
+  constructor(
+    private dialogService: DialogService,
+    private http: HttpClient,
+    private titleService: TitleService,
+    private metaTagsService: MetaTagsService
+  ) {}
 
   activeSection: string = 'section1'; // Set the initial active section to the first section
 

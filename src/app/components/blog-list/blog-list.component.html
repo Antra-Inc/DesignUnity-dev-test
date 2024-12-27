@@ -4,11 +4,11 @@
       <h1 class="page-header">Blogs</h1>
     </div>
     <div class="blog__banner">
-      <div class="blog__banner__text">
+      <div class="blog__banner__text" (click)="loadBlog(posts[0])">
         <p class="p1">Featured Blog</p>
         <h2 class="">{{ posts[0].title.rendered }}</h2>
         <p class="p2">{{ posts[0].modified | date : "MMMM d, y" }}</p>
-        <button class="button" (click)="loadBlog(posts[0])">
+        <button class="button">
           Know More
           <img src="../../../assets/svg/arrow.svg" alt="" />
         </button>
@@ -45,7 +45,11 @@
       </div>
 
       <div *ngIf="posts.length > 0; else noPosts" class="blog__list">
-        <div *ngFor="let post of posts" class="blog__list__card">
+        <div
+          *ngFor="let post of posts"
+          (click)="loadBlog(post)"
+          class="blog__list__card"
+        >
           <div
             class="card__image"
             *ngIf="post._embedded['wp:featuredmedia']?.length > 0"
@@ -55,7 +59,7 @@
               alt="{{ post.title.rendered }}"
             />
           </div>
-          <div class="card__header" (click)="loadBlog(post)">
+          <div class="card__header">
             <h2>{{ post.title.rendered }}</h2>
           </div>
           <div class="card__details">
@@ -70,7 +74,7 @@
               "
             ></div>
 
-            <button class="button" (click)="loadBlog(post)">
+            <button class="button">
               Know More
               <img src="./assets/svg/arrow.svg" alt="" />
             </button>

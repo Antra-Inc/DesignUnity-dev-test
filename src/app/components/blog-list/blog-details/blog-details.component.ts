@@ -3,6 +3,8 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { WordpressService } from '../../wordpress.service';
 import { filter } from 'rxjs';
 import { ScrollToService } from 'src/app/service/scroll-to.service';
+import { TitleService } from 'src/app/service/title.service';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
 
 @Component({
   selector: 'app-blog-details',
@@ -19,10 +21,21 @@ export class BlogDetailsComponent implements OnInit {
     private route: ActivatedRoute,
     private postService: WordpressService,
     private router: Router,
-    private scrollToTopService: ScrollToService
+    private scrollToTopService: ScrollToService,
+    private titleService: TitleService,
+    private metaTagsService: MetaTagsService
   ) {}
 
   ngOnInit(): void {
+    this.titleService.setPageTitle(
+      'A curated list of blogs on surface finishes & designs'
+    );
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      `Here’s an overview of wall, floor & ceiling surface finish blogs from Design Unity. “Know hows” to choose finishes for your homes, studios & commercial spaces`
+    );
+    this.metaTagsService.setKeywords('');
     // const id = this.route.snapshot.paramMap.get('id');
     this.loadCategories();
     const id = localStorage.getItem('blogId');

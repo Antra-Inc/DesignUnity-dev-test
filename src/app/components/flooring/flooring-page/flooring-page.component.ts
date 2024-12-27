@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { WordpressService } from '../../wordpress.service';
 import { Router } from '@angular/router';
+import { TitleService } from 'src/app/service/title.service';
+import { MetaTagsService } from 'src/app/service/meta-tags.service';
 
 @Component({
   selector: 'app-flooring-page',
@@ -12,8 +14,22 @@ export class FlooringPageComponent implements OnInit {
   error: any;
   isLoading = false;
   posts: any[] = [];
-  constructor(private postService: WordpressService, private router: Router) {}
+  constructor(
+    private postService: WordpressService,
+    private router: Router,
+    private titleService: TitleService,
+    private metaTagsService: MetaTagsService
+  ) {}
   ngOnInit(): void {
+    this.titleService.setPageTitle(
+      'Seamless Floorings | Microcements, Epoxy, Terrazzo finishes'
+    );
+
+    // Set meta tags
+    this.metaTagsService.setDescription(
+      'Our microcement flooring offers endless variety with rich textures, colours, and seamless style, durable, anti-skid, & high-performing finishes. Explore now!'
+    );
+    this.metaTagsService.setKeywords('microcement flooring');
     this.loadCategories();
   }
   loadCategories(): void {
