@@ -65,7 +65,11 @@
     <div class="blogs__parent">
       <h2 class="blogs__parent--header semi-header">Recent Blogs</h2>
       <div *ngIf="posts.length > 0; else noPosts" class="blogs__list">
-        <div *ngFor="let post of posts" class="blogs__item">
+        <div
+          *ngFor="let post of posts"
+          (click)="loadBlog(post)"
+          class="blogs__item"
+        >
           <div
             class="blogs__item--img"
             *ngIf="post._embedded['wp:featuredmedia']?.length > 0"
@@ -75,7 +79,7 @@
               alt="{{ post.title.rendered }}"
             />
           </div>
-          <div class="blogs__item--header" (click)="loadBlog(post)">
+          <div class="blogs__item--header">
             <h2>{{ post.title.rendered }}</h2>
           </div>
           <div class="card__details">
