@@ -63,7 +63,7 @@ export class BlogListComponent implements OnInit {
     this.postService.getPosts(categoryId).subscribe({
       next: (data) => {
         this.posts = data;
-        console.log('blogs', this.posts);
+        console.log('blogs', this.posts.length);
 
         this.isLoading = false;
       },
