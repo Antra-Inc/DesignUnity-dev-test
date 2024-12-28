@@ -14,6 +14,7 @@
     overflow: auto;
     z-index: 0;
     background: #f5f1ec;
+    position: relative;
     // padding-top: 140px;
   }
 }
@@ -21,4 +22,47 @@
 ::ng-deep du-dialog {
   position: fixed !important;
   z-index: 11 !important;
+}
+.catalog-btn {
+  position: fixed;
+  bottom: 0px;
+  top: 0;
+  margin: auto;
+  height: fit-content;
+  right: 0px;
+  padding: 0;
+  background: #000;
+  border-radius: 10px 0 0 10px;
+  z-index: 11;
+
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+    font-family: "Tenor_Sans";
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    svg {
+      width: 24px;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  @media (max-width: 1000px) {
+    padding: 5px;
+    border-radius: 5px;
+    bottom: 0px;
+    right: 10px;
+    button {
+      font-size: 10px;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
 }
