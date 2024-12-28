@@ -43,6 +43,7 @@
     font-size: 14px;
     font-family: "Tenor_Sans";
     color: #fff;
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,12 +57,11 @@
   }
   @media (max-width: 1000px) {
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     bottom: 0px;
-    right: 10px;
+    right: 0px;
     button {
       font-size: 10px;
-      padding: 5px 10px;
       border-radius: 5px;
     }
   }

@@ -63,7 +63,7 @@ export class BlogListComponent implements OnInit {
     this.postService.getPosts(categoryId).subscribe({
       next: (data) => {
         this.posts = data;
-        console.log('blogs', this.posts.length);
+        console.log('blogs', this.posts);
 
         this.isLoading = false;
       },
@@ -78,11 +78,14 @@ export class BlogListComponent implements OnInit {
     if (categoryName === 'all') {
       this.loadPosts();
       this.activeSection = 'All';
+      console.log('this.activeSection', this.activeSection);
       console.log('blogs', this.loadPosts());
     } else {
       const category = this.categories.find((c) => c.name === categoryName);
       if (category) {
         this.activeSection = categoryName;
+        console.log('this.activeSection', this.activeSection);
+
         this.loadPosts(category.id);
       }
     }
