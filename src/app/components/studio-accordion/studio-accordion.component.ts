@@ -60,6 +60,7 @@ export class StudioAccordionComponent implements OnInit, AfterViewInit {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           this.activeSection = entry.target.id;
+          console.log('id', this.activeSection);
         }
       });
     }, observerOptions);
@@ -82,6 +83,8 @@ export class StudioAccordionComponent implements OnInit, AfterViewInit {
   }
 
   scrollToSection(sectionId: string): void {
+    console.log('sectionId', sectionId);
+
     const targetSection = this.sections.find(
       (section) => section.nativeElement.id === sectionId
     );

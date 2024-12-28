@@ -58,7 +58,6 @@ export class AppComponent implements OnInit, OnChanges {
       });
   }
   ngOnInit(): void {
-   
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
@@ -66,6 +65,6 @@ export class AppComponent implements OnInit, OnChanges {
       });
   }
   private scrollToTop(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0 });
   }
 }

@@ -159,13 +159,13 @@
   white-space: nowrap;
   gap: 90px;
   @media (max-width: 500px) {
-    gap: 25px;
+    gap: 10px;
   }
   .terms {
     display: grid;
     grid-template-columns: auto auto;
     font-size: 12px;
-    gap: 30px;
+    gap: 20px;
     a {
       text-decoration: none;
       color: #000;

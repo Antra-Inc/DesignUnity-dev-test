@@ -44,6 +44,7 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
 import { TermsComponent } from './components/terms/terms.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { CatalogComponent } from './catalog/catalog.component';
+import { NoPageComponent } from './no-page/no-page.component';
 
 
 @NgModule({
@@ -88,6 +89,7 @@ import { CatalogComponent } from './catalog/catalog.component';
     TermsComponent,
     SolutionsComponent,
     CatalogComponent,
+    NoPageComponent,
   ],
   imports: [
     BrowserModule,

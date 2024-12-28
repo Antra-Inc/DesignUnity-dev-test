@@ -17,6 +17,7 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
 import { TermsComponent } from './components/terms/terms.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { CatalogComponent } from './catalog/catalog.component';
+import { NoPageComponent } from './no-page/no-page.component';
 const routes: Routes = [
   {
     path: '',
@@ -94,7 +95,7 @@ const routes: Routes = [
     component: ContactusComponent,
   },
   {
-    path: 'thank_you',
+    path: 'Thank_You',
     component: ThankYouComponent,
   },
   {
@@ -108,6 +109,10 @@ const routes: Routes = [
   {
     path: 'venetian-plaster-catalog',
     component: CatalogComponent,
+  },
+  {
+    path: '**',
+    component: NoPageComponent,
   },
 ];
 

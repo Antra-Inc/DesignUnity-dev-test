@@ -78,11 +78,14 @@ export class BlogListComponent implements OnInit {
     if (categoryName === 'all') {
       this.loadPosts();
       this.activeSection = 'All';
+      console.log('this.activeSection', this.activeSection);
       console.log('blogs', this.loadPosts());
     } else {
       const category = this.categories.find((c) => c.name === categoryName);
       if (category) {
         this.activeSection = categoryName;
+        console.log('this.activeSection', this.activeSection);
+
         this.loadPosts(category.id);
       }
     }

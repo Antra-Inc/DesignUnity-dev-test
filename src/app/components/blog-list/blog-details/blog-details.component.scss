@@ -80,7 +80,7 @@
       display: flex;
       justify-content: center;
       &--dtls {
-        max-width: 1440px;
+        max-width: 1280px;
       }
       ::ng-deep p {
         padding-top: 16px;
@@ -89,6 +89,9 @@
         color: #000;
         text-align: left;
         line-height: 1.5em;
+        b {
+          font-weight: normal;
+        }
         span {
           font-size: clamp(0.8rem, 2.1vw, 1.3rem);
           font-family: "Helvetica-light";
@@ -105,6 +108,7 @@
           span,
           b {
             color: #358ae4;
+            font-weight: normal;
           }
         }
       }
