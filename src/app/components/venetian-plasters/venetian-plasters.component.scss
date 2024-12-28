@@ -277,6 +277,9 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    @media (max-width: 400px) {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
     gap: 16px;
   }
   &__item {
@@ -289,6 +292,10 @@
     @media (max-width: 1000px) {
       margin-bottom: 0px;
       margin-top: 0;
+    }
+    @media (max-width: 600px) {
+      border-radius: 10px;
+      padding: 10px;
     }
     &--text {
       p {
@@ -312,6 +319,11 @@
         width: 100%;
         height: 220px;
         object-fit: cover;
+
+        @media (max-width: 600px) {
+          border-radius: 10px;
+          height: 130px;
+        }
       }
     }
     &--header {

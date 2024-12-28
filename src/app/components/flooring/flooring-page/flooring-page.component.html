@@ -20,9 +20,9 @@
   <div class="flooring__sec-3">
     <div class="flooring__sec-3__sub">
       <div class="sec__content">
-        <h3>Microcements</h3>
+        <h3>Micro Cements</h3>
         <p class="paragraph">
-          Combining liquid polymers and a special cement mixture, microcement
+          Combining liquid polymers and a special cement mixture, micro cement
           floors are minimalist, seamless, and ideal for indoor or outdoor
           venues. They are also highly resistant to impact, abrasion, and
           compression.
@@ -89,7 +89,11 @@
   <div class="blogs__parent">
     <h2 class="blogs__parent--header semi-header">Recent Blogs</h2>
     <div *ngIf="posts.length > 0; else noPosts" class="blogs__list">
-      <div *ngFor="let post of posts" class="blogs__item">
+      <div
+        *ngFor="let post of posts"
+        (click)="loadBlog(post)"
+        class="blogs__item"
+      >
         <div
           class="blogs__item--img"
           *ngIf="post._embedded['wp:featuredmedia']?.length > 0"
@@ -99,7 +103,7 @@
             alt="{{ post.title.rendered }}"
           />
         </div>
-        <div class="blogs__item--header" (click)="loadBlog(post)">
+        <div class="blogs__item--header">
           <h2>{{ post.title.rendered }}</h2>
         </div>
         <div class="card__details">

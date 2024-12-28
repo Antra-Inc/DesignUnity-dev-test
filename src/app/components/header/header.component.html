@@ -77,16 +77,18 @@
                 <li
                   [ngClass]="{ active: activeItem == 1 }"
                   (mouseenter)="selectMenu(1)"
-                  routerLink="solutions/venetian-plaster-finishes"
                 >
-                  Venetian Plasters
+                  <a routerLink="solutions/venetian-plaster-finishes"
+                    >Venetian Plasters</a
+                  >
                 </li>
                 <li
                   [ngClass]="{ active: activeItem == 2 }"
                   (mouseenter)="selectMenu(2)"
-                  routerLink="solutions/seamless-flooring"
                 >
-                  Seamless Flooring
+                  <a routerLink="solutions/seamless-flooring">
+                    Seamless Flooring</a
+                  >
                 </li>
               </ul>
               <div class="popup__content--imgs">

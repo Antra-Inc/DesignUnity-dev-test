@@ -208,11 +208,23 @@
   padding: 10px;
   background: #000;
   border-radius: 10px;
+
   button {
     cursor: pointer;
     padding: 16px;
     border-radius: 10px;
     font-size: 16px;
     font-family: "Tenor_Sans";
+  }
+  @media (max-width: 1000px) {
+    padding: 5px;
+    border-radius: 5px;
+    bottom: 0px;
+    right: 10px;
+    button {
+      font-size: 10px;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
   }
 }

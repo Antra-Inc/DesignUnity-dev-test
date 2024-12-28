@@ -192,7 +192,7 @@ export class PortfolioComponent implements OnInit {
         break;
       case 'Institutional':
         this.contentData = [];
-        this.contentData = [...this.images.Institutional.THub.slice(0, 6)];
+        this.contentData = [...this.images.Institutional.THub.slice(0, 1)];
         break;
       case 'Commercial':
         this.contentData = [];
