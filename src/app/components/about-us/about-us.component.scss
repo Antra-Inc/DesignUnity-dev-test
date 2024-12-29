@@ -10,7 +10,7 @@
     padding-left: 100px;
     background-position: top right;
     background-size: cover;
-    h2 {
+    h1 {
       padding-top: 100px;
       @include page-header();
       font-weight: 300;
@@ -52,6 +52,7 @@
       @media (max-width: 900px) {
         gap: 10px !important;
       }
+      
       p {
         max-width: 1000px;
       }

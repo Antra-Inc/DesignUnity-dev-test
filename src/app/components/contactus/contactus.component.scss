@@ -14,7 +14,7 @@
     justify-content: flex-start;
     padding: 0 10%;
     background-position: center;
-    h2 {
+    h1 {
       padding-top: 100px;
       font-size: clamp(12px, 5.5vw, 70px);
       font-family: "Tenor_Sans";
@@ -23,7 +23,7 @@
     }
     @media (max-width: 899px) {
       min-height: 35vh;
-      h2 {
+      h1 {
         padding-top: 50px;
       }
     }
@@ -51,7 +51,7 @@
     @media (max-width: 900px) {
       padding: 16px;
       grid-template-columns: 1fr;
-      grid-template-rows: 600px 1050px;
+      grid-template-rows: 1050px 600px;
     }
   }
   &__fields {
@@ -98,6 +98,9 @@
 .tabs {
   display: grid;
   grid-template-rows: auto auto 1fr;
+  @media (max-width: 1000px) {
+    grid-row: 2;
+  }
   &__titles {
     list-style: none;
     display: grid;
