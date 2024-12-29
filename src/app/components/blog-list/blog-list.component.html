@@ -47,7 +47,7 @@
       <div *ngIf="posts.length > 0; else noPosts" class="blog__list">
         <div
           *ngFor="let post of posts; let i = index"
-          [hidden]="activeSection === 'All' ? i === 0"
+          [hidden]="activeSection === 'All' ? i === 0 : false"
           (click)="loadBlog(post)"
           class="blog__list__card"
         >
