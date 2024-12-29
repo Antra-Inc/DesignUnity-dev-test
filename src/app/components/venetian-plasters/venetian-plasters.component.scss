@@ -85,6 +85,10 @@
           font-size: 14px;
           text-align: left;
         }
+        @media (max-width: 1000px) {
+          visibility: visible;
+          opacity: 1;
+        }
       }
       &:nth-child(2n - 1),
       &:nth-child(1n) {
