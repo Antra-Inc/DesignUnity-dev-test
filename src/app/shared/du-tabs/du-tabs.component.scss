@@ -60,6 +60,7 @@
       }
       @media (max-width: 700px) {
         flex-direction: row;
+        flex-wrap: wrap;
         padding: 0 15px;
         width: 100%;
         overflow: auto;

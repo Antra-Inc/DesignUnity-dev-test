@@ -53,7 +53,7 @@ export class StudioAccordionComponent implements OnInit, AfterViewInit {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.5, // 10% of the section must be visible to consider it active
+      threshold: 0.2, // 10% of the section must be visible to consider it active
     };
 
     const observer = new IntersectionObserver((entries, observer) => {

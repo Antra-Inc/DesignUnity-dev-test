@@ -95,7 +95,7 @@ const routes: Routes = [
     component: ContactusComponent,
   },
   {
-    path: 'Thank_You',
+    path: 'thank_you',
     component: ThankYouComponent,
   },
   {
