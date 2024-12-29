@@ -42,7 +42,7 @@ export class AppComponent implements OnInit, OnChanges {
         const myElement = this.el.nativeElement.querySelector('#top');
         myElement.scrollTo({
           top: 0,
-          behavior: 'smooth',
+          behavior: 'auto',
         });
         console.log('Triggered action via Renderer2!');
       });
