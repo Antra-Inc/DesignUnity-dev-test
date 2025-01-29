@@ -19,6 +19,7 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { NoPageComponent } from './no-page/no-page.component';
 import { RewardsProgramComponent } from './components/rewards-program/rewards-program.component';
+import { RewardsThankYouComponent } from './components/rewards-thank-you/rewards-thank-you.component';
 const routes: Routes = [
   {
     path: '',
@@ -114,6 +115,10 @@ const routes: Routes = [
   {
     path: 'rewards-program',
     component: RewardsProgramComponent,
+  },
+  {
+    path: 'rewards-thank-you',
+    component: RewardsThankYouComponent,
   },
   {
     path: '**',
