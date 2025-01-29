@@ -18,6 +18,7 @@ import { TermsComponent } from './components/terms/terms.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { NoPageComponent } from './no-page/no-page.component';
+import { RewardsProgramComponent } from './components/rewards-program/rewards-program.component';
 const routes: Routes = [
   {
     path: '',
@@ -109,6 +110,10 @@ const routes: Routes = [
   {
     path: 'venetian-plaster-catalog',
     component: CatalogComponent,
+  },
+  {
+    path: 'rewards-program',
+    component: RewardsProgramComponent,
   },
   {
     path: '**',
