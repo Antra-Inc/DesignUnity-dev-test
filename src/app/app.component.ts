@@ -47,6 +47,10 @@ export class AppComponent implements OnInit, OnChanges {
         console.log('Triggered action via Renderer2!');
       });
   }
+  
+  
+
+
   ngOnChanges(changes: SimpleChanges): void {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
