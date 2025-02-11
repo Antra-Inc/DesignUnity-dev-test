@@ -3,29 +3,46 @@
 @import "../../../styles/scss/container";
 
 .rewards {
+  font-family: 'Tenor_Sans';
+  &__logo{
+    position: absolute;
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-top: 20px;
+    img{
+      filter: brightness(0) invert(1);
+    }
+  }
   &__header {
     height: 80vh;
-    //background-image: url("../../../assets/img/about-bg.png");
+    background-image: url("../../../assets/img/rewards/rewards-banner.png");
     background-color: #002d00;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    font-family: 'Tenor_Sans';
     padding-left: 100px;
     background-position: top right;
     background-size: cover;
     h1 {
       padding-top: 100px;
-      @include page-header();
+      //@include page-header();
+      font-size: 80px;
       font-weight: 100;
+      line-height: 90px;
       color: #fff;
       letter-spacing: 2px;
+      font-family: 'Tenor_Sans';
     }
     p {
         font-size: clamp(12px, 5.5vw, 30px);
         font-weight: 100;
         color: #fff;
         letter-spacing: 2px;
+        font-size: 30px;
+        font-family: 'Tenor_Sans';
+        padding-top:20px ;
+        line-height: 46px;
       }
     @media (max-width: 1200px) {
       height: 65vh;
@@ -85,7 +102,9 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 25px;
-      min-height: 700px;
+      min-height: 750px;
+      max-width: 1440px;
+      margin: 0 auto;
       .semi-header {
         padding: 25px 0;
       }
@@ -202,12 +221,13 @@
     display: grid;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../assets/img/rewards/rewards-footer.png);
 
   }
   .footer {
-    background-repeat: no-repeat;
     padding: 60px 24px;
-
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -225,6 +245,8 @@
   }
 
   .footer__address {
+    font-family: 'Tenor_Sans';
+    font-weight: 100;
     .max-400 {
       max-width: 450px;
     }
@@ -245,6 +267,8 @@
       span {
         position: relative;
         font-family: "Tenor_Sans";
+        font-weight: 100;
+        letter-spacing: 8px;
         &::after {
           position: absolute;
           bottom: -10px;

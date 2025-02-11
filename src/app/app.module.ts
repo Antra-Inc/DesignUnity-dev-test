@@ -47,7 +47,6 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { NoPageComponent } from './no-page/no-page.component';
 import { RewardsProgramComponent } from './components/rewards-program/rewards-program.component';
 import { RewardsThankYouComponent } from './components/rewards-thank-you/rewards-thank-you.component';
-import { RewardsFormComponent } from './components/rewards-program/rewards-form/rewards-form.component';
 
 
 
@@ -96,7 +95,6 @@ import { RewardsFormComponent } from './components/rewards-program/rewards-form/
     NoPageComponent,
     RewardsProgramComponent,
     RewardsThankYouComponent,
-    RewardsFormComponent,
   ],
   imports: [
     BrowserModule,

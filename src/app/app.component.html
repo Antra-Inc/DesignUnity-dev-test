@@ -1,7 +1,7 @@
 <div class="app">
-  <app-header></app-header>
+  <app-header *ngIf="showHeaderFooter"></app-header>
   <div class="app__container" id="top">
-    <div class="catalog-btn">
+    <div class="catalog-btn" *ngIf="showHeaderFooter">
       <button routerLink="/venetian-plaster-catalog">
         <svg
           _ngcontent-ng-c1502204376=""
@@ -19,6 +19,6 @@
       </button>
     </div>
     <router-outlet></router-outlet>
-    <app-footer></app-footer>
+    <app-footer *ngIf="showHeaderFooter"></app-footer>
   </div>
 </div>

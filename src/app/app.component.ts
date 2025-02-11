@@ -13,6 +13,7 @@ import { ScrollToService } from './service/scroll-to.service';
 import { MetaTagsService } from './service/meta-tags.service';
 import { TitleService } from './service/title.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -22,6 +23,13 @@ export class AppComponent implements OnInit, OnChanges {
   title = 'Du-web';
   dialogData: any;
   dialogComponent: any;
+
+ showHeaderFooter:boolean = true;
+  excludedRoutes = ['/rewards-program', '/rewards-thank-you']
+
+  // private routingLink!:Router;
+
+
   constructor(
     private dialogService: DialogService,
     private router: Router,
@@ -30,11 +38,20 @@ export class AppComponent implements OnInit, OnChanges {
     private renderer: Renderer2,
     private metaTagsService: MetaTagsService,
     private titleService: TitleService
+
+
   ) {
     this.dialogService.dialogData$.subscribe((data) => {
       this.dialogData = data;
       this.dialogComponent = data ? data.component : null;
     });
+
+    this.router.events
+    .pipe(filter(event => event instanceof NavigationEnd))
+    .subscribe((event:any)=>{
+      this.showHeaderFooter = !this.excludedRoutes.includes(event.url);
+    });
+
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
