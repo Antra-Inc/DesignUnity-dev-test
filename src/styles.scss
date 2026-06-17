@@ -19,3 +19,34 @@ ul {
 .text-center {
   text-align: center;
 }
+.semi-header {
+  font-size: clamp(1.3rem, 4vw, 1.9rem);
+  font-family: "Tenor_Sans";
+  color: #723c0d;
+  letter-spacing: 2px;
+}
+.paragraph {
+  font-size: clamp(0.9rem, 2.1vw, 1.3rem);
+  font-family: "Helvetica-light";
+  color: #000;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+@mixin font-style(
+  $fontSize: 16px,
+  $font-falimy: "Helvetica-light",
+  $color: "#000"
+) {
+  font-size: $fontSize;
+  font-family: $font-falimy;
+  color: $font-color;
+}
+.page_sub-header {
+  font-size: min(max(16px, 5vw), 28px);
+}
+.page-header {
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  text-align: center;
+  padding-bottom: 24px;
+}

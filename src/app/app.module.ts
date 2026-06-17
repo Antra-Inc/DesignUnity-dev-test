@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FlooringComponent } from './components/flooring/flooring.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { FactsComponent } from './components/facts/facts.component';
-import { FlooringComponent } from './components/flooring/flooring.component';
 import { HomeComponent } from './components/home/home.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
@@ -25,10 +25,32 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { WallsCeilingsComponent } from './components/walls-ceilings/walls-ceilings.component';
 import { DuCarouselComponent } from './shared/du-carousel/du-carousel.component';
 import { HomeSliderComponent } from './shared/home-slider/home-slider.component';
+import { FlooringPageComponent } from './components/flooring/flooring-page/flooring-page.component';
+import { VenetianPlastersComponent } from './components/venetian-plasters/venetian-plasters.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { SurfaceStudioComponent } from './components/surface-studio/surface-studio.component';
+import { SurfaceSlideComponent } from './components/surface-studio/surface-slide/surface-slide.component';
+import { StudioAccordionComponent } from './components/studio-accordion/studio-accordion.component';
+import { StudioSliderComponent } from './components/studio-accordion/studio-slider/studio-slider.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { BlogListComponent } from './components/blog-list/blog-list.component';
+import { BlogTestComponent } from './components/blog-test/blog-test.component';
+import { BlogDetailsComponent } from './components/blog-list/blog-details/blog-details.component';
+import { StudioDialogComponent } from './components/studio-accordion/studio-dialog/studio-dialog.component';
+import { ContactUsFormComponent } from './components/contactus/contact-us-form/contact-us-form.component';
+import { ThankYouComponent } from './components/thank-you/thank-you.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { TermsComponent } from './components/terms/terms.component';
+import { SolutionsComponent } from './solutions/solutions.component';
+import { CatalogComponent } from './catalog/catalog.component';
+import { NoPageComponent } from './no-page/no-page.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    FlooringComponent,
     HeaderComponent,
     FooterComponent,
     AboutComponent,
@@ -48,6 +70,26 @@ import { HomeSliderComponent } from './shared/home-slider/home-slider.component'
     WallsCeilingsComponent,
     DuCarouselComponent,
     HomeSliderComponent,
+    FlooringPageComponent,
+    VenetianPlastersComponent,
+    AboutUsComponent,
+    SurfaceStudioComponent,
+    SurfaceSlideComponent,
+    StudioAccordionComponent,
+    StudioSliderComponent,
+    AboutusComponent,
+    ContactusComponent,
+    BlogListComponent,
+    BlogTestComponent,
+    BlogDetailsComponent,
+    StudioDialogComponent,
+    ContactUsFormComponent,
+    ThankYouComponent,
+    PrivacyPolicyComponent,
+    TermsComponent,
+    SolutionsComponent,
+    CatalogComponent,
+    NoPageComponent,
   ],
   imports: [
     BrowserModule,

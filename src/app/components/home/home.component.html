@@ -4,9 +4,19 @@
 <app-about></app-about>
 <app-walls-ceilings></app-walls-ceilings>
 <app-facts></app-facts>
-<app-flooring></app-flooring>
 <app-features></app-features>
+<app-flooring></app-flooring>
 <!-- <app-testimonials></app-testimonials> -->
-<app-testimonial-slider></app-testimonial-slider>
-<!-- <app-footer></app-footer> -->
-<app-footer (scrollView)="scrollTo($event)"></app-footer>
+<app-testimonial-slider *ngIf="false"></app-testimonial-slider>
+<div class="contact">
+  <div class="contact__content">
+    <h2>Let’s team up for your next project!</h2>
+    <!-- <p>Visit our exprience centre</p> -->
+    <div class="button_div" routerLink="/contact-us">
+      <a class="menu-link"> Contact Us </a>
+      <span class="pointer">
+        <img src="./assets/svg/nav-arrow.svg" width="60%" alt="" />
+      </span>
+    </div>
+  </div>
+</div>

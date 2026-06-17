@@ -20,8 +20,11 @@ export class DuTabsComponent {
   @ContentChildren(TabComponent) tabs!: QueryList<TabComponent>;
   @Output() changeLayout = new EventEmitter<any>();
   @Output() changeTab = new EventEmitter<any>();
+  @Input() options!: boolean;
   // contentChildren are set
   ngAfterContentInit() {
+    console.log('options', this.options);
+
     // get all active tabs
     let activeTabs = this.tabs.filter((tab) => tab.active);
 

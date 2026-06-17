@@ -1,3 +1,5 @@
+@import "../../../styles/scss/variables";
+
 .overlay_bgs .leaves {
   position: absolute;
   top: -157px;
@@ -16,7 +18,11 @@
   display: block;
   width: 100%;
   position: relative;
-  background: linear-gradient(339deg, rgb(165, 129, 99) 0%, rgb(222, 204, 186) 100%);
+  background: linear-gradient(
+    339deg,
+    rgb(165, 129, 99) 0%,
+    rgb(222, 204, 186) 100%
+  );
   display: grid;
   position: relative;
   overflow: hidden;
@@ -33,16 +39,22 @@
 }
 .footer {
   background-repeat: no-repeat;
-  padding: 60px 0;
+  padding: 60px 24px;
+
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
   z-index: 2;
-  font-size: 18px;
+  //font-size: 18px;
+  font-size: clamp(0.7rem, -0.875rem + 3.4vw, 1.2rem);
   color: #291702;
-  line-height: 36px;
+  line-height: 1.5em;
   margin: 0 auto;
+  @media (max-width: 900px) {
+    padding: 16px;
+    gap: 15px;
+  }
 }
 
 .footer__address {
@@ -50,33 +62,55 @@
     max-width: 450px;
   }
   .pt-5 {
-    padding-top: 30px;
-  }
-  h3 {
-    margin-bottom: 20px;
-    span{
-      position: relative;
-    &::after {
-      position: absolute;
-      bottom: -10px;
-      content: "";
-      left: 0;
-      width: 150%;
-      border-bottom: 2px solid #877e75;
+    // padding-top: 30px;
+    a {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
     }
   }
+
+  h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #723c0d;
+
+    span {
+      position: relative;
+      font-family: "Tenor_Sans";
+      &::after {
+        position: absolute;
+        bottom: -10px;
+        content: "";
+        left: 0;
+        width: 110%;
+        border-bottom: 1px solid #000000;
+      }
+    }
+  }
+  &.menu {
+    h3 {
+      margin-bottom: 10px;
+    }
   }
   .actionList {
     list-style-type: none;
     padding: 0;
     li {
-      padding: 6px 0;
+      padding: 6px 0 !important;
       a {
         text-decoration: none;
         color: #000;
         &:hover {
           color: #723c0d;
         }
+      }
+    }
+    @media (max-width: 900px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      li {
+        padding: 0;
       }
     }
   }
@@ -96,31 +130,68 @@
       border-radius: 50%;
     }
   }
+  @media (max-width: 900px) {
+    .actionList__social {
+      gap: 0;
+    }
+    h3 {
+      margin: 0;
+      span {
+        &::after {
+          display: none;
+        }
+      }
+    }
+    .max-400 {
+      line-height: 1.5;
+    }
+  }
 }
 
 .foot-copyright {
   z-index: 6;
-  padding: 20px;
-
+  padding: 10px 20px;
+  border-top: 1px solid #333;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-content: left;
-  gap: 30px;
-  row-gap: 20px;
-}
-
-.foot-copyright .terms {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 30px;
-  a {
-    text-decoration: none;
-    color: #000;
-    &:hover {
-      color: #723c0d;
+  font-size: 12px;
+  grid-template-columns: min-content min-content;
+  row-gap: 10px;
+  white-space: nowrap;
+  gap: 90px;
+  @media (max-width: 500px) {
+    gap: 10px;
+  }
+  .terms {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 12px;
+    gap: 20px;
+    a {
+      text-decoration: none;
+      color: #000;
+      &:hover {
+        color: #723c0d;
+      }
     }
   }
+  .copyright {
+    font-size: 10px;
+  }
+  @media (max-width: 700px) {
+    padding: 10px 20px;
+    a {
+      font-size: 8px;
+    }
+    .copyright {
+      font-size: 8px;
+    }
+  }
+  @media (max-width: 400px) {
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
 }
+
 .logoSVG {
   position: absolute;
   bottom: 20px;
@@ -129,19 +200,33 @@
   path {
     fill: #fff;
   }
+  @media (max-width: 800px) {
+    width: 90px;
+  }
 }
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  padding: 0 20px;
   z-index: 3;
   position: relative;
 }
 .br-top {
   border-top: 1px solid black;
 }
-
+.media {
+  display: grid;
+  grid-template-rows: auto auto;
+  h2 {
+    display: grid;
+    margin: 0;
+    justify-content: flex-end;
+    @media (max-width: 899px) {
+      justify-content: flex-start;
+      padding-bottom: 15px;
+    }
+  }
+}
 @media (max-width: 899px) {
   .media {
     grid-column: 1 / -1;
@@ -149,11 +234,8 @@
   .footer__address .actionList__social {
     grid-template-columns: repeat(auto-fit, minmax(50px, auto));
     justify-content: center;
-  }
-  .foot-copyright {
-    grid-template-columns: repeat(2, auto);
-    .copyright {
-      grid-column: 1 / -1;
+    @media (max-width: 899px) {
+      justify-content: flex-start;
     }
   }
 }

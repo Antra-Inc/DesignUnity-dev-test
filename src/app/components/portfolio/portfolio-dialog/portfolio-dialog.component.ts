@@ -12,6 +12,7 @@ import {
   ChangeDetectorRef,
   Component,
   ElementRef,
+  HostListener,
   Inject,
   Input,
   OnChanges,
@@ -57,13 +58,20 @@ export class PortfolioDialogComponent
   implements AfterViewInit, OnInit, OnDestroy
 {
   @Input() newInputData!: any;
+  @Input() message!: any;
   currentIndex = 0;
   slides!: any;
   counter = 0;
   intervalId: any;
   constructor(private cdr: ChangeDetectorRef) {}
   @ViewChild('listContainer') listContainer!: ElementRef;
+  doalogTitle!: string;
+  imageFrom!: string;
+  dialogDescription!: string;
+  @HostListener('document:keydown', ['$event'])
   ngOnInit(): void {
+    console.log('message', this.message, this.newInputData);
+
     this.startAutoClick();
   }
   ngOnDestroy() {
@@ -78,9 +86,9 @@ export class PortfolioDialogComponent
       this.newInputData,
       this.newInputData?.data?.itemId?.SubData
     );
-    this.slides = this.newInputData?.data?.itemId?.SubData;
+    this.slides = this.newInputData?.data?.itemId[0];
     this.cdr.detectChanges();
-    console.log('slides', this.slides);
+    console.log('slides', this.slides.length);
   }
   // ngOnChanges(changes: SimpleChanges): void {
   //   this.slides = this.newInputData?.data?.itemId?.SubData;
@@ -103,7 +111,15 @@ export class PortfolioDialogComponent
       this.currentIndex > 0 ? --this.currentIndex : this.slides.length - 1;
     this.scrollToActive();
   }
-
+  @HostListener('document:keydown', ['$event'])
+  onKeydown(event: KeyboardEvent): void {
+    if (event.key === 'ArrowRight') {
+      this.prevSlide();
+    } else if (event.key === 'ArrowLeft') {
+      this.nextSlide();
+    }
+    // Add additional conditions for other keys as needed
+  }
   setCurrentSlideIndex(index: number) {
     this.currentIndex = index;
   }

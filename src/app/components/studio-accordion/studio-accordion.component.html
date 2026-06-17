@@ -1,0 +1,168 @@
+<div class="studio_slider">
+  <!-- <app-studio-slider></app-studio-slider> -->
+  <div class="work_items_content">
+    <div class="vert_tab_image_wrrapeer">
+      <img src="assets/img/studio/Hyd-Exp.png" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="studio_accordion">
+  <!-- <nav id="navbar">
+    <div class="nav_list">
+      <a
+        class="nav-link"
+        [ngClass]="{ active: activeSection === 'section1' }"
+        (click)="scrollToSection('section1')"
+      >
+        Hyderabad
+      </a>
+      <a
+        class="nav-link"
+        [ngClass]="{ active: activeSection === 'section2' }"
+        (click)="scrollToSection('section2')"
+      >
+        New Delhi
+      </a>
+      <a
+        class="nav-link"
+        [ngClass]="{ active: activeSection === 'section3' }"
+        (click)="scrollToSection('section3')"
+      >
+        Bengaluru
+      </a>
+    </div>
+  </nav> -->
+
+  <div id="content" class="container">
+    <section id="section1" #section>
+      <h3 class="semi-header">Hyderabad Experience Center</h3>
+      <p class="paragraph">
+        Step into the grandeur of our Hyderabad experience center, where luxury
+        Italian wall finishes meet the city’s opulent cultural heritage. This
+        center embodies Hyderabad’s blend of historical splendor and
+        contemporary vibrance.
+      </p>
+      <ul>
+        <!-- <li>
+          <b>Cultural Inspiration:</b> Finishes that echo the magnificence of
+          Charminar and Nizam’s legacy.
+        </li> -->
+        <li>
+          <b>Architectural Grandeur: </b> Designs that complement the city’s
+          blend of ancient and modern architecture.
+        </li>
+        <li>
+          <b>Luxury Redefined: </b> Tailored wall finishes for high-end homes
+          and commercial spaces.
+        </li>
+      </ul>
+      <p class="paragraph">
+        Our curated collection brings the perfect balance of tradition and
+        modernity, ensuring your walls reflect the elegance and charm that
+        Hyderabad is known for.
+      </p>
+
+      <div class="studio_gallery">
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of hyderabad | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
+      </div>
+
+      <div class="button_div" (click)="openDialog('Hyderabad')">
+        <a class="menu-link"> View All </a>
+        <span class="pointer">
+          <img src="./assets/svg/nav-arrow.svg" width="60%" alt="" />
+        </span>
+      </div>
+    </section>
+    <!-- <section id="section2" #section>
+      <h3 class="semi-header">New Delhi Experience Center</h3>
+      <p class="paragraph">
+        Immerse yourself in the unparalleled luxury of Italian wall finishes at
+        our New Delhi experience center. This space is designed to blend the
+        city's regal heritage with modern sophistication, creating a unique
+        fusion of tradition and contemporary elegance.
+      </p>
+
+      <ul>
+        <li>
+          <b>Modern Elegance: </b> Sleek finishes that cater to the city’s
+          evolving cosmopolitan tastes.
+        </li>
+        <li>
+          <b>Tailored for Grandeur: </b> Customized solutions to complement
+          luxurious interiors and urban spaces.
+        </li>
+      </ul>
+      <p class="paragraph">
+        Explore textures, colors, and patterns that capture the essence of
+        Delhi’s rich cultural and design legacy. Whether you’re transforming a
+        heritage villa or a modern penthouse, our offerings bring timeless
+        sophistication to your walls.
+      </p>
+      <div class="studio_gallery">
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of delhi | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
+      </div>
+
+      <div class="button_div" (click)="openDialog('Delhi')">
+        <a class="menu-link"> View All </a>
+        <span class="pointer">
+          <img src="./assets/svg/nav-arrow.svg" width="60%" alt="" />
+        </span>
+      </div>
+    </section>
+
+    <section id="section3" #section>
+      <h3 class="semi-header">Bengaluru Experience Center</h3>
+      <p class="paragraph">
+        Discover understated luxury at our Bengaluru experience center, where
+        Italian craftsmanship meets the city’s cosmopolitan and nature-inspired
+        aesthetics. Designed to resonate with Bengaluru’s dynamic lifestyle, our
+        finishes offer sophistication with a contemporary edge.
+      </p>
+      <ul>
+        <li>
+          <b>Urban Chic: </b> Minimalist finishes that suit the city’s modern
+          architecture.
+        </li>
+        <li>
+          <b>Nature-inspired: </b> Textures and colors inspired by Bengaluru’s
+          lush greenery and serene lakes.
+        </li>
+        <li>
+          <b>Versatile Designs: </b> Options that work seamlessly for sleek
+          apartments, tech offices, and artistic spaces.
+        </li>
+      </ul>
+      <p class="paragraph">
+        Whether you’re creating a tranquil retreat or a vibrant urban space, our
+        Bengaluru center provides the perfect palette of Italian finishes to
+        bring your vision to life.
+      </p>
+      <div class="studio_gallery">
+        <div
+          class="studio_gallery__item"
+          *ngFor="let item of bangalore | slice : 0 : 4"
+        >
+          <img src="{{ item.imagePathLow }}" />
+        </div>
+      </div>
+
+      <div class="button_div" (click)="openDialog('Bangalore')">
+        <a class="menu-link"> View All </a>
+        <span class="pointer">
+          <img src="./assets/svg/nav-arrow.svg" width="60%" alt="" />
+        </span>
+      </div>
+    </section> -->
+  </div>
+</div>

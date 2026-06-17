@@ -17,7 +17,7 @@
         gap: 16px;
         overflow: hidden;
         & :where(.card, .img){
-            @include dflex($flex-direction:false);
+            //@include dflex($flex-direction:false);
         }
         .card{
             @include dflex();
@@ -105,12 +105,12 @@
                 }
             }
             .header{
-                @include dflex($justify-content: space-between);
+                //@include dflex($justify-content: space-between);
                 .profile{
                     position: relative;
                     bottom: 50px;
                     z-index: 2;
-                    @include dflex($dflex: flex);
+                    //@include dflex($dflex: flex);
                     .img{
                         height: 80px;
                         width: 80px;

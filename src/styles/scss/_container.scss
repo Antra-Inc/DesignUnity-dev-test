@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./mixins";
+
 * {
   box-sizing: border-box;
 }
@@ -11,161 +14,15 @@
     .facts_details_right {
       display: none;
     }
-    .facts_details {
-      display: grid;
-      grid-template-columns: auto;
-    }
-    .facts_details_left {
-      .ff_content {
-        padding-left: 2rem;
-      }
-    }
   }
 
-  .about_section {
-    .about_description {
-      padding: 2.5rem;
-      text-align: center;
-    }
-  }
-  .flooring_section {
-    .flooring_details {
-      display: grid;
-      grid-template-columns: auto;
-    }
-    .flooring_details_left {
-      padding: 2.5rem;
-    }
-  }
-
-
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      max-width: 750px;
-      width: 100% !important;
-    }
-  }
+  
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px)  {
   .footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  .facts_section {
-    .facts_details {
-      display: grid;
-      grid-template-columns: auto;
-    }
-    .facts_details_left {
-      .ff_content {
-        padding-left: 2rem;
-      }
-    }
-  }
-
-  .about_section {
-    .about_description {
-      padding: 1.5rem;
-      text-align: justify;
-    }
-  }
-  .flooring_section {
-    .flooring_details {
-      display: grid;
-      grid-template-columns: auto;
-    }
-    .flooring_details_left {
-      padding: 2.5rem;
-    }
-  }
-
-
-
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      max-width: 900px;
-      width: 80% !important;
-    }
-  }
-}
-
-/* Laptops */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      //max-width: 1024px;
-      width: 94%;
-    }
-  }
-  .about_section {
-    .about_description{
-      padding: 1rem 5rem;
-    }
-  }
-}
-
-/* Desktops */
-@media (min-width: 1200px) {
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      max-width: 1150px;
-      width: 94%;
-    }
-  }
-}
-
-/* Desktops */
-@media (min-width: 1440px) {
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      max-width: 1440px;
-      width: 100%;
-    }
-  }
-}
-/* Desktops */
-@media (min-width: 1600px) {
-  .testimonials_section,
-  .features_section,
-  .flooring_section,
-  .about_section {
-    .wrapper,
-    .features_details,
-    .flooring_details,
-    .about_description {
-      max-width: 1440px;
-      width: 100%;
-    }
-  }
+  
 }

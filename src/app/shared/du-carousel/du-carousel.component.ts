@@ -15,19 +15,19 @@ const animationCarouseltranslateX = [
 
   transition('*=>inright', [
     style({ transform: `translateX(-100%)` }),
-    animate('700ms ease-in-out', style({ transform: `translateX(0)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(0)` })),
   ]),
   transition('*=>inleft', [
     style({ transform: `translateX(100%)` }),
-    animate('700ms ease-in-out', style({ transform: `translateX(0)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(0)` })),
   ]),
   transition('*=>outleft', [
     style({ opacity: 1 }),
-    animate('700ms ease-in-out', style({ transform: `translateX(-100%)` })),
+    animate('1000ms ease-in-out', style({ transform: `translateX(-100%)` })),
   ]),
   transition('*=>outright', [
     animate(
-      '700ms ease-in-out',
+      '1000ms ease-in-out',
       style({ transform: `translateX(100%)`, opacity: 0 })
     ),
   ]),
@@ -61,6 +61,7 @@ export class DuCarouselComponent {
   get images() {
     return this._images;
   }
+
   @Input() set images1(value) {
     this._images = value;
     this.slideControl = value.map((x: any, index: number) =>
@@ -84,6 +85,8 @@ export class DuCarouselComponent {
   right = 'right';
   resizeSub!: Subscription;
   posIni: any;
+  @Input() thumbnile!: boolean;
+  mobile = false;
   private intervalId: number | null = null;
   constructor() {}
 
@@ -92,6 +95,11 @@ export class DuCarouselComponent {
       .pipe(debounceTime(200))
       .subscribe((_) => this.posThumbail(this.counter));
     this.startAutoSlide();
+    console.log('thumbnile', this.height);
+    if (window.screen.width <= 550) {
+      // 768px portrait
+      this.mobile = true;
+    }
   }
 
   ngOnDestroy() {
@@ -115,7 +123,7 @@ export class DuCarouselComponent {
   startAutoSlide(): void {
     this.intervalId = window.setInterval(() => {
       this.change('left');
-    }, 2000);
+    }, 3000);
   }
   setIndex(index: number) {
     if (index != this.counter) {
